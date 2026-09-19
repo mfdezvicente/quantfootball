@@ -10,6 +10,8 @@ from typing import Any
 import pandas as pd
 import requests
 
+from quantfootball.data.teams import canonicalize_team
+
 BASE_URL = "https://raw.githubusercontent.com/openfootball/football.json/master"
 DEFAULT_SEASONS = tuple(f"{year}-{str(year + 1)[-2:]}" for year in range(2015, 2026))
 COMPETITION_CODE = "es.1"
@@ -88,8 +90,10 @@ def normalize_payload(payload: dict[str, Any], season: str) -> pd.DataFrame:
     rows: list[dict[str, Any]] = []
 
     for match in payload.get("matches", []):
-        home_team = str(match.get("team1", "")).strip()
-        away_team = str(match.get("team2", "")).strip()
+        home_team_raw = str(match.get("team1", "")).strip()
+        away_team_raw = str(match.get("team2", "")).strip()
+        home_team = canonicalize_team(home_team_raw)
+        away_team = canonicalize_team(away_team_raw)
         date = match.get("date")
         score = match.get("score")
 
@@ -118,6 +122,8 @@ def normalize_payload(payload: dict[str, Any], season: str) -> pd.DataFrame:
                 "kickoff_time": match.get("time"),
                 "home_team": home_team,
                 "away_team": away_team,
+                "home_team_raw": home_team_raw,
+                "away_team_raw": away_team_raw,
                 "home_goals": home_goals,
                 "away_goals": away_goals,
                 "home_goals_ht": home_goals_ht,
