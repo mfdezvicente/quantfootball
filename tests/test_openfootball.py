@@ -48,3 +48,28 @@ def test_match_ids_are_deterministic() -> None:
 def test_validate_matches_accepts_valid_frame() -> None:
     frame = normalize_payload(_payload(), "2025-26")
     validate_matches(frame)
+
+
+def test_list_score_schema_is_treated_as_full_time_score() -> None:
+    payload = {
+        "name": "Spain Primera División 2025/26",
+        "matches": [
+            {
+                "round": "Matchday 7",
+                "date": "2025-09-26",
+                "time": "21:00",
+                "team1": "Girona FC",
+                "team2": "RCD Espanyol de Barcelona",
+                "score": [0, 0],
+            }
+        ],
+    }
+
+    frame = normalize_payload(payload, "2025-26")
+
+    assert frame.loc[0, "home_goals"] == 0
+    assert frame.loc[0, "away_goals"] == 0
+    assert pd.isna(frame.loc[0, "home_goals_ht"])
+    assert pd.isna(frame.loc[0, "away_goals_ht"])
+    assert frame.loc[0, "result"] == "D"
+    assert bool(frame.loc[0, "is_completed"]) is True
