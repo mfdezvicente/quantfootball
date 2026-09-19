@@ -73,3 +73,26 @@ def test_list_score_schema_is_treated_as_full_time_score() -> None:
     assert pd.isna(frame.loc[0, "away_goals_ht"])
     assert frame.loc[0, "result"] == "D"
     assert bool(frame.loc[0, "is_completed"]) is True
+
+
+def test_team_aliases_are_canonicalized_and_raw_names_preserved() -> None:
+    payload = {
+        "name": "Spain Primera División",
+        "matches": [
+            {
+                "round": "Matchday 1",
+                "date": "2019-08-17",
+                "time": "21:00",
+                "team1": "Real Madrid",
+                "team2": "RC Celta",
+                "score": {"ft": [3, 1]},
+            }
+        ],
+    }
+
+    frame = normalize_payload(payload, "2019-20")
+
+    assert frame.loc[0, "home_team"] == "Real Madrid CF"
+    assert frame.loc[0, "away_team"] == "RC Celta de Vigo"
+    assert frame.loc[0, "home_team_raw"] == "Real Madrid"
+    assert frame.loc[0, "away_team_raw"] == "RC Celta"
