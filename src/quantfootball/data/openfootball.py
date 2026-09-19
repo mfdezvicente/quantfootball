@@ -47,13 +47,35 @@ def _matchday(value: Any) -> int | None:
     return int(match.group()) if match else None
 
 
-def _score_pair(score: dict[str, Any], key: str) -> tuple[int | None, int | None]:
-    value = score.get(key)
+def _coerce_pair(value: Any) -> tuple[int | None, int | None]:
+    """Convert a two-item score representation into integer goals."""
     if not isinstance(value, list) or len(value) != 2:
         return None, None
     if value[0] is None or value[1] is None:
         return None, None
     return int(value[0]), int(value[1])
+
+
+def _score_pair(score: Any, key: str) -> tuple[int | None, int | None]:
+    """Read a score pair from either supported OpenFootball score schema.
+
+    OpenFootball normally stores scores as:
+        {"ft": [home, away], "ht": [home, away]}
+
+    Some fixtures are stored directly as:
+        [home, away]
+
+    In the list-only form we can recover only the full-time score.
+    """
+    if isinstance(score, dict):
+        return _coerce_pair(score.get(key))
+
+    if isinstance(score, list):
+        if key == "ft":
+            return _coerce_pair(score)
+        return None, None
+
+    return None, None
 
 
 def _match_id(season: str, date: str, home_team: str, away_team: str) -> str:
@@ -69,7 +91,7 @@ def normalize_payload(payload: dict[str, Any], season: str) -> pd.DataFrame:
         home_team = str(match.get("team1", "")).strip()
         away_team = str(match.get("team2", "")).strip()
         date = match.get("date")
-        score = match.get("score") or {}
+        score = match.get("score")
 
         home_goals, away_goals = _score_pair(score, "ft")
         home_goals_ht, away_goals_ht = _score_pair(score, "ht")
