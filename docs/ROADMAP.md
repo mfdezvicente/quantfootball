@@ -2,8 +2,8 @@
 
 ## QF-M0 — Foundations
 - [x] QF-001 Repository foundations
-- [ ] QF-002 Data source audit
-- [ ] QF-003 Select LaLiga V0 dataset
+- [x] QF-002 Data source audit
+- [x] QF-003 Select LaLiga V0 dataset
 - [ ] QF-004 Build reproducible ingestion pipeline
 
 ## QF-M1 — Data Engine
