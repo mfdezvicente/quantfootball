@@ -38,12 +38,14 @@ def main() -> None:
     )
 
     seasons = frame["season"].nunique()
-    teams = len(set(frame["home_team"]) | set(frame["away_team"]))
+    canonical_teams = len(set(frame["home_team"]) | set(frame["away_team"]))
+    raw_teams = len(set(frame["home_team_raw"]) | set(frame["away_team_raw"]))
 
     print("Quant Football — LaLiga dataset built")
     print(f"Rows: {len(frame):,}")
     print(f"Seasons: {seasons}")
-    print(f"Teams (raw source names): {teams}")
+    print(f"Canonical teams: {canonical_teams}")
+    print(f"Raw source names: {raw_teams}")
     print(f"Date range: {frame['date'].min().date()} -> {frame['date'].max().date()}")
     print(f"Output: {args.output}")
 
