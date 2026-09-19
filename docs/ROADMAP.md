@@ -4,7 +4,7 @@
 - [x] QF-001 Repository foundations
 - [x] QF-002 Data source audit
 - [x] QF-003 Select LaLiga V0 dataset
-- [ ] QF-004 Build reproducible ingestion pipeline
+- [x] QF-004 Build reproducible ingestion pipeline
 
 ## QF-M1 — Data Engine
 Clean historical LaLiga match dataset.
