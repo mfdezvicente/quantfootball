@@ -26,3 +26,32 @@ Dynamic research, calibration and prospective protocol: [DYNAMIC_MODEL.md](DYNAM
 Results, methodology and limitations: [ADVANCED_MODEL.md](ADVANCED_MODEL.md).
 
 Production models must record training window, features, hyperparameters, timestamp, validation design, Brier score, log loss, calibration, code commit and status.
+
+## Investigación del 19 de octubre de 2026
+
+Los experimentos de variables y distribuciones flexibles no sustituyen la referencia
+actual. Véanse [el diagnóstico controlado](MODEL_RESEARCH_20261019.md) y
+[los modelos flexibles de goles](GOAL_FLEX_20261019.md).
+
+## Evaluación histórica conservada del repositorio remoto
+
+La sección siguiente procede del commit remoto 63c05d4 (19 de septiembre de 2026).
+Describe aquella evaluación y su snapshot; los diagnósticos posteriores figuran arriba.
+
+## QF-MATCH-001 — Elo-Davidson v0.1 evaluation
+
+Initial out-of-sample check on LaLiga 2025/26 (380 matches), trained through 2025-05-31:
+
+| Model | Log loss | Brier | Accuracy |
+|---|---:|---:|---:|
+| QF-MATCH-000 Naive | 1.0488 | 0.6317 | 48.95% |
+| QF-MATCH-001 Elo-Davidson v0.1 | 0.9876 | 0.5853 | 50.79% |
+
+Relative to the naive benchmark:
+- Log loss: -5.84%
+- Brier score: -7.35%
+- Accuracy: +1.84 percentage points (+3.76% relative)
+
+Interpretation: Elo v0.1 improves all three metrics on this holdout, but this single-season result is not yet sufficient for model selection. Hyperparameter tuning must use earlier temporal validation windows, not the 2025/26 holdout.
+
+Known data caveat: OpenFootball is missing 10 final-round results from 2024/25 in the current source snapshot.
