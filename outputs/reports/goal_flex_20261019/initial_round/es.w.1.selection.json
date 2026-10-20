@@ -1,0 +1,832 @@
+[
+  {
+    "name": "poisson_1",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185128951584695,
+      "brier": 0.480229844996094,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.19754846075752042,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692473274120085
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "poisson_0.5",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185255531319778,
+      "brier": 0.4796154561563064,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19768104090464983,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1469167572930169
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0003067905939949,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "shared_tempo_0.5",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185325512718605,
+      "brier": 0.4796199548667868,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19773703180523264,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14691906035139513
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0004226715879172,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "shared_tempo_1",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185341849862556,
+      "brier": 0.4802406626637471,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.19768678809448523,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692949693881535
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "poisson_0.5",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185357153768534,
+      "brier": 0.4796183260993142,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19771594191859984,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1469169908072021
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "independent_nb_0.5",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185367995918372,
+      "brier": 0.4796170571409527,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19766963992721787,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14691666278436116
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0005386769891054,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "shared_tempo_0.5",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185465760717485,
+      "brier": 0.4796239217257332,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19778510558708226,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.146919387383508
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "independent_nb_1",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185481504969206,
+      "brier": 0.4802355945969649,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.1975784227467844,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692463900350047
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "independent_nb_0.5",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8185546903289679,
+      "brier": 0.4796221220717649,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19773092291323183,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1469170747650449
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "poisson_0.25",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186523037628902,
+      "brier": 0.47942191561738834,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19759029281834545,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692551201202075
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0018378546293096,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "shared_tempo_0.25",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186557380395395,
+      "brier": 0.47942413879231977,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.1976183566128179,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692665535334784
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0018952651029385,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "independent_nb_0.25",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186580945168276,
+      "brier": 0.4794228286347915,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19758487659255966,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692549119489068
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.00195110746848,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "poisson_1",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186704649613341,
+      "brier": 0.48026865965659876,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.19815106827617246,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.146928360616449
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 0.9946862516253209,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "poisson_0.5",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186836827134785,
+      "brier": 0.4797537092060128,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.1999066696080708,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1470094365476272
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.0027044244168307357,
+        0.00018484414913494442,
+        0.015618051339483187,
+        0.0081545141744636,
+        0.0036252449131034064,
+        0.0005846744178489006
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "shared_tempo_1",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186852925625573,
+      "brier": 0.4802780445375107,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.19826222366861945,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14693308772784175
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 0.9949237881517556,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "independent_nb_1",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186919378979868,
+      "brier": 0.4802712490190962,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.19812506220988974,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1469279618776235
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 0.9951801748996834,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "shared_tempo_0.5",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186919737479615,
+      "brier": 0.4797583034916651,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.1999534329113441,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1470114542852846
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.002768749302892773,
+        0.00019481522434634146,
+        0.015519363643717895,
+        0.008156105311192059,
+        0.003608052272859988,
+        0.0005741264808320162
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "independent_nb_0.5",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8186976801203848,
+      "brier": 0.47975639014908883,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19990492082952477,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14700940028950882
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.0028689943871837687,
+        0.000202173309082653,
+        0.01563308882135217,
+        0.008171254847585532,
+        0.0036181814854361685,
+        0.0005712661236663116
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "poisson_0.25",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8187159845376566,
+      "brier": 0.47944087409543845,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.1977996824991396,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692700239839027
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "shared_tempo_0.25",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8187214618540951,
+      "brier": 0.4794437186067961,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19783426433338078,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14692820430591788
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "independent_nb_0.25",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8187257843390389,
+      "brier": 0.4794430023746676,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19780717299645556,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1469270770839849
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "poisson_0.25",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.818803732103979,
+      "brier": 0.4795544917866777,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.1999452687607138,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14702226991620945
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.0038906733261151014,
+        -0.00042452514961835436,
+        0.016167928429758525,
+        0.009072214640438895,
+        0.0035085119109306575,
+        -5.913624872337803e-06
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "shared_tempo_0.25",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8188078619183156,
+      "brier": 0.47955678985660705,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19996862891590156,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14702328085320313
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.003922404565671314,
+        -0.00041962192856027003,
+        0.016118140315739663,
+        0.009074324059560034,
+        0.003498729063914857,
+        -1.1298056783199103e-05
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "independent_nb_0.25",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8188109028800613,
+      "brier": 0.47955596085588936,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19994440225217958,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1470222762629559
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.003971328884023474,
+        -0.0004160405279877903,
+        0.016174584306800483,
+        0.009082694400874846,
+        0.0035029381257695737,
+        -1.2662763000966294e-05
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "poisson_1",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8188218824944923,
+      "brier": 0.4804138890575148,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.19998308550310603,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.1470111249799319
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        -0.0015427211749248228,
+        0.0014927947723162784,
+        0.014154466887527419,
+        0.0061965118849544,
+        0.0037697513032756086,
+        0.0018019493379682653
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "shared_tempo_1",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8188387005165855,
+      "brier": 0.4804231298026705,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.20007588837226836,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14701517531266772
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        -0.0014091007167864034,
+        0.0015121150403518604,
+        0.013957534303636434,
+        0.0062039289718155395,
+        0.0037328416669222485,
+        0.00177927093427038
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "independent_nb_1",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8188485036810981,
+      "brier": 0.48041834059502025,
+      "accuracy": 0.6041666666666666,
+      "mean_draw_probability": 0.1999774673793171,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14701089853207458
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        -0.0011894260206883431,
+        0.001525259156316547,
+        0.014186938020161164,
+        0.006236593496944544,
+        0.0037532825690595527,
+        0.00177227106878021
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  },
+  {
+    "name": "reference",
+    "calibration": "temperature",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8189123440542448,
+      "brier": 0.4793194729877624,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.19758352535622822,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14694399400148211
+    },
+    "calibration_fit": {
+      "mode": "temperature",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0026284879578342,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "converged": true
+    }
+  },
+  {
+    "name": "reference",
+    "calibration": "identity",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8190070356069782,
+      "brier": 0.4793489603879055,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.1978834230796793,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14694626902837013
+    },
+    "calibration_fit": {
+      "mode": "identity",
+      "selected_before": "2023-07-01",
+      "fit_matches": 240,
+      "training_last_date": "2023-05-21T00:00:00",
+      "precision": 50,
+      "logit_scale": 1.0,
+      "class_bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "reference",
+    "calibration": "context",
+    "metrics": {
+      "matches": 240,
+      "log_loss": 0.8190507508811496,
+      "brier": 0.4794448005597507,
+      "accuracy": 0.6083333333333333,
+      "mean_draw_probability": 0.20002780692507105,
+      "observed_draw_rate": 0.18333333333333332,
+      "draw_binary_brier": 0.14704443594751798
+    },
+    "calibration_fit": {
+      "mode": "context",
+      "parameters": [
+        0.004535921028649705,
+        -0.0010009620178978514,
+        0.01660778272801427,
+        0.009960001033266084,
+        0.0033525924372053146,
+        -0.0005832530016112017
+      ],
+      "precision": 100,
+      "selected_before": "2023-07-01T00:00:00",
+      "training_last_date": "2023-05-21T00:00:00",
+      "fit_matches": 240,
+      "converged": true,
+      "inputs": "Own probability balance, squared draw deviation and prior Poisson total-goal estimate."
+    }
+  }
+]

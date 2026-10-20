@@ -1,0 +1,534 @@
+{
+  "dataset": {
+    "file": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261014.parquet",
+    "rows": 10993,
+    "sha256": "d316dc6f66751ee296e4fb0c0728cfa7a463d63ad10546a763ba84815259da99",
+    "divisions": {
+      "es.1": {
+        "matches": 4258,
+        "first_date": "2015-08-21 00:00:00",
+        "last_date": "2026-10-12 00:00:00",
+        "seasons": 12,
+        "current_season_matches": 78
+      },
+      "es.2": {
+        "matches": 5181,
+        "first_date": "2015-08-22 00:00:00",
+        "last_date": "2026-10-12 00:00:00",
+        "seasons": 12,
+        "current_season_matches": 99
+      },
+      "es.w.1": {
+        "matches": 1554,
+        "first_date": "2020-10-03 00:00:00",
+        "last_date": "2026-10-04 00:00:00",
+        "seasons": 7,
+        "current_season_matches": 48
+      }
+    }
+  },
+  "registry": {
+    "records": [
+      {
+        "record": "2026_j12",
+        "primary_strategy": "individual_columns",
+        "status": "pending"
+      }
+    ],
+    "settled_count": 0,
+    "pending_count": 1,
+    "invalid_count": 0,
+    "settled_cost_eur": 0.0,
+    "settled_return_eur": 0.0,
+    "pending_cost_eur": 4.5,
+    "paper_only": true,
+    "expected_roi_demonstrated": false,
+    "observed_roi_settled_only": null,
+    "complete_accounting": false
+  },
+  "probability_pair_records": [
+    {
+      "id": "2026_j11",
+      "valid": true,
+      "registered_at": "2026-10-02T13:11:15.017678+00:00"
+    },
+    {
+      "id": "2026_j12",
+      "valid": true,
+      "registered_at": "2026-10-05T19:48:58.119986+00:00"
+    }
+  ],
+  "economic_records": [],
+  "pool50_records": [],
+  "j14": {
+    "forecast_file": "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\predictions\\j14_preliminary_10eur_20261015\\forecast.json",
+    "forecast_sha256": "34bf2ef543b8740ecef97c653aa2507edb611ce38df26416c55d8faf2ee3e48a",
+    "created_at": "2026-10-14T22:28:18.469238+00:00",
+    "registration_status": "provisional_official_confirmation_pending",
+    "prospective_financial_roi_eligible": false,
+    "metrics": {
+      "all": {
+        "matches": 14,
+        "log_loss": 0.8042818236599568,
+        "brier": 0.4603912140098784,
+        "favorite_accuracy": 0.7142857142857143
+      },
+      "es.1": {
+        "matches": 7,
+        "log_loss": 0.8462884568845145,
+        "brier": 0.49179212731989014,
+        "favorite_accuracy": 0.7142857142857143
+      },
+      "es.2": {
+        "matches": 3,
+        "log_loss": 1.084821444178172,
+        "brier": 0.6606754600179167,
+        "favorite_accuracy": 0.3333333333333333
+      },
+      "es.w.1": {
+        "matches": 4,
+        "log_loss": 0.5203655001283198,
+        "brier": 0.25522643121132926,
+        "favorite_accuracy": 1.0
+      }
+    },
+    "strategies": {
+      "full_system": {
+        "column_count": 12,
+        "cost_eur": 9.0,
+        "hits": [
+          9,
+          9,
+          10,
+          9,
+          9,
+          10,
+          9,
+          9,
+          10,
+          9,
+          9,
+          10
+        ],
+        "max_hits": 10,
+        "predicted_P14": 0.0011887831575301544,
+        "predicted_P10": 0.3737160628296988,
+        "predicted_P11": 0.17690753407157844
+      },
+      "individual_columns": {
+        "column_count": 13,
+        "cost_eur": 9.75,
+        "hits": [
+          10,
+          9,
+          9,
+          10,
+          10,
+          11,
+          9,
+          9,
+          11,
+          11,
+          9,
+          10,
+          9
+        ],
+        "max_hits": 11,
+        "predicted_P14": 0.0013446340873987566,
+        "predicted_P10": 0.382340834340393,
+        "predicted_P11": 0.18322811089313037
+      },
+      "robust_full_system": {
+        "column_count": 12,
+        "cost_eur": 9.0,
+        "hits": [
+          9,
+          10,
+          9,
+          10,
+          10,
+          11,
+          10,
+          11,
+          9,
+          10,
+          9,
+          10
+        ],
+        "max_hits": 11,
+        "predicted_P14": 0.0011728974040709948,
+        "predicted_P10": 0.3716578148617929,
+        "predicted_P11": 0.17557690849748742
+      },
+      "robust_columns": {
+        "column_count": 13,
+        "cost_eur": 9.75,
+        "hits": [
+          10,
+          9,
+          10,
+          9,
+          11,
+          9,
+          10,
+          11,
+          11,
+          10,
+          10,
+          9,
+          10
+        ],
+        "max_hits": 11,
+        "predicted_P14": 0.0012950780148434768,
+        "predicted_P10": 0.3897890058916045,
+        "predicted_P11": 0.1868567564568781
+      },
+      "at_least_10_full_system": {
+        "column_count": 12,
+        "cost_eur": 9.0,
+        "hits": [
+          9,
+          9,
+          10,
+          8,
+          8,
+          9,
+          9,
+          9,
+          10,
+          8,
+          8,
+          9
+        ],
+        "max_hits": 10,
+        "predicted_P14": 0.0011517171068818415,
+        "predicted_P10": 0.37414460737044486,
+        "predicted_P11": 0.1764930395452262
+      }
+    },
+    "fixtures": [
+      {
+        "position": 1,
+        "competition_code": "es.1",
+        "home_team": "RCD Espanyol de Barcelona",
+        "away_team": "Club Atlético de Madrid",
+        "score": "0-1",
+        "sign": "2",
+        "probabilities": [
+          0.2468446078,
+          0.2245247288,
+          0.5286306634
+        ],
+        "favorite": "2",
+        "log_loss": 0.6374652697921557,
+        "brier": 0.3335326657293735,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 2,
+        "competition_code": "es.1",
+        "home_team": "Villarreal CF",
+        "away_team": "Elche CF",
+        "score": "0-0",
+        "sign": "X",
+        "probabilities": [
+          0.7053229211,
+          0.1616877953,
+          0.1329892835
+        ],
+        "favorite": "1",
+        "log_loss": 1.822087992674975,
+        "brier": 1.217933925103855,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 3,
+        "competition_code": "es.1",
+        "home_team": "Real Betis Balompié",
+        "away_team": "FC Barcelona",
+        "score": "2-5",
+        "sign": "2",
+        "probabilities": [
+          0.2082833086,
+          0.2222033472,
+          0.5695133442
+        ],
+        "favorite": "2",
+        "log_loss": 0.562973064938332,
+        "brier": 0.27807502497011427,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 4,
+        "competition_code": "es.1",
+        "home_team": "Valencia CF",
+        "away_team": "Athletic Club",
+        "score": "0-0",
+        "sign": "X",
+        "probabilities": [
+          0.3827705734,
+          0.3005312006,
+          0.316698226
+        ],
+        "favorite": "1",
+        "log_loss": 1.2022037014449802,
+        "brier": 0.7360676795465892,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 5,
+        "competition_code": "es.1",
+        "home_team": "RC Celta de Vigo",
+        "away_team": "Deportivo Alavés",
+        "score": "2-1",
+        "sign": "1",
+        "probabilities": [
+          0.5034301591,
+          0.2475181963,
+          0.2490516446
+        ],
+        "favorite": "1",
+        "log_loss": 0.6863102872689866,
+        "brier": 0.3698735860690213,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 6,
+        "competition_code": "es.1",
+        "home_team": "Málaga CF",
+        "away_team": "Real Sociedad de Fútbol",
+        "score": "2-5",
+        "sign": "2",
+        "probabilities": [
+          0.2654628617,
+          0.2782207692,
+          0.4563163691
+        ],
+        "favorite": "2",
+        "log_loss": 0.7845689181441162,
+        "brier": 0.4434692178648003,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 7,
+        "competition_code": "es.1",
+        "home_team": "Real Madrid CF",
+        "away_team": "Sevilla FC",
+        "score": "4-1",
+        "sign": "1",
+        "probabilities": [
+          0.7957979445,
+          0.1249600823,
+          0.0792419732
+        ],
+        "favorite": "1",
+        "log_loss": 0.22840996392805551,
+        "brier": 0.06359279195547739,
+        "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "position": 8,
+        "competition_code": "es.2",
+        "home_team": "SD Eibar",
+        "away_team": "RCD Mallorca",
+        "score": "1-1",
+        "sign": "X",
+        "probabilities": [
+          0.3908949191,
+          0.2910039448,
+          0.3181011361
+        ],
+        "favorite": "1",
+        "log_loss": 1.2344184558887807,
+        "brier": 0.7566625768554678,
+        "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-10"
+      },
+      {
+        "position": 9,
+        "competition_code": "es.2",
+        "home_team": "UD Las Palmas",
+        "away_team": "CD Castellón",
+        "score": "0-3",
+        "sign": "2",
+        "probabilities": [
+          0.4311666757,
+          0.2506985611,
+          0.3181347632
+        ],
+        "favorite": "1",
+        "log_loss": 1.14528020232509,
+        "brier": 0.7136946719281194,
+        "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-10"
+      },
+      {
+        "position": 10,
+        "competition_code": "es.2",
+        "home_team": "Burgos CF",
+        "away_team": "CE Sabadell",
+        "score": "1-0",
+        "sign": "1",
+        "probabilities": [
+          0.4169597126,
+          0.3212284441,
+          0.2618118432
+        ],
+        "favorite": "1",
+        "log_loss": 0.8747656743206449,
+        "brier": 0.5116691312701628,
+        "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-10"
+      },
+      {
+        "position": 11,
+        "competition_code": "es.w.1",
+        "home_team": "Athletic Club [F]",
+        "away_team": "VCF Femenino [F]",
+        "score": "1-0",
+        "sign": "1",
+        "probabilities": [
+          0.6368516443,
+          0.2041541917,
+          0.158994164
+        ],
+        "favorite": "1",
+        "log_loss": 0.45121854802303146,
+        "brier": 0.198834806422353,
+        "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-7"
+      },
+      {
+        "position": 12,
+        "competition_code": "es.w.1",
+        "home_team": "Real Madrid CF [F]",
+        "away_team": "RCD Espanyol de Barcelona [F]",
+        "score": "3-1",
+        "sign": "1",
+        "probabilities": [
+          0.756595462,
+          0.1445412522,
+          0.0988632857
+        ],
+        "favorite": "1",
+        "log_loss": 0.27892656468647176,
+        "brier": 0.08991189196593724,
+        "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-7"
+      },
+      {
+        "position": 13,
+        "competition_code": "es.w.1",
+        "home_team": "SD Eibar [F]",
+        "away_team": "Deportivo Abanca [F]",
+        "score": "2-3",
+        "sign": "2",
+        "probabilities": [
+          0.3098782281,
+          0.3269319352,
+          0.3631898367
+        ],
+        "favorite": "2",
+        "log_loss": 1.0128296153007057,
+        "brier": 0.6084361905861854,
+        "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-7"
+      },
+      {
+        "position": 14,
+        "competition_code": "es.w.1",
+        "home_team": "Atlético de Madrid [F]",
+        "away_team": "Madrid CFF [F]",
+        "score": "4-0",
+        "sign": "1",
+        "probabilities": [
+          0.7128478521,
+          0.1479522468,
+          0.1391999012
+        ],
+        "favorite": "1",
+        "log_loss": 0.3384872725030704,
+        "brier": 0.12372283587084135,
+        "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-7"
+      }
+    ],
+    "pleno": {
+      "status": "FirstHalf",
+      "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "captured_at": "2026-10-19T19:20:28.701231+00:00"
+    },
+    "accounting": "Sporting diagnostic of saved unregistered preparation. No official awarded signs or payouts obtained; no realized investment ROI."
+  },
+  "inventory": {
+    "python_modules": 48,
+    "scripts": 44,
+    "test_files": 13
+  },
+  "review_created_at": "2026-10-19T19:24:07.537743+00:00",
+  "historical_roi_reference": {
+    "coupons": 61,
+    "cost_eur": 274.5,
+    "gross_return_eur": 120.08,
+    "net_eur": -154.42000000000002,
+    "roi": -0.5625500910746812,
+    "cohort": "Historical stored 61-coupon strategy; separate from current prospective/economic cohorts"
+  },
+  "market_comparison": {
+    "es.1": {
+      "paired_matches": 9,
+      "model": {
+        "log_loss": 0.8634219989870912,
+        "brier": 0.49081194073198997,
+        "accuracy": 0.5555555555555556
+      },
+      "market": {
+        "log_loss": 0.811242163182233,
+        "brier": 0.4623561413544913,
+        "accuracy": 0.5555555555555556
+      },
+      "model_minus_market_log_loss": 0.052179835804858105
+    },
+    "es.2": {
+      "paired_matches": 15,
+      "model": {
+        "log_loss": 1.037654882527694,
+        "brier": 0.6311726900356782,
+        "accuracy": 0.5333333333333333
+      },
+      "market": {
+        "log_loss": 0.9918353425522694,
+        "brier": 0.5957213375775151,
+        "accuracy": 0.4666666666666667
+      },
+      "model_minus_market_log_loss": 0.045819539975424775
+    }
+  },
+  "default_data_risks": [
+    {
+      "script": "scripts/plan_spain.py",
+      "default_dataset": "data/processed/matches_spain.parquet",
+      "rows": 9397,
+      "last_date": "2026-09-20",
+      "scope": "men_only",
+      "default_config": "configs/quiniela_spain.json"
+    },
+    {
+      "script": "scripts/probability_registry.py evaluate",
+      "default_dataset": "data/processed/matches_quiniela_current.parquet",
+      "rows": 10954,
+      "last_date": "2026-09-28",
+      "scope": "mixed"
+    }
+  ],
+  "source_hashes": {
+    "scripts\\plan_spain.py": "f60a1952ee325c608395299c834e65de7d755f9bef90f85faab370c41ef7c416",
+    "scripts\\probability_registry.py": "d9501c1382734534149fb4cc6f67391a6b6d4d10984b3b25e5895ceaba2724e1",
+    "src\\quantfootball\\quiniela\\decision.py": "d1d4344114d358fdda951b0ad5cb584eff2c0130e60bd165b6576d9d095ed708",
+    "src\\quantfootball\\quiniela\\economic_research.py": "267db179ee8b77b650dfec568168a34c49f80010e03e7932f43b835b26365032",
+    "src\\quantfootball\\market\\crowd.py": "3f727aa38d6c59b261b46e7f0ad714add1b3ce5124bae915ec0547ea603cfa5a",
+    "outputs\\reports\\context_research_v1\\evaluation.json": "78579e8fa5f80418482d8164bc2123f1780a812120f0bc296c0cb4b4ac7ba074",
+    "outputs\\reports\\allocations_v1\\report.json": "34723c2b1b2799000d5ef496f6cfa533d2db826a83c4a8e47aa125618cf8ae7f",
+    "outputs\\reports\\weekly_j12_20261014\\market_evaluation.json": "6ce3c785f9101c1684643f14b7122e0525beea39d562ecb043cfe564421a34a3"
+  },
+  "git_audit": {
+    "rev_parse_inside_work_tree": true,
+    "reported_root": "C:/Users/Usuario/GitHub/quantfootball",
+    "status_success": false,
+    "status_error": "fatal: this operation must be run in a work tree",
+    "diagnosis": "Cause not established; no Git metadata modified"
+  }
+}

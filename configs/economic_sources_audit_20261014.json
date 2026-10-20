@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-10-14T18:23:11.994491+00:00",
+  "free_sources_only": true,
+  "items": [
+    {
+      "name": "SELAE help and linked game rules",
+      "url": "https://www.loteriasyapuestas.es/es/centro-de-ayuda/como-se-juega/como-jugar-a-la-quiniela",
+      "status": "primary_browsed",
+      "facts": "0.75 EUR column; singles form up to eight columns; multiple forms supported; no Elige8 in project",
+      "automation_access": "No download automation authorized or assumed",
+      "gap": "A thirteen-column individual portfolio needs multiple forms; no purchase made"
+    },
+    {
+      "name": "SELAE currently linked rules PDF",
+      "url": "https://www.loteriasyapuestas.es/f/loterias/documentos/normativa/Normativa%20de%20los%20juegos/Normas_de_la_Quiniela_y_Elige8_Octubre_2019.pdf",
+      "status": "primary_browsed",
+      "facts": "2019 document currently linked from help; category allocations, carryovers, minimum awards and Pleno documented",
+      "gap": "Cent rounding and full reconstruction across exceptional categories need independent validation before financial deployment"
+    },
+    {
+      "name": "Official public selection example",
+      "url": "https://www.selae.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/ACTA%20PORCENTAJE%20BOLAS%20Y%20PRON%C3%93STICOS%20JORNADA%2028%C2%AA%20DE%20LA%20QUINIELA.pdf",
+      "status": "primary_search_document_observed",
+      "facts": "Marginal selections and through-date for 2025-12-14 coupon; document acquired now is not a prospective snapshot",
+      "gap": "No current eligible complete archive, no joint public columns, date-only publication is insufficient for intraday proof"
+    },
+    {
+      "name": "SELAE prize/revenue example",
+      "url": "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_07_06_26.pdf",
+      "status": "primary_search_document_observed",
+      "facts": "Revenue, winners and unit awards available after results",
+      "gap": "Not pre-close crowd/revenue evidence; no future payout inference"
+    },
+    {
+      "name": "The Odds API actual provider",
+      "url": "https://the-odds-api.com/sports-odds-data/sports-apis.html",
+      "status": "primary_browsed",
+      "facts": "Mens La Liga and Segunda listed; no Spain womens domestic competition confirmed in catalog reviewed",
+      "gap": "Liga F odds absent/unconfirmed; bookmaker odds are not Quiniela public selections; no API credits consumed in this iteration"
+    },
+    {
+      "name": "Future eligible official coupon",
+      "url": "https://www.loteriasyapuestas.es/es/la-quiniela",
+      "status": "not_verified",
+      "facts": "J14 order agreed in public agency listings; fifteen primary LaLiga schedule identities captured. Exact official close unverified; official game page returned geographic restriction.",
+      "gap": "Cannot register a prospective coupon without verified exact close and direct official-order confirmation; provisional capture only."
+    },
+    {
+      "name": "J12 official direct settlement",
+      "url": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+      "status": "previous_geographic_restriction_not_retried",
+      "facts": "Secondary agreement remains provisional",
+      "gap": "No bypass or new official receipt"
+    }
+  ],
+  "economic_deployment_enabled": false,
+  "missing": [
+    "timestamped_free_public_selection_archive",
+    "joint_crowd_validation",
+    "preclose_revenue_forecasts",
+    "complete_prize_reconstruction",
+    "future_official_coupon_order_and_deadline"
+  ]
+}

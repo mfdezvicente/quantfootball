@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import math
 import re
 from pathlib import Path
 from typing import Any
@@ -55,6 +56,15 @@ def _coerce_pair(value: Any) -> tuple[int | None, int | None]:
         return None, None
     if value[0] is None or value[1] is None:
         return None, None
+    if any(
+        isinstance(g, bool)
+        or not isinstance(g, (int, float))
+        or not math.isfinite(g)
+        or g < 0
+        or g != int(g)
+        for g in value
+    ):
+        raise ValueError("Goals must be finite nonnegative integers.")
     return int(value[0]), int(value[1])
 
 
@@ -81,11 +91,13 @@ def _score_pair(score: Any, key: str) -> tuple[int | None, int | None]:
 
 
 def _match_id(season: str, date: str, home_team: str, away_team: str) -> str:
-    raw = f"{season}|{date}|{home_team}|{away_team}".encode("utf-8")
+    raw = f"{season}|{date}|{home_team}|{away_team}".encode()
     return hashlib.blake2b(raw, digest_size=10).hexdigest()
 
 
-def normalize_payload(payload: dict[str, Any], season: str) -> pd.DataFrame:
+def normalize_payload(
+    payload: dict[str, Any], season: str, competition_code: str = "es.1"
+) -> pd.DataFrame:
     """Normalize one OpenFootball season into the Quant Football match schema."""
     rows: list[dict[str, Any]] = []
 
@@ -114,7 +126,8 @@ def normalize_payload(payload: dict[str, Any], season: str) -> pd.DataFrame:
         rows.append(
             {
                 "match_id": _match_id(season, str(date), home_team, away_team),
-                "competition": COMPETITION_NAME,
+                "competition": {"es.1": "LaLiga", "es.2": "Segunda"}[competition_code],
+                "competition_code": competition_code,
                 "country": "ESP",
                 "season": season,
                 "matchday": _matchday(match.get("round")),
@@ -131,7 +144,7 @@ def normalize_payload(payload: dict[str, Any], season: str) -> pd.DataFrame:
                 "result": result,
                 "is_completed": is_completed,
                 "source": "openfootball",
-                "source_url": source_url(season),
+                "source_url": f"{BASE_URL}/{season}/{competition_code}.json",
             }
         )
 
@@ -184,6 +197,8 @@ def validate_matches(frame: pd.DataFrame) -> None:
     core = ["match_id", "season", "date", "home_team", "away_team"]
     if frame[core].isna().any().any():
         raise ValueError("Core match fields contain missing values.")
+    if frame[["home_team", "away_team"]].apply(lambda c: c.str.strip().eq("")).any().any():
+        raise ValueError("Empty team names detected.")
 
     if (frame["home_team"] == frame["away_team"]).any():
         raise ValueError("A match contains the same home and away team.")
@@ -195,6 +210,14 @@ def validate_matches(frame: pd.DataFrame) -> None:
     goals = frame.loc[completed, ["home_goals", "away_goals"]]
     if (goals < 0).any().any():
         raise ValueError("Negative goals detected.")
+    if (goals % 1 != 0).any().any():
+        raise ValueError("Goals must be integers.")
+    expected = goals.apply(
+        lambda row: "H" if row.iloc[0] > row.iloc[1] else "A" if row.iloc[0] < row.iloc[1] else "D",
+        axis=1,
+    )
+    if not frame.loc[completed, "result"].eq(expected).all():
+        raise ValueError("Result labels disagree with full-time goals.")
 
     duplicate_key = ["season", "date", "home_team", "away_team"]
     if frame.duplicated(duplicate_key).any():

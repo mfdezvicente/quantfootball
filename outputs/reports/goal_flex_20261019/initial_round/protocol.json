@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-19T20:18:46.267095+00:00",
+  "deployment_enabled": false,
+  "status": "retrospective_research_on_previously_inspected_periods",
+  "families": [
+    "poisson",
+    "independent_nb",
+    "shared_tempo"
+  ],
+  "mixture_weights": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "calibration_modes": [
+    "identity",
+    "temperature",
+    "context"
+  ],
+  "calibration_fit": [
+    "2022-07-01",
+    "2023-07-01"
+  ],
+  "selection": [
+    "2023-07-01",
+    "2024-07-01"
+  ],
+  "final_calibration_fit": [
+    "2022-07-01",
+    "2024-07-01"
+  ],
+  "diagnostic": [
+    "2024-07-01",
+    "2026-07-01"
+  ],
+  "primary_metric": "Mean log loss per competition on exact same fixtures; Brier and calibration secondary",
+  "goal_prior": {
+    "dispersion_precision": 50,
+    "shape_bounds": [
+      0.5,
+      1000
+    ]
+  },
+  "context_prior": {
+    "precision": 100,
+    "parameters": 6
+  },
+  "config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+  "dataset_sha256": {
+    "men": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+    "women": "d5325737732f5ea7ec700ee83a6ed70e13289d8b4a2014d2dccfb712f3ac62ac"
+  },
+  "sources_sha256": {
+    "scripts\\evaluate_goal_flex_research.py": "c1cc090006efc6c56f68a319b5d6b89c3551aa22acf25309e624324a15a89134",
+    "src\\quantfootball\\research\\flexible_goals.py": "15299fc42481c90e0cf5950bc4c6dd12ff0188cb9424629273b8610b38f8fad7",
+    "src\\quantfootball\\research\\context_calibration.py": "743709c28fc9e6e44f3d20b093174241173db785ea694d0614605d49d8ad4188",
+    "src\\quantfootball\\research\\diagnostics.py": "5dd6fc9b2e1d481faff109704857f987084735645fd24bda729f736e4fb6017a",
+    "src\\quantfootball\\models\\calibration.py": "b6bf65602e842434a95fb409c3c09374e9f38f580330ba449b3ae07ddef90de1"
+  },
+  "references": [
+    "https://arxiv.org/abs/2307.02139",
+    "https://doi.org/10.1111/1467-9884.00366"
+  ],
+  "limitations": [
+    "These periods and baseline hyperparameters were already inspected; not fresh or fully nested confirmation",
+    "Thirty model/calibration candidates per competition; bootstrap intervals do not correct model selection",
+    "Goal models use per-competition global shape; shared-tempo dependence is nonnegative only",
+    "No original Dixon-Coles low-score term in the new families; Poisson control isolates the distribution change",
+    "Cold teams receive zero attack/defence prior; no new transfer, injuries, lineups or xG information",
+    "Score-grid metrics concern standalone goal models; calibrated 1X2 mixtures do not inherit a joint goal grid",
+    "No production promotion, future-market data, purchases or ROI claim"
+  ]
+}

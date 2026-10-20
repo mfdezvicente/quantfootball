@@ -1,0 +1,5654 @@
+{
+  "date": "2024-09-29",
+  "cutoff": "2024-09-28",
+  "fixtures": [
+    {
+      "position": 1,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "Getafe CF",
+      "away_team": "Deportivo Alavés",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "6dbc349c813f77463c0a",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.402718317,
+      "p_draw": 0.297618742,
+      "p_away": 0.2996629411,
+      "p_home_low": 0.3295332392,
+      "p_home_high": 0.4782585031,
+      "p_draw_low": 0.2712224952,
+      "p_draw_high": 0.322905914,
+      "p_away_low": 0.2372576622,
+      "p_away_high": 0.3663830818,
+      "entropy": 0.9904304682,
+      "estimator_sd": 0.0478968609,
+      "favorite_stability": 0.875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 2,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "CD Leganés",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "f312cdbbaf67faa64437",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 7.0,
+      "p_home": 0.4885951194,
+      "p_draw": 0.2760157561,
+      "p_away": 0.2353891245,
+      "p_home_low": 0.4301289739,
+      "p_home_high": 0.5424504618,
+      "p_draw_low": 0.2531168376,
+      "p_draw_high": 0.3065584992,
+      "p_away_low": 0.1843718112,
+      "p_away_high": 0.2967563066,
+      "entropy": 0.951883081,
+      "estimator_sd": 0.0390087439,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": true
+    },
+    {
+      "position": 3,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Valencia CF",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "39bdf17a7aa247cef96c",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.5453037659,
+      "p_draw": 0.2619120439,
+      "p_away": 0.1927841901,
+      "p_home_low": 0.4749721324,
+      "p_home_high": 0.6164300309,
+      "p_draw_low": 0.2321938562,
+      "p_draw_high": 0.2913079467,
+      "p_away_low": 0.1511433053,
+      "p_away_high": 0.2415342274,
+      "entropy": 0.9092678925,
+      "estimator_sd": 0.0442534463,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 4,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "CA Osasuna",
+      "away_team": "FC Barcelona",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "cae18135dd1d37aee6f8",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.1347431297,
+      "p_draw": 0.2240543582,
+      "p_away": 0.6412025121,
+      "p_home_low": 0.0979509171,
+      "p_home_high": 0.1680385821,
+      "p_draw_low": 0.1972733711,
+      "p_draw_high": 0.2615283106,
+      "p_away_low": 0.5759797409,
+      "p_away_high": 0.7094876136,
+      "entropy": 0.8102852325,
+      "estimator_sd": 0.0416940805,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 5,
+      "date": "2024-09-29T00:00:00.000",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Girona FC",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "44faf76fe95b6ed6d801",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.3145777135,
+      "p_draw": 0.2532091601,
+      "p_away": 0.4322131263,
+      "p_home_low": 0.2572587717,
+      "p_home_high": 0.3777142727,
+      "p_draw_low": 0.2295304314,
+      "p_draw_high": 0.2767946504,
+      "p_away_low": 0.3667729869,
+      "p_away_high": 0.5034764581,
+      "entropy": 0.9777476728,
+      "estimator_sd": 0.0444362104,
+      "favorite_stability": 0.875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 6,
+      "date": "2024-09-29T00:00:00.000",
+      "home_team": "Athletic Club",
+      "away_team": "Sevilla FC",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "9b531516426886e33b1c",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 39.0,
+      "p_home": 0.56957865,
+      "p_draw": 0.2394611998,
+      "p_away": 0.1909601502,
+      "p_home_low": 0.5133683784,
+      "p_home_high": 0.6128880062,
+      "p_draw_low": 0.2234686543,
+      "p_draw_high": 0.2625226836,
+      "p_away_low": 0.1611422628,
+      "p_away_high": 0.2249466105,
+      "entropy": 0.8911608191,
+      "estimator_sd": 0.0328280767,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 7,
+      "date": "2024-09-29T00:00:00.000",
+      "home_team": "Real Betis Balompié",
+      "away_team": "RCD Espanyol de Barcelona",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "08b51026f73d583cd1e2",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 7.0,
+      "p_home": 0.6040795853,
+      "p_draw": 0.2325088138,
+      "p_away": 0.1634116009,
+      "p_home_low": 0.5257948236,
+      "p_home_high": 0.6387128722,
+      "p_draw_low": 0.2121063694,
+      "p_draw_high": 0.2571378395,
+      "p_away_low": 0.136360691,
+      "p_away_high": 0.212643526,
+      "entropy": 0.8553458216,
+      "estimator_sd": 0.0405756274,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": true
+    },
+    {
+      "position": 8,
+      "date": "2024-09-30T00:00:00.000",
+      "home_team": "Villarreal CF",
+      "away_team": "UD Las Palmas",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "a714796eb5bdbcd0519a",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.677569702,
+      "p_draw": 0.2087144788,
+      "p_away": 0.1137158192,
+      "p_home_low": 0.5863380878,
+      "p_home_high": 0.75169679,
+      "p_draw_low": 0.1697522957,
+      "p_draw_high": 0.2646278616,
+      "p_away_low": 0.0800755136,
+      "p_away_high": 0.1586522185,
+      "entropy": 0.7627574539,
+      "estimator_sd": 0.054716469,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 9,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "CD Mirandés",
+      "away_team": "SD Huesca",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "dd7e5ee3cf8bc2fef4cd",
+      "recent_home_matches": 41.0,
+      "recent_away_matches": 41.0,
+      "p_home": 0.3604529873,
+      "p_draw": 0.320781081,
+      "p_away": 0.3187659317,
+      "p_home_low": 0.3201102703,
+      "p_home_high": 0.4018350621,
+      "p_draw_low": 0.2847141648,
+      "p_draw_high": 0.3453736087,
+      "p_away_low": 0.2886375333,
+      "p_away_high": 0.361966121,
+      "entropy": 0.9985100544,
+      "estimator_sd": 0.0311669363,
+      "favorite_stability": 0.65625,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 10,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "Sporting Gijón",
+      "away_team": "Real Zaragoza",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "d772581480ddfb0f6f1b",
+      "recent_home_matches": 41.0,
+      "recent_away_matches": 41.0,
+      "p_home": 0.4223566871,
+      "p_draw": 0.3122450396,
+      "p_away": 0.2653982733,
+      "p_home_low": 0.3667044315,
+      "p_home_high": 0.4838100902,
+      "p_draw_low": 0.2850122165,
+      "p_draw_high": 0.3372292315,
+      "p_away_low": 0.2104087576,
+      "p_away_high": 0.3145865711,
+      "entropy": 0.9826318229,
+      "estimator_sd": 0.0362711141,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 11,
+      "date": "2024-09-28T00:00:00.000",
+      "home_team": "Málaga CF",
+      "away_team": "Elche CF",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "d1ab0454fc5b223f2c1d",
+      "recent_home_matches": 6.0,
+      "recent_away_matches": 41.0,
+      "p_home": 0.428689742,
+      "p_draw": 0.3161685617,
+      "p_away": 0.2551416963,
+      "p_home_low": 0.3617821028,
+      "p_home_high": 0.4795729755,
+      "p_draw_low": 0.2790997459,
+      "p_draw_high": 0.338987851,
+      "p_away_low": 0.2238611148,
+      "p_away_high": 0.3163038567,
+      "entropy": 0.9791248224,
+      "estimator_sd": 0.0419461942,
+      "favorite_stability": 0.96875,
+      "cold_start": false,
+      "limited_history": true
+    },
+    {
+      "position": 12,
+      "date": "2024-09-29T00:00:00.000",
+      "home_team": "Córdoba CF",
+      "away_team": "Racing Ferrol",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "de767b6dee00f0e5e771",
+      "recent_home_matches": 6.0,
+      "recent_away_matches": 41.0,
+      "p_home": 0.4368456029,
+      "p_draw": 0.2863023813,
+      "p_away": 0.2768520157,
+      "p_home_low": 0.3597191126,
+      "p_home_high": 0.5192933343,
+      "p_draw_low": 0.2583965887,
+      "p_draw_high": 0.3147995266,
+      "p_away_low": 0.2107482319,
+      "p_away_high": 0.3576690953,
+      "entropy": 0.9788880697,
+      "estimator_sd": 0.0498298764,
+      "favorite_stability": 0.9375,
+      "cold_start": false,
+      "limited_history": true
+    },
+    {
+      "position": 13,
+      "date": "2024-09-29T00:00:00.000",
+      "home_team": "Real Oviedo",
+      "away_team": "SD Eibar",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "9208d2974953ce53239c",
+      "recent_home_matches": 41.0,
+      "recent_away_matches": 41.0,
+      "p_home": 0.4064387728,
+      "p_draw": 0.2806184477,
+      "p_away": 0.3129427795,
+      "p_home_low": 0.3563634917,
+      "p_home_high": 0.4617175927,
+      "p_draw_low": 0.256163823,
+      "p_draw_high": 0.3061848704,
+      "p_away_low": 0.2689681307,
+      "p_away_high": 0.3667908116,
+      "entropy": 0.9885933816,
+      "estimator_sd": 0.0329290058,
+      "favorite_stability": 0.9375,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 14,
+      "date": "2024-09-30T00:00:00.000",
+      "home_team": "Racing Santander",
+      "away_team": "FC Cartagena",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "475483095f33034becee",
+      "recent_home_matches": 41.0,
+      "recent_away_matches": 41.0,
+      "p_home": 0.5653264828,
+      "p_draw": 0.2521480821,
+      "p_away": 0.1825254351,
+      "p_home_low": 0.4889159607,
+      "p_home_high": 0.6287689504,
+      "p_draw_low": 0.2126132992,
+      "p_draw_high": 0.2772967634,
+      "p_away_low": 0.1489802811,
+      "p_away_high": 0.236173364,
+      "entropy": 0.8922897245,
+      "estimator_sd": 0.0452100916,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    }
+  ],
+  "model": {
+    "model": "Division-specific calibrated Elo + Dixon-Coles",
+    "cutoff": "2024-09-28",
+    "training_last_date": "2024-09-27T00:00:00",
+    "divisions": {
+      "es.1": {
+        "configuration": {
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "dc_weight": 0.5,
+          "temperature": 0.9,
+          "lookback_days": 1461,
+          "selected_before": "2024-07-01",
+          "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+          "form_weight": 0.25,
+          "form_temperature": 1.0,
+          "form_parameters": {
+            "kind": "logistic",
+            "C": 0.01
+          }
+        },
+        "goal_model": {
+          "training_matches": 1567,
+          "weighted_matches": 506.1462701863968,
+          "training_last_date": "2024-09-27T00:00:00",
+          "cutoff": "2024-09-28",
+          "rho": -0.04989045077762756,
+          "rho_bounds": [
+            -0.29999999899999996,
+            0.2731666103713518
+          ],
+          "converged": true,
+          "iterations": 25,
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "lookback_days": 1461
+        },
+        "form_model": {
+          "parameters": {
+            "kind": "logistic",
+            "C": 0.01
+          },
+          "weight": 0.25,
+          "temperature": 1.0,
+          "features": [
+            "home_gf_5",
+            "home_ga_5",
+            "home_points_5",
+            "home_draw_5",
+            "home_opponent_5",
+            "home_gf_20",
+            "home_ga_20",
+            "home_points_20",
+            "home_draw_20",
+            "home_opponent_20",
+            "home_venue_gf",
+            "home_venue_ga",
+            "home_venue_points",
+            "home_recent_count",
+            "home_rest_log_days",
+            "home_changed_division",
+            "home_strength",
+            "away_gf_5",
+            "away_ga_5",
+            "away_points_5",
+            "away_draw_5",
+            "away_opponent_5",
+            "away_gf_20",
+            "away_ga_20",
+            "away_points_20",
+            "away_draw_20",
+            "away_opponent_20",
+            "away_venue_gf",
+            "away_venue_ga",
+            "away_venue_points",
+            "away_recent_count",
+            "away_rest_log_days",
+            "away_changed_division",
+            "away_strength",
+            "diff_gf_5",
+            "diff_ga_5",
+            "diff_points_5",
+            "diff_draw_5",
+            "diff_opponent_5",
+            "diff_gf_20",
+            "diff_ga_20",
+            "diff_points_20",
+            "diff_draw_20",
+            "diff_opponent_20",
+            "diff_venue_gf",
+            "diff_venue_ga",
+            "diff_venue_points",
+            "diff_recent_count",
+            "diff_rest_log_days",
+            "diff_changed_division",
+            "diff_strength",
+            "division_primera"
+          ],
+          "coefficient_fit_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "bootstrap_limit": "Resamples classifier fit weights; rolling feature values remain fixed"
+        }
+      },
+      "es.2": {
+        "configuration": {
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "dc_weight": 1.0,
+          "temperature": 0.9,
+          "lookback_days": 1461,
+          "selected_before": "2024-07-01",
+          "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+          "form_weight": 0.25,
+          "form_temperature": 1.0,
+          "form_parameters": {
+            "kind": "logistic",
+            "C": 1.0
+          }
+        },
+        "goal_model": {
+          "training_matches": 1886,
+          "weighted_matches": 590.5074451005895,
+          "training_last_date": "2024-09-27T00:00:00",
+          "cutoff": "2024-09-28",
+          "rho": -0.028092647321732982,
+          "rho_bounds": [
+            -0.29999999899999996,
+            0.29999999899999996
+          ],
+          "converged": true,
+          "iterations": 22,
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "lookback_days": 1461
+        },
+        "form_model": {
+          "parameters": {
+            "kind": "logistic",
+            "C": 1.0
+          },
+          "weight": 0.25,
+          "temperature": 1.0,
+          "features": [
+            "home_gf_5",
+            "home_ga_5",
+            "home_points_5",
+            "home_draw_5",
+            "home_opponent_5",
+            "home_gf_20",
+            "home_ga_20",
+            "home_points_20",
+            "home_draw_20",
+            "home_opponent_20",
+            "home_venue_gf",
+            "home_venue_ga",
+            "home_venue_points",
+            "home_recent_count",
+            "home_rest_log_days",
+            "home_changed_division",
+            "home_strength",
+            "away_gf_5",
+            "away_ga_5",
+            "away_points_5",
+            "away_draw_5",
+            "away_opponent_5",
+            "away_gf_20",
+            "away_ga_20",
+            "away_points_20",
+            "away_draw_20",
+            "away_opponent_20",
+            "away_venue_gf",
+            "away_venue_ga",
+            "away_venue_points",
+            "away_recent_count",
+            "away_rest_log_days",
+            "away_changed_division",
+            "away_strength",
+            "diff_gf_5",
+            "diff_ga_5",
+            "diff_points_5",
+            "diff_draw_5",
+            "diff_opponent_5",
+            "diff_gf_20",
+            "diff_ga_20",
+            "diff_points_20",
+            "diff_draw_20",
+            "diff_opponent_20",
+            "diff_venue_gf",
+            "diff_venue_ga",
+            "diff_venue_points",
+            "diff_recent_count",
+            "diff_rest_log_days",
+            "diff_changed_division",
+            "diff_strength",
+            "division_primera"
+          ],
+          "coefficient_fit_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "bootstrap_limit": "Resamples classifier fit weights; rolling feature values remain fixed"
+        }
+      }
+    },
+    "bootstrap_draws": 32,
+    "seed": 20260925,
+    "uncertainty": "5-95% week-weight bootstrap spread; conditional sensitivity, not calibrated confidence bounds",
+    "cold_start_policy": "Reject unseen division teams unless explicitly allowed or bridged by configured transfer Elo; neutral goal prior is not calibrated for promotion",
+    "limitations": [
+      "Independent match outcomes conditional on model draw",
+      "No lineups, injuries or public betting shares",
+      "Optional transfer Elo mixture only when explicitly configured; it does not transfer goal parameters",
+      "Optional form classifiers use fixed rolling features during coefficient bootstrap"
+    ]
+  },
+  "budgets": {
+    "1.50": {
+      "budget_eur": 1.5,
+      "max_columns": 2,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 2,
+          "coverage": 8.5827263674491e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 1,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 8.145119340638804e-05,
+          "bootstrap_p10_coverage": 5.226801038650424e-05,
+          "bootstrap_p90_coverage": 0.00012098121372254548,
+          "cost_eur": 1.5,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 2,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              2.3762797443901047e-05,
+              0.00039701481022661784,
+              0.0030373211353994026,
+              0.014104306054050868,
+              0.04441949894891535,
+              0.10038176170927311,
+              0.1678988613340337,
+              0.21120026886275606,
+              0.2008287854568345,
+              0.14369916748456998,
+              0.07618646057808387,
+              0.02903215901465659,
+              0.007519482483651886,
+              0.0011853220664299325,
+              8.582726367449099e-05
+            ],
+            "at_least": {
+              "10": 0.11400925140649677,
+              "11": 0.0378227908284129,
+              "12": 0.008790631813756309,
+              "13": 0.0012711493301044235,
+              "14": 8.582726367449099e-05
+            },
+            "expected_best_hits": 7.302152133945421,
+            "expected_columns_by_hits": [
+              9.830902424365825e-05,
+              0.001483176618596085,
+              0.010244461168601853,
+              0.042948532532128464,
+              0.12212488315979546,
+              0.24922516676904033,
+              0.3765211021368505,
+              0.4279100366036813,
+              0.3677183537895201,
+              0.23783817329269838,
+              0.11400657078853577,
+              0.03928360419341236,
+              0.009200492672231015,
+              0.0013113099869905467,
+              8.5827263674491e-05
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.11088763342386967,
+                "p05": 0.08687817043892936,
+                "p95": 0.13570580551779204
+              },
+              "11": {
+                "mean": 0.03655512307308335,
+                "p05": 0.026796534471666588,
+                "p95": 0.04719977925261495
+              },
+              "12": {
+                "mean": 0.00844309540684981,
+                "p05": 0.005768672421763069,
+                "p95": 0.011517590648970061
+              },
+              "13": {
+                "mean": 0.0012134796227475405,
+                "p05": 0.0007703977265597076,
+                "p95": 0.0017495532621822042
+              },
+              "14": {
+                "mean": 8.145119340638804e-05,
+                "p05": 4.792622535114357e-05,
+                "p95": 0.0001240642251614793
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "individual_columns": {
+          "column_count": 2,
+          "coverage": 8.5827263674491e-05,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 8.145119340638804e-05,
+          "bootstrap_p10_coverage": 5.226801038650424e-05,
+          "bootstrap_p90_coverage": 0.00012098121372254548,
+          "cost_eur": 1.5,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 2,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              2.3762797443901047e-05,
+              0.00039701481022661784,
+              0.0030373211353994026,
+              0.014104306054050868,
+              0.04441949894891535,
+              0.10038176170927311,
+              0.1678988613340337,
+              0.21120026886275606,
+              0.2008287854568345,
+              0.14369916748456998,
+              0.07618646057808387,
+              0.02903215901465659,
+              0.007519482483651886,
+              0.0011853220664299325,
+              8.582726367449099e-05
+            ],
+            "at_least": {
+              "10": 0.11400925140649677,
+              "11": 0.0378227908284129,
+              "12": 0.008790631813756309,
+              "13": 0.0012711493301044235,
+              "14": 8.582726367449099e-05
+            },
+            "expected_best_hits": 7.302152133945421,
+            "expected_columns_by_hits": [
+              9.830902424365825e-05,
+              0.001483176618596085,
+              0.010244461168601853,
+              0.042948532532128464,
+              0.12212488315979546,
+              0.24922516676904033,
+              0.3765211021368505,
+              0.4279100366036813,
+              0.3677183537895201,
+              0.23783817329269838,
+              0.11400657078853577,
+              0.03928360419341236,
+              0.009200492672231015,
+              0.0013113099869905467,
+              8.5827263674491e-05
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.11088763342386967,
+                "p05": 0.08687817043892936,
+                "p95": 0.13570580551779204
+              },
+              "11": {
+                "mean": 0.03655512307308335,
+                "p05": 0.026796534471666588,
+                "p95": 0.04719977925261495
+              },
+              "12": {
+                "mean": 0.00844309540684981,
+                "p05": 0.005768672421763069,
+                "p95": 0.011517590648970061
+              },
+              "13": {
+                "mean": 0.0012134796227475405,
+                "p05": 0.0007703977265597076,
+                "p95": 0.0017495532621822042
+              },
+              "14": {
+                "mean": 8.145119340638804e-05,
+                "p05": 4.792622535114357e-05,
+                "p95": 0.0001240642251614793
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_full_system": {
+          "column_count": 2,
+          "coverage": 8.557337921637301e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 1,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 8.213730080930181e-05,
+          "bootstrap_p10_coverage": 5.2349698990999816e-05,
+          "bootstrap_p90_coverage": 0.00012172334213813397,
+          "cost_eur": 1.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 2,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              2.3913019213667373e-05,
+              0.00039905336656287344,
+              0.0030496558198108014,
+              0.014147908011626364,
+              0.04451796147213828,
+              0.10052511543552273,
+              0.16801932460743335,
+              0.21121656643624614,
+              0.20072839032154052,
+              0.14355256424624258,
+              0.07607296960032194,
+              0.028976604041199904,
+              0.0075022117783839996,
+              0.0011821884645407952,
+              8.557337921637303e-05
+            ],
+            "at_least": {
+              "10": 0.113819547263663,
+              "11": 0.03774657766334107,
+              "12": 0.008769973622141167,
+              "13": 0.0012677618437571681,
+              "14": 8.557337921637303e-05
+            },
+            "expected_best_hits": 7.300136984739146,
+            "expected_columns_by_hits": [
+              9.845924601342458e-05,
+              0.0014852151749323405,
+              0.010256795853013251,
+              0.04299213448970396,
+              0.12222334568301839,
+              0.24936852049528996,
+              0.3766415654102502,
+              0.42792633417717135,
+              0.3676179586542261,
+              0.23769157005437092,
+              0.1138930798107738,
+              0.03922804921995568,
+              0.009183221966963126,
+              0.0013081763851014094,
+              8.557337921637301e-05
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.11130410582158526,
+                "p05": 0.08853882229534457,
+                "p95": 0.13657032198806016
+              },
+              "11": {
+                "mean": 0.0367292626728981,
+                "p05": 0.027408161787914772,
+                "p95": 0.04766266927306592
+              },
+              "12": {
+                "mean": 0.0084926838092367,
+                "p05": 0.005921304283474645,
+                "p95": 0.011701694993497502
+              },
+              "13": {
+                "mean": 0.0012220846507846582,
+                "p05": 0.000793532318177351,
+                "p95": 0.0017913613577723196
+              },
+              "14": {
+                "mean": 8.213730080930181e-05,
+                "p05": 4.9633029996780305e-05,
+                "p95": 0.000128247857475657
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_columns": {
+          "column_count": 2,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            }
+          ],
+          "coverage": 8.557337921637301e-05,
+          "bootstrap_mean_coverage": 8.213730080930181e-05,
+          "bootstrap_p10_coverage": 5.2349698990999816e-05,
+          "bootstrap_p90_coverage": 0.00012172334213813397,
+          "cost_eur": 1.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 2,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              2.3913019213667373e-05,
+              0.00039905336656287344,
+              0.0030496558198108014,
+              0.014147908011626364,
+              0.04451796147213828,
+              0.10052511543552273,
+              0.16801932460743335,
+              0.21121656643624614,
+              0.20072839032154052,
+              0.14355256424624258,
+              0.07607296960032194,
+              0.028976604041199904,
+              0.0075022117783839996,
+              0.0011821884645407952,
+              8.557337921637303e-05
+            ],
+            "at_least": {
+              "10": 0.113819547263663,
+              "11": 0.03774657766334107,
+              "12": 0.008769973622141167,
+              "13": 0.0012677618437571681,
+              "14": 8.557337921637303e-05
+            },
+            "expected_best_hits": 7.300136984739146,
+            "expected_columns_by_hits": [
+              9.845924601342458e-05,
+              0.0014852151749323405,
+              0.010256795853013251,
+              0.04299213448970396,
+              0.12222334568301839,
+              0.24936852049528996,
+              0.3766415654102502,
+              0.42792633417717135,
+              0.3676179586542261,
+              0.23769157005437092,
+              0.1138930798107738,
+              0.03922804921995568,
+              0.009183221966963126,
+              0.0013081763851014094,
+              8.557337921637301e-05
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.11130410582158526,
+                "p05": 0.08853882229534457,
+                "p95": 0.13657032198806016
+              },
+              "11": {
+                "mean": 0.0367292626728981,
+                "p05": 0.027408161787914772,
+                "p95": 0.04766266927306592
+              },
+              "12": {
+                "mean": 0.0084926838092367,
+                "p05": 0.005921304283474645,
+                "p95": 0.011701694993497502
+              },
+              "13": {
+                "mean": 0.0012220846507846582,
+                "p05": 0.000793532318177351,
+                "p95": 0.0017913613577723196
+              },
+              "14": {
+                "mean": 8.213730080930181e-05,
+                "p05": 4.9633029996780305e-05,
+                "p95": 0.000128247857475657
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        }
+      },
+      "bootstrap_system_candidates": 17,
+      "bootstrap_column_candidates": 63,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "2.25": {
+      "budget_eur": 2.25,
+      "max_columns": 3,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 3,
+          "coverage": 0.00012598792056061419,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 0,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00012043969176661212,
+          "bootstrap_p10_coverage": 7.757036373917987e-05,
+          "bootstrap_p90_coverage": 0.0001770463133416544,
+          "cost_eur": 2.25,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 3,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              0.0,
+              7.45462267997572e-05,
+              0.0010861618083694673,
+              0.007207140033202449,
+              0.028844226478077595,
+              0.07770538421088011,
+              0.1488434050597673,
+              0.20862224080281688,
+              0.21670976774092526,
+              0.16688956833268564,
+              0.09413900580812838,
+              0.03782011021045187,
+              0.010251445178755762,
+              0.0016810101885791253,
+              0.00012598792056061419
+            ],
+            "at_least": {
+              "10": 0.14401755930647575,
+              "11": 0.04987855349834737,
+              "12": 0.012058443287895501,
+              "13": 0.0018069981091397395,
+              "14": 0.00012598792056061419
+            },
+            "expected_best_hits": 7.620918065690453,
+            "expected_columns_by_hits": [
+              0.00014909245359951442,
+              0.0022468698435386915,
+              0.015500441874774368,
+              0.06489559298935764,
+              0.18425499489983782,
+              0.3753921943304146,
+              0.566087886665401,
+              0.6420417762846674,
+              0.5504889044062965,
+              0.35516757994894244,
+              0.16977922622903213,
+              0.05832300056796341,
+              0.013613465555914018,
+              0.001932986029700354,
+              0.0001259879205606142
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14070275244885003,
+                "p05": 0.1120774005004177,
+                "p95": 0.169913188511366
+              },
+              "11": {
+                "mean": 0.04845337396647572,
+                "p05": 0.036082957561075886,
+                "p95": 0.0617866217844102
+              },
+              "12": {
+                "mean": 0.011648746335094336,
+                "p05": 0.008076743362564448,
+                "p95": 0.015702816641382306
+              },
+              "13": {
+                "mean": 0.0017362675831042202,
+                "p05": 0.00111727771334779,
+                "p95": 0.002482326420551
+              },
+              "14": {
+                "mean": 0.00012043969176661211,
+                "p05": 7.17422157715724e-05,
+                "p95": 0.00018332128033199765
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "individual_columns": {
+          "column_count": 3,
+          "coverage": 0.00012598792056061419,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00012043969176661212,
+          "bootstrap_p10_coverage": 7.757036373917987e-05,
+          "bootstrap_p90_coverage": 0.0001770463133416544,
+          "cost_eur": 2.25,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 3,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              0.0,
+              7.45462267997572e-05,
+              0.0010861618083694673,
+              0.007207140033202449,
+              0.028844226478077595,
+              0.07770538421088011,
+              0.1488434050597673,
+              0.20862224080281688,
+              0.21670976774092526,
+              0.16688956833268564,
+              0.09413900580812838,
+              0.03782011021045187,
+              0.010251445178755762,
+              0.0016810101885791253,
+              0.00012598792056061419
+            ],
+            "at_least": {
+              "10": 0.14401755930647575,
+              "11": 0.04987855349834737,
+              "12": 0.012058443287895501,
+              "13": 0.0018069981091397395,
+              "14": 0.00012598792056061419
+            },
+            "expected_best_hits": 7.620918065690453,
+            "expected_columns_by_hits": [
+              0.00014909245359951442,
+              0.0022468698435386915,
+              0.015500441874774368,
+              0.06489559298935764,
+              0.18425499489983782,
+              0.3753921943304146,
+              0.566087886665401,
+              0.6420417762846674,
+              0.5504889044062965,
+              0.35516757994894244,
+              0.16977922622903213,
+              0.05832300056796341,
+              0.013613465555914018,
+              0.001932986029700354,
+              0.0001259879205606142
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14070275244885003,
+                "p05": 0.1120774005004177,
+                "p95": 0.169913188511366
+              },
+              "11": {
+                "mean": 0.04845337396647572,
+                "p05": 0.036082957561075886,
+                "p95": 0.0617866217844102
+              },
+              "12": {
+                "mean": 0.011648746335094336,
+                "p05": 0.008076743362564448,
+                "p95": 0.015702816641382306
+              },
+              "13": {
+                "mean": 0.0017362675831042202,
+                "p05": 0.00111727771334779,
+                "p95": 0.002482326420551
+              },
+              "14": {
+                "mean": 0.00012043969176661211,
+                "p05": 7.17422157715724e-05,
+                "p95": 0.00018332128033199765
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_full_system": {
+          "column_count": 3,
+          "coverage": 0.00012598792056061419,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 0,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00012043969176661212,
+          "bootstrap_p10_coverage": 7.757036373917987e-05,
+          "bootstrap_p90_coverage": 0.0001770463133416544,
+          "cost_eur": 2.25,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 3,
+            "differing_positions": 1,
+            "best_hits_pmf": [
+              0.0,
+              7.45462267997572e-05,
+              0.0010861618083694673,
+              0.007207140033202449,
+              0.028844226478077595,
+              0.07770538421088011,
+              0.1488434050597673,
+              0.20862224080281688,
+              0.21670976774092526,
+              0.16688956833268564,
+              0.09413900580812838,
+              0.03782011021045187,
+              0.010251445178755762,
+              0.0016810101885791253,
+              0.00012598792056061419
+            ],
+            "at_least": {
+              "10": 0.14401755930647575,
+              "11": 0.04987855349834737,
+              "12": 0.012058443287895501,
+              "13": 0.0018069981091397395,
+              "14": 0.00012598792056061419
+            },
+            "expected_best_hits": 7.620918065690453,
+            "expected_columns_by_hits": [
+              0.00014909245359951442,
+              0.0022468698435386915,
+              0.015500441874774368,
+              0.06489559298935764,
+              0.18425499489983782,
+              0.3753921943304146,
+              0.566087886665401,
+              0.6420417762846674,
+              0.5504889044062965,
+              0.35516757994894244,
+              0.16977922622903213,
+              0.05832300056796341,
+              0.013613465555914018,
+              0.001932986029700354,
+              0.0001259879205606142
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14070275244885003,
+                "p05": 0.1120774005004177,
+                "p95": 0.169913188511366
+              },
+              "11": {
+                "mean": 0.04845337396647572,
+                "p05": 0.036082957561075886,
+                "p95": 0.0617866217844102
+              },
+              "12": {
+                "mean": 0.011648746335094336,
+                "p05": 0.008076743362564448,
+                "p95": 0.015702816641382306
+              },
+              "13": {
+                "mean": 0.0017362675831042202,
+                "p05": 0.00111727771334779,
+                "p95": 0.002482326420551
+              },
+              "14": {
+                "mean": 0.00012043969176661211,
+                "p05": 7.17422157715724e-05,
+                "p95": 0.00018332128033199765
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_columns": {
+          "column_count": 3,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            }
+          ],
+          "coverage": 0.00011936501312389149,
+          "bootstrap_mean_coverage": 0.00011421981965864296,
+          "bootstrap_p10_coverage": 7.825170164702643e-05,
+          "bootstrap_p90_coverage": 0.0001611422632767381,
+          "cost_eur": 2.25,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 3,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              1.1915588401532635e-05,
+              0.00023085258669433323,
+              0.001995014558317754,
+              0.010269802484393915,
+              0.035356169791456074,
+              0.0864173411067272,
+              0.15504590798043302,
+              0.2078517119471791,
+              0.20955261155273175,
+              0.15832090399156878,
+              0.08833577516144527,
+              0.03533016653034495,
+              0.00958324035281135,
+              0.0015792213543710822,
+              0.00011936501312389147
+            ],
+            "at_least": {
+              "10": 0.13494776841209655,
+              "11": 0.046611993250651275,
+              "12": 0.011281826720306323,
+              "13": 0.0016985863674949737,
+              "14": 0.00011936501312389147
+            },
+            "expected_best_hits": 7.504277589187338,
+            "expected_columns_by_hits": [
+              0.0001543610795528858,
+              0.002317456574029963,
+              0.015921310272953203,
+              0.06635799503869155,
+              0.1874891801698269,
+              0.37997111829139496,
+              0.5697468764571086,
+              0.6422650864586353,
+              0.547103900601677,
+              0.35054238553312267,
+              0.16633881413582438,
+              0.05669809977868356,
+              0.013126192276520489,
+              0.0018478583188548232,
+              0.00011936501312389148
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.1320570935153218,
+                "p05": 0.10779276388597896,
+                "p95": 0.16073094746891806
+              },
+              "11": {
+                "mean": 0.0453663258750209,
+                "p05": 0.03496986122686633,
+                "p95": 0.05848350713534328
+              },
+              "12": {
+                "mean": 0.010919592220709895,
+                "p05": 0.007925055809608733,
+                "p95": 0.014956196723933626
+              },
+              "13": {
+                "mean": 0.001634790341849295,
+                "p05": 0.0011146926590470555,
+                "p95": 0.0023842202460576303
+              },
+              "14": {
+                "mean": 0.00011421981965864296,
+                "p05": 7.305463262535628e-05,
+                "p95": 0.0001776517280430351
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        }
+      },
+      "bootstrap_system_candidates": 13,
+      "bootstrap_column_candidates": 85,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "3.00": {
+      "budget_eur": 3.0,
+      "max_columns": 4,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 4,
+          "coverage": 0.00015191107320307472,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.111769778082401e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00014531498747832997,
+          "bootstrap_p10_coverage": 9.271705265621293e-05,
+          "bootstrap_p90_coverage": 0.00020848504891601326,
+          "cost_eur": 3.0,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 4,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              1.1234358018585362e-05,
+              0.000208804270757547,
+              0.0017741511286503541,
+              0.009134419851510173,
+              0.031839556167324035,
+              0.07949089320368563,
+              0.1466068205459008,
+              0.20295014794221727,
+              0.21194617245014083,
+              0.16620697914692023,
+              0.09636898977471615,
+              0.04007337177546339,
+              0.011301164506649222,
+              0.0019353838048429904,
+              0.00015191107320307472
+            ],
+            "at_least": {
+              "10": 0.14983082093487482,
+              "11": 0.05346183116015868,
+              "12": 0.013388459384695286,
+              "13": 0.002087294878046065,
+              "14": 0.00015191107320307472
+            },
+            "expected_best_hits": 7.615094913409499,
+            "expected_columns_by_hits": [
+              0.00021210339263828308,
+              0.003173889918307278,
+              0.02172686379032652,
+              0.09020083713851267,
+              0.2537743973989527,
+              0.5119488363673821,
+              0.7638504321511506,
+              0.8565138122552787,
+              0.7254804581591303,
+              0.46203551169597346,
+              0.21784806640699533,
+              0.07375756587673139,
+              0.016955767637959307,
+              0.0023695467374588446,
+              0.00015191107320307472
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14627570678703652,
+                "p05": 0.11585997509854942,
+                "p95": 0.1755673409015309
+              },
+              "11": {
+                "mean": 0.05190450187411255,
+                "p05": 0.03838348092298271,
+                "p95": 0.06594290443284416
+              },
+              "12": {
+                "mean": 0.012929699784491568,
+                "p05": 0.008886374107406442,
+                "p95": 0.017465290130113442
+              },
+              "13": {
+                "mean": 0.002005801042993634,
+                "p05": 0.001276575768163911,
+                "p95": 0.0028903862401466127
+              },
+              "14": {
+                "mean": 0.00014531498747833,
+                "p05": 8.539034263053177e-05,
+                "p95": 0.00022388855897497467
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "individual_columns": {
+          "column_count": 4,
+          "coverage": 0.0001609540323083739,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00015432376300961672,
+          "bootstrap_p10_coverage": 9.983017165204343e-05,
+          "bootstrap_p90_coverage": 0.00022406068804993972,
+          "cost_eur": 3.0,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 4,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              6.037936338249555e-05,
+              0.0009036137522614805,
+              0.006168900326472059,
+              0.025443216642771833,
+              0.0707485736843807,
+              0.14008789091845933,
+              0.20325709660323302,
+              0.21884656534254993,
+              0.1748943008823261,
+              0.10248340891518748,
+              0.0428092295174683,
+              0.012074350397575376,
+              0.002061519621623762,
+              0.00016095403230837393
+            ],
+            "at_least": {
+              "10": 0.15958946248416328,
+              "11": 0.057106053568975815,
+              "12": 0.014296824051507513,
+              "13": 0.002222473653932136,
+              "14": 0.00016095403230837393
+            },
+            "expected_best_hits": 7.733719225403391,
+            "expected_columns_by_hits": [
+              0.00020427802263536929,
+              0.003069391751610619,
+              0.021106159183082986,
+              0.08805370637238724,
+              0.24905208288710998,
+              0.5053133659013683,
+              0.7586225231074499,
+              0.8563065809456611,
+              0.730454663403176,
+              0.4687149104810361,
+              0.22276194824958806,
+              0.07605477591940935,
+              0.01763739112308725,
+              0.002487268620089767,
+              0.00016095403230837393
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.15606555198656769,
+                "p05": 0.12561756362859733,
+                "p95": 0.18747317274624184
+              },
+              "11": {
+                "mean": 0.055543999430840985,
+                "p05": 0.041829954336801395,
+                "p95": 0.07073893159496895
+              },
+              "12": {
+                "mean": 0.013834191133719946,
+                "p05": 0.00970268418601117,
+                "p95": 0.01875791833137058
+              },
+              "13": {
+                "mean": 0.002140262406441773,
+                "p05": 0.0013926360455302873,
+                "p95": 0.0030989316866557853
+              },
+              "14": {
+                "mean": 0.00015432376300961674,
+                "p05": 9.285559304175629e-05,
+                "p95": 0.00023904381933780565
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_full_system": {
+          "column_count": 4,
+          "coverage": 0.00014969138202179782,
+          "selections": [
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.0072484439788356e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00014188505725106661,
+          "bootstrap_p10_coverage": 9.687541062605372e-05,
+          "bootstrap_p90_coverage": 0.00019405112242952246,
+          "cost_eur": 3.0,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 4,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              1.1840734583974444e-05,
+              0.00021778854921205757,
+              0.001833493392195478,
+              0.009363558351089447,
+              0.032406483767434865,
+              0.08040466324632892,
+              0.14749436958217582,
+              0.20323323305620924,
+              0.2114040645112494,
+              0.16523133752569272,
+              0.09554023846833633,
+              0.0396406809422319,
+              0.011159818166086207,
+              0.0019087383251519198,
+              0.00014969138202179777
+            ],
+            "at_least": {
+              "10": 0.14839916728382815,
+              "11": 0.052858928815491826,
+              "12": 0.013218247873259925,
+              "13": 0.0020584297071737177,
+              "14": 0.00014969138202179777
+            },
+            "expected_best_hits": 7.601815075012234,
+            "expected_columns_by_hits": [
+              0.00021358035243439243,
+              0.0031938623403436803,
+              0.021847201709826812,
+              0.09062402466421056,
+              0.25472374457963937,
+              0.5133182005125252,
+              0.764981241263428,
+              0.8566368353656074,
+              0.7245004914403286,
+              0.46064049914031546,
+              0.21678510402037038,
+              0.07324498419253425,
+              0.01679894526251405,
+              0.0023415937739006513,
+              0.00014969138202179782
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14476391458952115,
+                "p05": 0.1164290314092704,
+                "p95": 0.17368975225877348
+              },
+              "11": {
+                "mean": 0.05122533935353227,
+                "p05": 0.0388759650779836,
+                "p95": 0.06470362723809894
+              },
+              "12": {
+                "mean": 0.01272091235150086,
+                "p05": 0.00906790548637328,
+                "p95": 0.01694555737495142
+              },
+              "13": {
+                "mean": 0.0019664505623391273,
+                "p05": 0.0013143540667935893,
+                "p95": 0.0027649785272308046
+              },
+              "14": {
+                "mean": 0.0001418850572510666,
+                "p05": 8.858409282348343e-05,
+                "p95": 0.00021064374115596402
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_columns": {
+          "column_count": 4,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            }
+          ],
+          "coverage": 0.00015977955446813268,
+          "bootstrap_mean_coverage": 0.00015252221061595327,
+          "bootstrap_p10_coverage": 0.00010402717673104309,
+          "bootstrap_p90_coverage": 0.00021442386686777314,
+          "cost_eur": 3.0,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 4,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              6.106503968180679e-05,
+              0.0009123076046366055,
+              0.006217423541174497,
+              0.02559862217639298,
+              0.07105752515421832,
+              0.14046090090179608,
+              0.20346355716410697,
+              0.21872544483068268,
+              0.17454014444425248,
+              0.10213704346390706,
+              0.042612314061998835,
+              0.01200590146871394,
+              0.002047970593969624,
+              0.00015977955446813262
+            ],
+            "at_least": {
+              "10": 0.1589630091430576,
+              "11": 0.056825965679150534,
+              "12": 0.014213651617151697,
+              "13": 0.0022077501484377565,
+              "14": 0.00015977955446813262
+            },
+            "expected_best_hits": 7.728932467982185,
+            "expected_columns_by_hits": [
+              0.00020499428713897564,
+              0.0030791112426363145,
+              0.02116495629471432,
+              0.08826145353834525,
+              0.24952082938664633,
+              0.5059947921265195,
+              0.7591931977122595,
+              0.8563805285661314,
+              0.7299748463537474,
+              0.4680183954276942,
+              0.22222496055408272,
+              0.0757930511266913,
+              0.017556435865471377,
+              0.0024726679634537677,
+              0.00015977955446813265
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.15543912921490705,
+                "p05": 0.1264014288635154,
+                "p95": 0.1866310212580571
+              },
+              "11": {
+                "mean": 0.05524266464784763,
+                "p05": 0.04226455027390554,
+                "p95": 0.06998109117506772
+              },
+              "12": {
+                "mean": 0.01373566289130539,
+                "p05": 0.009857365581817951,
+                "p95": 0.018387916159559547
+              },
+              "13": {
+                "mean": 0.0021206219291735194,
+                "p05": 0.001424763083905274,
+                "p95": 0.0030015993436652458
+              },
+              "14": {
+                "mean": 0.00015252221061595327,
+                "p05": 9.582250962989894e-05,
+                "p95": 0.00022822358419519526
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        }
+      },
+      "bootstrap_system_candidates": 22,
+      "bootstrap_column_candidates": 103,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "3.75": {
+      "budget_eur": 3.75,
+      "max_columns": 5,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 4,
+          "coverage": 0.00015191107320307472,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.111769778082401e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00014531498747832997,
+          "bootstrap_p10_coverage": 9.271705265621293e-05,
+          "bootstrap_p90_coverage": 0.00020848504891601326,
+          "cost_eur": 3.0,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 4,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              1.1234358018585362e-05,
+              0.000208804270757547,
+              0.0017741511286503541,
+              0.009134419851510173,
+              0.031839556167324035,
+              0.07949089320368563,
+              0.1466068205459008,
+              0.20295014794221727,
+              0.21194617245014083,
+              0.16620697914692023,
+              0.09636898977471615,
+              0.04007337177546339,
+              0.011301164506649222,
+              0.0019353838048429904,
+              0.00015191107320307472
+            ],
+            "at_least": {
+              "10": 0.14983082093487482,
+              "11": 0.05346183116015868,
+              "12": 0.013388459384695286,
+              "13": 0.002087294878046065,
+              "14": 0.00015191107320307472
+            },
+            "expected_best_hits": 7.615094913409499,
+            "expected_columns_by_hits": [
+              0.00021210339263828308,
+              0.003173889918307278,
+              0.02172686379032652,
+              0.09020083713851267,
+              0.2537743973989527,
+              0.5119488363673821,
+              0.7638504321511506,
+              0.8565138122552787,
+              0.7254804581591303,
+              0.46203551169597346,
+              0.21784806640699533,
+              0.07375756587673139,
+              0.016955767637959307,
+              0.0023695467374588446,
+              0.00015191107320307472
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14627570678703652,
+                "p05": 0.11585997509854942,
+                "p95": 0.1755673409015309
+              },
+              "11": {
+                "mean": 0.05190450187411255,
+                "p05": 0.03838348092298271,
+                "p95": 0.06594290443284416
+              },
+              "12": {
+                "mean": 0.012929699784491568,
+                "p05": 0.008886374107406442,
+                "p95": 0.017465290130113442
+              },
+              "13": {
+                "mean": 0.002005801042993634,
+                "p05": 0.001276575768163911,
+                "p95": 0.0028903862401466127
+              },
+              "14": {
+                "mean": 0.00014531498747833,
+                "p05": 8.539034263053177e-05,
+                "p95": 0.00022388855897497467
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "individual_columns": {
+          "column_count": 5,
+          "coverage": 0.00019474566621589237,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00018640628185895785,
+          "bootstrap_p10_coverage": 0.00012464362495269438,
+          "bootstrap_p90_coverage": 0.0002672042357844346,
+          "cost_eur": 3.75,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 5,
+            "differing_positions": 3,
+            "best_hits_pmf": [
+              0.0,
+              5.400585104851454e-05,
+              0.0008165535990188484,
+              0.005641559323206015,
+              0.023592179686579652,
+              0.06665073504827748,
+              0.13437877057837314,
+              0.19898763202716754,
+              0.21919062937854544,
+              0.17965590090156683,
+              0.10824286329473198,
+              0.04660770512936011,
+              0.01358425779360547,
+              0.0024024617223031455,
+              0.00019474566621589234
+            ],
+            "at_least": {
+              "10": 0.1710320336062166,
+              "11": 0.06278917031148462,
+              "12": 0.01618146518212451,
+              "13": 0.002597207388519038,
+              "14": 0.00019474566621589234
+            },
+            "expected_best_hits": 7.8079313004197965,
+            "expected_columns_by_hits": [
+              0.0002601798561748305,
+              0.0039016331507082417,
+              0.02677067360302294,
+              0.11141956692137484,
+              0.31431791737391845,
+              0.6359159636974734,
+              0.9517278341543084,
+              1.070645333227125,
+              0.9099406053506269,
+              0.5815657259597878,
+              0.2752076825746386,
+              0.09352482647813723,
+              0.021580361432644614,
+              0.0030269505538431806,
+              0.0001947456662158924
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.16728868954462006,
+                "p05": 0.1365464933968798,
+                "p95": 0.20077099013300026
+              },
+              "11": {
+                "mean": 0.061071829263606436,
+                "p05": 0.04681187311348259,
+                "p95": 0.07739772921304924
+              },
+              "12": {
+                "mean": 0.0156525172677421,
+                "p05": 0.011215750742289924,
+                "p95": 0.02098173608993798
+              },
+              "13": {
+                "mean": 0.0024989230627955154,
+                "p05": 0.001667662917015467,
+                "p95": 0.003558520143445165
+              },
+              "14": {
+                "mean": 0.00018640628185895785,
+                "p05": 0.00011549179224002546,
+                "p95": 0.00028368068143011223
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_full_system": {
+          "column_count": 4,
+          "coverage": 0.00014969138202179782,
+          "selections": [
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.0072484439788356e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00014188505725106661,
+          "bootstrap_p10_coverage": 9.687541062605372e-05,
+          "bootstrap_p90_coverage": 0.00019405112242952246,
+          "cost_eur": 3.0,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 4,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              1.1840734583974444e-05,
+              0.00021778854921205757,
+              0.001833493392195478,
+              0.009363558351089447,
+              0.032406483767434865,
+              0.08040466324632892,
+              0.14749436958217582,
+              0.20323323305620924,
+              0.2114040645112494,
+              0.16523133752569272,
+              0.09554023846833633,
+              0.0396406809422319,
+              0.011159818166086207,
+              0.0019087383251519198,
+              0.00014969138202179777
+            ],
+            "at_least": {
+              "10": 0.14839916728382815,
+              "11": 0.052858928815491826,
+              "12": 0.013218247873259925,
+              "13": 0.0020584297071737177,
+              "14": 0.00014969138202179777
+            },
+            "expected_best_hits": 7.601815075012234,
+            "expected_columns_by_hits": [
+              0.00021358035243439243,
+              0.0031938623403436803,
+              0.021847201709826812,
+              0.09062402466421056,
+              0.25472374457963937,
+              0.5133182005125252,
+              0.764981241263428,
+              0.8566368353656074,
+              0.7245004914403286,
+              0.46064049914031546,
+              0.21678510402037038,
+              0.07324498419253425,
+              0.01679894526251405,
+              0.0023415937739006513,
+              0.00014969138202179782
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.14476391458952115,
+                "p05": 0.1164290314092704,
+                "p95": 0.17368975225877348
+              },
+              "11": {
+                "mean": 0.05122533935353227,
+                "p05": 0.0388759650779836,
+                "p95": 0.06470362723809894
+              },
+              "12": {
+                "mean": 0.01272091235150086,
+                "p05": 0.00906790548637328,
+                "p95": 0.01694555737495142
+              },
+              "13": {
+                "mean": 0.0019664505623391273,
+                "p05": 0.0013143540667935893,
+                "p95": 0.0027649785272308046
+              },
+              "14": {
+                "mean": 0.0001418850572510666,
+                "p05": 8.858409282348343e-05,
+                "p95": 0.00021064374115596402
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_columns": {
+          "column_count": 5,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "X",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.9679713274285323e-05
+            }
+          ],
+          "coverage": 0.00018945926774241797,
+          "bootstrap_mean_coverage": 0.00018075841010999885,
+          "bootstrap_p10_coverage": 0.00012699606087818144,
+          "bootstrap_p90_coverage": 0.0002508722360406989,
+          "cost_eur": 3.75,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 5,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              4.922430509783235e-05,
+              0.0007596087759134268,
+              0.00534814028051259,
+              0.022747957856951655,
+              0.06521860800598053,
+              0.13309841820533985,
+              0.1989326057549894,
+              0.22049584510908526,
+              0.1812597634480521,
+              0.10916184330134948,
+              0.04682138062134607,
+              0.013546867489496956,
+              0.0023702775781424806,
+              0.00018945926774241795
+            ],
+            "at_least": {
+              "10": 0.1720898282580774,
+              "11": 0.06292798495672793,
+              "12": 0.016106604335381854,
+              "13": 0.0025597368458848985,
+              "14": 0.00018945926774241795
+            },
+            "expected_best_hits": 7.823803183564798,
+            "expected_columns_by_hits": [
+              0.0002647137294276617,
+              0.0039622252073936454,
+              0.027130894459664334,
+              0.11266683903296898,
+              0.31706414763142643,
+              0.6397800932019055,
+              0.9547793686187143,
+              1.0707762127147165,
+              0.9070490178387585,
+              0.5776733658281917,
+              0.27234039857687653,
+              0.09218313665660574,
+              0.02118199989000268,
+              0.002958127345606045,
+              0.00018945926774241797
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.1684368267653129,
+                "p05": 0.13843369428869637,
+                "p95": 0.19980823287558575
+              },
+              "11": {
+                "mean": 0.06122545014477587,
+                "p05": 0.04744018590987099,
+                "p95": 0.07644537230115059
+              },
+              "12": {
+                "mean": 0.015573496427921978,
+                "p05": 0.011344124366201478,
+                "p95": 0.020500974975195957
+              },
+              "13": {
+                "mean": 0.0024589659975204443,
+                "p05": 0.0016809187263389504,
+                "p95": 0.0034149484715669744
+              },
+              "14": {
+                "mean": 0.00018075841010999888,
+                "p05": 0.00011584602643805913,
+                "p95": 0.00026553993184122963
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        }
+      },
+      "bootstrap_system_candidates": 22,
+      "bootstrap_column_candidates": 126,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "4.50": {
+      "budget_eur": 4.5,
+      "max_columns": 6,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 6,
+          "coverage": 0.0002229939462543413,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.111769778082401e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.092221616514339e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.0002149054105950559,
+          "bootstrap_p10_coverage": 0.00013642557413442026,
+          "bootstrap_p90_coverage": 0.0003194026442547466,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              3.5243283236338085e-05,
+              0.0005797211280646041,
+              0.004326765217898921,
+              0.01940884945222264,
+              0.058405195915759475,
+              0.12455309689280547,
+              0.19373779154435078,
+              0.22263785733066288,
+              0.18909699296666957,
+              0.11728877401917497,
+              0.05166135853616866,
+              0.01530870724351406,
+              0.0027366525232175613,
+              0.00022299394625434132
+            ],
+            "at_least": {
+              "10": 0.1872184862683296,
+              "11": 0.06992971224915462,
+              "12": 0.018268353712985963,
+              "13": 0.0029596464694719026,
+              "14": 0.00022299394625434132
+            },
+            "expected_best_hits": 7.9338608451545305,
+            "expected_columns_by_hits": [
+              0.0003216695056075969,
+              0.004808094333255891,
+              0.03287329373029664,
+              0.13628963724039458,
+              0.38286133706081193,
+              0.7710647200028219,
+              1.148326710692637,
+              1.2849882902331058,
+              1.0859371579784822,
+              0.6898677556435784,
+              0.3243716086970233,
+              0.10948888204164833,
+              0.02508522840513103,
+              0.003492620488951939,
+              0.0002229939462543413
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.1835420329585708,
+                "p05": 0.14981539663334284,
+                "p95": 0.21949308066481688
+              },
+              "11": {
+                "mean": 0.0682214817426611,
+                "p05": 0.052096157262653625,
+                "p95": 0.0866368068332901
+              },
+              "12": {
+                "mean": 0.017740902299291587,
+                "p05": 0.012606414511340315,
+                "p95": 0.024029192511179194
+              },
+              "13": {
+                "mean": 0.0028624398692415273,
+                "p05": 0.0018843328059779095,
+                "p95": 0.00414809509588961
+              },
+              "14": {
+                "mean": 0.00021490541059505594,
+                "p05": 0.00013055798359084398,
+                "p95": 0.0003339647253282438
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "individual_columns": {
+          "column_count": 6,
+          "coverage": 0.000228318941406461,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.357327519056862e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00021832122713060875,
+          "bootstrap_p10_coverage": 0.00014659923826780926,
+          "bootstrap_p90_coverage": 0.0003125248461135447,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 4,
+            "best_hits_pmf": [
+              0.0,
+              5.058415154112198e-05,
+              0.0007676861011740317,
+              0.005330935669761258,
+              0.022442461315640524,
+              0.06394672045077411,
+              0.13031399426860077,
+              0.19552019255831588,
+              0.2188090982951507,
+              0.18274113449802054,
+              0.1125381130534297,
+              0.04969033757323752,
+              0.014900328024519634,
+              0.002720095098427725,
+              0.00022831894140646096
+            ],
+            "at_least": {
+              "10": 0.18007719269102104,
+              "11": 0.06753907963759134,
+              "12": 0.017848742064353818,
+              "13": 0.0029484140398341858,
+              "14": 0.00022831894140646096
+            },
+            "expected_best_hits": 7.8620870028362075,
+            "expected_columns_by_hits": [
+              0.00031694374257718245,
+              0.004744960199557847,
+              0.03249815660248347,
+              0.13499171383504807,
+              0.38000687278552714,
+              0.7670558571650588,
+              1.1451739454595202,
+              1.2848747785749406,
+              1.0889520857844506,
+              0.6939026368002751,
+              0.32733128976812786,
+              0.11086754658176987,
+              0.02549238693111292,
+              0.0035625068281445434,
+              0.000228318941406461
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.17608253238459393,
+                "p05": 0.14382296182733556,
+                "p95": 0.21152557670861166
+              },
+              "11": {
+                "mean": 0.06566038860286497,
+                "p05": 0.05039812105353386,
+                "p95": 0.08341074577455494
+              },
+              "12": {
+                "mean": 0.017253959548174064,
+                "p05": 0.012393878543356423,
+                "p95": 0.023225325071509133
+              },
+              "13": {
+                "mean": 0.0028344865471744383,
+                "p05": 0.0018939082788563192,
+                "p95": 0.004046016532894008
+              },
+              "14": {
+                "mean": 0.00021832122713060873,
+                "p05": 0.00013514911640472694,
+                "p95": 0.00033041761950141024
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_full_system": {
+          "column_count": 6,
+          "coverage": 0.0002197356077702388,
+          "selections": [
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.0072484439788356e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.9883568862317764e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00020949829387143553,
+          "bootstrap_p10_coverage": 0.0001472149187896033,
+          "bootstrap_p90_coverage": 0.0002788290808004134,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              3.714554600974544e-05,
+              0.0006038403688015406,
+              0.0044613825366938385,
+              0.0198399889880152,
+              0.05926231593062936,
+              0.12558793360237755,
+              0.19431057237332483,
+              0.22230183428151787,
+              0.1881144614007008,
+              0.11632785688578862,
+              0.0511150585680578,
+              0.015118810276995732,
+              0.002699063633316857,
+              0.00021973560777023871
+            ],
+            "at_least": {
+              "10": 0.18548052497192924,
+              "11": 0.06915266808614062,
+              "12": 0.018037609518082826,
+              "13": 0.0029187992410870957,
+              "14": 0.00021973560777023871
+            },
+            "expected_best_hits": 7.920581006757264,
+            "expected_columns_by_hits": [
+              0.00032390941757462044,
+              0.004838346782585009,
+              0.03305531182473452,
+              0.13692865590446562,
+              0.3842918870602033,
+              0.7731223528319131,
+              1.1500171189242263,
+              1.2851591254441876,
+              1.0844560087873314,
+              0.6877741448863729,
+              0.3227832310289236,
+              0.10872599550504888,
+              0.024852797365805163,
+              0.003451378628858554,
+              0.0002197356077702388
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.18169540744104073,
+                "p05": 0.15024195535366458,
+                "p95": 0.21385005551584
+              },
+              "11": {
+                "mean": 0.06732904238723028,
+                "p05": 0.052635178233672905,
+                "p95": 0.08344591361879716
+              },
+              "12": {
+                "mean": 0.017447750083453818,
+                "p05": 0.01281784374715242,
+                "p95": 0.022901597673275747
+              },
+              "13": {
+                "mean": 0.002803741652124764,
+                "p05": 0.001929994364444232,
+                "p95": 0.003908717176493891
+              },
+              "14": {
+                "mean": 0.00020949829387143556,
+                "p05": 0.00013480392690331638,
+                "p95": 0.0003108779296983294
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_columns": {
+          "column_count": 6,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "X",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.9679713274285323e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.8780428675046075e-05
+            }
+          ],
+          "coverage": 0.00021823969641746407,
+          "bootstrap_mean_coverage": 0.00020666233532670315,
+          "bootstrap_p10_coverage": 0.00014952090611217058,
+          "bootstrap_p90_coverage": 0.00028182795256183026,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 3,
+            "best_hits_pmf": [
+              0.0,
+              4.264203671300245e-05,
+              0.0006709226920899103,
+              0.004818838969644678,
+              0.020919975979280178,
+              0.06124644639414609,
+              0.1276947836638002,
+              0.1950673926422833,
+              0.22107008460714,
+              0.18588146704556419,
+              0.11453637346947451,
+              0.05027622664149114,
+              0.0148896198930542,
+              0.0026669862689013327,
+              0.00021823969641746407
+            ],
+            "at_least": {
+              "10": 0.18258744596933865,
+              "11": 0.06805107249986414,
+              "12": 0.017774845858372995,
+              "13": 0.0028852259653187966,
+              "14": 0.00021823969641746407
+            },
+            "expected_best_hits": 7.89369131467702,
+            "expected_columns_by_hits": [
+              0.00032593436606650334,
+              0.004864681667660764,
+              0.03320711455260783,
+              0.1374359230740091,
+              0.38536230335832045,
+              0.7745461459940075,
+              1.151029944571983,
+              1.2850441997660704,
+              1.0833052407902044,
+              0.6863793933304004,
+              0.3218195916744057,
+              0.10829838383988914,
+              0.024731631007948125,
+              0.003431272310010072,
+              0.00021823969641746404
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.17844609285898255,
+                "p05": 0.14699431762549653,
+                "p95": 0.2106244048680862
+              },
+              "11": {
+                "mean": 0.06604254375798124,
+                "p05": 0.0512564003207626,
+                "p95": 0.08198810587280758
+              },
+              "12": {
+                "mean": 0.017120077310025322,
+                "p05": 0.012479698765229983,
+                "p95": 0.022385987514831302
+              },
+              "13": {
+                "mean": 0.0027563715207754138,
+                "p05": 0.0018834827600949324,
+                "p95": 0.0037977755609330944
+              },
+              "14": {
+                "mean": 0.00020666233532670313,
+                "p05": 0.00013223093356222235,
+                "p95": 0.0002999336236672272
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        }
+      },
+      "bootstrap_system_candidates": 19,
+      "bootstrap_column_candidates": 147,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "5.00": {
+      "budget_eur": 5.0,
+      "max_columns": 6,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 6,
+          "coverage": 0.0002229939462543413,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.111769778082401e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.092221616514339e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.0002149054105950559,
+          "bootstrap_p10_coverage": 0.00013642557413442026,
+          "bootstrap_p90_coverage": 0.0003194026442547466,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              3.5243283236338085e-05,
+              0.0005797211280646041,
+              0.004326765217898921,
+              0.01940884945222264,
+              0.058405195915759475,
+              0.12455309689280547,
+              0.19373779154435078,
+              0.22263785733066288,
+              0.18909699296666957,
+              0.11728877401917497,
+              0.05166135853616866,
+              0.01530870724351406,
+              0.0027366525232175613,
+              0.00022299394625434132
+            ],
+            "at_least": {
+              "10": 0.1872184862683296,
+              "11": 0.06992971224915462,
+              "12": 0.018268353712985963,
+              "13": 0.0029596464694719026,
+              "14": 0.00022299394625434132
+            },
+            "expected_best_hits": 7.9338608451545305,
+            "expected_columns_by_hits": [
+              0.0003216695056075969,
+              0.004808094333255891,
+              0.03287329373029664,
+              0.13628963724039458,
+              0.38286133706081193,
+              0.7710647200028219,
+              1.148326710692637,
+              1.2849882902331058,
+              1.0859371579784822,
+              0.6898677556435784,
+              0.3243716086970233,
+              0.10948888204164833,
+              0.02508522840513103,
+              0.003492620488951939,
+              0.0002229939462543413
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.1835420329585708,
+                "p05": 0.14981539663334284,
+                "p95": 0.21949308066481688
+              },
+              "11": {
+                "mean": 0.0682214817426611,
+                "p05": 0.052096157262653625,
+                "p95": 0.0866368068332901
+              },
+              "12": {
+                "mean": 0.017740902299291587,
+                "p05": 0.012606414511340315,
+                "p95": 0.024029192511179194
+              },
+              "13": {
+                "mean": 0.0028624398692415273,
+                "p05": 0.0018843328059779095,
+                "p95": 0.00414809509588961
+              },
+              "14": {
+                "mean": 0.00021490541059505594,
+                "p05": 0.00013055798359084398,
+                "p95": 0.0003339647253282438
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "individual_columns": {
+          "column_count": 6,
+          "coverage": 0.000228318941406461,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+              ],
+              "probability": 3.496611174775971e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.357327519056862e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00021832122713060875,
+          "bootstrap_p10_coverage": 0.00014659923826780926,
+          "bootstrap_p90_coverage": 0.0003125248461135447,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 4,
+            "best_hits_pmf": [
+              0.0,
+              5.058415154112198e-05,
+              0.0007676861011740317,
+              0.005330935669761258,
+              0.022442461315640524,
+              0.06394672045077411,
+              0.13031399426860077,
+              0.19552019255831588,
+              0.2188090982951507,
+              0.18274113449802054,
+              0.1125381130534297,
+              0.04969033757323752,
+              0.014900328024519634,
+              0.002720095098427725,
+              0.00022831894140646096
+            ],
+            "at_least": {
+              "10": 0.18007719269102104,
+              "11": 0.06753907963759134,
+              "12": 0.017848742064353818,
+              "13": 0.0029484140398341858,
+              "14": 0.00022831894140646096
+            },
+            "expected_best_hits": 7.8620870028362075,
+            "expected_columns_by_hits": [
+              0.00031694374257718245,
+              0.004744960199557847,
+              0.03249815660248347,
+              0.13499171383504807,
+              0.38000687278552714,
+              0.7670558571650588,
+              1.1451739454595202,
+              1.2848747785749406,
+              1.0889520857844506,
+              0.6939026368002751,
+              0.32733128976812786,
+              0.11086754658176987,
+              0.02549238693111292,
+              0.0035625068281445434,
+              0.000228318941406461
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.17608253238459393,
+                "p05": 0.14382296182733556,
+                "p95": 0.21152557670861166
+              },
+              "11": {
+                "mean": 0.06566038860286497,
+                "p05": 0.05039812105353386,
+                "p95": 0.08341074577455494
+              },
+              "12": {
+                "mean": 0.017253959548174064,
+                "p05": 0.012393878543356423,
+                "p95": 0.023225325071509133
+              },
+              "13": {
+                "mean": 0.0028344865471744383,
+                "p05": 0.0018939082788563192,
+                "p95": 0.004046016532894008
+              },
+              "14": {
+                "mean": 0.00021832122713060873,
+                "p05": 0.00013514911640472694,
+                "p95": 0.00033041761950141024
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_full_system": {
+          "column_count": 6,
+          "coverage": 0.0002197356077702388,
+          "selections": [
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.0072484439788356e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.9883568862317764e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00020949829387143553,
+          "bootstrap_p10_coverage": 0.0001472149187896033,
+          "bootstrap_p90_coverage": 0.0002788290808004134,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 2,
+            "best_hits_pmf": [
+              0.0,
+              3.714554600974544e-05,
+              0.0006038403688015406,
+              0.0044613825366938385,
+              0.0198399889880152,
+              0.05926231593062936,
+              0.12558793360237755,
+              0.19431057237332483,
+              0.22230183428151787,
+              0.1881144614007008,
+              0.11632785688578862,
+              0.0511150585680578,
+              0.015118810276995732,
+              0.002699063633316857,
+              0.00021973560777023871
+            ],
+            "at_least": {
+              "10": 0.18548052497192924,
+              "11": 0.06915266808614062,
+              "12": 0.018037609518082826,
+              "13": 0.0029187992410870957,
+              "14": 0.00021973560777023871
+            },
+            "expected_best_hits": 7.920581006757264,
+            "expected_columns_by_hits": [
+              0.00032390941757462044,
+              0.004838346782585009,
+              0.03305531182473452,
+              0.13692865590446562,
+              0.3842918870602033,
+              0.7731223528319131,
+              1.1500171189242263,
+              1.2851591254441876,
+              1.0844560087873314,
+              0.6877741448863729,
+              0.3227832310289236,
+              0.10872599550504888,
+              0.024852797365805163,
+              0.003451378628858554,
+              0.0002197356077702388
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.18169540744104073,
+                "p05": 0.15024195535366458,
+                "p95": 0.21385005551584
+              },
+              "11": {
+                "mean": 0.06732904238723028,
+                "p05": 0.052635178233672905,
+                "p95": 0.08344591361879716
+              },
+              "12": {
+                "mean": 0.017447750083453818,
+                "p05": 0.01281784374715242,
+                "p95": 0.022901597673275747
+              },
+              "13": {
+                "mean": 0.002803741652124764,
+                "p05": 0.001929994364444232,
+                "p95": 0.003908717176493891
+              },
+              "14": {
+                "mean": 0.00020949829387143556,
+                "p05": 0.00013480392690331638,
+                "p95": 0.0003108779296983294
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        },
+        "robust_columns": {
+          "column_count": 6,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.5412722330249825e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.0160656886123195e-05
+            },
+            {
+              "signs": [
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 3.379163390751847e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "X",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 4.041454134424117e-05
+            },
+            {
+              "signs": [
+                "X",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.9679713274285323e-05
+            },
+            {
+              "signs": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.8780428675046075e-05
+            }
+          ],
+          "coverage": 0.00021823969641746407,
+          "bootstrap_mean_coverage": 0.00020666233532670315,
+          "bootstrap_p10_coverage": 0.00014952090611217058,
+          "bootstrap_p90_coverage": 0.00028182795256183026,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim",
+          "risk": {
+            "method": "Exact common-position convolution and enumeration of differing picks",
+            "match_count": 14,
+            "column_count": 6,
+            "differing_positions": 3,
+            "best_hits_pmf": [
+              0.0,
+              4.264203671300245e-05,
+              0.0006709226920899103,
+              0.004818838969644678,
+              0.020919975979280178,
+              0.06124644639414609,
+              0.1276947836638002,
+              0.1950673926422833,
+              0.22107008460714,
+              0.18588146704556419,
+              0.11453637346947451,
+              0.05027622664149114,
+              0.0148896198930542,
+              0.0026669862689013327,
+              0.00021823969641746407
+            ],
+            "at_least": {
+              "10": 0.18258744596933865,
+              "11": 0.06805107249986414,
+              "12": 0.017774845858372995,
+              "13": 0.0028852259653187966,
+              "14": 0.00021823969641746407
+            },
+            "expected_best_hits": 7.89369131467702,
+            "expected_columns_by_hits": [
+              0.00032593436606650334,
+              0.004864681667660764,
+              0.03320711455260783,
+              0.1374359230740091,
+              0.38536230335832045,
+              0.7745461459940075,
+              1.151029944571983,
+              1.2850441997660704,
+              1.0833052407902044,
+              0.6863793933304004,
+              0.3218195916744057,
+              0.10829838383988914,
+              0.024731631007948125,
+              0.003431272310010072,
+              0.00021823969641746404
+            ],
+            "parameter_scenarios": 32,
+            "limitations": [
+              "Exact calculation conditional on supplied probabilities and independent match outcomes",
+              "Shared outcomes across columns are accounted for; columns are not independent",
+              "10 or more hits do not guarantee a cash payout, net profit or recovery of the stake",
+              "No prize forecasts, expected ROI, or Pleno al 15 success probability are inferred"
+            ],
+            "bootstrap_at_least": {
+              "10": {
+                "mean": 0.17844609285898255,
+                "p05": 0.14699431762549653,
+                "p95": 0.2106244048680862
+              },
+              "11": {
+                "mean": 0.06604254375798124,
+                "p05": 0.0512564003207626,
+                "p95": 0.08198810587280758
+              },
+              "12": {
+                "mean": 0.017120077310025322,
+                "p05": 0.012479698765229983,
+                "p95": 0.022385987514831302
+              },
+              "13": {
+                "mean": 0.0027563715207754138,
+                "p05": 0.0018834827600949324,
+                "p95": 0.0037977755609330944
+              },
+              "14": {
+                "mean": 0.00020666233532670313,
+                "p05": 0.00013223093356222235,
+                "p95": 0.0002999336236672272
+              }
+            },
+            "bootstrap_note": "Sensitivity to parameter scenarios, not calibrated confidence bounds"
+          }
+        }
+      },
+      "bootstrap_system_candidates": 19,
+      "bootstrap_column_candidates": 147,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    }
+  },
+  "settlement": {
+    "full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        8,
+        7,
+        7,
+        6,
+        7,
+        6
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "individual_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        8,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        8,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        8,
+        7,
+        7,
+        7,
+        6,
+        7
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    }
+  },
+  "pleno": {
+    "prediction": "1-1",
+    "actual": "1-1",
+    "probabilities": {
+      "0-0": 0.07346998303030425,
+      "0-1": 0.08553810648623682,
+      "0-2": 0.06235552074127007,
+      "0-M": 0.041254013266079984,
+      "1-0": 0.08394529541630671,
+      "1-1": 0.1286574577459531,
+      "1-2": 0.08337283609134451,
+      "1-M": 0.05515893452985993,
+      "2-0": 0.060207009755970264,
+      "2-1": 0.08192390568865177,
+      "2-2": 0.05573708402465197,
+      "2-M": 0.03687529791157307,
+      "M-0": 0.038857919870369746,
+      "M-1": 0.05287411840614931,
+      "M-2": 0.03597300635949992,
+      "M-M": 0.023799510675778575
+    },
+    "home_team": "Club Atlético de Madrid",
+    "away_team": "Real Madrid CF"
+  },
+  "official": {
+    "date": "2024-09-29",
+    "fixtures": [
+      {
+        "position": 1,
+        "home_raw": "Getafe",
+        "away_raw": "Alavés",
+        "score": "2-0",
+        "sign": "1"
+      },
+      {
+        "position": 2,
+        "home_raw": "Rayo Vallecano",
+        "away_raw": "Leganés",
+        "score": "1-1",
+        "sign": "X"
+      },
+      {
+        "position": 3,
+        "home_raw": "Real Sociedad",
+        "away_raw": "Valencia",
+        "score": "3-0",
+        "sign": "1"
+      },
+      {
+        "position": 4,
+        "home_raw": "Osasuna",
+        "away_raw": "Barcelona",
+        "score": "4-2",
+        "sign": "1"
+      },
+      {
+        "position": 5,
+        "home_raw": "Celta",
+        "away_raw": "Girona",
+        "score": "1-1",
+        "sign": "X"
+      },
+      {
+        "position": 6,
+        "home_raw": "Athletic Club",
+        "away_raw": "Sevilla",
+        "score": "1-1",
+        "sign": "X"
+      },
+      {
+        "position": 7,
+        "home_raw": "Betis",
+        "away_raw": "Espanyol",
+        "score": "1-0",
+        "sign": "1"
+      },
+      {
+        "position": 8,
+        "home_raw": "Villarreal",
+        "away_raw": "Las Palmas",
+        "score": "3-1",
+        "sign": "1"
+      },
+      {
+        "position": 9,
+        "home_raw": "Mirandés",
+        "away_raw": "Huesca",
+        "score": "1-0",
+        "sign": "1"
+      },
+      {
+        "position": 10,
+        "home_raw": "Sporting",
+        "away_raw": "R. Zaragoza",
+        "score": "1-0",
+        "sign": "1"
+      },
+      {
+        "position": 11,
+        "home_raw": "Málaga",
+        "away_raw": "Elche",
+        "score": "0-3",
+        "sign": "2"
+      },
+      {
+        "position": 12,
+        "home_raw": "Córdoba",
+        "away_raw": "Racing Ferrol",
+        "score": "3-1",
+        "sign": "1"
+      },
+      {
+        "position": 13,
+        "home_raw": "R. Oviedo",
+        "away_raw": "Eibar",
+        "score": "1-0",
+        "sign": "1"
+      },
+      {
+        "position": 14,
+        "home_raw": "Racing Santander",
+        "away_raw": "Cartagena",
+        "score": "1-2",
+        "sign": "2"
+      }
+    ],
+    "pleno": {
+      "home_raw": "At. Madrid",
+      "away_raw": "Real Madrid",
+      "score": "1-1",
+      "actual": "1-1"
+    },
+    "prizes": {
+      "15": {
+        "winners": 0,
+        "unit_eur": null
+      },
+      "14": {
+        "winners": 0,
+        "unit_eur": null
+      },
+      "13": {
+        "winners": 12,
+        "unit_eur": "19134.10"
+      },
+      "12": {
+        "winners": 193,
+        "unit_eur": "1189.68"
+      },
+      "11": {
+        "winners": 1821,
+        "unit_eur": "126.09"
+      },
+      "10": {
+        "winners": 11656,
+        "unit_eur": "23.64"
+      }
+    }
+  },
+  "sources_sha256": {
+    "2024-09-29.txt": "60499e9db0c147702c004e23f75b4776fa95fb70510f86710fc6819d0e54c1d1"
+  },
+  "source_urls": [
+    "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-29-de-septiembre-de-2024",
+    "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_29_09_24.pdf",
+    "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_29_9_24.pdf"
+  ]
+}

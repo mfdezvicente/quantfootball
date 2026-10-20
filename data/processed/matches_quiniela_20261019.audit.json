@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-19T19:31:08.466218+00:00",
+  "rows": 11020,
+  "as_of_exclusive": "2026-10-19",
+  "dataset_sha256": "5ab3a7072e16466e03e503b3bb199ea98c330820d91761e6a0705171df58b389",
+  "base_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261014.parquet",
+  "base_sha256": "d316dc6f66751ee296e4fb0c0728cfa7a463d63ad10546a763ba84815259da99",
+  "snapshot_sha256": {
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\project_review_20261019\\public_results\\2026-es.1-09.json": "654f5ecbe1bf39ff06031443c030bd9d4d200f0f40b59d61a8e0bb62bc1cb43a",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\project_review_20261019\\public_results\\2026-es.2-10.json": "399ee51c499ee2e7788420d2b1ebee3ab8a73bf12d92ea6de8e9128a73602694",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\project_review_20261019\\public_results\\2026-es.w.1-07.json": "4f88a8b4b27f06281f986e2859ccf8faa90c1d919b3cae235a9d55ed6f0280ce"
+  },
+  "observed_source_rows": 29,
+  "added_rows": 27,
+  "added_by_competition": {
+    "es.2": 10,
+    "es.1": 9,
+    "es.w.1": 8
+  },
+  "last_dates": {
+    "es.1": "2026-10-18",
+    "es.2": "2026-10-18",
+    "es.w.1": "2026-10-18"
+  },
+  "skipped_source_rows": [
+    {
+      "competition_code": "es.1",
+      "match_id": 102333,
+      "home_team": "Getafe CF",
+      "away_team": "Rayo Vallecano",
+      "date": "2026-10-19",
+      "status": "FirstHalf",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102729,
+      "home_team": "Celta Fortuna",
+      "away_team": "CD Tenerife",
+      "date": "2026-10-19",
+      "status": "HalfTime",
+      "reason": "not_full_time"
+    }
+  ],
+  "source_conflicts": 0,
+  "policy": "Only FullTime results strictly before cutoff; original rows preserved; live scores excluded"
+}

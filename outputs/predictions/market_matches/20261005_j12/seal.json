@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "registered_at": "2026-10-05T19:48:58.204105+00:00",
+  "scope": "sporting_match_probabilities_only",
+  "paper_only": true,
+  "full_ticket_roi_eligible": false,
+  "primary_metric": "paired model minus market mean log loss, per competition",
+  "secondary_metrics": [
+    "multiclass_brier",
+    "accuracy"
+  ],
+  "selection_policy": "First fourteen positions of the user-confirmed J12 coupon, selected before results; all seven other captured events logged as excluded",
+  "deduplication": "First locally registered probability for each competition/date/home/away",
+  "files_sha256": {
+    "forecast.json": "294f5c141e03627c45e110e9a837247f9c2409215bf14890828c9b328e3a205c",
+    "snapshot.json": "1bec3d66318d832fd39c5581e61bd5a5b63545adee5d60a9c111ed662599827d",
+    "config.json": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda"
+  },
+  "limitations": "Local clock and fingerprints, not an externally certified timestamp or actual bet"
+}

@@ -1,0 +1,248 @@
+{
+  "created_at": "2026-09-25T17:09:22.230877+00:00",
+  "contests": 61,
+  "inputs_sha256": {
+    "roi.json_0": "f6b024de4033bea8b07c5f4352633d1b315b9c83157d1ba49e25ee7e8e1bfb71",
+    "roi.json_1": "d4911071ac9af79d91dd6a519b16cba84cfe25d68c25bcf698bcd999237e4712"
+  },
+  "selection_uses_returns": false,
+  "strategies": {
+    "full_system": {
+      "baseline": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 117.10000000000001,
+        "net_eur": -157.39999999999998,
+        "roi": -0.5734061930783242,
+        "coupon_bootstrap_roi90": [
+          -0.9001530054644808,
+          -0.15570491803278708
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 82.35,
+            "roi": -0.39
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 34.75,
+            "roi": -0.7508960573476703
+          }
+        }
+      },
+      "candidate": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 76.63000000000001,
+        "net_eur": -197.87,
+        "roi": -0.7208378870673953,
+        "coupon_bootstrap_roi90": [
+          -0.9566739526411657,
+          -0.3118433515482697
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 68.53,
+            "roi": -0.49237037037037035
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 8.1,
+            "roi": -0.9419354838709677
+          }
+        }
+      },
+      "roi_difference": -0.14743169398907108,
+      "paired_roi_difference_ci95": [
+        -0.34161020036429873,
+        -0.007103825136612021
+      ]
+    },
+    "individual_columns": {
+      "baseline": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 120.08,
+        "net_eur": -154.42000000000002,
+        "roi": -0.5625500910746812,
+        "coupon_bootstrap_roi90": [
+          -0.8778998178506375,
+          -0.12002003642987259
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 84.03,
+            "roi": -0.37755555555555553
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 36.05,
+            "roi": -0.7415770609318997
+          }
+        }
+      },
+      "candidate": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 102.45,
+        "net_eur": -172.05,
+        "roi": -0.6267759562841531,
+        "coupon_bootstrap_roi90": [
+          -0.9213570127504553,
+          -0.15298178506375226
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 82.69,
+            "roi": -0.38748148148148154
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 19.76,
+            "roi": -0.8583512544802867
+          }
+        }
+      },
+      "roi_difference": -0.06422586520947182,
+      "paired_roi_difference_ci95": [
+        -0.19989071038251363,
+        0.055956284153005464
+      ]
+    },
+    "robust_full_system": {
+      "baseline": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 98.92,
+        "net_eur": -175.57999999999998,
+        "roi": -0.6396357012750455,
+        "coupon_bootstrap_roi90": [
+          -0.9177777777777778,
+          -0.23245901639344269
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 65.89,
+            "roi": -0.5119259259259259
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 33.03,
+            "roi": -0.7632258064516129
+          }
+        }
+      },
+      "candidate": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 96.71,
+        "net_eur": -177.79000000000002,
+        "roi": -0.6476867030965392,
+        "coupon_bootstrap_roi90": [
+          -0.9505774134790529,
+          -0.232551912568306
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 65.89,
+            "roi": -0.5119259259259259
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 30.82,
+            "roi": -0.779068100358423
+          }
+        }
+      },
+      "roi_difference": -0.008051001821493653,
+      "paired_roi_difference_ci95": [
+        -0.1921939890710382,
+        0.19125683060109291
+      ]
+    },
+    "robust_columns": {
+      "baseline": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 98.08,
+        "net_eur": -176.42000000000002,
+        "roi": -0.642695810564663,
+        "coupon_bootstrap_roi90": [
+          -0.9354535519125683,
+          -0.2525755919854281
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 63.83,
+            "roi": -0.5271851851851852
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 34.25,
+            "roi": -0.7544802867383512
+          }
+        }
+      },
+      "candidate": {
+        "coupons": 61,
+        "cost_eur": 274.5,
+        "gross_return_eur": 99.82,
+        "net_eur": -174.68,
+        "roi": -0.6363570127504554,
+        "coupon_bootstrap_roi90": [
+          -0.9436848816029144,
+          -0.21755919854280525
+        ],
+        "interval_warning": "Very small sample; bootstrap cannot estimate unobserved rare jackpots",
+        "by_season": {
+          "2024-25": {
+            "coupons": 30,
+            "cost_eur": 135.0,
+            "gross_return_eur": 76.55,
+            "roi": -0.432962962962963
+          },
+          "2025-26": {
+            "coupons": 31,
+            "cost_eur": 139.5,
+            "gross_return_eur": 23.27,
+            "roi": -0.8331899641577061
+          }
+        }
+      },
+      "roi_difference": 0.006338797814207542,
+      "paired_roi_difference_ci95": [
+        -0.20092167577413483,
+        0.19013479052823315
+      ]
+    }
+  },
+  "limitation": "Retrospective conditional cohort. Paired bootstrap cannot estimate unseen jackpots or demonstrate future profitability."
+}

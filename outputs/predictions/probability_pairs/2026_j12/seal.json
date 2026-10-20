@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "registered_at": "2026-10-05T19:48:58.119986+00:00",
+  "contest_id": "2026_j12",
+  "scope": "First 14 sporting match probabilities only; separate from full-ticket ROI protocol",
+  "paper_only": true,
+  "full_ticket_roi_eligible": false,
+  "full_ticket_exclusion_reason": null,
+  "primary_comparison": "candidate minus comparator mean log loss, per competition",
+  "market_policy": "First eligible real market attachment before official close and all kickoffs; no later replacement",
+  "deduplication": "Use the first registered match prediction for model metrics; first eligible market comparison for paired market metrics",
+  "files_sha256": {
+    "candidate.json": "661579dbd4dac9b4bb9fd6362a3cde7c501284678baa5df73cf403b657021fb0",
+    "candidate_config.json": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+    "comparator.json": "df592416c328a9ab35721ad5ca0f257ca046d2dc855c628ad15fcf8355c88604",
+    "comparator_config.json": "ddb8a1854e4a958791c1bb58f86dd407948ad3ab7f3b0c750594c3ee360dac26",
+    "observation.json": "21be293c7ea50776e67e8f7f444661b4b614e46f25387fdb009817873109d9ca",
+    "protocol.json": "0a7bb1c715e36933e8da677cbb475735284ad1c603af735cab112712a376c9ca"
+  },
+  "limitations": "Local clock and hashes; no external trusted timestamp and no actual bet"
+}

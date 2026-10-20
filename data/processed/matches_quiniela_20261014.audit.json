@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-14T16:14:16.406944+00:00",
+  "rows": 10993,
+  "as_of_exclusive": "2026-10-14",
+  "dataset_sha256": "d316dc6f66751ee296e4fb0c0728cfa7a463d63ad10546a763ba84815259da99",
+  "base_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261005.parquet",
+  "base_sha256": "2d14b8f8b9db35307fdafd7b4667298e13c8bf5b67aa9b199c3eb62242c96dc4",
+  "snapshot_sha256": {
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\analysis_20261014\\data\\raw\\results_20261014\\2026-es.1-08.json": "fe483f747342cd99a86d5731b97ed41c3357dbce6ff8b8ad11fb9313ce1b25a4",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\analysis_20261014\\data\\raw\\results_20261014\\2026-es.2-08.json": "53aedbb8f0324ed6e80db2a23301c11e03c8275c7bfb9b38baafb2365ff73a9a",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\analysis_20261014\\data\\raw\\results_20261014\\2026-es.2-09.json": "6a6c1c02df3667a0652237647cd3110dcda45e6e554042026a17305f41c735b5",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\analysis_20261014\\data\\raw\\results_20261014\\2026-es.w.1-06.json": "2d74004858f53801b24dbc46134f259d7b8b4d663b8b51be9bed2ed614f4d502",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\analysis_20261014\\data\\raw\\results_20261014\\2026-es.w.1-07.json": "8791ed59db382945f5f30f3b4e85933cd6b2a1edde35e1d7b53d152b81aca1bc"
+  },
+  "observed_source_rows": 48,
+  "added_rows": 21,
+  "added_by_competition": {
+    "es.2": 12,
+    "es.1": 9
+  },
+  "last_dates": {
+    "es.1": "2026-10-12",
+    "es.2": "2026-10-12",
+    "es.w.1": "2026-10-04"
+  },
+  "skipped_source_rows": [
+    {
+      "competition_code": "es.1",
+      "match_id": 102326,
+      "home_team": "Rayo Vallecano",
+      "away_team": "Athletic Club",
+      "date": "2026-10-10",
+      "status": "Abandoned",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103148,
+      "home_team": "FC Badalona Women",
+      "away_team": "Costa Adeje Tenerife",
+      "date": "2026-10-17",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103149,
+      "home_team": "Logroño United",
+      "away_team": "Granada CF",
+      "date": "2026-10-17",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103146,
+      "home_team": "Athletic Club",
+      "away_team": "VCF Femenino",
+      "date": "2026-10-17",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103151,
+      "home_team": "Real Madrid CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-10-17",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103145,
+      "home_team": "Deportivo Alavés",
+      "away_team": "Sevilla FC",
+      "date": "2026-10-18",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103152,
+      "home_team": "Real Sociedad",
+      "away_team": "FC Barcelona",
+      "date": "2026-10-18",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103150,
+      "home_team": "SD Eibar",
+      "away_team": "Deportivo Abanca",
+      "date": "2026-10-18",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103147,
+      "home_team": "Atlético de Madrid",
+      "away_team": "Madrid CFF",
+      "date": "2026-10-18",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    }
+  ],
+  "source_conflicts": 0,
+  "policy": "Only FullTime results strictly before cutoff; original rows preserved; live scores excluded"
+}

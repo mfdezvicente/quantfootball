@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "registered_at": "2026-10-02T13:11:15.017678+00:00",
+  "contest_id": "2026_j11",
+  "scope": "First 14 sporting match probabilities only; separate from full-ticket ROI protocol",
+  "paper_only": true,
+  "full_ticket_roi_eligible": false,
+  "full_ticket_exclusion_reason": "Pleno de selecciones, fuera del ámbito acordado de Primera y Segunda masculinas y Liga F",
+  "primary_comparison": "candidate minus comparator mean log loss, per competition",
+  "market_policy": "First eligible real market attachment before official close and all kickoffs; no later replacement",
+  "deduplication": "Use the first registered match prediction for model metrics; first eligible market comparison for paired market metrics",
+  "files_sha256": {
+    "candidate.json": "ee26834aa8f6d5ed48b788c9fee45e7c4f6f3d259e898a1ef45670616710807e",
+    "candidate_config.json": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+    "comparator.json": "deb59596500de7d073119a9e22add6e6ac7ecacc1951f379a8e1c246f274169a",
+    "comparator_config.json": "ddb8a1854e4a958791c1bb58f86dd407948ad3ab7f3b0c750594c3ee360dac26",
+    "observation.json": "03340e4eafce53c88aa5ce36a3743744823dc8c84c8199ba281267c99bf5ad74",
+    "protocol.json": "0a7bb1c715e36933e8da677cbb475735284ad1c603af735cab112712a376c9ca"
+  },
+  "limitations": "Local clock and hashes; no external trusted timestamp and no actual bet"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset_sha256": {
+    "men": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+    "women": "d5325737732f5ea7ec700ee83a6ed70e13289d8b4a2014d2dccfb712f3ac62ac"
+  },
+  "candidates": [
+    {
+      "drift_precision": 12.0,
+      "initial_precision": 2.0,
+      "level_precision": 0.2,
+      "mean_reversion_days": 730.0,
+      "half_life_days": 730.0,
+      "lookback_days": 1461,
+      "correction_precision": 2.0,
+      "use_correction": true
+    },
+    {
+      "drift_precision": 48.0,
+      "initial_precision": 2.0,
+      "level_precision": 0.2,
+      "mean_reversion_days": 730.0,
+      "half_life_days": 730.0,
+      "lookback_days": 1461,
+      "correction_precision": 2.0,
+      "use_correction": true
+    },
+    {
+      "drift_precision": 192.0,
+      "initial_precision": 2.0,
+      "level_precision": 0.2,
+      "mean_reversion_days": 730.0,
+      "half_life_days": 730.0,
+      "lookback_days": 1461,
+      "correction_precision": 2.0,
+      "use_correction": true
+    }
+  ]
+}

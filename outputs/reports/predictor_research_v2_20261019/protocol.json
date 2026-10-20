@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-19T19:52:03.662799+00:00",
+  "status": "retrospective_research_only",
+  "deployment_enabled": false,
+  "selection_period": [
+    "2022-07-01",
+    "2024-07-01"
+  ],
+  "diagnostic_period": [
+    "2024-07-01",
+    "2026-07-01"
+  ],
+  "groups": [
+    "opponents",
+    "dynamic",
+    "rest",
+    "congestion",
+    "transfer"
+  ],
+  "architecture": {
+    "es.1": {
+      "kind": "boosting",
+      "max_leaf_nodes": 7,
+      "l2_regularization": 30.0
+    },
+    "es.2": {
+      "kind": "logistic",
+      "C": 1.0
+    }
+  },
+  "method": "Replace only the fixed 25% form head; pooled male training; original feature versions and monthly coefficient cutoff; one feature group at a time.",
+  "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+  "active_dataset_sha256": "5ab3a7072e16466e03e503b3bb199ea98c330820d91761e6a0705171df58b389",
+  "active_config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+  "source_sha256": {
+    "scripts\\evaluate_ablation_research.py": "02123a23ec8185271dcd6669826e64de7e19e166746b4687cf378627f484b146",
+    "src\\quantfootball\\research\\ablation_features.py": "fc21623dab2b0691e8dd548c24956b0564eae3e38ae3dc0646e606730619466e",
+    "src\\quantfootball\\research\\diagnostics.py": "5dd6fc9b2e1d481faff109704857f987084735645fd24bda729f736e4fb6017a",
+    "src\\quantfootball\\models\\form.py": "1daf6966337ca2f8ca5aa951391d58ec0553c666c7656875a14ed1378d069969",
+    "src\\quantfootball\\features\\form.py": "4fc242f58d09fd46243baecc857258977a472496613c08b51c8366db1fa5a264"
+  },
+  "limitations": [
+    "Historical selection/diagnostic periods were inspected before; no untouched confirmation",
+    "New groups and fixed online-goal constants are declared now, after previous historical research",
+    "Monthly rolling fits use only prior labels; statistical intervals do not correct repeated model selection",
+    "League-only rest/congestion, final archived schedule dates; no cups, Europe, xG, injuries or publication-time proof",
+    "Dynamic features are a fixed online goal-state proxy, not the existing full dynamic MAP goal model",
+    "Controlled feature experiments are male only; Liga F diagnosed with its own frozen goal model",
+    "No production model or the fixed prospective 50/50 protocol is promoted by this run"
+  ]
+}

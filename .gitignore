@@ -9,6 +9,7 @@ htmlcov/
 venv/
 .env
 .env.*
+!.env.example
 .vscode/
 .idea/
 .DS_Store
@@ -22,9 +23,14 @@ data/processed/*
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 
-outputs/figures/*
-outputs/predictions/*
-outputs/reports/*
-!outputs/figures/.gitkeep
-!outputs/predictions/.gitkeep
-!outputs/reports/.gitkeep
+# Publish processed snapshots and their audit metadata.
+!data/processed/*.parquet
+!data/processed/*.audit.json
+
+# Credentials are never versioned, regardless of their directory.
+**/credentials/
+*.dpapi
+*.pem
+*.key
+
+# Reports and prediction archives are versioned; runtime caches are not.

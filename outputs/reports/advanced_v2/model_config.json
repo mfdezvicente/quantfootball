@@ -1,0 +1,18 @@
+{
+  "half_life_days": 365.0,
+  "ridge": 10.0,
+  "dc_weight": 0.5,
+  "temperature": 0.9,
+  "lookback_days": 1461,
+  "selected_before": "2024-07-01",
+  "selection_objective": "Mean match log loss on 2022-23 and 2023-24",
+  "validation_winner": {
+    "candidate": 3,
+    "dc_weight": 0.5,
+    "temperature": 0.9,
+    "log_loss": 0.9777388214979019,
+    "brier": 0.581523872703993,
+    "accuracy": 0.5434210526315789
+  },
+  "dataset_sha256": "7545a40395300cc466826b577941aca1b363aceb9d11d0f276b445d4a996e169"
+}

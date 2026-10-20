@@ -1,0 +1,38 @@
+{
+  "selected_before": "2024-07-01",
+  "divisions": {
+    "es.1": {
+      "half_life_days": 365.0,
+      "ridge": 10.0,
+      "dc_weight": 0.5,
+      "temperature": 0.9,
+      "lookback_days": 1461,
+      "selected_before": "2024-07-01",
+      "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+      "transfer_weight": 0.0,
+      "transfer_parameters": {
+        "league_gap": 0.0,
+        "carryover": 0.75,
+        "newcomer_penalty": 0.0
+      }
+    },
+    "es.2": {
+      "half_life_days": 365.0,
+      "ridge": 10.0,
+      "dc_weight": 1.0,
+      "temperature": 0.9,
+      "lookback_days": 1461,
+      "selected_before": "2024-07-01",
+      "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+      "transfer_weight": 0.25,
+      "transfer_parameters": {
+        "league_gap": 300.0,
+        "carryover": 0.75,
+        "newcomer_penalty": 80.0
+      }
+    }
+  },
+  "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+  "created_at": "2026-09-25T05:41:03.674964+00:00",
+  "selection_mode": "Retrospective fit using only results earlier than selected_before"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "is_example": true,
+  "description": "Cuotas y horarios ficticios para mostrar el formato; no usar como datos de mercado reales.",
+  "source_url": "https://example.org/authorized-odds-export",
+  "snapshot_at": "2025-05-22T18:00:00+02:00",
+  "retrieved_at": "2025-05-22T18:01:00+02:00",
+  "fixtures": [
+    {
+      "competition_code": "es.1",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Valencia CF",
+      "starts_at": "2025-05-23T21:00:00+02:00",
+      "quotes": [
+        {
+          "bookmaker": "Casa ficticia",
+          "observed_at": "2025-05-22T17:55:00+02:00",
+          "odds_1x2": [2.0, 3.5, 4.0]
+        }
+      ],
+      "crowd": {
+        "source_url": "https://example.org/authorized-crowd-export",
+        "observed_at": "2025-05-22T17:50:00+02:00",
+        "shares_1x2": [0.6, 0.25, 0.15]
+      }
+    }
+  ]
+}

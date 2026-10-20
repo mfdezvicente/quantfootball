@@ -1,0 +1,1092 @@
+{
+  "es.1": {
+    "base": {
+      "promoted_from_es2": {
+        "matches": 216,
+        "candidate": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "baseline": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 71,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 98,
+        "candidate": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "baseline": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 55,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 190,
+        "candidate": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "baseline": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 65,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "opponents": {
+      "promoted_from_es2": {
+        "matches": 216,
+        "candidate": {
+          "matches": 216,
+          "log_loss": 0.911792270322234,
+          "brier": 0.5342391181804627,
+          "accuracy": 0.5972222222222222,
+          "mean_draw_probability": 0.24340296175491963,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18815765774690457
+        },
+        "baseline": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0005695915777460353,
+          "weeks": 71,
+          "ci95": [
+            -0.0032103636466363763,
+            0.0021176243995715536
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 98,
+        "candidate": {
+          "matches": 98,
+          "log_loss": 0.5235249769063003,
+          "brier": 0.25584295791463796,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14982087826906165,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.0647063855406403
+        },
+        "baseline": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0004849183357464026,
+          "weeks": 55,
+          "ci95": [
+            -0.0018340100908497885,
+            0.0026332137475738177
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 190,
+        "candidate": {
+          "matches": 190,
+          "log_loss": 1.3677473054589602,
+          "brier": 0.8717440558398102,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25715350288934247,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529523031402972
+        },
+        "baseline": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "delta": {
+          "mean_log_loss_difference": -3.282405080516506e-05,
+          "weeks": 65,
+          "ci95": [
+            -0.003850028055753831,
+            0.003943928538291296
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "dynamic": {
+      "promoted_from_es2": {
+        "matches": 216,
+        "candidate": {
+          "matches": 216,
+          "log_loss": 0.9126644465520736,
+          "brier": 0.5349033216386332,
+          "accuracy": 0.5972222222222222,
+          "mean_draw_probability": 0.2428699069514599,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18819998755130274
+        },
+        "baseline": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0003025846520934301,
+          "weeks": 71,
+          "ci95": [
+            -0.0017948243592932208,
+            0.0022934474086002835
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 98,
+        "candidate": {
+          "matches": 98,
+          "log_loss": 0.5223394144122248,
+          "brier": 0.25512790093075,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14857581698646188,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06450163059338088
+        },
+        "baseline": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0007006441583292831,
+          "weeks": 55,
+          "ci95": [
+            -0.00296447067817638,
+            0.0016284880800904703
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 190,
+        "candidate": {
+          "matches": 190,
+          "log_loss": 1.3662698357417986,
+          "brier": 0.870792064039674,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25751355623264177,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.552402105946844
+        },
+        "baseline": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0015102937679667007,
+          "weeks": 65,
+          "ci95": [
+            -0.005247591672961912,
+            0.0023189962588064253
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "rest": {
+      "promoted_from_es2": {
+        "matches": 216,
+        "candidate": {
+          "matches": 216,
+          "log_loss": 0.9113361199621092,
+          "brier": 0.5338694514611109,
+          "accuracy": 0.5972222222222222,
+          "mean_draw_probability": 0.24325228636079974,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.1878494387496794
+        },
+        "baseline": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0010257419378708135,
+          "weeks": 71,
+          "ci95": [
+            -0.002746002162707629,
+            0.0006309529996991863
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 98,
+        "candidate": {
+          "matches": 98,
+          "log_loss": 0.522567083204617,
+          "brier": 0.25513343650001613,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14960709883176307,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06443501119725235
+        },
+        "baseline": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.00047297536593697196,
+          "weeks": 55,
+          "ci95": [
+            -0.0019124665206025297,
+            0.0009139628529697178
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 190,
+        "candidate": {
+          "matches": 190,
+          "log_loss": 1.3672186982491272,
+          "brier": 0.8709959390192188,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.2572358432322395,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5528114873493596
+        },
+        "baseline": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0005614312606380204,
+          "weeks": 65,
+          "ci95": [
+            -0.003013605241689125,
+            0.0020205469175585355
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "congestion": {
+      "promoted_from_es2": {
+        "matches": 216,
+        "candidate": {
+          "matches": 216,
+          "log_loss": 0.9115186136976874,
+          "brier": 0.5340692597160802,
+          "accuracy": 0.5972222222222222,
+          "mean_draw_probability": 0.24296934003986212,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.188264013077093
+        },
+        "baseline": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0008432482022926311,
+          "weeks": 71,
+          "ci95": [
+            -0.0024957699347070463,
+            0.0007904399170706544
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 98,
+        "candidate": {
+          "matches": 98,
+          "log_loss": 0.5219896703079501,
+          "brier": 0.254653385606725,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.1492333168121994,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06432576992395143
+        },
+        "baseline": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0010503882626037742,
+          "weeks": 55,
+          "ci95": [
+            -0.002785907737334797,
+            0.0006086063180795676
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 190,
+        "candidate": {
+          "matches": 190,
+          "log_loss": 1.3680018649630612,
+          "brier": 0.8718832002839304,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.2570324408836605,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5531082896543
+        },
+        "baseline": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.00022173545329576651,
+          "weeks": 65,
+          "ci95": [
+            -0.0021838267676048996,
+            0.002670396695996721
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "transfer": {
+      "promoted_from_es2": {
+        "matches": 216,
+        "candidate": {
+          "matches": 216,
+          "log_loss": 0.9123907530667511,
+          "brier": 0.534670970040228,
+          "accuracy": 0.5972222222222222,
+          "mean_draw_probability": 0.24334809351329628,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.1883539787424615
+        },
+        "baseline": {
+          "matches": 216,
+          "log_loss": 0.91236186189998,
+          "brier": 0.5345326858717864,
+          "accuracy": 0.5925925925925926,
+          "mean_draw_probability": 0.24333301797847343,
+          "observed_draw_rate": 0.2638888888888889,
+          "draw_binary_brier": 0.18835348962027929
+        },
+        "delta": {
+          "mean_log_loss_difference": 2.8891166770996086e-05,
+          "weeks": 71,
+          "ci95": [
+            -0.0010635272642979636,
+            0.0011624726054251025
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 98,
+        "candidate": {
+          "matches": 98,
+          "log_loss": 0.5229426487436355,
+          "brier": 0.2551569746160445,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14923426879869228,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442771631352724
+        },
+        "baseline": {
+          "matches": 98,
+          "log_loss": 0.523040058570554,
+          "brier": 0.25530067621669467,
+          "accuracy": 0.8673469387755102,
+          "mean_draw_probability": 0.14909015492066666,
+          "observed_draw_rate": 0.061224489795918366,
+          "draw_binary_brier": 0.06442306930883876
+        },
+        "delta": {
+          "mean_log_loss_difference": -9.740982691851422e-05,
+          "weeks": 55,
+          "ci95": [
+            -0.0010217036700168628,
+            0.0008540219237794023
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 190,
+        "candidate": {
+          "matches": 190,
+          "log_loss": 1.3678774812560037,
+          "brier": 0.8714618710696875,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25706230454209994,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5530606771500234
+        },
+        "baseline": {
+          "matches": 190,
+          "log_loss": 1.3677801295097656,
+          "brier": 0.8715605541090982,
+          "accuracy": 0.0,
+          "mean_draw_probability": 0.25711358164305936,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5529954074279985
+        },
+        "delta": {
+          "mean_log_loss_difference": 9.735174623839437e-05,
+          "weeks": 65,
+          "ci95": [
+            -0.0015541459946933458,
+            0.0017950033873118923
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    }
+  },
+  "es.2": {
+    "base": {
+      "new_to_covered_leagues": {
+        "matches": 312,
+        "candidate": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "baseline": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 81,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 3,
+        "candidate": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "baseline": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 3,
+          "ci95": null,
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 245,
+        "candidate": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "baseline": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 79,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "opponents": {
+      "new_to_covered_leagues": {
+        "matches": 312,
+        "candidate": {
+          "matches": 312,
+          "log_loss": 1.0584443915937032,
+          "brier": 0.6386576776631313,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.2759246145944694,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19980505979713237
+        },
+        "baseline": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0005356239683141994,
+          "weeks": 81,
+          "ci95": [
+            -0.0008970993250191384,
+            0.001911579655856373
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 3,
+        "candidate": {
+          "matches": 3,
+          "log_loss": 0.33319998732960127,
+          "brier": 0.12400787124076036,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18088777334516926,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.03294404844625113
+        },
+        "baseline": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0007055578080894335,
+          "weeks": 3,
+          "ci95": null,
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 245,
+        "candidate": {
+          "matches": 245,
+          "log_loss": 1.287348262886658,
+          "brier": 0.8110459494535427,
+          "accuracy": 0.00816326530612245,
+          "mean_draw_probability": 0.277502244198346,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522819704536118
+        },
+        "baseline": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0003045296823295626,
+          "weeks": 79,
+          "ci95": [
+            -0.001346969023987156,
+            0.0020049120106576945
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "dynamic": {
+      "new_to_covered_leagues": {
+        "matches": 312,
+        "candidate": {
+          "matches": 312,
+          "log_loss": 1.057755516076845,
+          "brier": 0.6382729514346871,
+          "accuracy": 0.44551282051282054,
+          "mean_draw_probability": 0.2781023153957415,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19971863022521835
+        },
+        "baseline": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.00015325154854405445,
+          "weeks": 81,
+          "ci95": [
+            -0.001949997317776314,
+            0.001582921639083049
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 3,
+        "candidate": {
+          "matches": 3,
+          "log_loss": 0.33681982383618797,
+          "brier": 0.12678922503759504,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18521946892855845,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.03455670864065476
+        },
+        "baseline": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0029142786984972524,
+          "weeks": 3,
+          "ci95": null,
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 245,
+        "candidate": {
+          "matches": 245,
+          "log_loss": 1.2804679993627222,
+          "brier": 0.8072726743809331,
+          "accuracy": 0.00816326530612245,
+          "mean_draw_probability": 0.27944653055095187,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5200420904275911
+        },
+        "baseline": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0065757338416065104,
+          "weeks": 79,
+          "ci95": [
+            -0.00895163898363026,
+            -0.004240788711976816
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "rest": {
+      "new_to_covered_leagues": {
+        "matches": 312,
+        "candidate": {
+          "matches": 312,
+          "log_loss": 1.057941757243267,
+          "brier": 0.6383101734390931,
+          "accuracy": 0.4551282051282051,
+          "mean_draw_probability": 0.2761683779543112,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19989332773447913
+        },
+        "baseline": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "delta": {
+          "mean_log_loss_difference": 3.29896178780098e-05,
+          "weeks": 81,
+          "ci95": [
+            -0.0010950328298764856,
+            0.0013683430350831256
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 3,
+        "candidate": {
+          "matches": 3,
+          "log_loss": 0.3319412473938243,
+          "brier": 0.1232383544954604,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18060343887605393,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.03283647898462037
+        },
+        "baseline": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.001964297743866472,
+          "weeks": 3,
+          "ci95": null,
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 245,
+        "candidate": {
+          "matches": 245,
+          "log_loss": 1.2865167499073915,
+          "brier": 0.8107034066893266,
+          "accuracy": 0.012244897959183673,
+          "mean_draw_probability": 0.27770704003445795,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5225099546215275
+        },
+        "baseline": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.0005269832969373812,
+          "weeks": 79,
+          "ci95": [
+            -0.0016476451264197472,
+            0.0006380932982010062
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "congestion": {
+      "new_to_covered_leagues": {
+        "matches": 312,
+        "candidate": {
+          "matches": 312,
+          "log_loss": 1.0579074199427843,
+          "brier": 0.6382305367859133,
+          "accuracy": 0.44871794871794873,
+          "mean_draw_probability": 0.27617952489595343,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19972956251959056
+        },
+        "baseline": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "delta": {
+          "mean_log_loss_difference": -1.3476826046128025e-06,
+          "weeks": 81,
+          "ci95": [
+            -0.0017333847526784904,
+            0.0016966348510528795
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 3,
+        "candidate": {
+          "matches": 3,
+          "log_loss": 0.3291884841974307,
+          "brier": 0.12142109020867271,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.17861916881566217,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.03211765375071777
+        },
+        "baseline": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.004717060940260013,
+          "weeks": 3,
+          "ci95": null,
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 245,
+        "candidate": {
+          "matches": 245,
+          "log_loss": 1.2853778073633173,
+          "brier": 0.8095928581355437,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27807972169981604,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5219956414706041
+        },
+        "baseline": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "delta": {
+          "mean_log_loss_difference": -0.001665925841011273,
+          "weeks": 79,
+          "ci95": [
+            -0.003974605701852879,
+            0.0006134161610131376
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "transfer": {
+      "new_to_covered_leagues": {
+        "matches": 312,
+        "candidate": {
+          "matches": 312,
+          "log_loss": 1.058542420112079,
+          "brier": 0.638798967371016,
+          "accuracy": 0.44871794871794873,
+          "mean_draw_probability": 0.27599410893943893,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994438955403354
+        },
+        "baseline": {
+          "matches": 312,
+          "log_loss": 1.0579087676253889,
+          "brier": 0.6382631809096591,
+          "accuracy": 0.4519230769230769,
+          "mean_draw_probability": 0.27600910232980086,
+          "observed_draw_rate": 0.27564102564102566,
+          "draw_binary_brier": 0.19994094225730077
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0006336524866900489,
+          "weeks": 81,
+          "ci95": [
+            -0.00034674265347324533,
+            0.0017585166430468472
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "favorites_ge_70pct": {
+        "matches": 3,
+        "candidate": {
+          "matches": 3,
+          "log_loss": 0.3346458249238468,
+          "brier": 0.12486475452097213,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18096836431039098,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032995490252260985
+        },
+        "baseline": {
+          "matches": 3,
+          "log_loss": 0.3339055451376907,
+          "brier": 0.12439084651683678,
+          "accuracy": 1.0,
+          "mean_draw_probability": 0.18062390546542575,
+          "observed_draw_rate": 0.0,
+          "draw_binary_brier": 0.032854218751631345
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.000740279786156021,
+          "weeks": 3,
+          "ci95": null,
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "actual_draws_descriptive": {
+        "matches": 245,
+        "candidate": {
+          "matches": 245,
+          "log_loss": 1.288357453806003,
+          "brier": 0.8120259994309538,
+          "accuracy": 0.00816326530612245,
+          "mean_draw_probability": 0.2772376247945956,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.5232076984879501
+        },
+        "baseline": {
+          "matches": 245,
+          "log_loss": 1.287043733204329,
+          "brier": 0.8108939557384769,
+          "accuracy": 0.004081632653061225,
+          "mean_draw_probability": 0.27757728296096573,
+          "observed_draw_rate": 1.0,
+          "draw_binary_brier": 0.522703128652227
+        },
+        "delta": {
+          "mean_log_loss_difference": 0.0013137206016744071,
+          "weeks": 79,
+          "ci95": [
+            7.792081110000414e-05,
+            0.0027195776026464713
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3652 @@
+{
+  "schema_version": 1,
+  "is_example": false,
+  "source_url": "https://the-odds-api.com/",
+  "provider": "the_odds_api_v4",
+  "snapshot_at": "2026-10-03T12:04:53.492032+00:00",
+  "retrieved_at": "2026-10-03T12:04:53.492032+00:00",
+  "fixtures": [
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "starts_at": "2026-10-09T19:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            2.74,
+            3.29,
+            2.7
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            2.6,
+            3.3,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            2.45,
+            3.1,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            2.53,
+            3.15,
+            2.63
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            2.55,
+            3.2,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.7,
+            3.25,
+            2.7
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            2.7,
+            3.3,
+            2.75
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.7,
+            3.3,
+            2.75
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.6,
+            3.15,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            2.74,
+            3.37,
+            2.83
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            2.62,
+            3.1,
+            2.7
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            2.65,
+            3.2,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            2.68,
+            3.2,
+            2.68
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.7,
+            3.2,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            2.6,
+            3.15,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            2.6,
+            3.4,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            2.84,
+            3.3,
+            2.8
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            2.67,
+            3.28,
+            2.75
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            2.54,
+            2.92,
+            2.54
+          ]
+        }
+      ],
+      "provider_event_id": "4e4c6763037ffc0e1dfe92ed16287b6d",
+      "provider_home_team": "Málaga",
+      "provider_away_team": "Espanyol",
+      "official_schedule_match_id": 102324,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Athletic Club",
+      "starts_at": "2026-10-10T12:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            3.0,
+            3.48,
+            2.39
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            2.9,
+            3.45,
+            2.3
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            2.85,
+            3.3,
+            2.2
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            2.92,
+            3.35,
+            2.23
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            2.8,
+            3.35,
+            2.25
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            3.0,
+            3.45,
+            2.35
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.85,
+            3.2,
+            2.33
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            3.0,
+            3.4,
+            2.43
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            3.0,
+            3.4,
+            2.43
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            3.12,
+            3.54,
+            2.42
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            2.9,
+            3.3,
+            2.3
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            2.95,
+            3.4,
+            2.35
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            2.95,
+            3.35,
+            2.35
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            3.1,
+            3.3,
+            2.3
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            3.0,
+            3.3,
+            2.4
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            2.85,
+            3.3,
+            2.3
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            3.1,
+            3.45,
+            2.46
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            3.04,
+            3.44,
+            2.36
+          ]
+        }
+      ],
+      "provider_event_id": "349c47668fdd909039a9408c14cad8bc",
+      "provider_home_team": "Rayo Vallecano",
+      "provider_away_team": "Athletic Bilbao",
+      "official_schedule_match_id": 102326,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Club Atlético de Madrid",
+      "starts_at": "2026-10-10T14:15:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            4.19,
+            3.76,
+            1.86
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            4.0,
+            3.8,
+            1.8
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            4.05,
+            3.6,
+            1.77
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            3.9,
+            3.7,
+            1.76
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            4.2,
+            3.7,
+            1.85
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            4.1,
+            3.7,
+            1.92
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            4.1,
+            3.7,
+            1.92
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            3.85,
+            3.5,
+            1.83
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            4.32,
+            3.84,
+            1.91
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            3.9,
+            3.5,
+            1.85
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            4.1,
+            3.6,
+            1.85
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            4.15,
+            3.65,
+            1.85
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            4.3,
+            3.8,
+            1.77
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            4.15,
+            3.75,
+            1.85
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            3.9,
+            3.5,
+            1.8
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            4.4,
+            3.8,
+            1.88
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            4.2,
+            3.74,
+            1.86
+          ]
+        }
+      ],
+      "provider_event_id": "3869391e3dbdcaa74153b11df56a3fe5",
+      "provider_home_team": "Alavés",
+      "provider_away_team": "Atlético Madrid",
+      "official_schedule_match_id": 102319,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Getafe CF",
+      "starts_at": "2026-10-10T16:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            1.06,
+            19.04,
+            24.84
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            1.03,
+            19.0,
+            21.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            1.04,
+            9.0,
+            21.0
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            1.04,
+            10.75,
+            25.0
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            1.02,
+            15.0,
+            18.0
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.07,
+            13.0,
+            30.0
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            1.06,
+            19.0,
+            50.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            1.06,
+            17.0,
+            31.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.06,
+            17.0,
+            31.0
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.03,
+            14.0,
+            25.0
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            1.05,
+            15.0,
+            34.0
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            1.06,
+            11.0,
+            42.0
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.04,
+            18.0,
+            23.0
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            1.06,
+            11.0,
+            43.0
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            1.06,
+            13.0,
+            30.0
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            1.04,
+            13.0,
+            19.0
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            1.08,
+            20.0,
+            26.0
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.05,
+            14.75,
+            38.0
+          ]
+        }
+      ],
+      "provider_event_id": "edb80d633a1906e5865ab70cc9b540ea",
+      "provider_home_team": "Barcelona",
+      "provider_away_team": "Getafe",
+      "official_schedule_match_id": 102322,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "Villarreal CF",
+      "starts_at": "2026-10-10T19:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            1.35,
+            5.94,
+            7.32
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            1.33,
+            6.0,
+            6.75
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            1.29,
+            5.3,
+            6.3
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            1.31,
+            5.6,
+            6.6
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            1.31,
+            5.6,
+            6.5
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.36,
+            5.8,
+            7.0
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            1.37,
+            6.04,
+            8.45
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.28,
+            5.75,
+            8.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            1.3,
+            6.25,
+            8.5
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.3,
+            6.25,
+            8.5
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            1.33,
+            5.0,
+            7.0
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            1.34,
+            5.25,
+            7.8
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            1.35,
+            5.3,
+            7.9
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.32,
+            6.2,
+            7.2
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            1.3,
+            5.5,
+            7.0
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            1.35,
+            5.6,
+            7.5
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            1.36,
+            6.2,
+            7.8
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.33,
+            5.85,
+            8.2
+          ]
+        }
+      ],
+      "provider_event_id": "551f242223b1625f458d1a2ea212a0c3",
+      "provider_home_team": "Real Madrid",
+      "provider_away_team": "Villarreal",
+      "official_schedule_match_id": 102327,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "RC Celta de Vigo",
+      "starts_at": "2026-10-11T12:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            2.76,
+            3.29,
+            2.69
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            2.7,
+            3.3,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            2.6,
+            3.1,
+            2.4
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            2.67,
+            3.13,
+            2.47
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            2.6,
+            3.2,
+            2.45
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.75,
+            3.25,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            2.85,
+            3.24,
+            2.61
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            2.93,
+            3.33,
+            2.68
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            2.95,
+            3.25,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.95,
+            3.25,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.8,
+            3.1,
+            2.43
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            2.8,
+            3.1,
+            2.5
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            2.75,
+            3.2,
+            2.62
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            2.75,
+            3.2,
+            2.62
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.8,
+            3.2,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            2.65,
+            3.1,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            2.75,
+            3.25,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            2.86,
+            3.25,
+            2.68
+          ]
+        }
+      ],
+      "provider_event_id": "7daf7edaf572eba3ac86196c663d67d3",
+      "provider_home_team": "Elche CF",
+      "provider_away_team": "Celta Vigo",
+      "official_schedule_match_id": 102321,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Deportivo La Coruña",
+      "starts_at": "2026-10-11T14:15:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            1.72,
+            3.91,
+            4.85
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            1.7,
+            3.95,
+            4.4
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            1.63,
+            3.6,
+            4.4
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            1.66,
+            3.8,
+            4.3
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.73,
+            3.85,
+            4.7
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.75,
+            3.82,
+            4.75
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            1.8,
+            3.92,
+            4.88
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            1.75,
+            3.9,
+            4.75
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.75,
+            3.9,
+            4.75
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.68,
+            3.7,
+            4.4
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            1.73,
+            3.6,
+            4.5
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            1.72,
+            3.6,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            1.72,
+            3.6,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.67,
+            4.0,
+            4.7
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            1.67,
+            3.65,
+            4.6
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            1.7,
+            3.8,
+            5.0
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            1.76,
+            3.9,
+            4.8
+          ]
+        }
+      ],
+      "provider_event_id": "2997b68cc93f62d8a1dee9f06bedbefd",
+      "provider_home_team": "Real Sociedad",
+      "provider_away_team": "Deportivo La Coruña",
+      "official_schedule_match_id": 102328,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "CA Osasuna",
+      "starts_at": "2026-10-11T16:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            1.66,
+            4.12,
+            5.03
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            1.64,
+            4.2,
+            4.7
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            1.6,
+            3.7,
+            4.4
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            1.63,
+            3.78,
+            4.5
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            1.6,
+            4.0,
+            4.5
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.7,
+            3.95,
+            4.8
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.68,
+            4.1,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            1.73,
+            4.21,
+            5.03
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.6,
+            3.9,
+            4.8
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            1.65,
+            4.1,
+            5.2
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            1.65,
+            4.1,
+            5.2
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            1.67,
+            3.9,
+            4.6
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            1.68,
+            3.85,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            1.68,
+            3.85,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.65,
+            4.0,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            1.6,
+            3.9,
+            4.75
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            1.65,
+            4.0,
+            5.1
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            1.7,
+            4.1,
+            5.2
+          ]
+        }
+      ],
+      "provider_event_id": "984691837d31fd0c59c088f377f55f75",
+      "provider_home_team": "Real Betis",
+      "provider_away_team": "CA Osasuna",
+      "official_schedule_match_id": 102320,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Valencia CF",
+      "starts_at": "2026-10-11T19:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:22+00:00",
+          "odds_1x2": [
+            2.18,
+            3.55,
+            3.34
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:09+00:00",
+          "odds_1x2": [
+            2.05,
+            3.4,
+            3.0
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:03:29+00:00",
+          "odds_1x2": [
+            2.07,
+            3.43,
+            3.08
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:02:29+00:00",
+          "odds_1x2": [
+            1.98,
+            3.65,
+            3.15
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:30+00:00",
+          "odds_1x2": [
+            2.0,
+            3.8,
+            3.25
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.17,
+            3.6,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            2.25,
+            3.56,
+            3.14
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T11:58:58+00:00",
+          "odds_1x2": [
+            2.31,
+            3.66,
+            3.23
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:03:52+00:00",
+          "odds_1x2": [
+            2.15,
+            3.4,
+            3.1
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.25,
+            3.5,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:10+00:00",
+          "odds_1x2": [
+            2.25,
+            3.5,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:08+00:00",
+          "odds_1x2": [
+            2.17,
+            3.35,
+            3.05
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:23+00:00",
+          "odds_1x2": [
+            2.15,
+            3.45,
+            3.25
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:02:48+00:00",
+          "odds_1x2": [
+            2.15,
+            3.45,
+            3.25
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.1,
+            3.6,
+            3.3
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:03:38+00:00",
+          "odds_1x2": [
+            2.15,
+            3.7,
+            3.15
+          ]
+        },
+        {
+          "bookmaker": "everygame",
+          "bookmaker_title": "Everygame",
+          "observed_at": "2026-10-03T12:01:53+00:00",
+          "odds_1x2": [
+            2.1,
+            3.35,
+            3.15
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:38+00:00",
+          "odds_1x2": [
+            2.24,
+            3.65,
+            3.4
+          ]
+        }
+      ],
+      "provider_event_id": "66a4f4201806b928c9007116727fdd61",
+      "provider_home_team": "Real Racing Club de Santander",
+      "provider_away_team": "Valencia",
+      "official_schedule_match_id": 102325,
+      "official_schedule_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "UD Almería",
+      "away_team": "Burgos CF",
+      "starts_at": "2026-10-03T14:15:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            1.61,
+            3.95,
+            5.25
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            1.54,
+            3.7,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.61,
+            3.95,
+            5.25
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            1.55,
+            3.85,
+            5.3
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.54,
+            3.85,
+            5.2
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.52,
+            3.9,
+            5.4
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.55,
+            3.85,
+            5.3
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.43,
+            3.7,
+            5.0
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            1.5,
+            3.75,
+            5.5
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.52,
+            3.85,
+            5.6
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            1.61,
+            4.12,
+            5.62
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            1.58,
+            4.2,
+            5.75
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            1.56,
+            3.9,
+            5.9
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.58,
+            4.03,
+            6.38
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.61,
+            4.2,
+            6.6
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.56,
+            4.0,
+            5.45
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.55,
+            3.7,
+            5.5
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.52,
+            3.9,
+            5.7
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.61,
+            4.2,
+            6.6
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            1.56,
+            3.9,
+            5.9
+          ]
+        }
+      ],
+      "provider_event_id": "a679281aa699ceac83444302fb168715",
+      "provider_home_team": "Almería",
+      "provider_away_team": "Burgos CF",
+      "official_schedule_match_id": 102707,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "CE Sabadell",
+      "away_team": "FC Andorra",
+      "starts_at": "2026-10-03T16:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            1.93,
+            3.15,
+            3.45
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            2.02,
+            3.3,
+            3.65
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.02,
+            3.3,
+            3.65
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            1.92,
+            3.1,
+            4.0
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.92,
+            3.1,
+            4.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.74,
+            3.0,
+            3.85
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.87,
+            3.15,
+            4.05
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.88,
+            3.2,
+            4.0
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            1.84,
+            3.15,
+            3.9
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.0,
+            3.27,
+            4.38
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.92,
+            3.2,
+            4.15
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.91,
+            3.0,
+            4.0
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            1.98,
+            3.4,
+            4.0
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.06,
+            3.35,
+            4.4
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            1.96,
+            3.15,
+            4.2
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.85,
+            3.2,
+            4.3
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.06,
+            3.35,
+            4.5
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            1.96,
+            3.15,
+            4.2
+          ]
+        }
+      ],
+      "provider_event_id": "26e3612cb3a4a4cd144af369bd303dcd",
+      "provider_home_team": "Sabadell FC",
+      "provider_away_team": "Andorra CF",
+      "official_schedule_match_id": 102715,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "Cádiz CF",
+      "away_team": "CD Leganés",
+      "starts_at": "2026-10-03T16:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            2.75,
+            3.05,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            2.6,
+            2.9,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.75,
+            3.05,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            2.65,
+            3.0,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.65,
+            3.0,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            2.55,
+            2.95,
+            2.3
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.68,
+            3.07,
+            2.48
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.65,
+            3.0,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            2.83,
+            3.19,
+            2.66
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            2.65,
+            2.95,
+            2.5
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.7,
+            3.0,
+            2.5
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            2.75,
+            3.2,
+            2.7
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            2.72,
+            3.05,
+            2.72
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.9,
+            3.25,
+            2.8
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.75,
+            3.1,
+            2.58
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.7,
+            2.9,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.85,
+            3.16,
+            2.74
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.75,
+            3.1,
+            2.5
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.92,
+            3.25,
+            2.82
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            2.72,
+            3.05,
+            2.72
+          ]
+        }
+      ],
+      "provider_event_id": "9f27aea26a5eab74d32bd314de6117c8",
+      "provider_home_team": "Cádiz CF",
+      "provider_away_team": "Leganés",
+      "official_schedule_match_id": 102708,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "Real Sociedad B",
+      "away_team": "Granada CF",
+      "starts_at": "2026-10-04T12:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.45,
+            3.25,
+            2.85
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            2.35,
+            3.1,
+            2.7
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            2.45,
+            3.15,
+            2.72
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            2.15,
+            3.05,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.45,
+            3.15,
+            2.72
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.37,
+            3.12,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.4,
+            3.2,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.45,
+            3.15,
+            2.65
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            2.35,
+            3.1,
+            2.55
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.62,
+            3.29,
+            2.75
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            2.65,
+            3.38,
+            2.71
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            2.6,
+            3.15,
+            2.76
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.57,
+            3.28,
+            2.62
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.5,
+            3.1,
+            2.6
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            2.55,
+            3.4,
+            2.75
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.6,
+            3.3,
+            2.5
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.68,
+            3.4,
+            2.78
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.68,
+            3.4,
+            2.8
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            2.6,
+            3.15,
+            2.76
+          ]
+        }
+      ],
+      "provider_event_id": "0361dfed6e8b19c60cda9df605437447",
+      "provider_home_team": "Real Sociedad B",
+      "provider_away_team": "Granada CF",
+      "official_schedule_match_id": 102714,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "Sporting Gijón",
+      "away_team": "Celta Fortuna",
+      "starts_at": "2026-10-04T14:15:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            1.54,
+            3.7,
+            5.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.61,
+            3.95,
+            5.3
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.4,
+            3.75,
+            5.0
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.49,
+            3.88,
+            5.25
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.52,
+            3.95,
+            5.5
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            1.52,
+            3.95,
+            5.5
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.52,
+            3.95,
+            5.2
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            1.49,
+            3.95,
+            4.9
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.5,
+            4.0,
+            5.0
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.57,
+            4.14,
+            5.65
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            1.57,
+            4.33,
+            5.77
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.52,
+            4.2,
+            5.6
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.55,
+            3.9,
+            5.0
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.5,
+            4.0,
+            5.8
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            1.55,
+            4.2,
+            6.0
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.59,
+            4.2,
+            6.0
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.59,
+            4.2,
+            6.0
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            1.53,
+            4.0,
+            5.4
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            1.53,
+            4.0,
+            5.4
+          ]
+        }
+      ],
+      "provider_event_id": "429c16be4cc62dc2acb2799d91abd94a",
+      "provider_home_team": "Sporting Gijón",
+      "provider_away_team": "Celta Fortuna",
+      "official_schedule_match_id": 102716,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "CD Castellón",
+      "away_team": "AD Ceuta FC",
+      "starts_at": "2026-10-04T16:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            1.17,
+            6.0,
+            10.5
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.21,
+            6.5,
+            12.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            1.21,
+            6.5,
+            12.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.14,
+            5.5,
+            8.4
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.22,
+            6.1,
+            9.5
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.2,
+            5.75,
+            8.75
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            1.22,
+            6.1,
+            9.5
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.22,
+            6.0,
+            9.0
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            1.2,
+            6.0,
+            8.0
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.21,
+            6.25,
+            8.0
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            1.25,
+            6.85,
+            10.2
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            1.21,
+            6.2,
+            9.0
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.23,
+            6.35,
+            9.5
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.22,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            1.24,
+            6.5,
+            11.0
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.26,
+            7.2,
+            12.5
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.23,
+            6.78,
+            10.83
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.18,
+            6.8,
+            10.5
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            1.21,
+            6.2,
+            9.0
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.26,
+            7.2,
+            12.5
+          ]
+        }
+      ],
+      "provider_event_id": "973746780f7c2d027194eba7204674b2",
+      "provider_home_team": "CD Castellón",
+      "provider_away_team": "AD Ceuta FC",
+      "official_schedule_match_id": 102709,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "UD Las Palmas",
+      "away_team": "Real Valladolid CF",
+      "starts_at": "2026-10-04T16:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            2.04,
+            3.15,
+            3.15
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.15,
+            3.35,
+            3.35
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            2.15,
+            3.35,
+            3.35
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.92,
+            3.0,
+            3.05
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            2.18,
+            3.1,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.1,
+            3.1,
+            3.1
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.18,
+            3.1,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.17,
+            3.1,
+            3.15
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            2.05,
+            3.1,
+            2.95
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.1,
+            3.15,
+            3.05
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.24,
+            3.31,
+            3.32
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            2.22,
+            3.36,
+            3.4
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.15,
+            3.26,
+            3.3
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.15,
+            3.0,
+            3.25
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            2.22,
+            3.15,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.1,
+            3.2,
+            3.4
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            2.2,
+            3.4,
+            3.3
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.24,
+            3.4,
+            3.4
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            2.22,
+            3.15,
+            3.2
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.26,
+            3.45,
+            3.4
+          ]
+        }
+      ],
+      "provider_event_id": "f42371061db78b72824e768318c7e80b",
+      "provider_home_team": "Las Palmas",
+      "provider_away_team": "Real Valladolid CF",
+      "official_schedule_match_id": 102713,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "Girona FC",
+      "away_team": "RCD Mallorca",
+      "starts_at": "2026-10-04T19:00:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            2.04,
+            3.2,
+            3.15
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.14,
+            3.35,
+            3.3
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            2.14,
+            3.35,
+            3.3
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.2,
+            3.3,
+            3.0
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.94,
+            3.15,
+            2.85
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            2.2,
+            3.3,
+            3.0
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.12,
+            3.25,
+            2.93
+          ]
+        },
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.19,
+            3.3,
+            2.95
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            2.1,
+            3.3,
+            2.85
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.15,
+            3.35,
+            2.9
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            2.25,
+            3.53,
+            3.18
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.33,
+            3.41,
+            3.06
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            2.18,
+            3.42,
+            3.08
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            2.2,
+            3.2,
+            2.9
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.15,
+            3.4,
+            3.1
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            2.3,
+            3.6,
+            3.0
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            2.36,
+            3.35,
+            3.1
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            2.28,
+            3.3,
+            2.96
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            2.28,
+            3.3,
+            2.96
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.36,
+            3.25,
+            3.1
+          ]
+        }
+      ],
+      "provider_event_id": "04ec46217ab498eea210d1e96ead781c",
+      "provider_home_team": "Girona FC",
+      "provider_away_team": "Mallorca",
+      "official_schedule_match_id": 102712,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    },
+    {
+      "competition_code": "es.2",
+      "gender": "men",
+      "home_team": "Córdoba CF",
+      "away_team": "CD Tenerife",
+      "starts_at": "2026-10-05T18:30:00+00:00",
+      "quotes": [
+        {
+          "bookmaker": "codere_it",
+          "bookmaker_title": "Codere (IT)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.93,
+            3.3,
+            3.6
+          ]
+        },
+        {
+          "bookmaker": "nordicbet",
+          "bookmaker_title": "Nordic Bet",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.95,
+            3.35,
+            3.65
+          ]
+        },
+        {
+          "bookmaker": "betsson",
+          "bookmaker_title": "Betsson",
+          "observed_at": "2026-10-03T12:04:11+00:00",
+          "odds_1x2": [
+            1.95,
+            3.35,
+            3.65
+          ]
+        },
+        {
+          "bookmaker": "unibet_fr",
+          "bookmaker_title": "Unibet (FR)",
+          "observed_at": "2026-10-03T12:04:42+00:00",
+          "odds_1x2": [
+            1.73,
+            3.15,
+            3.4
+          ]
+        },
+        {
+          "bookmaker": "betclic_fr",
+          "bookmaker_title": "Betclic (FR)",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.87,
+            3.28,
+            3.55
+          ]
+        },
+        {
+          "bookmaker": "onexbet",
+          "bookmaker_title": "1xBet",
+          "observed_at": "2026-10-03T12:03:55+00:00",
+          "odds_1x2": [
+            1.95,
+            3.61,
+            3.96
+          ]
+        },
+        {
+          "bookmaker": "winamax_fr",
+          "bookmaker_title": "Winamax (FR)",
+          "observed_at": "2026-10-03T12:04:27+00:00",
+          "odds_1x2": [
+            1.86,
+            3.3,
+            3.35
+          ]
+        },
+        {
+          "bookmaker": "winamax_de",
+          "bookmaker_title": "Winamax (DE)",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.88,
+            3.35,
+            3.45
+          ]
+        },
+        {
+          "bookmaker": "tipico_de",
+          "bookmaker_title": "Tipico",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.85,
+            3.5,
+            3.8
+          ]
+        },
+        {
+          "bookmaker": "marathonbet",
+          "bookmaker_title": "Marathon Bet",
+          "observed_at": "2026-10-03T12:04:44+00:00",
+          "odds_1x2": [
+            1.89,
+            3.5,
+            3.84
+          ]
+        },
+        {
+          "bookmaker": "williamhill",
+          "bookmaker_title": "William Hill",
+          "observed_at": "2026-10-03T12:04:13+00:00",
+          "odds_1x2": [
+            1.85,
+            3.3,
+            3.75
+          ]
+        },
+        {
+          "bookmaker": "pinnacle",
+          "bookmaker_title": "Pinnacle",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.93,
+            3.59,
+            3.93
+          ]
+        },
+        {
+          "bookmaker": "unibet_se",
+          "bookmaker_title": "Unibet (SE)",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            2.02,
+            3.45,
+            3.55
+          ]
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "bookmaker_title": "LeoVegas (SE)",
+          "observed_at": "2026-10-03T12:04:28+00:00",
+          "odds_1x2": [
+            1.93,
+            3.25,
+            3.35
+          ]
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "bookmaker_title": "Unibet (NL)",
+          "observed_at": "2026-10-03T12:04:12+00:00",
+          "odds_1x2": [
+            2.02,
+            3.45,
+            3.55
+          ]
+        },
+        {
+          "bookmaker": "coolbet",
+          "bookmaker_title": "Coolbet",
+          "observed_at": "2026-10-03T12:04:43+00:00",
+          "odds_1x2": [
+            1.95,
+            3.75,
+            3.75
+          ]
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "bookmaker_title": "Betfair",
+          "observed_at": "2026-10-03T12:04:40+00:00",
+          "odds_1x2": [
+            1.93,
+            3.5,
+            3.85
+          ]
+        },
+        {
+          "bookmaker": "betonlineag",
+          "bookmaker_title": "BetOnline.ag",
+          "observed_at": "2026-10-03T12:04:25+00:00",
+          "odds_1x2": [
+            1.92,
+            3.45,
+            3.75
+          ]
+        },
+        {
+          "bookmaker": "betanysports",
+          "bookmaker_title": "BetAnything",
+          "observed_at": "2026-10-03T12:04:33+00:00",
+          "odds_1x2": [
+            1.92,
+            3.45,
+            3.75
+          ]
+        },
+        {
+          "bookmaker": "matchbook",
+          "bookmaker_title": "Matchbook",
+          "observed_at": "2026-10-03T12:04:41+00:00",
+          "odds_1x2": [
+            1.96,
+            3.6,
+            3.85
+          ]
+        }
+      ],
+      "provider_event_id": "87e6a3807e957e43bedb63ebeabdf76e",
+      "provider_home_team": "Córdoba",
+      "provider_away_team": "Tenerife",
+      "official_schedule_match_id": 102710,
+      "official_schedule_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8"
+    }
+  ],
+  "rejected": [],
+  "coverage": {
+    "configured_competitions": [
+      "es.1",
+      "es.2"
+    ],
+    "not_configured": [
+      "es.w.1"
+    ],
+    "fixture_count": 18
+  },
+  "timing_note": "Snapshot is the end of sequential acquisition; each quote retains its source timestamp. No claim of a simultaneous bookmaker observation.",
+  "derived_at": "2026-10-03T12:16:16.674573+00:00",
+  "identity_review": "All provider names and kickoffs matched uniquely to official LaLiga schedules; no fuzzy matching",
+  "source_capture_files_sha256": {
+    "es.1.json": "632d2b17224ac0a11150173b7cc286d7411ad13b21d5d1416ba1cc6a78f8e098",
+    "es.2.json": "628c55e3d4b7301d5f66a3d92e5170c0c529aa6f89c4e32ef6f9053574244880",
+    "snapshot.json": "9786dde5cc2d31c0eaa94af6b7cd86ae04f03f5c96f5c38584dd61e216059b27",
+    "audit.json": "b496d377b8d5567adc8401ca0aaaa493c9d918aafdb5b919b0513ff49a32aea7"
+  }
+}

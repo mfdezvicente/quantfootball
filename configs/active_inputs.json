@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "competitions": [
+    "es.1",
+    "es.2",
+    "es.w.1"
+  ],
+  "max_result_age_days": 14,
+  "freshness_policy": "Operational guard; pauses may require documented review. Not a completeness certificate.",
+  "dataset": {
+    "path": "data/processed/matches_quiniela_20261019.parquet",
+    "sha256": "5ab3a7072e16466e03e503b3bb199ea98c330820d91761e6a0705171df58b389"
+  },
+  "audit": {
+    "path": "data/processed/matches_quiniela_20261019.audit.json",
+    "sha256": "56871f2feabb316ab45b212b3ac5f9434404dcdbd12d027d88dbf07666ad1141"
+  },
+  "config": {
+    "path": "configs/quiniela_dynamic_candidate.json",
+    "sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda"
+  }
+}

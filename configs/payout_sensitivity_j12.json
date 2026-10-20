@@ -1,0 +1,73 @@
+{
+  "purpose": "hypothetical_sensitivity",
+  "limitations": [
+    "J12 ya concluida: ejemplo retrospectivo, excluido de la validación prospectiva.",
+    "Premios J12 contrastados en dos fuentes secundarias; verificación directa oficial pendiente.",
+    "Los factores 0,5 y 2 son perturbaciones arbitrarias, no intervalos ni predicciones de premios.",
+    "Probabilidades deportivas originales: no modelan un sorteo de signo por abandono como el de Rayo–Athletic.",
+    "No usar estos escenarios para seleccionar un ganador retrospectivo ni cambiar la estrategia registrada."
+  ],
+  "source_file": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\raw\\results_20261014\\j12_secondary_consensus.json",
+  "scenarios": [
+    {
+      "name": "J12 x 0.5",
+      "prizes_by_hits": {
+        "0": "0.00",
+        "1": "0.00",
+        "2": "0.00",
+        "3": "0.00",
+        "4": "0.00",
+        "5": "0.00",
+        "6": "0.00",
+        "7": "0.00",
+        "8": "0.00",
+        "9": "0.00",
+        "10": "0.00",
+        "11": "1.96",
+        "12": "11.62",
+        "13": "127.06",
+        "14": "8750.38"
+      }
+    },
+    {
+      "name": "J12 x 1",
+      "prizes_by_hits": {
+        "0": "0.00",
+        "1": "0.00",
+        "2": "0.00",
+        "3": "0.00",
+        "4": "0.00",
+        "5": "0.00",
+        "6": "0.00",
+        "7": "0.00",
+        "8": "0.00",
+        "9": "0.00",
+        "10": "0.00",
+        "11": "3.91",
+        "12": "23.25",
+        "13": "254.13",
+        "14": "17500.75"
+      }
+    },
+    {
+      "name": "J12 x 2",
+      "prizes_by_hits": {
+        "0": "0.00",
+        "1": "0.00",
+        "2": "0.00",
+        "3": "0.00",
+        "4": "0.00",
+        "5": "0.00",
+        "6": "0.00",
+        "7": "0.00",
+        "8": "0.00",
+        "9": "0.00",
+        "10": "0.00",
+        "11": "7.82",
+        "12": "46.50",
+        "13": "508.26",
+        "14": "35001.50"
+      }
+    }
+  ]
+}

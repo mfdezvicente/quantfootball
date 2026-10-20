@@ -1,0 +1,1545 @@
+{
+  "baseline_reproduction": [
+    {
+      "coefficient_cutoff": "2022-08-08T00:00:00",
+      "max_probability_difference": 0.0
+    },
+    {
+      "coefficient_cutoff": "2024-08-12T00:00:00",
+      "max_probability_difference": 0.0
+    },
+    {
+      "coefficient_cutoff": "2026-05-04T00:00:00",
+      "max_probability_difference": 0.0
+    }
+  ],
+  "input_sha256": {
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\form_v2_complete\\features.parquet": "eda002c5eba3c3fdbbf8a85143ed4b1ecb888b447204d9757691df3c93b22ada",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\form_v2_complete\\candidate_3.parquet": "38c046cab542ff58c5b58fd4a444aed83d1499d04ac0225b13a97f3a8d046c4b",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\dynamic_calibration_v1\\es.1.incumbent.parquet": "62853bd2fc433bae3064e024a6e6f726da9c0417e761911f2f2656006776c6d3"
+  },
+  "variants": {
+    "base": {
+      "selection_metrics": {
+        "matches": 760,
+        "log_loss": 0.9750452306048337,
+        "brier": 0.5799150880187877,
+        "accuracy": 0.5473684210526316,
+        "mean_draw_probability": 0.24650044382171063,
+        "observed_draw_rate": 0.2578947368421053,
+        "draw_binary_brier": 0.18884860905202652
+      },
+      "diagnostic_metrics": {
+        "matches": 760,
+        "log_loss": 0.9723162525221725,
+        "brier": 0.5760580429341764,
+        "accuracy": 0.531578947368421,
+        "mean_draw_probability": 0.24260040617178505,
+        "observed_draw_rate": 0.25,
+        "draw_binary_brier": 0.1825789103142882
+      },
+      "vs_base": {
+        "mean_log_loss_difference": 0.0,
+        "weeks": 73,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      },
+      "feature_count": 116,
+      "by_season": {
+        "2024-25": {
+          "matches": 380,
+          "log_loss": 0.9688541575669092,
+          "brier": 0.5740186982039814,
+          "accuracy": 0.5421052631578948,
+          "mean_draw_probability": 0.24467836781670596,
+          "observed_draw_rate": 0.25526315789473686,
+          "draw_binary_brier": 0.1865430043987743
+        },
+        "2025-26": {
+          "matches": 380,
+          "log_loss": 0.975778347477436,
+          "brier": 0.5780973876643715,
+          "accuracy": 0.5210526315789473,
+          "mean_draw_probability": 0.2405224445268641,
+          "observed_draw_rate": 0.24473684210526317,
+          "draw_binary_brier": 0.17861481622980205
+        }
+      },
+      "fits": []
+    },
+    "opponents": {
+      "selection_metrics": {
+        "matches": 760,
+        "log_loss": 0.9747346007841862,
+        "brier": 0.579764409526521,
+        "accuracy": 0.5473684210526316,
+        "mean_draw_probability": 0.24691950683173167,
+        "observed_draw_rate": 0.2578947368421053,
+        "draw_binary_brier": 0.1887529118416875
+      },
+      "diagnostic_metrics": {
+        "matches": 760,
+        "log_loss": 0.9728480256443313,
+        "brier": 0.5765112083020519,
+        "accuracy": 0.531578947368421,
+        "mean_draw_probability": 0.24261922784853812,
+        "observed_draw_rate": 0.25,
+        "draw_binary_brier": 0.18255127048065464
+      },
+      "vs_base": {
+        "mean_log_loss_difference": 0.000531773122158689,
+        "weeks": 73,
+        "ci95": [
+          -0.0011218256791386753,
+          0.0021378781317706068
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      },
+      "feature_count": 122,
+      "by_season": {
+        "2024-25": {
+          "matches": 380,
+          "log_loss": 0.9691251084489494,
+          "brier": 0.574346214617378,
+          "accuracy": 0.5394736842105263,
+          "mean_draw_probability": 0.24452335701767433,
+          "observed_draw_rate": 0.25526315789473686,
+          "draw_binary_brier": 0.1862830890067314
+        },
+        "2025-26": {
+          "matches": 380,
+          "log_loss": 0.976570942839713,
+          "brier": 0.578676201986726,
+          "accuracy": 0.5236842105263158,
+          "mean_draw_probability": 0.2407150986794019,
+          "observed_draw_rate": 0.24473684210526317,
+          "draw_binary_brier": 0.1788194519545779
+        }
+      },
+      "fits": [
+        {
+          "month": "2022-08",
+          "coefficient_cutoff": "2022-08-08T00:00:00",
+          "training_last_date": "2022-05-29T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-09",
+          "coefficient_cutoff": "2022-09-05T00:00:00",
+          "training_last_date": "2022-09-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-10",
+          "coefficient_cutoff": "2022-10-03T00:00:00",
+          "training_last_date": "2022-10-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-11",
+          "coefficient_cutoff": "2022-11-07T00:00:00",
+          "training_last_date": "2022-11-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-12",
+          "coefficient_cutoff": "2022-12-05T00:00:00",
+          "training_last_date": "2022-12-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-01",
+          "coefficient_cutoff": "2023-01-02T00:00:00",
+          "training_last_date": "2022-12-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-02",
+          "coefficient_cutoff": "2023-02-06T00:00:00",
+          "training_last_date": "2023-02-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-03",
+          "coefficient_cutoff": "2023-03-06T00:00:00",
+          "training_last_date": "2023-03-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-04",
+          "coefficient_cutoff": "2023-04-03T00:00:00",
+          "training_last_date": "2023-04-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-05",
+          "coefficient_cutoff": "2023-05-01T00:00:00",
+          "training_last_date": "2023-04-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-08",
+          "coefficient_cutoff": "2023-08-07T00:00:00",
+          "training_last_date": "2023-06-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-09",
+          "coefficient_cutoff": "2023-09-04T00:00:00",
+          "training_last_date": "2023-09-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-10",
+          "coefficient_cutoff": "2023-10-02T00:00:00",
+          "training_last_date": "2023-10-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-11",
+          "coefficient_cutoff": "2023-11-06T00:00:00",
+          "training_last_date": "2023-11-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-12",
+          "coefficient_cutoff": "2023-12-04T00:00:00",
+          "training_last_date": "2023-12-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-01",
+          "coefficient_cutoff": "2024-01-01T00:00:00",
+          "training_last_date": "2023-12-23T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-02",
+          "coefficient_cutoff": "2024-02-05T00:00:00",
+          "training_last_date": "2024-02-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-03",
+          "coefficient_cutoff": "2024-03-04T00:00:00",
+          "training_last_date": "2024-03-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-04",
+          "coefficient_cutoff": "2024-04-01T00:00:00",
+          "training_last_date": "2024-03-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-05",
+          "coefficient_cutoff": "2024-05-06T00:00:00",
+          "training_last_date": "2024-05-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-08",
+          "coefficient_cutoff": "2024-08-12T00:00:00",
+          "training_last_date": "2024-06-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-09",
+          "coefficient_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-10",
+          "coefficient_cutoff": "2024-10-07T00:00:00",
+          "training_last_date": "2024-10-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-11",
+          "coefficient_cutoff": "2024-11-04T00:00:00",
+          "training_last_date": "2024-11-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-12",
+          "coefficient_cutoff": "2024-12-02T00:00:00",
+          "training_last_date": "2024-12-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-01",
+          "coefficient_cutoff": "2025-01-06T00:00:00",
+          "training_last_date": "2025-01-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-02",
+          "coefficient_cutoff": "2025-02-03T00:00:00",
+          "training_last_date": "2025-02-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-03",
+          "coefficient_cutoff": "2025-03-03T00:00:00",
+          "training_last_date": "2025-03-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-04",
+          "coefficient_cutoff": "2025-04-07T00:00:00",
+          "training_last_date": "2025-04-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-05",
+          "coefficient_cutoff": "2025-05-05T00:00:00",
+          "training_last_date": "2025-05-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-08",
+          "coefficient_cutoff": "2025-08-11T00:00:00",
+          "training_last_date": "2025-06-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-09",
+          "coefficient_cutoff": "2025-09-01T00:00:00",
+          "training_last_date": "2025-08-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-10",
+          "coefficient_cutoff": "2025-10-06T00:00:00",
+          "training_last_date": "2025-10-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-11",
+          "coefficient_cutoff": "2025-11-03T00:00:00",
+          "training_last_date": "2025-11-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-12",
+          "coefficient_cutoff": "2025-12-01T00:00:00",
+          "training_last_date": "2025-11-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-01",
+          "coefficient_cutoff": "2026-01-05T00:00:00",
+          "training_last_date": "2026-01-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-02",
+          "coefficient_cutoff": "2026-02-02T00:00:00",
+          "training_last_date": "2026-02-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-03",
+          "coefficient_cutoff": "2026-03-02T00:00:00",
+          "training_last_date": "2026-03-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-04",
+          "coefficient_cutoff": "2026-04-06T00:00:00",
+          "training_last_date": "2026-04-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-05",
+          "coefficient_cutoff": "2026-05-04T00:00:00",
+          "training_last_date": "2026-05-03T00:00:00",
+          "iterations": 120
+        }
+      ]
+    },
+    "dynamic": {
+      "selection_metrics": {
+        "matches": 760,
+        "log_loss": 0.9747169853930193,
+        "brier": 0.5797268553467814,
+        "accuracy": 0.5434210526315789,
+        "mean_draw_probability": 0.24545882231074426,
+        "observed_draw_rate": 0.2578947368421053,
+        "draw_binary_brier": 0.18890295435433976
+      },
+      "diagnostic_metrics": {
+        "matches": 760,
+        "log_loss": 0.971957443105946,
+        "brier": 0.5760017514845115,
+        "accuracy": 0.5355263157894737,
+        "mean_draw_probability": 0.2423360118867224,
+        "observed_draw_rate": 0.25,
+        "draw_binary_brier": 0.18226181575086028
+      },
+      "vs_base": {
+        "mean_log_loss_difference": -0.0003588094162265671,
+        "weeks": 73,
+        "ci95": [
+          -0.0018834008245439164,
+          0.0012076725976354642
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      },
+      "feature_count": 122,
+      "by_season": {
+        "2024-25": {
+          "matches": 380,
+          "log_loss": 0.9679034120570967,
+          "brier": 0.5735583034892368,
+          "accuracy": 0.5447368421052632,
+          "mean_draw_probability": 0.24414512316887677,
+          "observed_draw_rate": 0.25526315789473686,
+          "draw_binary_brier": 0.1861033217330881
+        },
+        "2025-26": {
+          "matches": 380,
+          "log_loss": 0.9760114741547954,
+          "brier": 0.5784451994797862,
+          "accuracy": 0.5263157894736842,
+          "mean_draw_probability": 0.24052690060456808,
+          "observed_draw_rate": 0.24473684210526317,
+          "draw_binary_brier": 0.17842030976863255
+        }
+      },
+      "fits": [
+        {
+          "month": "2022-08",
+          "coefficient_cutoff": "2022-08-08T00:00:00",
+          "training_last_date": "2022-05-29T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-09",
+          "coefficient_cutoff": "2022-09-05T00:00:00",
+          "training_last_date": "2022-09-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-10",
+          "coefficient_cutoff": "2022-10-03T00:00:00",
+          "training_last_date": "2022-10-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-11",
+          "coefficient_cutoff": "2022-11-07T00:00:00",
+          "training_last_date": "2022-11-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-12",
+          "coefficient_cutoff": "2022-12-05T00:00:00",
+          "training_last_date": "2022-12-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-01",
+          "coefficient_cutoff": "2023-01-02T00:00:00",
+          "training_last_date": "2022-12-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-02",
+          "coefficient_cutoff": "2023-02-06T00:00:00",
+          "training_last_date": "2023-02-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-03",
+          "coefficient_cutoff": "2023-03-06T00:00:00",
+          "training_last_date": "2023-03-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-04",
+          "coefficient_cutoff": "2023-04-03T00:00:00",
+          "training_last_date": "2023-04-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-05",
+          "coefficient_cutoff": "2023-05-01T00:00:00",
+          "training_last_date": "2023-04-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-08",
+          "coefficient_cutoff": "2023-08-07T00:00:00",
+          "training_last_date": "2023-06-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-09",
+          "coefficient_cutoff": "2023-09-04T00:00:00",
+          "training_last_date": "2023-09-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-10",
+          "coefficient_cutoff": "2023-10-02T00:00:00",
+          "training_last_date": "2023-10-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-11",
+          "coefficient_cutoff": "2023-11-06T00:00:00",
+          "training_last_date": "2023-11-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-12",
+          "coefficient_cutoff": "2023-12-04T00:00:00",
+          "training_last_date": "2023-12-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-01",
+          "coefficient_cutoff": "2024-01-01T00:00:00",
+          "training_last_date": "2023-12-23T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-02",
+          "coefficient_cutoff": "2024-02-05T00:00:00",
+          "training_last_date": "2024-02-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-03",
+          "coefficient_cutoff": "2024-03-04T00:00:00",
+          "training_last_date": "2024-03-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-04",
+          "coefficient_cutoff": "2024-04-01T00:00:00",
+          "training_last_date": "2024-03-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-05",
+          "coefficient_cutoff": "2024-05-06T00:00:00",
+          "training_last_date": "2024-05-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-08",
+          "coefficient_cutoff": "2024-08-12T00:00:00",
+          "training_last_date": "2024-06-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-09",
+          "coefficient_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-10",
+          "coefficient_cutoff": "2024-10-07T00:00:00",
+          "training_last_date": "2024-10-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-11",
+          "coefficient_cutoff": "2024-11-04T00:00:00",
+          "training_last_date": "2024-11-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-12",
+          "coefficient_cutoff": "2024-12-02T00:00:00",
+          "training_last_date": "2024-12-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-01",
+          "coefficient_cutoff": "2025-01-06T00:00:00",
+          "training_last_date": "2025-01-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-02",
+          "coefficient_cutoff": "2025-02-03T00:00:00",
+          "training_last_date": "2025-02-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-03",
+          "coefficient_cutoff": "2025-03-03T00:00:00",
+          "training_last_date": "2025-03-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-04",
+          "coefficient_cutoff": "2025-04-07T00:00:00",
+          "training_last_date": "2025-04-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-05",
+          "coefficient_cutoff": "2025-05-05T00:00:00",
+          "training_last_date": "2025-05-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-08",
+          "coefficient_cutoff": "2025-08-11T00:00:00",
+          "training_last_date": "2025-06-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-09",
+          "coefficient_cutoff": "2025-09-01T00:00:00",
+          "training_last_date": "2025-08-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-10",
+          "coefficient_cutoff": "2025-10-06T00:00:00",
+          "training_last_date": "2025-10-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-11",
+          "coefficient_cutoff": "2025-11-03T00:00:00",
+          "training_last_date": "2025-11-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-12",
+          "coefficient_cutoff": "2025-12-01T00:00:00",
+          "training_last_date": "2025-11-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-01",
+          "coefficient_cutoff": "2026-01-05T00:00:00",
+          "training_last_date": "2026-01-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-02",
+          "coefficient_cutoff": "2026-02-02T00:00:00",
+          "training_last_date": "2026-02-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-03",
+          "coefficient_cutoff": "2026-03-02T00:00:00",
+          "training_last_date": "2026-03-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-04",
+          "coefficient_cutoff": "2026-04-06T00:00:00",
+          "training_last_date": "2026-04-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-05",
+          "coefficient_cutoff": "2026-05-04T00:00:00",
+          "training_last_date": "2026-05-03T00:00:00",
+          "iterations": 120
+        }
+      ]
+    },
+    "rest": {
+      "selection_metrics": {
+        "matches": 760,
+        "log_loss": 0.9754607765600692,
+        "brier": 0.5802466982283517,
+        "accuracy": 0.5460526315789473,
+        "mean_draw_probability": 0.2465536751835221,
+        "observed_draw_rate": 0.2578947368421053,
+        "draw_binary_brier": 0.1889466744645283
+      },
+      "diagnostic_metrics": {
+        "matches": 760,
+        "log_loss": 0.9721004342490238,
+        "brier": 0.5759101308417053,
+        "accuracy": 0.5342105263157895,
+        "mean_draw_probability": 0.24245351544229213,
+        "observed_draw_rate": 0.25,
+        "draw_binary_brier": 0.1824269284832572
+      },
+      "vs_base": {
+        "mean_log_loss_difference": -0.00021581827314861579,
+        "weeks": 73,
+        "ci95": [
+          -0.0010940932486075026,
+          0.0006273598457678365
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      },
+      "feature_count": 122,
+      "by_season": {
+        "2024-25": {
+          "matches": 380,
+          "log_loss": 0.9686643682874764,
+          "brier": 0.5738539793774071,
+          "accuracy": 0.5473684210526316,
+          "mean_draw_probability": 0.24450366135068174,
+          "observed_draw_rate": 0.25526315789473686,
+          "draw_binary_brier": 0.1863628967134276
+        },
+        "2025-26": {
+          "matches": 380,
+          "log_loss": 0.9755365002105715,
+          "brier": 0.5779662823060036,
+          "accuracy": 0.5210526315789473,
+          "mean_draw_probability": 0.24040336953390248,
+          "observed_draw_rate": 0.24473684210526317,
+          "draw_binary_brier": 0.1784909602530868
+        }
+      },
+      "fits": [
+        {
+          "month": "2022-08",
+          "coefficient_cutoff": "2022-08-08T00:00:00",
+          "training_last_date": "2022-05-29T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-09",
+          "coefficient_cutoff": "2022-09-05T00:00:00",
+          "training_last_date": "2022-09-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-10",
+          "coefficient_cutoff": "2022-10-03T00:00:00",
+          "training_last_date": "2022-10-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-11",
+          "coefficient_cutoff": "2022-11-07T00:00:00",
+          "training_last_date": "2022-11-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-12",
+          "coefficient_cutoff": "2022-12-05T00:00:00",
+          "training_last_date": "2022-12-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-01",
+          "coefficient_cutoff": "2023-01-02T00:00:00",
+          "training_last_date": "2022-12-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-02",
+          "coefficient_cutoff": "2023-02-06T00:00:00",
+          "training_last_date": "2023-02-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-03",
+          "coefficient_cutoff": "2023-03-06T00:00:00",
+          "training_last_date": "2023-03-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-04",
+          "coefficient_cutoff": "2023-04-03T00:00:00",
+          "training_last_date": "2023-04-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-05",
+          "coefficient_cutoff": "2023-05-01T00:00:00",
+          "training_last_date": "2023-04-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-08",
+          "coefficient_cutoff": "2023-08-07T00:00:00",
+          "training_last_date": "2023-06-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-09",
+          "coefficient_cutoff": "2023-09-04T00:00:00",
+          "training_last_date": "2023-09-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-10",
+          "coefficient_cutoff": "2023-10-02T00:00:00",
+          "training_last_date": "2023-10-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-11",
+          "coefficient_cutoff": "2023-11-06T00:00:00",
+          "training_last_date": "2023-11-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-12",
+          "coefficient_cutoff": "2023-12-04T00:00:00",
+          "training_last_date": "2023-12-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-01",
+          "coefficient_cutoff": "2024-01-01T00:00:00",
+          "training_last_date": "2023-12-23T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-02",
+          "coefficient_cutoff": "2024-02-05T00:00:00",
+          "training_last_date": "2024-02-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-03",
+          "coefficient_cutoff": "2024-03-04T00:00:00",
+          "training_last_date": "2024-03-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-04",
+          "coefficient_cutoff": "2024-04-01T00:00:00",
+          "training_last_date": "2024-03-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-05",
+          "coefficient_cutoff": "2024-05-06T00:00:00",
+          "training_last_date": "2024-05-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-08",
+          "coefficient_cutoff": "2024-08-12T00:00:00",
+          "training_last_date": "2024-06-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-09",
+          "coefficient_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-10",
+          "coefficient_cutoff": "2024-10-07T00:00:00",
+          "training_last_date": "2024-10-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-11",
+          "coefficient_cutoff": "2024-11-04T00:00:00",
+          "training_last_date": "2024-11-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-12",
+          "coefficient_cutoff": "2024-12-02T00:00:00",
+          "training_last_date": "2024-12-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-01",
+          "coefficient_cutoff": "2025-01-06T00:00:00",
+          "training_last_date": "2025-01-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-02",
+          "coefficient_cutoff": "2025-02-03T00:00:00",
+          "training_last_date": "2025-02-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-03",
+          "coefficient_cutoff": "2025-03-03T00:00:00",
+          "training_last_date": "2025-03-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-04",
+          "coefficient_cutoff": "2025-04-07T00:00:00",
+          "training_last_date": "2025-04-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-05",
+          "coefficient_cutoff": "2025-05-05T00:00:00",
+          "training_last_date": "2025-05-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-08",
+          "coefficient_cutoff": "2025-08-11T00:00:00",
+          "training_last_date": "2025-06-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-09",
+          "coefficient_cutoff": "2025-09-01T00:00:00",
+          "training_last_date": "2025-08-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-10",
+          "coefficient_cutoff": "2025-10-06T00:00:00",
+          "training_last_date": "2025-10-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-11",
+          "coefficient_cutoff": "2025-11-03T00:00:00",
+          "training_last_date": "2025-11-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-12",
+          "coefficient_cutoff": "2025-12-01T00:00:00",
+          "training_last_date": "2025-11-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-01",
+          "coefficient_cutoff": "2026-01-05T00:00:00",
+          "training_last_date": "2026-01-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-02",
+          "coefficient_cutoff": "2026-02-02T00:00:00",
+          "training_last_date": "2026-02-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-03",
+          "coefficient_cutoff": "2026-03-02T00:00:00",
+          "training_last_date": "2026-03-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-04",
+          "coefficient_cutoff": "2026-04-06T00:00:00",
+          "training_last_date": "2026-04-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-05",
+          "coefficient_cutoff": "2026-05-04T00:00:00",
+          "training_last_date": "2026-05-03T00:00:00",
+          "iterations": 120
+        }
+      ]
+    },
+    "congestion": {
+      "selection_metrics": {
+        "matches": 760,
+        "log_loss": 0.9755182698994791,
+        "brier": 0.5801483919349455,
+        "accuracy": 0.5486842105263158,
+        "mean_draw_probability": 0.24651166010594147,
+        "observed_draw_rate": 0.2578947368421053,
+        "draw_binary_brier": 0.18896349594579856
+      },
+      "diagnostic_metrics": {
+        "matches": 760,
+        "log_loss": 0.9721062130688686,
+        "brier": 0.5760167331940109,
+        "accuracy": 0.5328947368421053,
+        "mean_draw_probability": 0.24240300471735152,
+        "observed_draw_rate": 0.25,
+        "draw_binary_brier": 0.1825172947679721
+      },
+      "vs_base": {
+        "mean_log_loss_difference": -0.00021003945330396132,
+        "weeks": 73,
+        "ci95": [
+          -0.0011820661442996602,
+          0.0006730562904314534
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      },
+      "feature_count": 125,
+      "by_season": {
+        "2024-25": {
+          "matches": 380,
+          "log_loss": 0.9694085878227243,
+          "brier": 0.5744937205810586,
+          "accuracy": 0.5421052631578948,
+          "mean_draw_probability": 0.24457019339107516,
+          "observed_draw_rate": 0.25526315789473686,
+          "draw_binary_brier": 0.18666645034144363
+        },
+        "2025-26": {
+          "matches": 380,
+          "log_loss": 0.9748038383150129,
+          "brier": 0.5775397458069633,
+          "accuracy": 0.5236842105263158,
+          "mean_draw_probability": 0.2402358160436279,
+          "observed_draw_rate": 0.24473684210526317,
+          "draw_binary_brier": 0.17836813919450065
+        }
+      },
+      "fits": [
+        {
+          "month": "2022-08",
+          "coefficient_cutoff": "2022-08-08T00:00:00",
+          "training_last_date": "2022-05-29T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-09",
+          "coefficient_cutoff": "2022-09-05T00:00:00",
+          "training_last_date": "2022-09-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-10",
+          "coefficient_cutoff": "2022-10-03T00:00:00",
+          "training_last_date": "2022-10-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-11",
+          "coefficient_cutoff": "2022-11-07T00:00:00",
+          "training_last_date": "2022-11-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-12",
+          "coefficient_cutoff": "2022-12-05T00:00:00",
+          "training_last_date": "2022-12-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-01",
+          "coefficient_cutoff": "2023-01-02T00:00:00",
+          "training_last_date": "2022-12-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-02",
+          "coefficient_cutoff": "2023-02-06T00:00:00",
+          "training_last_date": "2023-02-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-03",
+          "coefficient_cutoff": "2023-03-06T00:00:00",
+          "training_last_date": "2023-03-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-04",
+          "coefficient_cutoff": "2023-04-03T00:00:00",
+          "training_last_date": "2023-04-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-05",
+          "coefficient_cutoff": "2023-05-01T00:00:00",
+          "training_last_date": "2023-04-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-08",
+          "coefficient_cutoff": "2023-08-07T00:00:00",
+          "training_last_date": "2023-06-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-09",
+          "coefficient_cutoff": "2023-09-04T00:00:00",
+          "training_last_date": "2023-09-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-10",
+          "coefficient_cutoff": "2023-10-02T00:00:00",
+          "training_last_date": "2023-10-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-11",
+          "coefficient_cutoff": "2023-11-06T00:00:00",
+          "training_last_date": "2023-11-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-12",
+          "coefficient_cutoff": "2023-12-04T00:00:00",
+          "training_last_date": "2023-12-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-01",
+          "coefficient_cutoff": "2024-01-01T00:00:00",
+          "training_last_date": "2023-12-23T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-02",
+          "coefficient_cutoff": "2024-02-05T00:00:00",
+          "training_last_date": "2024-02-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-03",
+          "coefficient_cutoff": "2024-03-04T00:00:00",
+          "training_last_date": "2024-03-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-04",
+          "coefficient_cutoff": "2024-04-01T00:00:00",
+          "training_last_date": "2024-03-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-05",
+          "coefficient_cutoff": "2024-05-06T00:00:00",
+          "training_last_date": "2024-05-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-08",
+          "coefficient_cutoff": "2024-08-12T00:00:00",
+          "training_last_date": "2024-06-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-09",
+          "coefficient_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-10",
+          "coefficient_cutoff": "2024-10-07T00:00:00",
+          "training_last_date": "2024-10-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-11",
+          "coefficient_cutoff": "2024-11-04T00:00:00",
+          "training_last_date": "2024-11-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-12",
+          "coefficient_cutoff": "2024-12-02T00:00:00",
+          "training_last_date": "2024-12-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-01",
+          "coefficient_cutoff": "2025-01-06T00:00:00",
+          "training_last_date": "2025-01-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-02",
+          "coefficient_cutoff": "2025-02-03T00:00:00",
+          "training_last_date": "2025-02-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-03",
+          "coefficient_cutoff": "2025-03-03T00:00:00",
+          "training_last_date": "2025-03-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-04",
+          "coefficient_cutoff": "2025-04-07T00:00:00",
+          "training_last_date": "2025-04-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-05",
+          "coefficient_cutoff": "2025-05-05T00:00:00",
+          "training_last_date": "2025-05-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-08",
+          "coefficient_cutoff": "2025-08-11T00:00:00",
+          "training_last_date": "2025-06-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-09",
+          "coefficient_cutoff": "2025-09-01T00:00:00",
+          "training_last_date": "2025-08-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-10",
+          "coefficient_cutoff": "2025-10-06T00:00:00",
+          "training_last_date": "2025-10-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-11",
+          "coefficient_cutoff": "2025-11-03T00:00:00",
+          "training_last_date": "2025-11-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-12",
+          "coefficient_cutoff": "2025-12-01T00:00:00",
+          "training_last_date": "2025-11-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-01",
+          "coefficient_cutoff": "2026-01-05T00:00:00",
+          "training_last_date": "2026-01-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-02",
+          "coefficient_cutoff": "2026-02-02T00:00:00",
+          "training_last_date": "2026-02-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-03",
+          "coefficient_cutoff": "2026-03-02T00:00:00",
+          "training_last_date": "2026-03-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-04",
+          "coefficient_cutoff": "2026-04-06T00:00:00",
+          "training_last_date": "2026-04-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-05",
+          "coefficient_cutoff": "2026-05-04T00:00:00",
+          "training_last_date": "2026-05-03T00:00:00",
+          "iterations": 120
+        }
+      ]
+    },
+    "transfer": {
+      "selection_metrics": {
+        "matches": 760,
+        "log_loss": 0.9748125926474696,
+        "brier": 0.5796965325160081,
+        "accuracy": 0.5473684210526316,
+        "mean_draw_probability": 0.24637498729174725,
+        "observed_draw_rate": 0.2578947368421053,
+        "draw_binary_brier": 0.1887341162404939
+      },
+      "diagnostic_metrics": {
+        "matches": 760,
+        "log_loss": 0.9722687000626616,
+        "brier": 0.5759969506223516,
+        "accuracy": 0.5328947368421053,
+        "mean_draw_probability": 0.24264180101278515,
+        "observed_draw_rate": 0.25,
+        "draw_binary_brier": 0.1826195513482126
+      },
+      "vs_base": {
+        "mean_log_loss_difference": -4.755245951077907e-05,
+        "weeks": 73,
+        "ci95": [
+          -0.0007029845317068751,
+          0.0005845874300370964
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      },
+      "feature_count": 122,
+      "by_season": {
+        "2024-25": {
+          "matches": 380,
+          "log_loss": 0.9692553726958534,
+          "brier": 0.5742078742138742,
+          "accuracy": 0.5421052631578948,
+          "mean_draw_probability": 0.2447908853347606,
+          "observed_draw_rate": 0.25526315789473686,
+          "draw_binary_brier": 0.18663497084356095
+        },
+        "2025-26": {
+          "matches": 380,
+          "log_loss": 0.9752820274294702,
+          "brier": 0.577786027030829,
+          "accuracy": 0.5236842105263158,
+          "mean_draw_probability": 0.2404927166908097,
+          "observed_draw_rate": 0.24473684210526317,
+          "draw_binary_brier": 0.17860413185286425
+        }
+      },
+      "fits": [
+        {
+          "month": "2022-08",
+          "coefficient_cutoff": "2022-08-08T00:00:00",
+          "training_last_date": "2022-05-29T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-09",
+          "coefficient_cutoff": "2022-09-05T00:00:00",
+          "training_last_date": "2022-09-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-10",
+          "coefficient_cutoff": "2022-10-03T00:00:00",
+          "training_last_date": "2022-10-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-11",
+          "coefficient_cutoff": "2022-11-07T00:00:00",
+          "training_last_date": "2022-11-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2022-12",
+          "coefficient_cutoff": "2022-12-05T00:00:00",
+          "training_last_date": "2022-12-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-01",
+          "coefficient_cutoff": "2023-01-02T00:00:00",
+          "training_last_date": "2022-12-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-02",
+          "coefficient_cutoff": "2023-02-06T00:00:00",
+          "training_last_date": "2023-02-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-03",
+          "coefficient_cutoff": "2023-03-06T00:00:00",
+          "training_last_date": "2023-03-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-04",
+          "coefficient_cutoff": "2023-04-03T00:00:00",
+          "training_last_date": "2023-04-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-05",
+          "coefficient_cutoff": "2023-05-01T00:00:00",
+          "training_last_date": "2023-04-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-08",
+          "coefficient_cutoff": "2023-08-07T00:00:00",
+          "training_last_date": "2023-06-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-09",
+          "coefficient_cutoff": "2023-09-04T00:00:00",
+          "training_last_date": "2023-09-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-10",
+          "coefficient_cutoff": "2023-10-02T00:00:00",
+          "training_last_date": "2023-10-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-11",
+          "coefficient_cutoff": "2023-11-06T00:00:00",
+          "training_last_date": "2023-11-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2023-12",
+          "coefficient_cutoff": "2023-12-04T00:00:00",
+          "training_last_date": "2023-12-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-01",
+          "coefficient_cutoff": "2024-01-01T00:00:00",
+          "training_last_date": "2023-12-23T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-02",
+          "coefficient_cutoff": "2024-02-05T00:00:00",
+          "training_last_date": "2024-02-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-03",
+          "coefficient_cutoff": "2024-03-04T00:00:00",
+          "training_last_date": "2024-03-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-04",
+          "coefficient_cutoff": "2024-04-01T00:00:00",
+          "training_last_date": "2024-03-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-05",
+          "coefficient_cutoff": "2024-05-06T00:00:00",
+          "training_last_date": "2024-05-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-08",
+          "coefficient_cutoff": "2024-08-12T00:00:00",
+          "training_last_date": "2024-06-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-09",
+          "coefficient_cutoff": "2024-09-02T00:00:00",
+          "training_last_date": "2024-09-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-10",
+          "coefficient_cutoff": "2024-10-07T00:00:00",
+          "training_last_date": "2024-10-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-11",
+          "coefficient_cutoff": "2024-11-04T00:00:00",
+          "training_last_date": "2024-11-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2024-12",
+          "coefficient_cutoff": "2024-12-02T00:00:00",
+          "training_last_date": "2024-12-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-01",
+          "coefficient_cutoff": "2025-01-06T00:00:00",
+          "training_last_date": "2025-01-03T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-02",
+          "coefficient_cutoff": "2025-02-03T00:00:00",
+          "training_last_date": "2025-02-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-03",
+          "coefficient_cutoff": "2025-03-03T00:00:00",
+          "training_last_date": "2025-03-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-04",
+          "coefficient_cutoff": "2025-04-07T00:00:00",
+          "training_last_date": "2025-04-06T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-05",
+          "coefficient_cutoff": "2025-05-05T00:00:00",
+          "training_last_date": "2025-05-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-08",
+          "coefficient_cutoff": "2025-08-11T00:00:00",
+          "training_last_date": "2025-06-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-09",
+          "coefficient_cutoff": "2025-09-01T00:00:00",
+          "training_last_date": "2025-08-31T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-10",
+          "coefficient_cutoff": "2025-10-06T00:00:00",
+          "training_last_date": "2025-10-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-11",
+          "coefficient_cutoff": "2025-11-03T00:00:00",
+          "training_last_date": "2025-11-02T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2025-12",
+          "coefficient_cutoff": "2025-12-01T00:00:00",
+          "training_last_date": "2025-11-30T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-01",
+          "coefficient_cutoff": "2026-01-05T00:00:00",
+          "training_last_date": "2026-01-04T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-02",
+          "coefficient_cutoff": "2026-02-02T00:00:00",
+          "training_last_date": "2026-02-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-03",
+          "coefficient_cutoff": "2026-03-02T00:00:00",
+          "training_last_date": "2026-03-01T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-04",
+          "coefficient_cutoff": "2026-04-06T00:00:00",
+          "training_last_date": "2026-04-05T00:00:00",
+          "iterations": 120
+        },
+        {
+          "month": "2026-05",
+          "coefficient_cutoff": "2026-05-04T00:00:00",
+          "training_last_date": "2026-05-03T00:00:00",
+          "iterations": 120
+        }
+      ]
+    }
+  },
+  "feature_version": 2,
+  "selection_ranking": [
+    "dynamic",
+    "opponents",
+    "transfer",
+    "base",
+    "rest",
+    "congestion"
+  ],
+  "selection_winner": "dynamic",
+  "diagnostic_winner_descriptive_only": "dynamic"
+}

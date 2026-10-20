@@ -1,0 +1,1257 @@
+{
+  "created_at": "2026-10-14T17:21:44.997283+00:00",
+  "status": "hypothetical_not_prospective_validation",
+  "inputs": {
+    "outputs\\predictions\\registry\\2026_j12\\forecast.json": "54dfd0223bdeb599e9ee25a239191cbf6b69671433aa1d44e33cdf3068358694",
+    "configs\\payout_sensitivity_j12.json": "6df2e53d2ca73f156678ed046bdd74075570e9189ae6ba421cdeeed64959784b",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\scripts\\compare_payout_scenarios.py": "f7f105c7f8c132eda21ff8135cd658cd4a16420a288a5a8035d0b52c742e1ba1",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\src\\quantfootball\\quiniela\\payout_scenarios.py": "7f2ba096b755ff5f5b0843010bbf4af45c086b92ad1e3c65b58cad8b6d40ae0e",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\src\\quantfootball\\quiniela\\risk.py": "28ca145d94c30441d6985db0bfa60601c16be489d7b7d77cf27cf1792b3d4ce0",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\src\\quantfootball\\quiniela\\coverage.py": "3ca89e2c4112a71904a08a5c7c594b692c4efa038deba347af174bde327f11e2"
+  },
+  "specification": {
+    "purpose": "hypothetical_sensitivity",
+    "limitations": [
+      "J12 ya concluida: ejemplo retrospectivo, excluido de la validación prospectiva.",
+      "Premios J12 contrastados en dos fuentes secundarias; verificación directa oficial pendiente.",
+      "Los factores 0,5 y 2 son perturbaciones arbitrarias, no intervalos ni predicciones de premios.",
+      "Probabilidades deportivas originales: no modelan un sorteo de signo por abandono como el de Rayo–Athletic.",
+      "No usar estos escenarios para seleccionar un ganador retrospectivo ni cambiar la estrategia registrada."
+    ],
+    "source_file": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\raw\\results_20261014\\j12_secondary_consensus.json",
+    "scenarios": [
+      {
+        "name": "J12 x 0.5",
+        "prizes_by_hits": {
+          "0": "0.00",
+          "1": "0.00",
+          "2": "0.00",
+          "3": "0.00",
+          "4": "0.00",
+          "5": "0.00",
+          "6": "0.00",
+          "7": "0.00",
+          "8": "0.00",
+          "9": "0.00",
+          "10": "0.00",
+          "11": "1.96",
+          "12": "11.62",
+          "13": "127.06",
+          "14": "8750.38"
+        }
+      },
+      {
+        "name": "J12 x 1",
+        "prizes_by_hits": {
+          "0": "0.00",
+          "1": "0.00",
+          "2": "0.00",
+          "3": "0.00",
+          "4": "0.00",
+          "5": "0.00",
+          "6": "0.00",
+          "7": "0.00",
+          "8": "0.00",
+          "9": "0.00",
+          "10": "0.00",
+          "11": "3.91",
+          "12": "23.25",
+          "13": "254.13",
+          "14": "17500.75"
+        }
+      },
+      {
+        "name": "J12 x 2",
+        "prizes_by_hits": {
+          "0": "0.00",
+          "1": "0.00",
+          "2": "0.00",
+          "3": "0.00",
+          "4": "0.00",
+          "5": "0.00",
+          "6": "0.00",
+          "7": "0.00",
+          "8": "0.00",
+          "9": "0.00",
+          "10": "0.00",
+          "11": "7.82",
+          "12": "46.50",
+          "13": "508.26",
+          "14": "35001.50"
+        }
+      }
+    ]
+  },
+  "results": [
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 0.5",
+      "strategy": "full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06834743949402723,
+      "probability_recover_stake": 0.017614446347724216,
+      "probability_profit": 0.017614446347724216,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 2.7303953201087516,
+      "conditional_expected_net_eur": -1.7696046798912484,
+      "conditional_roi": -0.3932454844202774,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9316525605059724
+        },
+        {
+          "gross_eur": 1.96,
+          "probability": 0.045705688856641065
+        },
+        {
+          "gross_eur": 3.92,
+          "probability": 0.005027304289661946
+        },
+        {
+          "gross_eur": 17.5,
+          "probability": 0.013888938299143344
+        },
+        {
+          "gross_eur": 31.08,
+          "probability": 0.0009146816145618511
+        },
+        {
+          "gross_eur": 165.84,
+          "probability": 0.002526991758611975
+        },
+        {
+          "gross_eur": 300.6,
+          "probability": 7.543375882021648e-05
+        },
+        {
+          "gross_eur": 9154.8,
+          "probability": 0.00020840091658682903
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 0.5",
+      "strategy": "individual_columns",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06881836033375727,
+      "probability_recover_stake": 0.018813165837299972,
+      "probability_profit": 0.018813165837299972,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 2.807086286178919,
+      "conditional_expected_net_eur": -1.6929137138210808,
+      "conditional_roi": -0.3762030475157957,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9311816396662426
+        },
+        {
+          "gross_eur": 1.96,
+          "probability": 0.038842425818546446
+        },
+        {
+          "gross_eur": 3.92,
+          "probability": 0.011162768677910856
+        },
+        {
+          "gross_eur": 5.88,
+          "probability": 0.0007892333456412861
+        },
+        {
+          "gross_eur": 7.84,
+          "probability": 0.00017314641434673262
+        },
+        {
+          "gross_eur": 15.54,
+          "probability": 0.008935963470180736
+        },
+        {
+          "gross_eur": 17.5,
+          "probability": 0.001455236894383751
+        },
+        {
+          "gross_eur": 19.46,
+          "probability": 0.0021521862020332655
+        },
+        {
+          "gross_eur": 21.42,
+          "probability": 2.5827635269219745e-05
+        },
+        {
+          "gross_eur": 27.16,
+          "probability": 0.0004935503153455314
+        },
+        {
+          "gross_eur": 29.12,
+          "probability": 0.0012664680426820794
+        },
+        {
+          "gross_eur": 31.08,
+          "probability": 0.0005600639328028453
+        },
+        {
+          "gross_eur": 40.74,
+          "probability": 7.36211464721754e-05
+        },
+        {
+          "gross_eur": 50.4,
+          "probability": 1.6151417831180325e-05
+        },
+        {
+          "gross_eur": 152.26,
+          "probability": 0.00034997443809487317
+        },
+        {
+          "gross_eur": 154.22,
+          "probability": 0.0007152951810998019
+        },
+        {
+          "gross_eur": 156.18,
+          "probability": 0.000791990993909267
+        },
+        {
+          "gross_eur": 165.84,
+          "probability": 0.00013574718952870265
+        },
+        {
+          "gross_eur": 175.5,
+          "probability": 0.0004473127803667377
+        },
+        {
+          "gross_eur": 281.28,
+          "probability": 4.6039286426649106e-05
+        },
+        {
+          "gross_eur": 290.94,
+          "probability": 0.00011813848184134452
+        },
+        {
+          "gross_eur": 300.6,
+          "probability": 5.224379970559613e-05
+        },
+        {
+          "gross_eur": 9020.04,
+          "probability": 3.264626299787719e-05
+        },
+        {
+          "gross_eur": 9029.7,
+          "probability": 6.67240577066603e-05
+        },
+        {
+          "gross_eur": 9039.36,
+          "probability": 7.387838500394421e-05
+        },
+        {
+          "gross_eur": 9270.24,
+          "probability": 4.1726163629714873e-05
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 0.5",
+      "strategy": "robust_full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06785045242566026,
+      "probability_recover_stake": 0.017374487640132632,
+      "probability_profit": 0.017374487640132632,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 2.6524614021429276,
+      "conditional_expected_net_eur": -1.8475385978570724,
+      "conditional_roi": -0.41056413285712723,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9321495475743395
+        },
+        {
+          "gross_eur": 1.96,
+          "probability": 0.046299560770023104
+        },
+        {
+          "gross_eur": 3.92,
+          "probability": 0.00417640401550453
+        },
+        {
+          "gross_eur": 17.5,
+          "probability": 0.01387570493885358
+        },
+        {
+          "gross_eur": 31.08,
+          "probability": 0.0007486798440174446
+        },
+        {
+          "gross_eur": 165.84,
+          "probability": 0.002487417541666645
+        },
+        {
+          "gross_eur": 300.6,
+          "probability": 6.077295509564373e-05
+        },
+        {
+          "gross_eur": 9154.8,
+          "probability": 0.00020191236049931814
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 0.5",
+      "strategy": "robust_columns",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.066725781488651,
+      "probability_recover_stake": 0.018384061814452093,
+      "probability_profit": 0.018384061814452093,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 2.7626376404739754,
+      "conditional_expected_net_eur": -1.7373623595260246,
+      "conditional_roi": -0.38608052433911655,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9332742185113488
+        },
+        {
+          "gross_eur": 1.96,
+          "probability": 0.03535821460576814
+        },
+        {
+          "gross_eur": 3.92,
+          "probability": 0.012983505068430774
+        },
+        {
+          "gross_eur": 5.88,
+          "probability": 0.00031641643172029214
+        },
+        {
+          "gross_eur": 7.84,
+          "probability": 0.0007022255559679964
+        },
+        {
+          "gross_eur": 11.76,
+          "probability": 1.2463143015589132e-05
+        },
+        {
+          "gross_eur": 15.54,
+          "probability": 0.006963607837244144
+        },
+        {
+          "gross_eur": 17.5,
+          "probability": 0.004834951455735238
+        },
+        {
+          "gross_eur": 27.16,
+          "probability": 0.0006111350178245273
+        },
+        {
+          "gross_eur": 29.12,
+          "probability": 0.0016630497093134732
+        },
+        {
+          "gross_eur": 31.08,
+          "probability": 0.0003806921119712697
+        },
+        {
+          "gross_eur": 40.74,
+          "probability": 2.9515910084810936e-05
+        },
+        {
+          "gross_eur": 50.4,
+          "probability": 6.550489889706482e-05
+        },
+        {
+          "gross_eur": 154.22,
+          "probability": 0.001447324018766819
+        },
+        {
+          "gross_eur": 165.84,
+          "probability": 0.0009015762823940945
+        },
+        {
+          "gross_eur": 281.28,
+          "probability": 5.700780499204165e-05
+        },
+        {
+          "gross_eur": 290.94,
+          "probability": 0.00015513235333511116
+        },
+        {
+          "gross_eur": 300.6,
+          "probability": 3.21977395572712e-05
+        },
+        {
+          "gross_eur": 9029.7,
+          "probability": 0.0001350090618532471
+        },
+        {
+          "gross_eur": 9154.8,
+          "probability": 7.625248177910396e-05
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 0.5",
+      "strategy": "at_least_10_full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06834743949402723,
+      "probability_recover_stake": 0.017614446347724216,
+      "probability_profit": 0.017614446347724216,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 2.7303953201087516,
+      "conditional_expected_net_eur": -1.7696046798912484,
+      "conditional_roi": -0.3932454844202774,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9316525605059724
+        },
+        {
+          "gross_eur": 1.96,
+          "probability": 0.045705688856641065
+        },
+        {
+          "gross_eur": 3.92,
+          "probability": 0.005027304289661946
+        },
+        {
+          "gross_eur": 17.5,
+          "probability": 0.013888938299143344
+        },
+        {
+          "gross_eur": 31.08,
+          "probability": 0.0009146816145618511
+        },
+        {
+          "gross_eur": 165.84,
+          "probability": 0.002526991758611975
+        },
+        {
+          "gross_eur": 300.6,
+          "probability": 7.543375882021648e-05
+        },
+        {
+          "gross_eur": 9154.8,
+          "probability": 0.00020840091658682903
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 1",
+      "strategy": "full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06834743949402723,
+      "probability_recover_stake": 0.02264175063738616,
+      "probability_profit": 0.02264175063738616,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 5.460000366742235,
+      "conditional_expected_net_eur": 0.9600003667422348,
+      "conditional_roi": 0.21333341483160773,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9316525605059724
+        },
+        {
+          "gross_eur": 3.91,
+          "probability": 0.045705688856641065
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.005027304289661946
+        },
+        {
+          "gross_eur": 34.98,
+          "probability": 0.013888938299143344
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.0009146816145618511
+        },
+        {
+          "gross_eur": 331.7,
+          "probability": 0.002526991758611975
+        },
+        {
+          "gross_eur": 601.26,
+          "probability": 7.543375882021648e-05
+        },
+        {
+          "gross_eur": 18309.64,
+          "probability": 0.00020840091658682903
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 1",
+      "strategy": "individual_columns",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06881836033375727,
+      "probability_recover_stake": 0.029975934515210828,
+      "probability_profit": 0.029975934515210828,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 5.613372183386027,
+      "conditional_expected_net_eur": 1.1133721833860273,
+      "conditional_roi": 0.2474160407524506,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9311816396662426
+        },
+        {
+          "gross_eur": 3.91,
+          "probability": 0.038842425818546446
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.011162768677910856
+        },
+        {
+          "gross_eur": 11.73,
+          "probability": 0.0007892333456412861
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.00017314641434673262
+        },
+        {
+          "gross_eur": 31.07,
+          "probability": 0.008935963470180736
+        },
+        {
+          "gross_eur": 34.98,
+          "probability": 0.001455236894383751
+        },
+        {
+          "gross_eur": 38.89,
+          "probability": 0.0021521862020332655
+        },
+        {
+          "gross_eur": 42.8,
+          "probability": 2.5827635269219745e-05
+        },
+        {
+          "gross_eur": 54.32,
+          "probability": 0.0004935503153455314
+        },
+        {
+          "gross_eur": 58.23,
+          "probability": 0.0012664680426820794
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.0005600639328028453
+        },
+        {
+          "gross_eur": 81.48,
+          "probability": 7.36211464721754e-05
+        },
+        {
+          "gross_eur": 100.82,
+          "probability": 1.6151417831180325e-05
+        },
+        {
+          "gross_eur": 304.54,
+          "probability": 0.00034997443809487317
+        },
+        {
+          "gross_eur": 308.45,
+          "probability": 0.0007152951810998019
+        },
+        {
+          "gross_eur": 312.36,
+          "probability": 0.000791990993909267
+        },
+        {
+          "gross_eur": 331.7,
+          "probability": 0.00013574718952870265
+        },
+        {
+          "gross_eur": 351.04,
+          "probability": 0.0004473127803667377
+        },
+        {
+          "gross_eur": 562.58,
+          "probability": 4.6039286426649106e-05
+        },
+        {
+          "gross_eur": 581.92,
+          "probability": 0.00011813848184134452
+        },
+        {
+          "gross_eur": 601.26,
+          "probability": 5.224379970559613e-05
+        },
+        {
+          "gross_eur": 18040.08,
+          "probability": 3.264626299787719e-05
+        },
+        {
+          "gross_eur": 18059.42,
+          "probability": 6.67240577066603e-05
+        },
+        {
+          "gross_eur": 18078.76,
+          "probability": 7.387838500394421e-05
+        },
+        {
+          "gross_eur": 18540.52,
+          "probability": 4.1726163629714873e-05
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 1",
+      "strategy": "robust_full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06785045242566026,
+      "probability_recover_stake": 0.02155089165563716,
+      "probability_profit": 0.02155089165563716,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 5.304145264124746,
+      "conditional_expected_net_eur": 0.8041452641247462,
+      "conditional_roi": 0.17869894758327698,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9321495475743395
+        },
+        {
+          "gross_eur": 3.91,
+          "probability": 0.046299560770023104
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.00417640401550453
+        },
+        {
+          "gross_eur": 34.98,
+          "probability": 0.01387570493885358
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.0007486798440174446
+        },
+        {
+          "gross_eur": 331.7,
+          "probability": 0.002487417541666645
+        },
+        {
+          "gross_eur": 601.26,
+          "probability": 6.077295509564373e-05
+        },
+        {
+          "gross_eur": 18309.64,
+          "probability": 0.00020191236049931814
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 1",
+      "strategy": "robust_columns",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.066725781488651,
+      "probability_recover_stake": 0.03136756688288287,
+      "probability_profit": 0.03136756688288287,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 5.524481962408862,
+      "conditional_expected_net_eur": 1.0244819624088617,
+      "conditional_roi": 0.2276626583130803,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9332742185113488
+        },
+        {
+          "gross_eur": 3.91,
+          "probability": 0.03535821460576814
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.012983505068430774
+        },
+        {
+          "gross_eur": 11.73,
+          "probability": 0.00031641643172029214
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.0007022255559679964
+        },
+        {
+          "gross_eur": 23.46,
+          "probability": 1.2463143015589132e-05
+        },
+        {
+          "gross_eur": 31.07,
+          "probability": 0.006963607837244144
+        },
+        {
+          "gross_eur": 34.98,
+          "probability": 0.004834951455735238
+        },
+        {
+          "gross_eur": 54.32,
+          "probability": 0.0006111350178245273
+        },
+        {
+          "gross_eur": 58.23,
+          "probability": 0.0016630497093134732
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.0003806921119712697
+        },
+        {
+          "gross_eur": 81.48,
+          "probability": 2.9515910084810936e-05
+        },
+        {
+          "gross_eur": 100.82,
+          "probability": 6.550489889706482e-05
+        },
+        {
+          "gross_eur": 308.45,
+          "probability": 0.001447324018766819
+        },
+        {
+          "gross_eur": 331.7,
+          "probability": 0.0009015762823940945
+        },
+        {
+          "gross_eur": 562.58,
+          "probability": 5.700780499204165e-05
+        },
+        {
+          "gross_eur": 581.92,
+          "probability": 0.00015513235333511116
+        },
+        {
+          "gross_eur": 601.26,
+          "probability": 3.21977395572712e-05
+        },
+        {
+          "gross_eur": 18059.42,
+          "probability": 0.0001350090618532471
+        },
+        {
+          "gross_eur": 18309.64,
+          "probability": 7.625248177910396e-05
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 1",
+      "strategy": "at_least_10_full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06834743949402723,
+      "probability_recover_stake": 0.02264175063738616,
+      "probability_profit": 0.02264175063738616,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 5.460000366742235,
+      "conditional_expected_net_eur": 0.9600003667422348,
+      "conditional_roi": 0.21333341483160773,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9316525605059724
+        },
+        {
+          "gross_eur": 3.91,
+          "probability": 0.045705688856641065
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.005027304289661946
+        },
+        {
+          "gross_eur": 34.98,
+          "probability": 0.013888938299143344
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.0009146816145618511
+        },
+        {
+          "gross_eur": 331.7,
+          "probability": 0.002526991758611975
+        },
+        {
+          "gross_eur": 601.26,
+          "probability": 7.543375882021648e-05
+        },
+        {
+          "gross_eur": 18309.64,
+          "probability": 0.00020840091658682903
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 2",
+      "strategy": "full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06834743949402723,
+      "probability_recover_stake": 0.06834743949402723,
+      "probability_profit": 0.06834743949402723,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 10.92000073348447,
+      "conditional_expected_net_eur": 6.4200007334844695,
+      "conditional_roi": 1.4266668296632155,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9316525605059724
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.045705688856641065
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.005027304289661946
+        },
+        {
+          "gross_eur": 69.96,
+          "probability": 0.013888938299143344
+        },
+        {
+          "gross_eur": 124.28,
+          "probability": 0.0009146816145618511
+        },
+        {
+          "gross_eur": 663.4,
+          "probability": 0.002526991758611975
+        },
+        {
+          "gross_eur": 1202.52,
+          "probability": 7.543375882021648e-05
+        },
+        {
+          "gross_eur": 36619.28,
+          "probability": 0.00020840091658682903
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 2",
+      "strategy": "individual_columns",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06881836033375727,
+      "probability_recover_stake": 0.06881836033375727,
+      "probability_profit": 0.06881836033375727,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 11.226744366772055,
+      "conditional_expected_net_eur": 6.726744366772055,
+      "conditional_roi": 1.4948320815049012,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9311816396662426
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.038842425818546446
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.011162768677910856
+        },
+        {
+          "gross_eur": 23.46,
+          "probability": 0.0007892333456412861
+        },
+        {
+          "gross_eur": 31.28,
+          "probability": 0.00017314641434673262
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.008935963470180736
+        },
+        {
+          "gross_eur": 69.96,
+          "probability": 0.001455236894383751
+        },
+        {
+          "gross_eur": 77.78,
+          "probability": 0.0021521862020332655
+        },
+        {
+          "gross_eur": 85.6,
+          "probability": 2.5827635269219745e-05
+        },
+        {
+          "gross_eur": 108.64,
+          "probability": 0.0004935503153455314
+        },
+        {
+          "gross_eur": 116.46,
+          "probability": 0.0012664680426820794
+        },
+        {
+          "gross_eur": 124.28,
+          "probability": 0.0005600639328028453
+        },
+        {
+          "gross_eur": 162.96,
+          "probability": 7.36211464721754e-05
+        },
+        {
+          "gross_eur": 201.64,
+          "probability": 1.6151417831180325e-05
+        },
+        {
+          "gross_eur": 609.08,
+          "probability": 0.00034997443809487317
+        },
+        {
+          "gross_eur": 616.9,
+          "probability": 0.0007152951810998019
+        },
+        {
+          "gross_eur": 624.72,
+          "probability": 0.000791990993909267
+        },
+        {
+          "gross_eur": 663.4,
+          "probability": 0.00013574718952870265
+        },
+        {
+          "gross_eur": 702.08,
+          "probability": 0.0004473127803667377
+        },
+        {
+          "gross_eur": 1125.16,
+          "probability": 4.6039286426649106e-05
+        },
+        {
+          "gross_eur": 1163.84,
+          "probability": 0.00011813848184134452
+        },
+        {
+          "gross_eur": 1202.52,
+          "probability": 5.224379970559613e-05
+        },
+        {
+          "gross_eur": 36080.16,
+          "probability": 3.264626299787719e-05
+        },
+        {
+          "gross_eur": 36118.84,
+          "probability": 6.67240577066603e-05
+        },
+        {
+          "gross_eur": 36157.52,
+          "probability": 7.387838500394421e-05
+        },
+        {
+          "gross_eur": 37081.04,
+          "probability": 4.1726163629714873e-05
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 2",
+      "strategy": "robust_full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06785045242566026,
+      "probability_recover_stake": 0.06785045242566026,
+      "probability_profit": 0.06785045242566026,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 10.608290528249492,
+      "conditional_expected_net_eur": 6.108290528249492,
+      "conditional_roi": 1.357397895166554,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9321495475743395
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.046299560770023104
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.00417640401550453
+        },
+        {
+          "gross_eur": 69.96,
+          "probability": 0.01387570493885358
+        },
+        {
+          "gross_eur": 124.28,
+          "probability": 0.0007486798440174446
+        },
+        {
+          "gross_eur": 663.4,
+          "probability": 0.002487417541666645
+        },
+        {
+          "gross_eur": 1202.52,
+          "probability": 6.077295509564373e-05
+        },
+        {
+          "gross_eur": 36619.28,
+          "probability": 0.00020191236049931814
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 2",
+      "strategy": "robust_columns",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.066725781488651,
+      "probability_recover_stake": 0.066725781488651,
+      "probability_profit": 0.066725781488651,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 11.048963924817723,
+      "conditional_expected_net_eur": 6.548963924817723,
+      "conditional_roi": 1.4553253166261606,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9332742185113488
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.03535821460576814
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.012983505068430774
+        },
+        {
+          "gross_eur": 23.46,
+          "probability": 0.00031641643172029214
+        },
+        {
+          "gross_eur": 31.28,
+          "probability": 0.0007022255559679964
+        },
+        {
+          "gross_eur": 46.92,
+          "probability": 1.2463143015589132e-05
+        },
+        {
+          "gross_eur": 62.14,
+          "probability": 0.006963607837244144
+        },
+        {
+          "gross_eur": 69.96,
+          "probability": 0.004834951455735238
+        },
+        {
+          "gross_eur": 108.64,
+          "probability": 0.0006111350178245273
+        },
+        {
+          "gross_eur": 116.46,
+          "probability": 0.0016630497093134732
+        },
+        {
+          "gross_eur": 124.28,
+          "probability": 0.0003806921119712697
+        },
+        {
+          "gross_eur": 162.96,
+          "probability": 2.9515910084810936e-05
+        },
+        {
+          "gross_eur": 201.64,
+          "probability": 6.550489889706482e-05
+        },
+        {
+          "gross_eur": 616.9,
+          "probability": 0.001447324018766819
+        },
+        {
+          "gross_eur": 663.4,
+          "probability": 0.0009015762823940945
+        },
+        {
+          "gross_eur": 1125.16,
+          "probability": 5.700780499204165e-05
+        },
+        {
+          "gross_eur": 1163.84,
+          "probability": 0.00015513235333511116
+        },
+        {
+          "gross_eur": 1202.52,
+          "probability": 3.21977395572712e-05
+        },
+        {
+          "gross_eur": 36118.84,
+          "probability": 0.0001350090618532471
+        },
+        {
+          "gross_eur": 36619.28,
+          "probability": 7.625248177910396e-05
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    },
+    {
+      "budget": "5.00",
+      "scenario": "J12 x 2",
+      "strategy": "at_least_10_full_system",
+      "method": "Exact shared-position convolution and joint enumeration",
+      "cost_eur": 4.5,
+      "probability_any_cash": 0.06834743949402723,
+      "probability_recover_stake": 0.06834743949402723,
+      "probability_profit": 0.06834743949402723,
+      "probability_break_even": 0.0,
+      "conditional_expected_gross_eur": 10.92000073348447,
+      "conditional_expected_net_eur": 6.4200007334844695,
+      "conditional_roi": 1.4266668296632155,
+      "gross_pmf": [
+        {
+          "gross_eur": 0.0,
+          "probability": 0.9316525605059724
+        },
+        {
+          "gross_eur": 7.82,
+          "probability": 0.045705688856641065
+        },
+        {
+          "gross_eur": 15.64,
+          "probability": 0.005027304289661946
+        },
+        {
+          "gross_eur": 69.96,
+          "probability": 0.013888938299143344
+        },
+        {
+          "gross_eur": 124.28,
+          "probability": 0.0009146816145618511
+        },
+        {
+          "gross_eur": 663.4,
+          "probability": 0.002526991758611975
+        },
+        {
+          "gross_eur": 1202.52,
+          "probability": 7.543375882021648e-05
+        },
+        {
+          "gross_eur": 36619.28,
+          "probability": 0.00020840091658682903
+        }
+      ],
+      "limitations": [
+        "Fixed hypothetical prizes, independent matches and supplied point probabilities",
+        "Not an estimate of future prizes, expected investment ROI or an observed settlement",
+        "Outcome-dependent winner counts, revenue, jackpot, Pleno and taxes excluded",
+        "Prize scenarios carry no probability weights; no calibrated confidence intervals"
+      ]
+    }
+  ]
+}

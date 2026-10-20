@@ -3,6 +3,21 @@
 from __future__ import annotations
 
 TEAM_ALIASES: dict[str, str] = {
+    "Atlético de Madrid": "Club Atlético de Madrid",
+    "Celta": "RC Celta de Vigo",
+    "Albacete BP": "Albacete",
+    "Albacete Balompié": "Albacete",
+    "Cultural y Deportiva Leonesa": "Cultural Leonesa",
+    "R. Racing Club": "Racing Santander",
+    "Real Racing Club de Santander": "Racing Santander",
+    "R. Sociedad B": "Real Sociedad B",
+    "RC Deportivo": "Deportivo La Coruña",
+    "RC Deportivo La Coruña": "Deportivo La Coruña",
+    "Real Sporting": "Sporting Gijón",
+    "Real Sporting de Gijón": "Sporting Gijón",
+    "R. Oviedo": "Real Oviedo",
+    "CD Eldense": "Eldense",
+    "Racing Club Ferrol": "Racing Ferrol",
     "Atlético Madrid": "Club Atlético de Madrid",
     "CD Alavés": "Deportivo Alavés",
     "Espanyol Barcelona": "RCD Espanyol de Barcelona",

@@ -1,0 +1,3519 @@
+{
+  "date": "2026-04-05",
+  "cutoff": "2026-04-04",
+  "fixtures": [
+    {
+      "position": 1,
+      "date": "2026-04-04T00:00:00.000",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Levante UD",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "5356c3e98055b304205b",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 29.0,
+      "p_home": 0.584251725,
+      "p_draw": 0.2226124144,
+      "p_away": 0.1931358606,
+      "p_home_low": 0.5121132859,
+      "p_home_high": 0.6627171453,
+      "p_draw_low": 0.1974598144,
+      "p_draw_high": 0.2404572813,
+      "p_away_low": 0.1357771313,
+      "p_away_high": 0.24779347,
+      "entropy": 0.8793015068,
+      "estimator_sd": 0.0471730494,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 2,
+      "date": "2026-04-04T00:00:00.000",
+      "home_team": "RCD Mallorca",
+      "away_team": "Real Madrid CF",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "ce38a581c5f6fe3cdd28",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.1286768932,
+      "p_draw": 0.1938563189,
+      "p_away": 0.6774667879,
+      "p_home_low": 0.1032564015,
+      "p_home_high": 0.167769537,
+      "p_draw_low": 0.172555455,
+      "p_draw_high": 0.217776516,
+      "p_away_low": 0.6125160148,
+      "p_away_high": 0.7193854988,
+      "entropy": 0.7697853864,
+      "estimator_sd": 0.0334298015,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 3,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "Deportivo Alavés",
+      "away_team": "CA Osasuna",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "3942ac80f2a78b141ee1",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.3761036692,
+      "p_draw": 0.2700691739,
+      "p_away": 0.3538271569,
+      "p_home_low": 0.3024503731,
+      "p_home_high": 0.4410775034,
+      "p_draw_low": 0.2524786719,
+      "p_draw_high": 0.2813571802,
+      "p_away_low": 0.2929205117,
+      "p_away_high": 0.4294400443,
+      "entropy": 0.9911933061,
+      "estimator_sd": 0.043994577,
+      "favorite_stability": 0.625,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 4,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "Getafe CF",
+      "away_team": "Athletic Club",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "36588c6122533de59b20",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.3357870178,
+      "p_draw": 0.2864083913,
+      "p_away": 0.3778045909,
+      "p_home_low": 0.2610392388,
+      "p_home_high": 0.4040680384,
+      "p_draw_low": 0.2617020543,
+      "p_draw_high": 0.3049968102,
+      "p_away_low": 0.3004525943,
+      "p_away_high": 0.4650222475,
+      "entropy": 0.9942458161,
+      "estimator_sd": 0.0548785679,
+      "favorite_stability": 0.71875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 5,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "Valencia CF",
+      "away_team": "RC Celta de Vigo",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "6dfa2cbd4c85d1b24b2e",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.4027979678,
+      "p_draw": 0.2555656047,
+      "p_away": 0.3416364274,
+      "p_home_low": 0.320590793,
+      "p_home_high": 0.4885277874,
+      "p_draw_low": 0.2375675535,
+      "p_draw_high": 0.2712215147,
+      "p_away_low": 0.2704609971,
+      "p_away_high": 0.4257705588,
+      "entropy": 0.9847465746,
+      "estimator_sd": 0.0569524578,
+      "favorite_stability": 0.75,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 6,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "Real Oviedo",
+      "away_team": "Sevilla FC",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "585b46ee41287dc3e8f1",
+      "recent_home_matches": 29.0,
+      "recent_away_matches": 38.0,
+      "p_home": 0.3816614708,
+      "p_draw": 0.2607609148,
+      "p_away": 0.3575776144,
+      "p_home_low": 0.3030334408,
+      "p_home_high": 0.4493896703,
+      "p_draw_low": 0.2359308604,
+      "p_draw_high": 0.2857413786,
+      "p_away_low": 0.2881165224,
+      "p_away_high": 0.4346401205,
+      "entropy": 0.9883927376,
+      "estimator_sd": 0.0495459741,
+      "favorite_stability": 0.71875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 7,
+      "date": "2026-04-04T00:00:00.000",
+      "home_team": "Real Betis Balompié",
+      "away_team": "RCD Espanyol de Barcelona",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "93be8c49d81c2990dd4b",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 39.0,
+      "p_home": 0.6154635288,
+      "p_draw": 0.2131278881,
+      "p_away": 0.1714085831,
+      "p_home_low": 0.532483868,
+      "p_home_high": 0.6884472622,
+      "p_draw_low": 0.1850066401,
+      "p_draw_high": 0.2341511834,
+      "p_away_low": 0.1249795934,
+      "p_away_high": 0.245331956,
+      "entropy": 0.8469904665,
+      "estimator_sd": 0.0497839192,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 8,
+      "date": "2026-04-06T00:00:00.000",
+      "home_team": "Girona FC",
+      "away_team": "Villarreal CF",
+      "competition_code": "es.1",
+      "gender": "men",
+      "match_id": "5b588595d01b0ca77918",
+      "recent_home_matches": 38.0,
+      "recent_away_matches": 39.0,
+      "p_home": 0.2905182967,
+      "p_draw": 0.2327311138,
+      "p_away": 0.4767505895,
+      "p_home_low": 0.2061556702,
+      "p_home_high": 0.3822533608,
+      "p_draw_low": 0.2034699797,
+      "p_draw_high": 0.2442869229,
+      "p_away_low": 0.3793083039,
+      "p_away_high": 0.5860426226,
+      "entropy": 0.9571684978,
+      "estimator_sd": 0.0631215647,
+      "favorite_stability": 0.9375,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 9,
+      "date": "2026-04-04T00:00:00.000",
+      "home_team": "Cádiz CF",
+      "away_team": "Córdoba CF",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "9e98698fa83be532cc47",
+      "recent_home_matches": 42.0,
+      "recent_away_matches": 42.0,
+      "p_home": 0.4533356706,
+      "p_draw": 0.2507927881,
+      "p_away": 0.2958715413,
+      "p_home_low": 0.3381353054,
+      "p_home_high": 0.5445355675,
+      "p_draw_low": 0.2215588499,
+      "p_draw_high": 0.2731420348,
+      "p_away_low": 0.2262319702,
+      "p_away_high": 0.4153221574,
+      "entropy": 0.9701728479,
+      "estimator_sd": 0.0662024922,
+      "favorite_stability": 0.875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 10,
+      "date": "2026-04-04T00:00:00.000",
+      "home_team": "Albacete",
+      "away_team": "Burgos CF",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "d2027994d932f2799efa",
+      "recent_home_matches": 42.0,
+      "recent_away_matches": 42.0,
+      "p_home": 0.4220498209,
+      "p_draw": 0.2954550939,
+      "p_away": 0.2824950853,
+      "p_home_low": 0.3617277137,
+      "p_home_high": 0.4932044307,
+      "p_draw_low": 0.2640989537,
+      "p_draw_high": 0.324596396,
+      "p_away_low": 0.2222965549,
+      "p_away_high": 0.3406146945,
+      "entropy": 0.9843365446,
+      "estimator_sd": 0.0407570109,
+      "favorite_stability": 0.96875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 11,
+      "date": "2026-04-04T00:00:00.000",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "Málaga CF",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "983d8fdb1f3457bf93c0",
+      "recent_home_matches": 42.0,
+      "recent_away_matches": 42.0,
+      "p_home": 0.4750663815,
+      "p_draw": 0.2565087713,
+      "p_away": 0.2684248471,
+      "p_home_low": 0.3939165657,
+      "p_home_high": 0.5779921104,
+      "p_draw_low": 0.2228346408,
+      "p_draw_high": 0.2882162477,
+      "p_away_low": 0.1903223,
+      "p_away_high": 0.3536437456,
+      "entropy": 0.9608706389,
+      "estimator_sd": 0.0635515643,
+      "favorite_stability": 0.96875,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 12,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "FC Andorra",
+      "away_team": "Racing Santander",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "3f2c08c262d371fb9fce",
+      "recent_home_matches": 33.0,
+      "recent_away_matches": 42.0,
+      "p_home": 0.3797756115,
+      "p_draw": 0.2453679463,
+      "p_away": 0.3748564422,
+      "p_home_low": 0.279286748,
+      "p_home_high": 0.4827159924,
+      "p_draw_low": 0.2317336358,
+      "p_draw_high": 0.26800993,
+      "p_away_low": 0.2789752846,
+      "p_away_high": 0.4841256526,
+      "entropy": 0.9832803782,
+      "estimator_sd": 0.0631128834,
+      "favorite_stability": 0.5,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 13,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "UD Almería",
+      "away_team": "CD Leganés",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "df7372429bd9b866f377",
+      "recent_home_matches": 42.0,
+      "recent_away_matches": 33.0,
+      "p_home": 0.524239489,
+      "p_draw": 0.2418410951,
+      "p_away": 0.2339194159,
+      "p_home_low": 0.4496104076,
+      "p_home_high": 0.6126268233,
+      "p_draw_low": 0.2058017058,
+      "p_draw_high": 0.2697038884,
+      "p_away_low": 0.1772991912,
+      "p_away_high": 0.291669689,
+      "entropy": 0.9299711357,
+      "estimator_sd": 0.0541294119,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    },
+    {
+      "position": 14,
+      "date": "2026-04-05T00:00:00.000",
+      "home_team": "UD Las Palmas",
+      "away_team": "SD Huesca",
+      "competition_code": "es.2",
+      "gender": "men",
+      "match_id": "e827cd50c0973838e2bb",
+      "recent_home_matches": 33.0,
+      "recent_away_matches": 42.0,
+      "p_home": 0.5782500344,
+      "p_draw": 0.2613031777,
+      "p_away": 0.160446788,
+      "p_home_low": 0.4942296932,
+      "p_home_high": 0.6560483283,
+      "p_draw_low": 0.2274750094,
+      "p_draw_high": 0.2979304796,
+      "p_away_low": 0.1175429779,
+      "p_away_high": 0.2241445781,
+      "entropy": 0.8747475572,
+      "estimator_sd": 0.0473876801,
+      "favorite_stability": 1.0,
+      "cold_start": false,
+      "limited_history": false
+    }
+  ],
+  "model": {
+    "model": "Division-specific calibrated Elo + Dixon-Coles",
+    "cutoff": "2026-04-04",
+    "training_last_date": "2026-04-03T00:00:00",
+    "divisions": {
+      "es.1": {
+        "configuration": {
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "dc_weight": 0.5,
+          "temperature": 0.9,
+          "lookback_days": 1461,
+          "selected_before": "2024-07-01",
+          "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08"
+        },
+        "goal_model": {
+          "training_matches": 1513,
+          "weighted_matches": 525.4631468116459,
+          "training_last_date": "2026-04-03T00:00:00",
+          "cutoff": "2026-04-04",
+          "rho": -0.0007074115347180347,
+          "rho_bounds": [
+            -0.24504243338160317,
+            0.2905729485768016
+          ],
+          "converged": true,
+          "iterations": 28,
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "lookback_days": 1461
+        }
+      },
+      "es.2": {
+        "configuration": {
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "dc_weight": 1.0,
+          "temperature": 0.9,
+          "lookback_days": 1461,
+          "selected_before": "2024-07-01",
+          "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08"
+        },
+        "goal_model": {
+          "training_matches": 1838,
+          "weighted_matches": 645.8220553372078,
+          "training_last_date": "2026-04-02T00:00:00",
+          "cutoff": "2026-04-04",
+          "rho": -0.022379841109391868,
+          "rho_bounds": [
+            -0.29999999899999996,
+            0.29471689862363704
+          ],
+          "converged": true,
+          "iterations": 24,
+          "half_life_days": 365.0,
+          "ridge": 10.0,
+          "lookback_days": 1461
+        }
+      }
+    },
+    "bootstrap_draws": 32,
+    "seed": 20260925,
+    "uncertainty": "5-95% week-weight bootstrap spread; conditional sensitivity, not calibrated confidence bounds",
+    "cold_start_policy": "Reject unseen division teams unless explicitly allowed; neutral prior is not calibrated for promotion",
+    "limitations": [
+      "Independent match outcomes conditional on model draw",
+      "No lineups, injuries or public betting shares",
+      "Optional transfer Elo mixture only when explicitly configured; it does not transfer goal parameters"
+    ]
+  },
+  "budgets": {
+    "1.50": {
+      "budget_eur": 1.5,
+      "max_columns": 2,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 2,
+          "coverage": 5.2752193635361095e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 1,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 5.8158630828319284e-05,
+          "bootstrap_p10_coverage": 2.4505726606101997e-05,
+          "bootstrap_p90_coverage": 8.903199318454265e-05,
+          "cost_eur": 1.5,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "individual_columns": {
+          "column_count": 2,
+          "coverage": 5.2752193635361095e-05,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 5.8158630828319284e-05,
+          "bootstrap_p10_coverage": 2.4505726606101997e-05,
+          "bootstrap_p90_coverage": 8.903199318454265e-05,
+          "cost_eur": 1.5,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "robust_full_system": {
+          "column_count": 2,
+          "coverage": 5.0754769053231344e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 1,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 5.5165440557803744e-05,
+          "bootstrap_p10_coverage": 2.9121344488337275e-05,
+          "bootstrap_p90_coverage": 8.769203448371887e-05,
+          "cost_eur": 1.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        },
+        "robust_columns": {
+          "column_count": 2,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8506991650814773e-05
+            }
+          ],
+          "coverage": 4.4711152379247085e-05,
+          "bootstrap_mean_coverage": 4.7613129893002475e-05,
+          "bootstrap_p10_coverage": 3.168491500144725e-05,
+          "bootstrap_p90_coverage": 7.442942305114325e-05,
+          "cost_eur": 1.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        }
+      },
+      "bootstrap_system_candidates": 26,
+      "bootstrap_column_candidates": 104,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "2.25": {
+      "budget_eur": 2.25,
+      "max_columns": 3,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 3,
+          "coverage": 7.058700853794953e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 0,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "X",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 1.906337508389337e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 7.79320273265736e-05,
+          "bootstrap_p10_coverage": 3.325007812989797e-05,
+          "bootstrap_p90_coverage": 0.0001235493580984721,
+          "cost_eur": 2.25,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "individual_columns": {
+          "column_count": 3,
+          "coverage": 7.772779418248847e-05,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 8.604257342283138e-05,
+          "bootstrap_p10_coverage": 3.741659815986127e-05,
+          "bootstrap_p90_coverage": 0.00013034554483522522,
+          "cost_eur": 2.25,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "robust_full_system": {
+          "column_count": 3,
+          "coverage": 6.49822922051819e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 13,
+          "doubles": 0,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.182021010728651e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "X",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8611473773096362e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 6.915537440385232e-05,
+          "bootstrap_p10_coverage": 4.037280407932312e-05,
+          "bootstrap_p90_coverage": 0.00011441110809817269,
+          "cost_eur": 2.25,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        },
+        "robust_columns": {
+          "column_count": 3,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8506991650814773e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            }
+          ],
+          "coverage": 6.926176070404611e-05,
+          "bootstrap_mean_coverage": 7.381693923331081e-05,
+          "bootstrap_p10_coverage": 4.9120726243707686e-05,
+          "bootstrap_p90_coverage": 0.00011291023543119665,
+          "cost_eur": 2.25,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        }
+      },
+      "bootstrap_system_candidates": 30,
+      "bootstrap_column_candidates": 145,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "3.00": {
+      "budget_eur": 3.0,
+      "max_columns": 4,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 4,
+          "coverage": 0.00010237989000143101,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00011402060095136716,
+          "bootstrap_p10_coverage": 5.029464943624043e-05,
+          "bootstrap_p90_coverage": 0.00018533289663329945,
+          "cost_eur": 3.0,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "individual_columns": {
+          "column_count": 4,
+          "coverage": 0.00010260057543453956,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.487278125205108e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00011249432427973555,
+          "bootstrap_p10_coverage": 5.225501734165995e-05,
+          "bootstrap_p90_coverage": 0.00016099794564624947,
+          "cost_eur": 3.0,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "robust_full_system": {
+          "column_count": 4,
+          "coverage": 9.749440291618639e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.2516933656382028e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.2225275624443257e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00010536410533529465,
+          "bootstrap_p10_coverage": 6.289737109561209e-05,
+          "bootstrap_p90_coverage": 0.00015870854178274272,
+          "cost_eur": 3.0,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        },
+        "robust_columns": {
+          "column_count": 4,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8506991650814773e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.0527805333243596e-05
+            }
+          ],
+          "coverage": 8.978956603728972e-05,
+          "bootstrap_mean_coverage": 9.501350034562322e-05,
+          "bootstrap_p10_coverage": 6.477192029952657e-05,
+          "bootstrap_p90_coverage": 0.0001508847578307913,
+          "cost_eur": 3.0,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        }
+      },
+      "bootstrap_system_candidates": 26,
+      "bootstrap_column_candidates": 194,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "3.75": {
+      "budget_eur": 3.75,
+      "max_columns": 5,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 4,
+          "coverage": 0.00010237989000143101,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00011402060095136716,
+          "bootstrap_p10_coverage": 5.029464943624043e-05,
+          "bootstrap_p90_coverage": 0.00018533289663329945,
+          "cost_eur": 3.0,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "individual_columns": {
+          "column_count": 5,
+          "coverage": 0.0001272526712534821,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.487278125205108e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00014047235180827134,
+          "bootstrap_p10_coverage": 6.57899256107566e-05,
+          "bootstrap_p90_coverage": 0.0002093666882291501,
+          "cost_eur": 3.75,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "robust_full_system": {
+          "column_count": 4,
+          "coverage": 9.749440291618639e-05,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 2,
+          "triples": 0,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.2516933656382028e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.2225275624443257e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00010536410533529465,
+          "bootstrap_p10_coverage": 6.289737109561209e-05,
+          "bootstrap_p90_coverage": 0.00015870854178274272,
+          "cost_eur": 3.0,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        },
+        "robust_columns": {
+          "column_count": 5,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8506991650814773e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.0527805333243596e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            }
+          ],
+          "coverage": 0.0001147651665844171,
+          "bootstrap_mean_coverage": 0.00012289744294013532,
+          "bootstrap_p10_coverage": 7.97720300513299e-05,
+          "bootstrap_p90_coverage": 0.00018859518195991386,
+          "cost_eur": 3.75,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        }
+      },
+      "bootstrap_system_candidates": 26,
+      "bootstrap_column_candidates": 231,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "4.50": {
+      "budget_eur": 4.5,
+      "max_columns": 6,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 6,
+          "coverage": 0.00014025971549714976,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "X",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 1.906337508389337e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "X",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8816450411825374e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00015569423495513765,
+          "bootstrap_p10_coverage": 6.835129348118132e-05,
+          "bootstrap_p90_coverage": 0.00024988276249650386,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "individual_columns": {
+          "column_count": 6,
+          "coverage": 0.00015180327957828112,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.487278125205108e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00016667616114857966,
+          "bootstrap_p10_coverage": 8.110980917633229e-05,
+          "bootstrap_p90_coverage": 0.00023587330682902727,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "robust_full_system": {
+          "column_count": 6,
+          "coverage": 0.00013096439865958973,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "X",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 1.684408717735319e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "X",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.6625908566050158e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.2516933656382028e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.2225275624443257e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.0001412899390245419,
+          "bootstrap_p10_coverage": 8.447293308262984e-05,
+          "bootstrap_p90_coverage": 0.0002123833146731296,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        },
+        "robust_columns": {
+          "column_count": 6,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8506991650814773e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.0527805333243596e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.2225275624443257e-05
+            }
+          ],
+          "coverage": 0.00013699044220886035,
+          "bootstrap_mean_coverage": 0.00014644248296223812,
+          "bootstrap_p10_coverage": 9.473830277246976e-05,
+          "bootstrap_p90_coverage": 0.0002200109778286049,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        }
+      },
+      "bootstrap_system_candidates": 27,
+      "bootstrap_column_candidates": 275,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    },
+    "5.00": {
+      "budget_eur": 5.0,
+      "max_columns": 6,
+      "column_price_eur": 0.75,
+      "strategies": {
+        "full_system": {
+          "column_count": 6,
+          "coverage": 0.00014025971549714976,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "X",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 1.906337508389337e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "X",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8816450411825374e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00015569423495513765,
+          "bootstrap_p10_coverage": 6.835129348118132e-05,
+          "bootstrap_p90_coverage": 0.00024988276249650386,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "individual_columns": {
+          "column_count": 6,
+          "coverage": 0.00015180327957828112,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.487278125205108e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.465209581894253e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.00016667616114857966,
+          "bootstrap_p10_coverage": 8.110980917633229e-05,
+          "bootstrap_p90_coverage": 0.00023587330682902727,
+          "cost_eur": 4.5,
+          "optimality": "Exact for independent point probabilities"
+        },
+        "robust_full_system": {
+          "column_count": 6,
+          "coverage": 0.00013096439865958973,
+          "selections": [
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1",
+              "X",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1",
+              "2"
+            ],
+            [
+              "1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "singles": 12,
+          "doubles": 1,
+          "triples": 1,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.6548032906928786e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "X",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 1.684408717735319e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "X",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.6625908566050158e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.2516933656382028e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.2225275624443257e-05
+            }
+          ],
+          "bootstrap_mean_coverage": 0.0001412899390245419,
+          "bootstrap_p10_coverage": 8.447293308262984e-05,
+          "bootstrap_p90_coverage": 0.0002123833146731296,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        },
+        "robust_columns": {
+          "column_count": 6,
+          "columns": [
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.620416072843231e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 1.8506991650814773e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.455060832479903e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.0527805333243596e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+              ],
+              "probability": 2.4975600547127378e-05
+            },
+            {
+              "signs": [
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+              ],
+              "probability": 2.2225275624443257e-05
+            }
+          ],
+          "coverage": 0.00013699044220886035,
+          "bootstrap_mean_coverage": 0.00014644248296223812,
+          "bootstrap_p10_coverage": 9.473830277246976e-05,
+          "bootstrap_p90_coverage": 0.0002200109778286049,
+          "cost_eur": 4.5,
+          "optimality": "Heuristic over bootstrap candidate pool; no global optimality claim"
+        }
+      },
+      "bootstrap_system_candidates": 27,
+      "bootstrap_column_candidates": 275,
+      "objective": "Probability that at least one column hits all first 14 results; not expected money",
+      "uncertainty_note": "Parameter sensitivity, not a calibrated interval for future performance"
+    }
+  },
+  "settlement": {
+    "full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        5,
+        4,
+        6,
+        5,
+        5,
+        4
+      ],
+      "max_hits": 6,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "individual_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        5,
+        4,
+        5,
+        4,
+        4,
+        3
+      ],
+      "max_hits": 5,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        5,
+        4,
+        5,
+        4,
+        6,
+        5
+      ],
+      "max_hits": 6,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        4,
+        5,
+        3,
+        4,
+        5,
+        5
+      ],
+      "max_hits": 5,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    }
+  },
+  "pleno": {
+    "prediction": "1-1",
+    "actual": "1-2",
+    "probabilities": {
+      "0-0": 0.04597803505611284,
+      "0-1": 0.07075552455542042,
+      "0-2": 0.05465306386989977,
+      "0-M": 0.04340052225558395,
+      "1-0": 0.07052355757640344,
+      "1-1": 0.10902523644007998,
+      "1-2": 0.08406230170485467,
+      "1-M": 0.06675468011604906,
+      "2-0": 0.054295687520277774,
+      "2-1": 0.08378700926398315,
+      "2-2": 0.06464843933305885,
+      "2-M": 0.05133794578730787,
+      "M-0": 0.042907146663922174,
+      "M-1": 0.06621265259194822,
+      "M-2": 0.05108840489442687,
+      "M-M": 0.04056979237067104
+    },
+    "home_team": "Club Atlético de Madrid",
+    "away_team": "FC Barcelona"
+  },
+  "official": {
+    "date": "2026-04-05",
+    "fixtures": [
+      {
+        "position": 1,
+        "home_raw": "Real Sociedad",
+        "away_raw": "Levante",
+        "score": "2-0",
+        "sign": "1"
+      },
+      {
+        "position": 2,
+        "home_raw": "Mallorca",
+        "away_raw": "Real Madrid",
+        "score": "2-1",
+        "sign": "1"
+      },
+      {
+        "position": 3,
+        "home_raw": "Alavés",
+        "away_raw": "Osasuna",
+        "score": "2-2",
+        "sign": "X"
+      },
+      {
+        "position": 4,
+        "home_raw": "Getafe",
+        "away_raw": "Athletic Club",
+        "score": "2-0",
+        "sign": "1"
+      },
+      {
+        "position": 5,
+        "home_raw": "Valencia",
+        "away_raw": "Celta",
+        "score": "2-3",
+        "sign": "2"
+      },
+      {
+        "position": 6,
+        "home_raw": "R. Oviedo",
+        "away_raw": "Sevilla",
+        "score": "1-0",
+        "sign": "1"
+      },
+      {
+        "position": 7,
+        "home_raw": "Betis",
+        "away_raw": "Espanyol",
+        "score": "0-0",
+        "sign": "X"
+      },
+      {
+        "position": 8,
+        "home_raw": "Girona",
+        "away_raw": "Villarreal",
+        "score": "1-0",
+        "sign": "1"
+      },
+      {
+        "position": 9,
+        "home_raw": "Cádiz",
+        "away_raw": "Córdoba",
+        "score": "1-3",
+        "sign": "2"
+      },
+      {
+        "position": 10,
+        "home_raw": "Albacete",
+        "away_raw": "Burgos",
+        "score": "2-3",
+        "sign": "2"
+      },
+      {
+        "position": 11,
+        "home_raw": "Deportivo",
+        "away_raw": "Málaga",
+        "score": "1-1",
+        "sign": "X"
+      },
+      {
+        "position": 12,
+        "home_raw": "Andorra",
+        "away_raw": "Racing de Santander",
+        "score": "6-2",
+        "sign": "1"
+      },
+      {
+        "position": 13,
+        "home_raw": "Almería",
+        "away_raw": "Leganés",
+        "score": "2-1",
+        "sign": "1"
+      },
+      {
+        "position": 14,
+        "home_raw": "Las Palmas",
+        "away_raw": "Huesca",
+        "score": "2-1",
+        "sign": "1"
+      }
+    ],
+    "pleno": {
+      "home_raw": "At. Madrid",
+      "away_raw": "Barcelona",
+      "score": "1-2",
+      "actual": "1-2"
+    },
+    "prizes": {
+      "15": {
+        "winners": 0,
+        "unit_eur": null
+      },
+      "14": {
+        "winners": 0,
+        "unit_eur": null
+      },
+      "13": {
+        "winners": 50,
+        "unit_eur": "5304.04"
+      },
+      "12": {
+        "winners": 316,
+        "unit_eur": "839.25"
+      },
+      "11": {
+        "winners": 2885,
+        "unit_eur": "91.92"
+      },
+      "10": {
+        "winners": 16974,
+        "unit_eur": "18.75"
+      }
+    }
+  },
+  "sources_sha256": {
+    "2026-04-05.txt": "cb1c46c7e31b1a45015a08c96e5b80e70efde9742aca46292665250db2721932"
+  },
+  "source_urls": [
+    "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-05-de-abril-de-2026",
+    "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_05_04_26.pdf",
+    "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_5_4_26.pdf"
+  ]
+}

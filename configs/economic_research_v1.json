@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-14T18:23:11.994491+00:00",
+  "status": "research_only_not_an_active_economic_evaluation_protocol",
+  "maximum_budget_eur": 10,
+  "column_price_eur": 0.75,
+  "maximum_columns": 13,
+  "paper_only": true,
+  "allow_abstention": true,
+  "economic_deployment_enabled": false,
+  "free_sources_only": true,
+  "scope": [
+    "es.1",
+    "es.2",
+    "es.w.1"
+  ],
+  "pool50_original_protocol": "configs/market_pool50_protocol_20261014.json",
+  "pool50_original_budget_eur": 5,
+  "prospective_economic_start": null,
+  "prospective_economic_end": null,
+  "reason": "Dates and validated stress scenarios must be frozen only after prize/crowd reconstruction; do not fabricate validation readiness",
+  "real_money_requires": [
+    "separate_user_decision",
+    "agreed_total_loss_limit",
+    "prospective_economic_evidence"
+  ]
+}

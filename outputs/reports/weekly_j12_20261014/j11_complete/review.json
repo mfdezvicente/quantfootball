@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "contest_id": "2026_j11",
+  "created_at": "2026-10-14T16:28:00.673651+00:00",
+  "prediction_registered_at": "2026-10-02T13:11:15.017678+00:00",
+  "prediction_seal_sha256": "0883d8216c9988ed1a6188d8c41ec2eb3edad64438921048b420e08b6985fc8a",
+  "dataset_sha256": "d316dc6f66751ee296e4fb0c0728cfa7a463d63ad10546a763ba84815259da99",
+  "completed_fixtures": 14,
+  "pending_fixtures": 0,
+  "sporting_status": "complete",
+  "official_settlement_status": "pending_official_awarded_signs_and_prizes",
+  "primary_strategy": "individual_columns",
+  "user_proposed_strategy": "full_system",
+  "fixtures": [
+    {
+      "position": 1,
+      "competition_code": "es.2",
+      "home_team": "Albacete",
+      "away_team": "SD Eibar",
+      "forecast_date": "2026-10-03",
+      "selection": [
+        "1",
+        "2"
+      ],
+      "probabilities": [
+        0.3324681346,
+        0.2955410975,
+        0.3719907679
+      ],
+      "actual_sign": "2",
+      "score": "1-3",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": true
+    },
+    {
+      "position": 2,
+      "competition_code": "es.2",
+      "home_team": "UD Almería",
+      "away_team": "Burgos CF",
+      "forecast_date": "2026-10-03",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.5223384098,
+        0.2401000295,
+        0.2375615607
+      ],
+      "actual_sign": "1",
+      "score": "2-1",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": true
+    },
+    {
+      "position": 3,
+      "competition_code": "es.2",
+      "home_team": "Cádiz CF",
+      "away_team": "CD Leganés",
+      "forecast_date": "2026-10-03",
+      "selection": [
+        "1",
+        "X",
+        "2"
+      ],
+      "probabilities": [
+        0.3696371683,
+        0.3123092252,
+        0.3180536065
+      ],
+      "actual_sign": "1",
+      "score": "4-0",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": true
+    },
+    {
+      "position": 4,
+      "competition_code": "es.2",
+      "home_team": "CE Sabadell",
+      "away_team": "FC Andorra",
+      "forecast_date": "2026-10-03",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.4948526357,
+        0.2441271005,
+        0.2610202638
+      ],
+      "actual_sign": "X",
+      "score": "0-0",
+      "actual_date": "2026-10-04",
+      "result_match_method": "unique_same_fixture_within_3_days",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": false
+    },
+    {
+      "position": 5,
+      "competition_code": "es.2",
+      "home_team": "Real Sociedad B",
+      "away_team": "Granada CF",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.4110801756,
+        0.2663106778,
+        0.3226091466
+      ],
+      "actual_sign": "2",
+      "score": "2-3",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": false
+    },
+    {
+      "position": 6,
+      "competition_code": "es.2",
+      "home_team": "Sporting Gijón",
+      "away_team": "Celta Fortuna",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.5107358139,
+        0.2581204563,
+        0.2311437298
+      ],
+      "actual_sign": "1",
+      "score": "3-2",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": true
+    },
+    {
+      "position": 7,
+      "competition_code": "es.2",
+      "home_team": "CD Castellón",
+      "away_team": "AD Ceuta FC",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.7037240815,
+        0.1799852071,
+        0.1162907114
+      ],
+      "actual_sign": "X",
+      "score": "1-1",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": false
+    },
+    {
+      "position": 8,
+      "competition_code": "es.2",
+      "home_team": "UD Las Palmas",
+      "away_team": "Real Valladolid CF",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.5667710319,
+        0.244174687,
+        0.1890542812
+      ],
+      "actual_sign": "X",
+      "score": "2-2",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": false
+    },
+    {
+      "position": 9,
+      "competition_code": "es.2",
+      "home_team": "Girona FC",
+      "away_team": "RCD Mallorca",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.4617856354,
+        0.2604814138,
+        0.2777329508
+      ],
+      "actual_sign": "X",
+      "score": "0-0",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": false
+    },
+    {
+      "position": 10,
+      "competition_code": "es.2",
+      "home_team": "Córdoba CF",
+      "away_team": "CD Tenerife",
+      "forecast_date": "2026-10-05",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.4519485181,
+        0.2675636613,
+        0.2804878207
+      ],
+      "actual_sign": "1",
+      "score": "3-2",
+      "actual_date": "2026-10-05",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-8",
+      "covered": true
+    },
+    {
+      "position": 11,
+      "competition_code": "es.w.1",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Real Madrid CF [F]",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.7933139188,
+        0.1261488856,
+        0.0805371956
+      ],
+      "actual_sign": "1",
+      "score": "7-0",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-6",
+      "covered": true
+    },
+    {
+      "position": 12,
+      "competition_code": "es.w.1",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "forecast_date": "2026-10-03",
+      "selection": [
+        "2"
+      ],
+      "probabilities": [
+        0.1998877103,
+        0.2128904816,
+        0.5872218081
+      ],
+      "actual_sign": "2",
+      "score": "1-2",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-6",
+      "covered": true
+    },
+    {
+      "position": 13,
+      "competition_code": "es.w.1",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Athletic Club [F]",
+      "forecast_date": "2026-10-03",
+      "selection": [
+        "2"
+      ],
+      "probabilities": [
+        0.3344563407,
+        0.2186577136,
+        0.4468859458
+      ],
+      "actual_sign": "X",
+      "score": "2-2",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-6",
+      "covered": false
+    },
+    {
+      "position": 14,
+      "competition_code": "es.w.1",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Logroño United [F]",
+      "forecast_date": "2026-10-04",
+      "selection": [
+        "1"
+      ],
+      "probabilities": [
+        0.5248024263,
+        0.2618055221,
+        0.2133920516
+      ],
+      "actual_sign": "1",
+      "score": "2-1",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "source_url": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-6",
+      "covered": true
+    }
+  ],
+  "strategies": {
+    "full_system": {
+      "column_count": 6,
+      "cost_eur": 4.5,
+      "known_column_hits": [
+        7,
+        6,
+        6,
+        8,
+        7,
+        7
+      ],
+      "best_hits_lower_bound": 8,
+      "best_hits_upper_bound": 8,
+      "sporting_10_plus_impossible": true,
+      "conditional_gross_return_eur": 0.0,
+      "conditional_net_eur": -4.5,
+      "conditional_roi": -1.0,
+      "condition": "Assuming official first-14 awarded signs equal the final sporting results"
+    },
+    "individual_columns": {
+      "column_count": 6,
+      "cost_eur": 4.5,
+      "known_column_hits": [
+        8,
+        7,
+        7,
+        7,
+        7,
+        9
+      ],
+      "best_hits_lower_bound": 9,
+      "best_hits_upper_bound": 9,
+      "sporting_10_plus_impossible": true,
+      "conditional_gross_return_eur": 0.0,
+      "conditional_net_eur": -4.5,
+      "conditional_roi": -1.0,
+      "condition": "Assuming official first-14 awarded signs equal the final sporting results"
+    },
+    "robust_full_system": {
+      "column_count": 6,
+      "cost_eur": 4.5,
+      "known_column_hits": [
+        7,
+        6,
+        6,
+        8,
+        7,
+        7
+      ],
+      "best_hits_lower_bound": 8,
+      "best_hits_upper_bound": 8,
+      "sporting_10_plus_impossible": true,
+      "conditional_gross_return_eur": 0.0,
+      "conditional_net_eur": -4.5,
+      "conditional_roi": -1.0,
+      "condition": "Assuming official first-14 awarded signs equal the final sporting results"
+    },
+    "robust_columns": {
+      "column_count": 6,
+      "cost_eur": 4.5,
+      "known_column_hits": [
+        8,
+        7,
+        8,
+        7,
+        7,
+        7
+      ],
+      "best_hits_lower_bound": 8,
+      "best_hits_upper_bound": 8,
+      "sporting_10_plus_impossible": true,
+      "conditional_gross_return_eur": 0.0,
+      "conditional_net_eur": -4.5,
+      "conditional_roi": -1.0,
+      "condition": "Assuming official first-14 awarded signs equal the final sporting results"
+    },
+    "at_least_10_full_system": {
+      "column_count": 6,
+      "cost_eur": 4.5,
+      "known_column_hits": [
+        7,
+        6,
+        6,
+        8,
+        7,
+        7
+      ],
+      "best_hits_lower_bound": 8,
+      "best_hits_upper_bound": 8,
+      "sporting_10_plus_impossible": true,
+      "conditional_gross_return_eur": 0.0,
+      "conditional_net_eur": -4.5,
+      "conditional_roi": -1.0,
+      "condition": "Assuming official first-14 awarded signs equal the final sporting results"
+    }
+  },
+  "paper_only": true,
+  "actual_money_staked_eur": 0,
+  "full_ticket_roi_eligible": false,
+  "full_ticket_exclusion_reason": "Pleno de selecciones, fuera del ámbito acordado de Primera y Segunda masculinas y Liga F",
+  "official_roi": null,
+  "positive_expected_roi_demonstrated": false,
+  "limitations": [
+    "Frozen predictions and selections stay unchanged",
+    "Live scores are excluded",
+    "Conditional paper loss is not an official settlement or an eligible full-ticket ROI observation",
+    "No model retuning or significance conclusion from a single contest"
+  ],
+  "probability_evaluation_file": "probability_evaluation.json",
+  "market_evaluation_file": "market_evaluation.json"
+}

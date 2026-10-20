@@ -1,0 +1,52 @@
+{
+  "selected_before": "2024-07-01",
+  "divisions": {
+    "es.1": {
+      "half_life_days": 365.0,
+      "ridge": 10.0,
+      "dc_weight": 0.5,
+      "temperature": 0.9,
+      "lookback_days": 1461,
+      "selected_before": "2024-07-01",
+      "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+      "form_weight": 0.25,
+      "form_temperature": 1.0,
+      "form_parameters": {
+        "kind": "boosting",
+        "max_leaf_nodes": 7,
+        "l2_regularization": 30.0
+      },
+      "form_feature_version": 2
+    },
+    "es.2": {
+      "half_life_days": 365.0,
+      "ridge": 10.0,
+      "dc_weight": 1.0,
+      "temperature": 0.9,
+      "lookback_days": 1461,
+      "selected_before": "2024-07-01",
+      "dataset_sha256": "3112a9d6f3f5de1f67511303250817f23870ef80c12452ff9fc2fd0ecc2f6c08",
+      "form_weight": 0.25,
+      "form_temperature": 1.0,
+      "form_parameters": {
+        "kind": "logistic",
+        "C": 1.0
+      },
+      "form_feature_version": 1
+    },
+    "es.w.1": {
+      "half_life_days": 365.0,
+      "ridge": 2.0,
+      "dc_weight": 1.0,
+      "temperature": 1.0,
+      "lookback_days": 1461,
+      "selected_before": "2024-07-01",
+      "status": "experimental_women_extension",
+      "gender": "women"
+    }
+  },
+  "dataset_sha256": "b5c5f82db7009129abd435c09e3ca080865700d350d0b3798ac762d40b10773e",
+  "created_at": "2026-10-02T11:30:51.353682+00:00",
+  "selection_mode": "Retrospective fit using only results earlier than selected_before",
+  "status": "experimental_mixed_competition_candidate_not_default"
+}

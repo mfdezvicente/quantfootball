@@ -1,0 +1,108 @@
+{
+  "is_example": true,
+  "decision_at": "2025-05-23T10:00:00+00:00",
+  "source_url": "https://example.org/authorized-odds-export",
+  "snapshot_at": "2025-05-22T16:00:00+00:00",
+  "retrieved_at": "2025-05-22T16:01:00+00:00",
+  "available_to_this_app_before_decision": true,
+  "matched_fixtures": 1,
+  "missing": [
+    {
+      "position": 2,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 3,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 4,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 5,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 6,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 7,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 8,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 9,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 10,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 11,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 12,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 13,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 14,
+      "reason": "No matching market fixture"
+    }
+  ],
+  "fixtures": [
+    {
+      "position": 1,
+      "home_team": "Real Betis Balompié",
+      "away_team": "Valencia CF",
+      "model_1x2": [
+        0.5666760487,
+        0.2279383441,
+        0.2053856071
+      ],
+      "market_1x2": [
+        0.48275862068965525,
+        0.27586206896551724,
+        0.24137931034482762
+      ],
+      "difference_1x2": [
+        0.08391742801034474,
+        -0.04792372486551724,
+        -0.03599370324482762
+      ],
+      "bookmakers": [
+        "Casa ficticia"
+      ],
+      "bookmaker_count": 1,
+      "average_overround": 0.03571428571428559,
+      "latest_quote_at": "2025-05-22T15:55:00+00:00",
+      "crowd_shares_1x2": [
+        0.6,
+        0.25,
+        0.15
+      ],
+      "rejected_quotes": []
+    }
+  ],
+  "method": "Normalize inverse odds within bookmaker, then average bookmakers equally",
+  "limitations": [
+    "Margin removal is an approximation; consensus is not ground truth",
+    "Market has not been blended into the model or used to select a strategy",
+    "Crowd marginal shares do not identify joint column popularity or expected prizes"
+  ],
+  "positive_expected_roi_demonstrated": false,
+  "inputs_sha256": {
+    "forecast": "c5272867140756c67cd9abe3730896f4716e26829fa728189272d67dd1d138ca",
+    "snapshot": "22733f64282040fbb9f9f062aa54a4f33062ad0d10c7cf02d0f8b13b5181e07d"
+  }
+}

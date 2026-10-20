@@ -1,0 +1,206 @@
+{
+  "es.1": {
+    "current_weight": 0.0,
+    "variants": {
+      "0": {
+        "metrics": {
+          "matches": 760,
+          "log_loss": 0.9723162525221725,
+          "brier": 0.5760580429341764,
+          "accuracy": 0.531578947368421,
+          "mean_draw_probability": 0.24260040617178505,
+          "observed_draw_rate": 0.25,
+          "draw_binary_brier": 0.1825789103142882
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 73,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "0.25": {
+        "metrics": {
+          "matches": 760,
+          "log_loss": 0.9739122564580992,
+          "brier": 0.5773035471534675,
+          "accuracy": 0.5355263157894737,
+          "mean_draw_probability": 0.24457486182246294,
+          "observed_draw_rate": 0.25,
+          "draw_binary_brier": 0.18291099300043528
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 0.0015960039359266785,
+          "weeks": 73,
+          "ci95": [
+            -0.0015110338399386865,
+            0.0046703997546515335
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "0.5": {
+        "metrics": {
+          "matches": 760,
+          "log_loss": 0.9774796156117477,
+          "brier": 0.5800084557116556,
+          "accuracy": 0.5276315789473685,
+          "mean_draw_probability": 0.24654931747314082,
+          "observed_draw_rate": 0.25,
+          "draw_binary_brier": 0.18342343559114793
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 0.005163363089575075,
+          "weeks": 73,
+          "ci95": [
+            -0.0009889274405438901,
+            0.011196798815299835
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "cached_fits": 145,
+    "cached_fits_converged": 145,
+    "note": "Additional descriptive component check using cached strictly prior weekly fits; no validation ranking or weight selection from these diagnostic scores."
+  },
+  "es.2": {
+    "current_weight": 0.0,
+    "variants": {
+      "0": {
+        "metrics": {
+          "matches": 924,
+          "log_loss": 1.0449058574813022,
+          "brier": 0.6287483747805224,
+          "accuracy": 0.4653679653679654,
+          "mean_draw_probability": 0.27533901583157533,
+          "observed_draw_rate": 0.26515151515151514,
+          "draw_binary_brier": 0.1946735768041351
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 81,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "0.25": {
+        "metrics": {
+          "matches": 924,
+          "log_loss": 1.0440367173503045,
+          "brier": 0.6280702128606257,
+          "accuracy": 0.4696969696969697,
+          "mean_draw_probability": 0.27303622802033223,
+          "observed_draw_rate": 0.26515151515151514,
+          "draw_binary_brier": 0.19479524993830466
+        },
+        "vs_current": {
+          "mean_log_loss_difference": -0.0008691401309979281,
+          "weeks": 81,
+          "ci95": [
+            -0.0033979886724480072,
+            0.00181285261460513
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "0.5": {
+        "metrics": {
+          "matches": 924,
+          "log_loss": 1.0449722928719922,
+          "brier": 0.6286048793618032,
+          "accuracy": 0.47186147186147187,
+          "mean_draw_probability": 0.2707334402090891,
+          "observed_draw_rate": 0.26515151515151514,
+          "draw_binary_brier": 0.19504345978127371
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 6.64353906898603e-05,
+          "weeks": 81,
+          "ci95": [
+            -0.005061953568389885,
+            0.005431717690398719
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "cached_fits": 163,
+    "cached_fits_converged": 163,
+    "note": "Additional descriptive component check using cached strictly prior weekly fits; no validation ranking or weight selection from these diagnostic scores."
+  },
+  "es.w.1": {
+    "current_weight": 0.25,
+    "variants": {
+      "0": {
+        "metrics": {
+          "matches": 480,
+          "log_loss": 0.8950925648529059,
+          "brier": 0.528281914633094,
+          "accuracy": 0.59375,
+          "mean_draw_probability": 0.2125149895090108,
+          "observed_draw_rate": 0.2125,
+          "draw_binary_brier": 0.16046994381606292
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 0.008516668679434665,
+          "weeks": 63,
+          "ci95": [
+            0.002599495034909676,
+            0.014020952981229042
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "0.25": {
+        "metrics": {
+          "matches": 480,
+          "log_loss": 0.8865758961734713,
+          "brier": 0.52210765636148,
+          "accuracy": 0.6,
+          "mean_draw_probability": 0.2154748348734586,
+          "observed_draw_rate": 0.2125,
+          "draw_binary_brier": 0.16068857831619113
+        },
+        "vs_current": {
+          "mean_log_loss_difference": 0.0,
+          "weeks": 63,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      },
+      "0.5": {
+        "metrics": {
+          "matches": 480,
+          "log_loss": 0.8818742093077009,
+          "brier": 0.5180893230766931,
+          "accuracy": 0.6,
+          "mean_draw_probability": 0.21844578812960377,
+          "observed_draw_rate": 0.2125,
+          "draw_binary_brier": 0.1610769188668029
+        },
+        "vs_current": {
+          "mean_log_loss_difference": -0.00470168686577035,
+          "weeks": 63,
+          "ci95": [
+            -0.009945151035282731,
+            0.0008735272277220667
+          ],
+          "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+        }
+      }
+    },
+    "cached_fits": 121,
+    "cached_fits_converged": 121,
+    "note": "Additional descriptive component check using cached strictly prior weekly fits; no validation ranking or weight selection from these diagnostic scores."
+  }
+}

@@ -1,0 +1,7 @@
+# Preserve exact bytes: frozen protocols and manifests contain SHA256 hashes.
+* -text
+*.py diff=python
+*.parquet binary
+*.npz binary
+*.png binary
+*.pdf binary
