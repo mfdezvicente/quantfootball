@@ -16,6 +16,7 @@ no sobrescribir pronósticos o protocolos registrados.
 | Comparar modelo y mercado | `compare_market.py`, `forecast_market.py` |
 | Preparar el candidato 50/50 | `plan_market_pool.py` |
 | Ejecutar un ciclo prospectivo | `run_prospective_cycle.py` |
+| Congelar carteras comparables tras el ciclo | `finalize_prospective_cycle.py` |
 | Registrar / evaluar decisiones y pronósticos | `forecast_registry.py`, `probability_registry.py`, `economic_registry.py` |
 | Evaluar variables controladas | `evaluate_ablation_research.py` |
 | Evaluar familias de goles y calibración | `evaluate_goal_flex_research.py` |
@@ -51,3 +52,9 @@ Los estudios independientes por partido se evalúan con `evaluate_market_studies
 El informe del 28 de octubre se construyó con `build_continuation_report.py`; su salida
 no puede sobrescribir los JSON previos. Para repetirlo hay que preparar otra carpeta
 con las entradas auditadas que usa ese informe fechado.
+
+La finalización del ciclo registra las carteras de cobertura del candidato y del
+comparador en raíces separadas, mediante manifiestos v2 y el límite original del
+protocolo. Requiere una pareja completa y verificada y la abstención económica de
+la misma observación. Las carteras son alternativas en papel; no se ejecuta compra.
+La fecha nominal del concurso se indica explícitamente con `--contest-date`.

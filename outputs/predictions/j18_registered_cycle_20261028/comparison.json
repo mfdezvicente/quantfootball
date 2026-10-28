@@ -1,0 +1,534 @@
+{
+  "is_example": false,
+  "decision_at": "2026-10-28T13:18:38.689746+00:00",
+  "source_url": "https://the-odds-api.com/",
+  "snapshot_at": "2026-10-28T12:53:56.250018+00:00",
+  "retrieved_at": "2026-10-28T12:53:56.250018+00:00",
+  "available_to_this_app_before_decision": true,
+  "matched_fixtures": 10,
+  "missing": [
+    {
+      "position": 11,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 12,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 13,
+      "reason": "No matching market fixture"
+    },
+    {
+      "position": 14,
+      "reason": "No matching market fixture"
+    }
+  ],
+  "fixtures": [
+    {
+      "position": 1,
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "starts_at": "2026-10-31T13:00:00+00:00",
+      "home_team": "Levante UD",
+      "away_team": "Club Atlético de Madrid",
+      "model_1x2": [
+        0.20544319057225177,
+        0.21496397562507996,
+        0.5795928338026682
+      ],
+      "market_1x2": [
+        0.18960349624450354,
+        0.21337790515015995,
+        0.5970185986053365
+      ],
+      "difference_1x2": [
+        0.015839694327748233,
+        0.001586070474920015,
+        -0.01742576480266822
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "matchbook",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 20,
+      "average_overround": 0.05904795564529369,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 2,
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "starts_at": "2026-10-31T15:15:00+00:00",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "RC Celta de Vigo",
+      "model_1x2": [
+        0.4099212621573318,
+        0.28882244378078004,
+        0.3012562940618882
+      ],
+      "market_1x2": [
+        0.4007683515736716,
+        0.2891022459326778,
+        0.31012940249365073
+      ],
+      "difference_1x2": [
+        0.009152910583660245,
+        -0.0002798021518977678,
+        -0.008873108431762533
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 20,
+      "average_overround": 0.06174232754036034,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 3,
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "starts_at": "2026-10-31T17:30:00+00:00",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Málaga CF",
+      "model_1x2": [
+        0.7105558883917678,
+        0.17633711036045904,
+        0.11310700124777316
+      ],
+      "market_1x2": [
+        0.6958631708124801,
+        0.17765565900328434,
+        0.1264811701842356
+      ],
+      "difference_1x2": [
+        0.014692717579287695,
+        -0.0013185486428252957,
+        -0.013374168936462441
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 20,
+      "average_overround": 0.06345757586372583,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 4,
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "starts_at": "2026-10-31T20:00:00+00:00",
+      "home_team": "FC Barcelona",
+      "away_team": "Deportivo Alavés",
+      "model_1x2": [
+        0.8505112347850502,
+        0.1036890828660874,
+        0.04579968234886247
+      ],
+      "market_1x2": [
+        0.8567691097701,
+        0.10371155763217477,
+        0.039519332597724915
+      ],
+      "difference_1x2": [
+        -0.006257874985049816,
+        -2.2474766087368647e-05,
+        0.0062803497511375525
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "matchbook",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 21,
+      "average_overround": 0.0611350054538678,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 5,
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "starts_at": "2026-11-01T13:00:00+00:00",
+      "home_team": "Getafe CF",
+      "away_team": "Sevilla FC",
+      "model_1x2": [
+        0.33978385486669105,
+        0.3035069697869178,
+        0.3567091753463911
+      ],
+      "market_1x2": [
+        0.29737939943338215,
+        0.3166884978738357,
+        0.3859321026927822
+      ],
+      "difference_1x2": [
+        0.042404455433308896,
+        -0.01318152808691786,
+        -0.029222927346391092
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "matchbook",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 21,
+      "average_overround": 0.06140859167005839,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 6,
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "starts_at": "2026-11-01T15:15:00+00:00",
+      "home_team": "Racing Santander",
+      "away_team": "Real Madrid CF",
+      "model_1x2": [
+        0.1210991336134922,
+        0.13819203102701053,
+        0.7407088353594973
+      ],
+      "market_1x2": [
+        0.09101630422698441,
+        0.12735840225402106,
+        0.7816252935189946
+      ],
+      "difference_1x2": [
+        0.03008282938650779,
+        0.010833628772989462,
+        -0.04091645815949729
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "matchbook",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 21,
+      "average_overround": 0.06135489114694566,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 7,
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "starts_at": "2026-11-01T17:30:00+00:00",
+      "home_team": "Elche CF",
+      "away_team": "Valencia CF",
+      "model_1x2": [
+        0.41977837244053706,
+        0.27665926274520675,
+        0.3035623648142562
+      ],
+      "market_1x2": [
+        0.396273934581074,
+        0.28278099679041346,
+        0.32094506862851224
+      ],
+      "difference_1x2": [
+        0.023504437859463045,
+        -0.006121734045206717,
+        -0.01738270381425605
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "everygame",
+        "leovegas_se",
+        "marathonbet",
+        "matchbook",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 21,
+      "average_overround": 0.06060234406723429,
+      "latest_quote_at": "2026-10-28T12:53:54+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 8,
+      "competition_code": "es.2",
+      "date": "2026-10-31",
+      "starts_at": "2026-10-31T15:15:00+00:00",
+      "home_team": "SD Eibar",
+      "away_team": "UD Almería",
+      "model_1x2": [
+        0.417206405476122,
+        0.2568624310018624,
+        0.3259311635220156
+      ],
+      "market_1x2": [
+        0.387138344252244,
+        0.2742715855037248,
+        0.33859007024403126
+      ],
+      "difference_1x2": [
+        0.03006806122387795,
+        -0.017409154501862423,
+        -0.01265890672201564
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "leovegas_se",
+        "marathonbet",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 19,
+      "average_overround": 0.0960104297556728,
+      "latest_quote_at": "2026-10-28T12:53:55+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 9,
+      "competition_code": "es.2",
+      "date": "2026-11-01",
+      "starts_at": "2026-11-01T13:00:00+00:00",
+      "home_team": "Eldense",
+      "away_team": "Granada CF",
+      "model_1x2": [
+        0.4011378474775069,
+        0.2744982721947342,
+        0.32436388032775887
+      ],
+      "market_1x2": [
+        0.4148188494550138,
+        0.2718728552894685,
+        0.31330829525551773
+      ],
+      "difference_1x2": [
+        -0.01368100197750688,
+        0.002625416905265743,
+        0.011055585072241136
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "leovegas_se",
+        "marathonbet",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill",
+        "winamax_de",
+        "winamax_fr"
+      ],
+      "bookmaker_count": 18,
+      "average_overround": 0.13174604702058632,
+      "latest_quote_at": "2026-10-28T12:53:55+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    },
+    {
+      "position": 10,
+      "competition_code": "es.2",
+      "date": "2026-11-01",
+      "starts_at": "2026-11-01T17:30:00+00:00",
+      "home_team": "Burgos CF",
+      "away_team": "CD Castellón",
+      "model_1x2": [
+        0.32711851213310306,
+        0.2781634409313285,
+        0.3947180469355684
+      ],
+      "market_1x2": [
+        0.27035762186620615,
+        0.2761868774626571,
+        0.45345550067113677
+      ],
+      "difference_1x2": [
+        0.0567608902668969,
+        0.0019765634686714217,
+        -0.05873745373556838
+      ],
+      "bookmakers": [
+        "betclic_fr",
+        "betfair_ex_eu",
+        "betonlineag",
+        "betsson",
+        "codere_it",
+        "coolbet",
+        "leovegas_se",
+        "marathonbet",
+        "nordicbet",
+        "onexbet",
+        "pinnacle",
+        "pmu_fr",
+        "tipico_de",
+        "unibet_fr",
+        "unibet_nl",
+        "unibet_se",
+        "williamhill"
+      ],
+      "bookmaker_count": 17,
+      "average_overround": 0.09499712145481577,
+      "latest_quote_at": "2026-10-28T12:53:55+00:00",
+      "crowd_shares_1x2": null,
+      "rejected_quotes": []
+    }
+  ],
+  "method": "Normalize inverse odds within bookmaker, then average bookmakers equally",
+  "limitations": [
+    "Margin removal is an approximation; consensus is not ground truth",
+    "Market has not been blended into the model or used to select a strategy",
+    "Crowd marginal shares do not identify joint column popularity or expected prizes"
+  ],
+  "positive_expected_roi_demonstrated": false
+}

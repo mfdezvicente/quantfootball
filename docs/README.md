@@ -2,6 +2,8 @@
 
 ## Estado y uso
 
+- [J18 confirmada y registrada](J18_REGISTRATION_20261028.md)
+
 - [Avances del 28 de octubre y próximo registro](CONTINUATION_20261028.md)
 
 - [Organización, publicación y reproducción](REPOSITORY.md)

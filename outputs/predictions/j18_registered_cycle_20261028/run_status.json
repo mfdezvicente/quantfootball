@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-28T13:14:16.380832+00:00",
+  "paper_only": true,
+  "registered_pair": true,
+  "registered_decision": true,
+  "inputs_sha256": {
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\raw\\upcoming_j18_20261028_confirmed\\observation.json": "9d3cac0498fef1d5dbf511a6495c29d53b8bd4b9fec11682fc8efc24efbc0f66",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\raw\\market_the_odds_api\\20261028\\snapshot.json": "f24df78d9e6b6cb3ebca2df4d9ffdcf51716ca741cdd0be44b8781e6b5e65109",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261028.parquet": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff"
+  },
+  "input_preflight": {
+    "ready": true,
+    "errors": [],
+    "cutoff_exclusive": "2026-10-28",
+    "rows": 11052,
+    "training_rows_before_cutoff": 11052,
+    "competitions": {
+      "es.1": {
+        "last_result_date": "2026-10-26",
+        "age_days": 2
+      },
+      "es.2": {
+        "last_result_date": "2026-10-26",
+        "age_days": 2
+      },
+      "es.w.1": {
+        "last_result_date": "2026-10-25",
+        "age_days": 3
+      }
+    },
+    "dataset_sha256": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff",
+    "config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+    "max_result_age_days": 14,
+    "limitation": "Recency does not certify complete coverage or pre-close availability."
+  },
+  "active_manifest_sha256": "f1fc4623eb9e75dc7c0a3ea7c231d1162b97cbaa8140a8439e228a7ed24dfc73",
+  "market_preflight": {
+    "checked_at": "2026-10-28T13:18:38.097280+00:00",
+    "matched_fixtures": 10,
+    "missing": [
+      {
+        "position": 11,
+        "reason": "No matching market fixture"
+      },
+      {
+        "position": 12,
+        "reason": "No matching market fixture"
+      },
+      {
+        "position": 13,
+        "reason": "No matching market fixture"
+      },
+      {
+        "position": 14,
+        "reason": "No matching market fixture"
+      }
+    ]
+  },
+  "status": "completed"
+}

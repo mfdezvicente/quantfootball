@@ -6,6 +6,8 @@ deben interpretarse según su protocolo; no se suman en un único ROI.
 
 ## Investigación reciente
 
+- [J18: registro confirmado, columnas y evidencia](reports/j18_registration_20261028/dashboard.html)
+
 - [Actualización del 28 de octubre y preparación J18](reports/continuation_20261028/dashboard.html)
 
 - [Modelos flexibles de goles](reports/goal_flex_20261019/dashboard.html)

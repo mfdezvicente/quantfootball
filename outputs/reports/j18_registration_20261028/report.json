@@ -1,0 +1,164 @@
+{
+  "created_at": "2026-10-28T13:19:58.843487+00:00",
+  "contest_id": "2026_j18",
+  "paper_only": true,
+  "probability_pair": {
+    "schema_version": 1,
+    "registered_at": "2026-10-28T13:18:38.890022+00:00",
+    "contest_id": "2026_j18",
+    "scope": "First 14 sporting match probabilities only; separate from full-ticket ROI protocol",
+    "paper_only": true,
+    "full_ticket_roi_eligible": false,
+    "full_ticket_exclusion_reason": "Not a full-ticket registration",
+    "primary_comparison": "candidate minus comparator mean log loss, per competition",
+    "market_policy": "First eligible real market attachment before official close and all kickoffs; no later replacement",
+    "deduplication": "Use the first registered match prediction for model metrics; first eligible market comparison for paired market metrics",
+    "files_sha256": {
+      "candidate.json": "841f48ba51913a893cd4f06b89ac488371d03590798770b2d0c63d859b1158e3",
+      "candidate_config.json": "a3e10da762bd21bb037ffbbf5050b8269e397cefce4b0aa6e187330dd3699a60",
+      "comparator.json": "7a8397f54317bb85df9ae537c81564adadda17e14793498d8205bb0ac09c3140",
+      "comparator_config.json": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+      "observation.json": "9d3cac0498fef1d5dbf511a6495c29d53b8bd4b9fec11682fc8efc24efbc0f66",
+      "protocol.json": "694e578dc440f9dc747c863b741070e2235fc057dde72c787829ddda44a7261f"
+    },
+    "limitations": "Local clock and hashes; no external trusted timestamp and no actual bet"
+  },
+  "market_attachment_verified": true,
+  "closes_at": "2026-10-31T14:00:00+01:00",
+  "order_verification": {
+    "method": "Manual review of user-provided image; all 15 ordered fixtures and gender labels match the prepared J18 observation",
+    "reviewed_at": "2026-10-28T13:14:15.628961+00:00",
+    "image_path": "data/raw/upcoming_j18_20261028_confirmed/official_coupon_user.png",
+    "image_sha256": "e95db296818068708fe2b8f5c9990386e893eb12c7b3863433a2ef1e8afcd9a3",
+    "source_context": "Image supplied by the user in reply to the request to confirm the J18 official coupon",
+    "limitations": "Crop shows teams/order/gender/Pleno but no URL, date or contest identifier; attribution to J18 uses conversation context and the prepared schedule, not an independent direct SELAE image download"
+  },
+  "official_inputs_independently_verified": false,
+  "coverage_alternatives": {
+    "candidate": {
+      "registered_at": "2026-10-28T13:19:58.778966+00:00",
+      "record_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\predictions\\coverage_pool50\\candidate\\2026_j18",
+      "seal_sha256": "e45e7cb7bb8505b1f475c4af641f8e2677ff21b88b77613facd9c7ba89063820",
+      "column_count": 6,
+      "theoretical_cost_eur": 4.5,
+      "coverage_p14": 0.00045926983607050005,
+      "pleno_prediction": "1-1",
+      "registry_summary": {
+        "records": [
+          {
+            "record": "2026_j18",
+            "primary_strategy": "individual_columns",
+            "status": "pending"
+          }
+        ],
+        "settled_count": 0,
+        "pending_count": 1,
+        "invalid_count": 0,
+        "settled_cost_eur": 0.0,
+        "settled_return_eur": 0.0,
+        "pending_cost_eur": 4.5,
+        "paper_only": true,
+        "expected_roi_demonstrated": false,
+        "observed_roi_settled_only": null,
+        "complete_accounting": false
+      }
+    },
+    "comparator": {
+      "registered_at": "2026-10-28T13:19:58.818808+00:00",
+      "record_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\predictions\\coverage_pool50\\comparator\\2026_j18",
+      "seal_sha256": "d43b346e21558aa79e10c3b036011aa13bee1ad36af65116edc4fe3e73bc793a",
+      "column_count": 6,
+      "theoretical_cost_eur": 4.5,
+      "coverage_p14": 0.0004871188851096323,
+      "pleno_prediction": "1-1",
+      "registry_summary": {
+        "records": [
+          {
+            "record": "2026_j18",
+            "primary_strategy": "individual_columns",
+            "status": "pending"
+          }
+        ],
+        "settled_count": 0,
+        "pending_count": 1,
+        "invalid_count": 0,
+        "settled_cost_eur": 0.0,
+        "settled_return_eur": 0.0,
+        "pending_cost_eur": 4.5,
+        "paper_only": true,
+        "expected_roi_demonstrated": false,
+        "observed_roi_settled_only": null,
+        "complete_accounting": false
+      }
+    }
+  },
+  "economic_decision": {
+    "schema_version": 1,
+    "contest_id": "2026_j18",
+    "created_at": "2026-10-28T13:14:16.391873+00:00",
+    "closes_at": "2026-10-31T14:00:00+01:00",
+    "action": "abstain",
+    "reason_codes": [
+      "missing_probability_forecast",
+      "joint_crowd_model_not_validated",
+      "prize_model_not_validated",
+      "economic_prospective_protocol_not_registered"
+    ],
+    "stake_eur": 0,
+    "maximum_budget_eur": 10.0,
+    "columns": [],
+    "paper_only": true,
+    "model": null,
+    "probability_any_cash": null,
+    "probability_recover_stake": null,
+    "expected_net_eur": null,
+    "uncertainty": "insufficient_economic_evidence",
+    "hypothetical_returns_enable_play": false,
+    "limitations": "Prospective abstention, not an assertion that every possible bet has negative value",
+    "inputs_sha256": {
+      "observation.json": "9d3cac0498fef1d5dbf511a6495c29d53b8bd4b9fec11682fc8efc24efbc0f66"
+    }
+  },
+  "economic_seal_sha256": "50b2c2c34a106be5f7443685e5a5efaf62d48767ddb4f7ce40bb68478850d121",
+  "actual_purchase_verified": false,
+  "real_money_stake_eur": 0,
+  "positive_expected_roi_demonstrated": false,
+  "probability_evaluation": {
+    "created_at": "2026-10-28T13:19:58.748147+00:00",
+    "records": [
+      {
+        "record": "2026_j18",
+        "status": "pending_results",
+        "completed_fixtures": 0,
+        "sporting_excluded_fixtures": 0,
+        "market_matches": 10
+      }
+    ],
+    "pending_unique_fixtures": 14,
+    "sporting_excluded_unique_fixtures": 0,
+    "sporting_exclusions": [],
+    "completed_unique_fixtures": 0,
+    "leagues": {},
+    "fixtures": [],
+    "dataset_sha256": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff",
+    "paper_only": true,
+    "roi": null,
+    "positive_expected_roi_demonstrated": false,
+    "limitations": [
+      "Sporting results only; awarded Quiniela signs may differ",
+      "This probability study cannot calculate full-ticket ROI or Pleno performance",
+      "Missing market fixtures remain missing; evaluate the exact paired subset",
+      "No significance claim or model tuning on this accumulating cohort",
+      "Small date changes use a unique same-competition, same-team result within three days and are audited"
+    ]
+  },
+  "limitations": [
+    "User image confirms ordered teams; URL and contest/date are not visible in the crop",
+    "Contest attribution uses conversation context and audited league fixtures",
+    "Each arm is a separate hypothetical alternative; their costs are not a combined stake",
+    "Probability pair, coverage cash ledgers and economic abstention are separate records",
+    "The economic decision preceded inference, so its missing_probability_forecast reason describes that moment",
+    "No data source establishes positive expected ROI; no purchase is performed",
+    "Fixtures shared with other probability studies are not independent extra observations"
+  ]
+}

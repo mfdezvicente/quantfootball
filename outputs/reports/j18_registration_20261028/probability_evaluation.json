@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-10-28T13:19:58.748147+00:00",
+  "records": [
+    {
+      "record": "2026_j18",
+      "status": "pending_results",
+      "completed_fixtures": 0,
+      "sporting_excluded_fixtures": 0,
+      "market_matches": 10
+    }
+  ],
+  "pending_unique_fixtures": 14,
+  "sporting_excluded_unique_fixtures": 0,
+  "sporting_exclusions": [],
+  "completed_unique_fixtures": 0,
+  "leagues": {},
+  "fixtures": [],
+  "dataset_sha256": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff",
+  "paper_only": true,
+  "roi": null,
+  "positive_expected_roi_demonstrated": false,
+  "limitations": [
+    "Sporting results only; awarded Quiniela signs may differ",
+    "This probability study cannot calculate full-ticket ROI or Pleno performance",
+    "Missing market fixtures remain missing; evaluate the exact paired subset",
+    "No significance claim or model tuning on this accumulating cohort",
+    "Small date changes use a unique same-competition, same-team result within three days and are audited"
+  ]
+}

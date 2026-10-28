@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "research_candidate_not_default_not_validated",
+  "name": "QF model/market pool 50%, declared 2026-10-14",
+  "predeclared_at": "2026-10-14T16:32:02.257284+00:00",
+  "base_config": "configs/quiniela_dynamic_candidate.json",
+  "base_config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+  "market_weight": 0.5,
+  "weight_policy": "Fixed conservative initial pool; not the fitted best weight on J11/J12",
+  "men": "Every selected men's match needs actual eligible pre-close odds",
+  "women": "Retain the frozen Liga F base without market pooling",
+  "freshness": "Base forecast within 48 hours; quote age at most 48 hours at decision; before all selected kickoffs and official close",
+  "scope": [
+    "es.1",
+    "es.2",
+    "es.w.1"
+  ],
+  "budget_maximum_eur": 5.0,
+  "pleno": "Base goal model unchanged; 1X2 market does not identify goal-category probabilities",
+  "uncertainty": "Conditional sensitivity of base coefficient bootstrap with market fixed; no calibrated confidence interval",
+  "positive_expected_roi_demonstrated": false
+}

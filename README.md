@@ -23,8 +23,10 @@ trabajo es simulación; el proyecto no compra apuestas.
   de participación conjunta y premios. Los escenarios hipotéticos no son ROI probado.
 
 Se han sellado 21 nuevas comparaciones modelo/mercado antes del inicio. La J18
-tiene cierre confirmado el 31 de octubre a las 14:00 (Madrid), pero su registro
-sigue pendiente de verificar el orden oficial del boleto. La J14 preliminar habría
+ya tiene orden confirmado mediante captura del usuario y una primera pareja
+50/50 registrada antes del cierre del 31 de octubre a las 14:00 (Madrid).
+Sus dos carteras de cobertura se siguen por separado en papel, con seis columnas
+y 4,50 € teóricos por alternativa; la decisión económica registrada es abstenerse (0 €). La J14 preliminar habría
 perdido 3,09 € en las trece columnas; no fue una compra ni un registro prospectivo.
 
 ## Empezar
@@ -76,6 +78,7 @@ Consulta [configuración y límites](docs/THE_ODDS_API.md).
 
 ## Informes y documentación
 
+- [J18 confirmada y registrada: protocolo, carteras y evaluación](docs/J18_REGISTRATION_20261028.md).
 - [Avances del 28 de octubre, J14 y preparación J18](docs/CONTINUATION_20261028.md).
 - [Índice de documentación](docs/README.md).
 - [Índice de paneles y resultados](outputs/README.md).
