@@ -7,9 +7,10 @@ El objetivo es investigar una posible rentabilidad positiva, incluyendo la decis
 de no apostar. **Todavía no se ha demostrado una ventaja económica.** El modo de
 trabajo es simulación; el proyecto no compra apuestas.
 
-## Estado del proyecto — 20 de octubre de 2026
+## Estado del proyecto — 28 de octubre de 2026
 
-- Snapshot activo: **11.020 partidos**, con resultados hasta el 18 de octubre.
+- Snapshot activo: **11.052 partidos**, con resultados hasta el 26 de octubre en hombres
+  y el 25 en Liga F. Se incorporan 32 resultados y se contrasta la cobertura actual.
 - Modelos por competición, calibración, comparación con mercado y experimentos
   temporales de variables, redes neuronales y distribuciones de goles.
 - Los últimos experimentos no justifican sustituir el modelo actual.
@@ -20,6 +21,11 @@ trabajo es simulación; el proyecto no compra apuestas.
   Su protocolo y los registros anteriores permanecen congelados.
 - La recomendación económica sigue bloqueada por falta de estimaciones contrastadas
   de participación conjunta y premios. Los escenarios hipotéticos no son ROI probado.
+
+Se han sellado 21 nuevas comparaciones modelo/mercado antes del inicio. La J18
+tiene cierre confirmado el 31 de octubre a las 14:00 (Madrid), pero su registro
+sigue pendiente de verificar el orden oficial del boleto. La J14 preliminar habría
+perdido 3,09 € en las trece columnas; no fue una compra ni un registro prospectivo.
 
 ## Empezar
 
@@ -70,6 +76,7 @@ Consulta [configuración y límites](docs/THE_ODDS_API.md).
 
 ## Informes y documentación
 
+- [Avances del 28 de octubre, J14 y preparación J18](docs/CONTINUATION_20261028.md).
 - [Índice de documentación](docs/README.md).
 - [Índice de paneles y resultados](outputs/README.md).
 - [Guía de comandos](scripts/README.md).

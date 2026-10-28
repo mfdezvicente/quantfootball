@@ -72,16 +72,23 @@ def test_manifest_rejects_tampering_and_outside_root(tmp_path):
         resolve_active(tmp_path, manifest)
 
 
-def test_new_snapshot_preserves_old_rows_and_skips_live():
-    old = pd.read_parquet(ROOT / 'data/processed/matches_quiniela_20261014.parquet')
-    active = resolve_active(ROOT)
-    new = pd.read_parquet(active['dataset'])
+@pytest.mark.parametrize('base_date,snapshot_date,added,skipped', [
+    ('20261014', '20261019', 27, {'FirstHalf', 'HalfTime'}),
+    ('20261019', '20261028', 32, {'Abandoned', 'PreMatch'}),
+])
+def test_new_snapshot_preserves_old_rows_and_skips_live(base_date, snapshot_date, added, skipped):
+    base = ROOT / f'data/processed/matches_quiniela_{base_date}.parquet'
+    snapshot = ROOT / f'data/processed/matches_quiniela_{snapshot_date}.parquet'
+    old = pd.read_parquet(base)
+    new = pd.read_parquet(snapshot)
     keys = ['competition_code', 'season', 'home_team', 'away_team']
     restored = new.merge(old[keys], on=keys).sort_values(keys).reset_index(drop=True)
     pd.testing.assert_frame_equal(old.sort_values(keys).reset_index(drop=True), restored[old.columns])
-    audit = json.loads(active['audit'].read_text())
-    assert audit['added_rows'] == 27
-    assert {row['status'] for row in audit['skipped_source_rows']} == {'FirstHalf', 'HalfTime'}
+    audit = json.loads(snapshot.with_suffix('.audit.json').read_text())
+    assert audit['base_sha256'] == sha256(base)
+    assert audit['dataset_sha256'] == sha256(snapshot)
+    assert audit['added_rows'] == added == len(new) - len(old)
+    assert {row['status'] for row in audit['skipped_source_rows']} == skipped
 
 
 def test_cli_imports_without_execution():

@@ -2,6 +2,8 @@
 
 ## Estado y uso
 
+- [Avances del 28 de octubre y próximo registro](CONTINUATION_20261028.md)
+
 - [Organización, publicación y reproducción](REPOSITORY.md)
 - [Datos activos y controles previos](ACTIVE_INPUTS_20261019.md)
 - [Rentabilidad, registro y presupuesto de 10 €](PROFITABILITY_V1_20261015.md)

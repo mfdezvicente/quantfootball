@@ -1,11 +1,43 @@
 """Resolve final sporting results while auditing small kickoff date changes."""
 
-from datetime import datetime
+from datetime import UTC, datetime
 from zoneinfo import ZoneInfo
 
 import pandas as pd
 
 from quantfootball.market.snapshots import key
+
+
+def _check_registration_before_kickoff(result, registered_at, *, changed_date):
+    """Reject post-start predictions, including changes within the same day."""
+    if registered_at is None:
+        return
+    if (not isinstance(registered_at, datetime) or registered_at.tzinfo is None
+            or registered_at.utcoffset() is None):
+        raise ValueError("Registration timestamp requires an explicit timezone.")
+    madrid = ZoneInfo("Europe/Madrid")
+    actual_day = datetime.fromisoformat(result["actual_date"]).date()
+    registered_day = registered_at.astimezone(madrid).date()
+    if registered_day > actual_day:
+        raise ValueError("Match started before the frozen prediction.")
+    value = result.get("kickoff_time")
+    if not isinstance(value, str) or not value.strip():
+        if changed_date or registered_day == actual_day:
+            raise ValueError("Same-day or changed-date result requires a verified local kickoff time.")
+        # Prior Madrid dates establish chronology even when archived time is unknown.
+        return
+    try:
+        local = datetime.fromisoformat(f"{result['actual_date']}T{value.strip()}")
+    except ValueError as exc:
+        raise ValueError("Result requires a valid local kickoff time.") from exc
+    if local.tzinfo is not None:
+        raise ValueError("Archived kickoff_time must be a timezone-free Madrid local time.")
+    kickoff = local.replace(tzinfo=madrid)
+    if (kickoff.astimezone(UTC).astimezone(madrid).replace(tzinfo=None) != local
+            or kickoff.utcoffset() != local.replace(tzinfo=madrid, fold=1).utcoffset()):
+        raise ValueError("Archived local kickoff is nonexistent or ambiguous in Madrid.")
+    if registered_at >= kickoff:
+        raise ValueError("Match started before or at the frozen prediction.")
 
 
 class ResultLookup:
@@ -33,6 +65,7 @@ class ResultLookup:
         identity = key(fixture)
         exact = self.exact.get((*identity, scheduled))
         if exact is not None:
+            _check_registration_before_kickoff(exact, registered_at, changed_date=False)
             return {**exact, "result_match_method": "exact_date"}
         candidates = [row for row in self.by_teams.get(identity, [])
                       if abs((pd.Timestamp(row["actual_date"]) - pd.Timestamp(scheduled)).days) <= 3]
@@ -41,12 +74,5 @@ class ResultLookup:
         if not candidates:
             return None
         result = candidates[0]
-        # A moved match must still have started after the original registration.
-        if registered_at is not None:
-            time = result.get("kickoff_time")
-            if not isinstance(time, str):
-                raise ValueError("Changed-date result requires a verified local kickoff time.")
-            kickoff = datetime.fromisoformat(f"{result['actual_date']}T{time}").replace(tzinfo=ZoneInfo("Europe/Madrid"))
-            if kickoff <= registered_at:
-                raise ValueError("Rescheduled match started before the frozen prediction.")
+        _check_registration_before_kickoff(result, registered_at, changed_date=True)
         return {**result, "result_match_method": "unique_same_fixture_within_3_days"}

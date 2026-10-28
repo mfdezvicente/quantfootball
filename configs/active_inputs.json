@@ -8,12 +8,12 @@
   "max_result_age_days": 14,
   "freshness_policy": "Operational guard; pauses may require documented review. Not a completeness certificate.",
   "dataset": {
-    "path": "data/processed/matches_quiniela_20261019.parquet",
-    "sha256": "5ab3a7072e16466e03e503b3bb199ea98c330820d91761e6a0705171df58b389"
+    "path": "data/processed/matches_quiniela_20261028.parquet",
+    "sha256": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff"
   },
   "audit": {
-    "path": "data/processed/matches_quiniela_20261019.audit.json",
-    "sha256": "56871f2feabb316ab45b212b3ac5f9434404dcdbd12d027d88dbf07666ad1141"
+    "path": "data/processed/matches_quiniela_20261028.audit.json",
+    "sha256": "cf1091ab0cf2805120978df667e4e35a2ab526bb9343e15ad126470289e5c56b"
   },
   "config": {
     "path": "configs/quiniela_dynamic_candidate.json",

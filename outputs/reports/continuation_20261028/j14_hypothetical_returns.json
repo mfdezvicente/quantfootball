@@ -1,0 +1,186 @@
+{
+  "created_at": "2026-10-28T12:55:06.563593+00:00",
+  "contest_id": "2026_j14",
+  "prospective": false,
+  "actual_purchase_verified": false,
+  "original_forecast_sha256": "34bf2ef543b8740ecef97c653aa2507edb611ce38df26416c55d8faf2ee3e48a",
+  "source": {
+    "contest_id": "2026_j14",
+    "nominal_date": "2026-10-18",
+    "source_url": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-18-de-octubre-de-2026",
+    "observed_via": "Primary page extraction by web tool; full direct archive HTTP403",
+    "recorded_at": "2026-10-28T12:55:06.560568+00:00",
+    "publication_date_shown": "2026-10-19",
+    "publication_time_verified": false,
+    "awarded_signs": "2X2X121X211121",
+    "pleno_actual": "1-1",
+    "prizes": {
+      "15": {
+        "winners": 18,
+        "unit_eur": "80778.13"
+      },
+      "14": {
+        "winners": 50,
+        "unit_eur": "11162.13"
+      },
+      "13": {
+        "winners": 1583,
+        "unit_eur": "165.26"
+      },
+      "12": {
+        "winners": 20502,
+        "unit_eur": "12.76"
+      },
+      "11": {
+        "winners": 117869,
+        "unit_eur": "2.22"
+      },
+      "10": {
+        "winners": 371994,
+        "unit_eur": "0.00"
+      }
+    },
+    "gross_revenue_eur": null,
+    "carry_in_eur": null,
+    "note": "A zero displayed with no Pleno winners is kept as unknown unit payout, not an estimated counterfactual jackpot."
+  },
+  "strategies": {
+    "full_system": {
+      "cost_eur": 9.0,
+      "gross_return_eur": 0.0,
+      "net_eur": -9.0,
+      "roi": -1.0,
+      "column_hits": [
+        9,
+        9,
+        10,
+        9,
+        9,
+        10,
+        9,
+        9,
+        10,
+        9,
+        9,
+        10
+      ],
+      "max_hits": 10,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution",
+      "hit_counts": {
+        "9": 8,
+        "10": 4
+      }
+    },
+    "individual_columns": {
+      "cost_eur": 9.75,
+      "gross_return_eur": 6.66,
+      "net_eur": -3.09,
+      "roi": -0.3169230769230769,
+      "column_hits": [
+        10,
+        9,
+        9,
+        10,
+        10,
+        11,
+        9,
+        9,
+        11,
+        11,
+        9,
+        10,
+        9
+      ],
+      "max_hits": 11,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution",
+      "hit_counts": {
+        "10": 4,
+        "9": 6,
+        "11": 3
+      }
+    },
+    "robust_full_system": {
+      "cost_eur": 9.0,
+      "gross_return_eur": 4.44,
+      "net_eur": -4.56,
+      "roi": -0.5066666666666667,
+      "column_hits": [
+        9,
+        10,
+        9,
+        10,
+        10,
+        11,
+        10,
+        11,
+        9,
+        10,
+        9,
+        10
+      ],
+      "max_hits": 11,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution",
+      "hit_counts": {
+        "9": 4,
+        "10": 6,
+        "11": 2
+      }
+    },
+    "robust_columns": {
+      "cost_eur": 9.75,
+      "gross_return_eur": 6.66,
+      "net_eur": -3.09,
+      "roi": -0.3169230769230769,
+      "column_hits": [
+        10,
+        9,
+        10,
+        9,
+        11,
+        9,
+        10,
+        11,
+        11,
+        10,
+        10,
+        9,
+        10
+      ],
+      "max_hits": 11,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution",
+      "hit_counts": {
+        "10": 6,
+        "9": 4,
+        "11": 3
+      }
+    },
+    "at_least_10_full_system": {
+      "cost_eur": 9.0,
+      "gross_return_eur": 0.0,
+      "net_eur": -9.0,
+      "roi": -1.0,
+      "column_hits": [
+        9,
+        9,
+        10,
+        8,
+        8,
+        9,
+        9,
+        9,
+        10,
+        8,
+        8,
+        9
+      ],
+      "max_hits": 10,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution",
+      "hit_counts": {
+        "9": 6,
+        "10": 2,
+        "8": 4
+      }
+    }
+  },
+  "scope": "Hypothetical return on archived unregistered columns; excluded from prospective cohort."
+}

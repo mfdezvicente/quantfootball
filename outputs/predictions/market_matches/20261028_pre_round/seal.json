@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "registered_at": "2026-10-28T13:02:01.236052+00:00",
+  "scope": "sporting_match_probabilities_only",
+  "paper_only": true,
+  "full_ticket_roi_eligible": false,
+  "primary_metric": "paired model minus market mean log loss, per competition",
+  "secondary_metrics": [
+    "multiclass_brier",
+    "accuracy"
+  ],
+  "selection_policy": "All correctly identified eligible upcoming fixtures in the initial capture; no post-result selection",
+  "deduplication": "First locally registered probability for each competition/date/home/away",
+  "files_sha256": {
+    "forecast.json": "5dde06feeebf98a87b2805a10eed371517f3e565e1328bf2efa66c0ff0b0a213",
+    "snapshot.json": "f24df78d9e6b6cb3ebca2df4d9ffdcf51716ca741cdd0be44b8781e6b5e65109",
+    "config.json": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda"
+  },
+  "limitations": "Local clock and fingerprints, not an externally certified timestamp or actual bet"
+}
