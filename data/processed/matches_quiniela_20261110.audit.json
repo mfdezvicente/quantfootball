@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-10T19:44:47.246252+00:00",
+  "rows": 11106,
+  "as_of_exclusive": "2026-11-10",
+  "dataset_sha256": "ec08a22e20e106083fb267dd71b0f61cf1a33c975307f00f8e93a30a91fe0413",
+  "base_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261028.parquet",
+  "base_sha256": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff",
+  "snapshot_sha256": {
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\j18_evaluation_20261110\\public_results\\2026-es.1-11.json": "0c245f928731b9e271e63c55691e9631a6cb2a2c44f9ec599f86940ddc553fa7",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\j18_evaluation_20261110\\public_results\\2026-es.1-12.json": "7c976ac633ce9938fd816734f279e29dd273e40cd5d9cdf5be295888153e4d87",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\j18_evaluation_20261110\\public_results\\2026-es.2-12.json": "05eaed4245a592f6aa152f5ec7876910da7acd4144a339fabaf4d6c695708dec",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\j18_evaluation_20261110\\public_results\\2026-es.2-13.json": "610c715ddc8be9e2745e49b51624d6f5eba847348f2d3546ad1a0009cd1fb3cb",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\j18_evaluation_20261110\\public_results\\2026-es.w.1-09.json": "7fde95acf9277d03535c039f3ce58c5d5771df1cf35924535cd6dedccb6e14e9",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\j18_evaluation_20261110\\public_results\\2026-es.w.1-10.json": "71ad93b43052ccd01acae1b19216fb2453ba45546ef038c3370c06e3ebf6b5f7"
+  },
+  "observed_source_rows": 58,
+  "added_rows": 54,
+  "added_by_competition": {
+    "es.1": 20,
+    "es.2": 19,
+    "es.w.1": 15
+  },
+  "last_dates": {
+    "es.1": "2026-11-08",
+    "es.2": "2026-11-09",
+    "es.w.1": "2026-11-09"
+  },
+  "skipped_source_rows": [
+    {
+      "competition_code": "es.2",
+      "match_id": 102764,
+      "home_team": "CD Castellón",
+      "away_team": "SD Eibar",
+      "date": "2026-11-06",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102767,
+      "home_team": "Granada CF",
+      "away_team": "CD Tenerife",
+      "date": "2026-11-07",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102761,
+      "home_team": "FC Andorra",
+      "away_team": "RCD Mallorca",
+      "date": "2026-11-08",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103176,
+      "home_team": "Costa Adeje Tenerife",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-11-08",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    }
+  ],
+  "source_conflicts": 0,
+  "policy": "Only FullTime results strictly before cutoff; original rows preserved; live scores excluded"
+}

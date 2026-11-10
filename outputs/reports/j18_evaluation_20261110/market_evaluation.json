@@ -1,0 +1,997 @@
+{
+  "created_at": "2026-11-10T19:47:37.390861+00:00",
+  "records": [
+    {
+      "record": "20261003_first_live",
+      "status": "completed_with_sporting_exclusions",
+      "scored_unique_fixtures": 17,
+      "coverage": 18,
+      "known_result_fixtures": 17,
+      "deduplicated_fixtures": 0,
+      "sporting_excluded_fixtures": 1,
+      "missing_market": []
+    },
+    {
+      "record": "20261005_j12",
+      "status": "completed_with_sporting_exclusions",
+      "scored_unique_fixtures": 7,
+      "coverage": 14,
+      "known_result_fixtures": 13,
+      "deduplicated_fixtures": 7,
+      "sporting_excluded_fixtures": 1,
+      "missing_market": []
+    },
+    {
+      "record": "20261028_pre_round",
+      "status": "completed",
+      "scored_unique_fixtures": 21,
+      "coverage": 21,
+      "known_result_fixtures": 21,
+      "deduplicated_fixtures": 0,
+      "sporting_excluded_fixtures": 0,
+      "missing_market": []
+    }
+  ],
+  "completed_unique_fixtures": 45,
+  "pending_unique_fixtures": 0,
+  "sporting_excluded_unique_fixtures": 1,
+  "sporting_exclusions": [
+    {
+      "record": "20261003_first_live",
+      "position": 2,
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Athletic Club",
+      "date": "2026-10-10",
+      "status": "Abandoned",
+      "reason": "No completed sporting result; awarded Quiniela sign is separate",
+      "kickoff": "2026-10-10T12:00:00+00:00",
+      "captured_at": "2026-10-28T12:50:03.716755+00:00",
+      "source_url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "source_sha256": "adeb172610a64774f33db6814ff3307a7195c011d98fa92b1b5b687912af3592"
+    }
+  ],
+  "leagues": {
+    "es.1": {
+      "paired_matches": 19,
+      "model": {
+        "log_loss": 0.8475793518531853,
+        "brier": 0.481596246349605,
+        "accuracy": 0.6842105263157895
+      },
+      "market": {
+        "log_loss": 0.811184082788124,
+        "brier": 0.46164338512871095,
+        "accuracy": 0.631578947368421
+      },
+      "model_minus_market_log_loss": 0.03639526906506132
+    },
+    "es.2": {
+      "paired_matches": 26,
+      "model": {
+        "log_loss": 1.0846216488514384,
+        "brier": 0.6587128259478077,
+        "accuracy": 0.46153846153846156
+      },
+      "market": {
+        "log_loss": 1.0510980852591367,
+        "brier": 0.6343836330978072,
+        "accuracy": 0.34615384615384615
+      },
+      "model_minus_market_log_loss": 0.033523563592301776
+    }
+  },
+  "fixtures": [
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-09",
+      "home_team": "Málaga CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "actual_date": "2026-10-09",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.2503832990060868,
+        "brier": 0.7638495147564315,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2312778778285622,
+        "brier": 0.7520718545615808,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-10",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Club Atlético de Madrid",
+      "actual_date": "2026-10-10",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.7128735203380918,
+        "brier": 0.3901376370459906,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.667437064840542,
+        "brier": 0.3560672274115277,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-10",
+      "home_team": "FC Barcelona",
+      "away_team": "Getafe CF",
+      "actual_date": "2026-10-10",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.20237880881305798,
+        "brier": 0.05210149757607595,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.1062969095883231,
+        "brier": 0.01576381355510537,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-10",
+      "home_team": "Real Madrid CF",
+      "away_team": "Villarreal CF",
+      "actual_date": "2026-10-10",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.3767182718295475,
+        "brier": 0.14800946876757926,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.34401460274395934,
+        "brier": 0.1277874577037525,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-11",
+      "home_team": "Elche CF",
+      "away_team": "RC Celta de Vigo",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.334308505947933,
+        "brier": 0.8140016961326789,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2263824444897706,
+        "brier": 0.7494093854319308,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-11",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Deportivo La Coruña",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.6306648215005233,
+        "brier": 0.3282490403237896,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.5981017869104233,
+        "brier": 0.3050523923961773,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-11",
+      "home_team": "Real Betis Balompié",
+      "away_team": "CA Osasuna",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.46804128007293205,
+        "brier": 0.21271109892949433,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.5631075189548975,
+        "brier": 0.27896521577406963,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-11",
+      "home_team": "Racing Santander",
+      "away_team": "Valencia CF",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.5182374153647882,
+        "brier": 0.921640352513058,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.3216083588773408,
+        "brier": 0.816793943083435,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-03",
+      "home_team": "UD Almería",
+      "away_team": "Burgos CF",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.6477028241299493,
+        "brier": 0.34094990656288127,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.515920875173203,
+        "brier": 0.2461427811486439,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-03",
+      "home_team": "CE Sabadell",
+      "away_team": "FC Andorra",
+      "actual_date": "2026-10-04",
+      "result_match_method": "unique_same_fixture_within_3_days",
+      "model": {
+        "log_loss": 1.4077517478716255,
+        "brier": 0.8830658235502945,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2369291281519386,
+        "brier": 0.7865594654194646,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-03",
+      "home_team": "Cádiz CF",
+      "away_team": "CD Leganés",
+      "actual_date": "2026-10-03",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.993569169145108,
+        "brier": 0.5948775996606718,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 1.0775250769365274,
+        "brier": 0.653947522107426,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-04",
+      "home_team": "Real Sociedad B",
+      "away_team": "Granada CF",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.135792491942402,
+        "brier": 0.7018297922775835,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.0689155874855008,
+        "brier": 0.6501569187579253,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-04",
+      "home_team": "Sporting Gijón",
+      "away_team": "Celta Fortuna",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.6704005591095524,
+        "brier": 0.35834425886143295,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.5092524131491675,
+        "brier": 0.24064762343544055,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-04",
+      "home_team": "CD Castellón",
+      "away_team": "AD Ceuta FC",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.7146349792281976,
+        "brier": 1.1817957484935082,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.9237292875090806,
+        "brier": 1.3160124597098262,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-04",
+      "home_team": "UD Las Palmas",
+      "away_team": "Real Valladolid CF",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.4096895283066802,
+        "brier": 0.9289122101049255,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2477206489928434,
+        "brier": 0.7724931628330626,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-04",
+      "home_team": "Girona FC",
+      "away_team": "RCD Mallorca",
+      "actual_date": "2026-10-04",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.3435369122882794,
+        "brier": 0.8363708812141762,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2855791618357313,
+        "brier": 0.7919240295834981,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261003_first_live",
+      "registered_at": "2026-10-03T12:21:23.921081+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-05",
+      "home_team": "Córdoba CF",
+      "away_team": "CD Tenerife",
+      "actual_date": "2026-10-05",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.7924961509299542,
+        "brier": 0.4493473956251697,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.733300909661782,
+        "brier": 0.4052542503453764,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-12",
+      "home_team": "Levante UD",
+      "away_team": "Sevilla FC",
+      "actual_date": "2026-10-12",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.2771920680108597,
+        "brier": 0.7866071605428118,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2429529044062784,
+        "brier": 0.7592939822728428,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-10",
+      "home_team": "Eldense",
+      "away_team": "Córdoba CF",
+      "actual_date": "2026-10-10",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.8318601175436998,
+        "brier": 0.478878581729872,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.9410034918801917,
+        "brier": 0.5617129379530367,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-11",
+      "home_team": "FC Andorra",
+      "away_team": "CD Castellón",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.0415114814707251,
+        "brier": 0.6450639920738446,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.1803068284304525,
+        "brier": 0.7340964133826257,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-11",
+      "home_team": "UD Almería",
+      "away_team": "CD Leganés",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.5040413598485185,
+        "brier": 0.23568681178394285,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.5681863738147608,
+        "brier": 0.28193019928332574,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-11",
+      "home_team": "RCD Mallorca",
+      "away_team": "UD Las Palmas",
+      "actual_date": "2026-10-11",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.7148206270475586,
+        "brier": 0.39265722150465954,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.5287066189146372,
+        "brier": 0.2538009472013612,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-12",
+      "home_team": "Burgos CF",
+      "away_team": "Granada CF",
+      "actual_date": "2026-10-12",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.4018523681041501,
+        "brier": 0.8717797680901459,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.1825119807725912,
+        "brier": 0.7287495463786908,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261005_j12",
+      "registered_at": "2026-10-05T19:48:58.204105+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-12",
+      "home_team": "Real Oviedo",
+      "away_team": "SD Eibar",
+      "actual_date": "2026-10-12",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.9551629209490093,
+        "brier": 0.568030359002065,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.8779417555756306,
+        "brier": 0.512391806123022,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-30",
+      "home_team": "Villarreal CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "actual_date": "2026-10-30",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 2.0617114150400595,
+        "brier": 1.2663539869912426,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.946749389140601,
+        "brier": 1.2149697627863185,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "home_team": "Levante UD",
+      "away_team": "Club Atlético de Madrid",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.5759561974654299,
+        "brier": 0.28755771308362954,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.5158070126320188,
+        "brier": 0.24387362606441707,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "RC Celta de Vigo",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.8697073515763902,
+        "brier": 0.5062196000672995,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.9143716954687768,
+        "brier": 0.5388389233701223,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Málaga CF",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.32124077821618374,
+        "brier": 0.11606646333801017,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.3626022316350139,
+        "brier": 0.1400582304553035,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-10-31",
+      "home_team": "FC Barcelona",
+      "away_team": "Deportivo Alavés",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.16930264009749085,
+        "brier": 0.03771611131208426,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.15458681352128298,
+        "brier": 0.03283295275151117,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "home_team": "Getafe CF",
+      "away_team": "Sevilla FC",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.9618418329393608,
+        "brier": 0.5732273886573866,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 1.2127465162410183,
+        "brier": 0.7429109009150533,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "home_team": "Racing Santander",
+      "away_team": "Real Madrid CF",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.35697159193439854,
+        "brier": 0.1351892500025858,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.24637981757068408,
+        "brier": 0.0721916426905013,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "home_team": "Elche CF",
+      "away_team": "Valencia CF",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.251135480073402,
+        "brier": 0.779229680712644,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.1364852962636807,
+        "brier": 0.698113723194081,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-11-01",
+      "home_team": "Athletic Club",
+      "away_team": "Real Sociedad de Fútbol",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.8409688174002291,
+        "brier": 0.48557897361174607,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.7962392191926482,
+        "brier": 0.4523151359602372,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.1",
+      "date": "2026-11-02",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "CA Osasuna",
+      "actual_date": "2026-11-02",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.9243735895837562,
+        "brier": 0.5458820462779559,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.8253501126685341,
+        "brier": 0.47391414706754104,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-31",
+      "home_team": "Real Sociedad B",
+      "away_team": "Girona FC",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.4730498002462278,
+        "brier": 0.9377286439562896,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2487046040014924,
+        "brier": 0.7822279932124806,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-31",
+      "home_team": "SD Eibar",
+      "away_team": "UD Almería",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.4293969688459167,
+        "brier": 0.8766252740689199,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2936364755267062,
+        "brier": 0.7912010648655046,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-31",
+      "home_team": "Celta Fortuna",
+      "away_team": "Córdoba CF",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.4657153168545625,
+        "brier": 0.8964426541266554,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.4175847272929987,
+        "brier": 0.8731671956200997,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-10-31",
+      "home_team": "Albacete",
+      "away_team": "CE Sabadell",
+      "actual_date": "2026-10-31",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.0267148249961802,
+        "brier": 0.6195545926152297,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 1.0609803751942344,
+        "brier": 0.6435423729861443,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-01",
+      "home_team": "Eldense",
+      "away_team": "Granada CF",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.0923733949025956,
+        "brier": 0.6685876331544262,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.1605676043380582,
+        "brier": 0.7175350246713128,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-01",
+      "home_team": "AD Ceuta FC",
+      "away_team": "Sporting Gijón",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.9262881163518275,
+        "brier": 0.5485095681483922,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 1.0339898895641264,
+        "brier": 0.6289650320683542,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-01",
+      "home_team": "Burgos CF",
+      "away_team": "CD Castellón",
+      "actual_date": "2026-11-01",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.272465785064804,
+        "brier": 0.7784447678592372,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2866775501325254,
+        "brier": 0.8026205711473207,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-01",
+      "home_team": "CD Tenerife",
+      "away_team": "FC Andorra",
+      "actual_date": "2026-11-02",
+      "result_match_method": "unique_same_fixture_within_3_days",
+      "model": {
+        "log_loss": 1.3192726133682138,
+        "brier": 0.8122042429116154,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.2667920086314008,
+        "brier": 0.7804909413047327,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-02",
+      "home_team": "Real Oviedo",
+      "away_team": "UD Las Palmas",
+      "actual_date": "2026-11-02",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 1.3605420620005462,
+        "brier": 0.850335736196671,
+        "accuracy": 0.0
+      },
+      "market": {
+        "log_loss": 1.5151466886713443,
+        "brier": 0.9473760709879622,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-02",
+      "home_team": "Real Valladolid CF",
+      "away_team": "CD Leganés",
+      "actual_date": "2026-11-02",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.8073100703587823,
+        "brier": 0.4608931170632471,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.674663688561449,
+        "brier": 0.3613949278693156,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "record": "20261028_pre_round",
+      "registered_at": "2026-10-28T13:02:01.236052+00:00",
+      "competition_code": "es.2",
+      "date": "2026-11-02",
+      "home_team": "RCD Mallorca",
+      "away_team": "Cádiz CF",
+      "actual_date": "2026-11-02",
+      "result_match_method": "exact_date",
+      "model": {
+        "log_loss": 0.4622106792323367,
+        "brier": 0.20961689400713956,
+        "accuracy": 1.0
+      },
+      "market": {
+        "log_loss": 0.4922764665391829,
+        "brier": 0.22963320214703356,
+        "accuracy": 1.0
+      }
+    }
+  ],
+  "dataset_sha256": "ec08a22e20e106083fb267dd71b0f61cf1a33c975307f00f8e93a30a91fe0413",
+  "roi": null,
+  "positive_expected_roi_demonstrated": false,
+  "limitations": [
+    "No ticket, Pleno or ROI evaluation",
+    "Exact paired match subset only",
+    "No model tuning or significance claim on this accumulating sample",
+    "Sporting scores and administratively awarded Quiniela signs may differ",
+    "Small date changes use a unique same-competition, same-team result within three days and are audited"
+  ]
+}

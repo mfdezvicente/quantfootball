@@ -1,0 +1,92 @@
+{
+  "contest_id": "2026_j18",
+  "settled_at": "2026-11-10T19:47:36.948418+00:00",
+  "official_url": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-01-de-noviembre-de-2026",
+  "official_extract_sha256": "25836b8cf88e2a2c2fe2e49d3e5bcbf6cb1f67b2839f62aff3a832c99a4e7212",
+  "seal_sha256": "d43b346e21558aa79e10c3b036011aa13bee1ad36af65116edc4fe3e73bc793a",
+  "primary_strategy": "individual_columns",
+  "paper_only": true,
+  "strategies": {
+    "full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        9,
+        8,
+        8,
+        7,
+        8,
+        7
+      ],
+      "max_hits": 9,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "individual_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        9,
+        8,
+        9,
+        10,
+        8,
+        8
+      ],
+      "max_hits": 10,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 2.94,
+      "net_eur": -1.56,
+      "roi": -0.3466666666666667,
+      "column_hits": [
+        9,
+        10,
+        9,
+        10,
+        11,
+        10
+      ],
+      "max_hits": 11,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        9,
+        9,
+        10,
+        8,
+        8,
+        8
+      ],
+      "max_hits": 10,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "at_least_10_full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        9,
+        8,
+        8,
+        7,
+        8,
+        7
+      ],
+      "max_hits": 9,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    }
+  },
+  "stored_extract_sha256": "25836b8cf88e2a2c2fe2e49d3e5bcbf6cb1f67b2839f62aff3a832c99a4e7212"
+}

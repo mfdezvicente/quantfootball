@@ -1,0 +1,184 @@
+[
+  {
+    "units_eur": {
+      "14": "5979.25",
+      "13": "144.12",
+      "12": "16.02",
+      "11": "2.94",
+      "10": "0.00",
+      "15": null
+    },
+    "status": {
+      "14": "reconstructed_under_rounding_hypothesis",
+      "13": "reconstructed_under_rounding_hypothesis",
+      "12": "reconstructed_under_rounding_hypothesis",
+      "11": "reconstructed_under_rounding_hypothesis",
+      "10": "reconstructed_under_rounding_hypothesis",
+      "15": "missing_special_carry_in"
+    },
+    "events": [
+      "empty_or_subminimum_10_to_future_special"
+    ],
+    "blockers": [],
+    "rounding_hypothesis": "fund_cent_then_unit",
+    "special_carry_in_eur": null,
+    "funds_eur": {
+      "15": "269066.25",
+      "14": "574008.00",
+      "13": "269066.25",
+      "12": "269066.25",
+      "11": "269066.25",
+      "10": "0"
+    },
+    "generated_or_carried_future_eur": "322879.50",
+    "future_pool_total_known": false,
+    "economic_deployment_enabled": false,
+    "comparisons": [
+      {
+        "category": "15",
+        "winners": 26,
+        "published_unit_eur": "83350.51",
+        "reconstructed_unit_eur": null,
+        "delta_eur": null,
+        "matches": null,
+        "status": "missing_special_carry_in"
+      },
+      {
+        "category": "14",
+        "winners": 96,
+        "published_unit_eur": "5979.25",
+        "reconstructed_unit_eur": "5979.25",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "13",
+        "winners": 1867,
+        "published_unit_eur": "144.12",
+        "reconstructed_unit_eur": "144.12",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "12",
+        "winners": 16798,
+        "published_unit_eur": "16.02",
+        "reconstructed_unit_eur": "16.02",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "11",
+        "winners": 91671,
+        "published_unit_eur": "2.94",
+        "reconstructed_unit_eur": "2.94",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "10",
+        "winners": 321020,
+        "published_unit_eur": "0.00",
+        "reconstructed_unit_eur": "0.00",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      }
+    ]
+  },
+  {
+    "units_eur": {
+      "14": "5979.25",
+      "13": "144.12",
+      "12": "16.02",
+      "11": "2.94",
+      "10": "0.00",
+      "15": null
+    },
+    "status": {
+      "14": "reconstructed_under_rounding_hypothesis",
+      "13": "reconstructed_under_rounding_hypothesis",
+      "12": "reconstructed_under_rounding_hypothesis",
+      "11": "reconstructed_under_rounding_hypothesis",
+      "10": "reconstructed_under_rounding_hypothesis",
+      "15": "missing_special_carry_in"
+    },
+    "events": [
+      "empty_or_subminimum_10_to_future_special"
+    ],
+    "blockers": [],
+    "rounding_hypothesis": "exact_fund_then_unit",
+    "special_carry_in_eur": null,
+    "funds_eur": {
+      "15": "269066.25000",
+      "14": "574008.0000",
+      "13": "269066.25000",
+      "12": "269066.25000",
+      "11": "269066.25000",
+      "10": "0"
+    },
+    "generated_or_carried_future_eur": "322879.5000",
+    "future_pool_total_known": false,
+    "economic_deployment_enabled": false,
+    "comparisons": [
+      {
+        "category": "15",
+        "winners": 26,
+        "published_unit_eur": "83350.51",
+        "reconstructed_unit_eur": null,
+        "delta_eur": null,
+        "matches": null,
+        "status": "missing_special_carry_in"
+      },
+      {
+        "category": "14",
+        "winners": 96,
+        "published_unit_eur": "5979.25",
+        "reconstructed_unit_eur": "5979.25",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "13",
+        "winners": 1867,
+        "published_unit_eur": "144.12",
+        "reconstructed_unit_eur": "144.12",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "12",
+        "winners": 16798,
+        "published_unit_eur": "16.02",
+        "reconstructed_unit_eur": "16.02",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "11",
+        "winners": 91671,
+        "published_unit_eur": "2.94",
+        "reconstructed_unit_eur": "2.94",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      },
+      {
+        "category": "10",
+        "winners": 321020,
+        "published_unit_eur": "0.00",
+        "reconstructed_unit_eur": "0.00",
+        "delta_eur": "0.00",
+        "matches": true,
+        "status": "reconstructed_under_rounding_hypothesis"
+      }
+    ]
+  }
+]

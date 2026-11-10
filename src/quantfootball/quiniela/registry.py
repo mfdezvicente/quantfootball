@@ -188,16 +188,19 @@ def settle_record(folder, extract_path, official_url):
     raw = Path(extract_path).read_text(encoding="utf-8")
     official = parse_official_extract(raw, manifest["contest_date"])
     for expected, actual in zip(manifest["fixtures"], [*official["fixtures"], official["pleno"]]):
+        is_women = expected["competition_code"] == "es.w.1"
         for side in ("home", "away"):
-            if expected["competition_code"] == "es.w.1":
-                if women_team_name(actual[f"{side}_raw"]) != women_team_name(
-                    expected[f"{side}_team"]
-                ):
+            raw_name = actual[f"{side}_raw"].strip()
+            if raw_name.endswith((" (M)", " (F)")):
+                suffix = " (F)" if is_women else " (M)"
+                if not raw_name.endswith(suffix):
+                    raise ValueError("Official team gender differs from frozen competition.")
+                raw_name = raw_name.removesuffix(suffix)
+            if is_women:
+                if women_team_name(raw_name) != women_team_name(expected[f"{side}_team"]):
                     raise ValueError("Official women's teams/order differ from frozen contest.")
                 continue
-            name = canonicalize_team(
-                SELAE_ALIASES.get(actual[f"{side}_raw"], actual[f"{side}_raw"])
-            )
+            name = canonicalize_team(SELAE_ALIASES.get(raw_name, raw_name))
             if name != canonicalize_team(expected[f"{side}_team"]):
                 raise ValueError("Official settlement teams/order differ from frozen contest.")
     # Use the official awarded signs directly, including administrative results;
