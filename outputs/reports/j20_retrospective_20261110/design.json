@@ -1,0 +1,37 @@
+{
+  "contest_id": "2026_j20",
+  "contest_date": "2026-11-08",
+  "created_at": "2026-11-10T20:08:20.991477+00:00",
+  "retrospective": true,
+  "prospective_registry_eligible": false,
+  "cutoff_exclusive_madrid": "2026-11-07T00:00:00+01:00",
+  "earliest_listed_kickoff_madrid": "2026-11-07T14:00:00+01:00",
+  "cutoff_reason": "Conservative calendar cutoff before first kickoff and reported sales cutoffs; exact SELAE closing time unverified",
+  "sports_data": "Reconstructed from later captures of earlier completed matches, not a contemporaneous archive",
+  "excluded_j20_fixtures_from_training": 15,
+  "source_coupon_order": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026",
+  "training_rows": 11082,
+  "training_last_dates": {
+    "es.1": "2026-11-06",
+    "es.2": "2026-11-02",
+    "es.w.1": "2026-11-02"
+  },
+  "dataset_sha256": "6843979ee442e517a90328cebb0886d97318cc04ef18afb0c4c9b4966833847b",
+  "config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+  "model": "Frozen standalone base configuration used as J18 comparator",
+  "primary_strategy": "individual_columns",
+  "budget_cap_eur": 5.0,
+  "bootstrap_draws": 64,
+  "uses_market_quotes": false,
+  "market_reason": "No eligible archived J20 pre-close odds in the project",
+  "sporting_metrics_exclusions": [
+    {
+      "position": 14,
+      "reason": "Official lottery draw after postponement",
+      "source_url": "https://www.selae.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/APLAZAMIENTO%20JORNADA%2020%20DE%20LA%20QUINIELA%207_8%20NOVIEMBRE%202026%20(002).pdf"
+    }
+  ],
+  "settlement_policy": "Apply all fourteen SELAE signs to the frozen columns; compare sporting probabilities on played games only",
+  "evaluation_source_accessed_before_model_run": true,
+  "policy_selection": "Same predeclared J18 comparator configuration, budget and primary strategy without reselecting using J20 results"
+}

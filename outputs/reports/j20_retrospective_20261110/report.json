@@ -1,0 +1,474 @@
+{
+  "evaluated_at": "2026-11-10T20:13:15.462466+00:00",
+  "design": {
+    "contest_id": "2026_j20",
+    "contest_date": "2026-11-08",
+    "created_at": "2026-11-10T20:08:20.991477+00:00",
+    "retrospective": true,
+    "prospective_registry_eligible": false,
+    "cutoff_exclusive_madrid": "2026-11-07T00:00:00+01:00",
+    "earliest_listed_kickoff_madrid": "2026-11-07T14:00:00+01:00",
+    "cutoff_reason": "Conservative calendar cutoff before first kickoff and reported sales cutoffs; exact SELAE closing time unverified",
+    "sports_data": "Reconstructed from later captures of earlier completed matches, not a contemporaneous archive",
+    "excluded_j20_fixtures_from_training": 15,
+    "source_coupon_order": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026",
+    "training_rows": 11082,
+    "training_last_dates": {
+      "es.1": "2026-11-06",
+      "es.2": "2026-11-02",
+      "es.w.1": "2026-11-02"
+    },
+    "dataset_sha256": "6843979ee442e517a90328cebb0886d97318cc04ef18afb0c4c9b4966833847b",
+    "config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+    "model": "Frozen standalone base configuration used as J18 comparator",
+    "primary_strategy": "individual_columns",
+    "budget_cap_eur": 5.0,
+    "bootstrap_draws": 64,
+    "uses_market_quotes": false,
+    "market_reason": "No eligible archived J20 pre-close odds in the project",
+    "sporting_metrics_exclusions": [
+      {
+        "position": 14,
+        "reason": "Official lottery draw after postponement",
+        "source_url": "https://www.selae.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/APLAZAMIENTO%20JORNADA%2020%20DE%20LA%20QUINIELA%207_8%20NOVIEMBRE%202026%20(002).pdf"
+      }
+    ],
+    "settlement_policy": "Apply all fourteen SELAE signs to the frozen columns; compare sporting probabilities on played games only",
+    "evaluation_source_accessed_before_model_run": true,
+    "policy_selection": "Same predeclared J18 comparator configuration, budget and primary strategy without reselecting using J20 results"
+  },
+  "forecast_sha256": "62bddfe86f05efa1d8f7a6ecc101da8bd3ef713b0d997344f6bf7f011184cf62",
+  "sporting_evaluation_dataset_sha256": "ec08a22e20e106083fb267dd71b0f61cf1a33c975307f00f8e93a30a91fe0413",
+  "official_signs": "2X221X1222XX21",
+  "official_pleno": "1-2",
+  "unit_prizes": {
+    "10": {
+      "winners": 89116,
+      "unit_eur": "3.41"
+    },
+    "11": {
+      "winners": 17496,
+      "unit_eur": "14.48"
+    },
+    "12": {
+      "winners": 2301,
+      "unit_eur": "110.13"
+    },
+    "13": {
+      "winners": 185,
+      "unit_eur": "1369.75"
+    },
+    "14": {
+      "winners": 6,
+      "unit_eur": "90099.00"
+    },
+    "15": {
+      "winners": 1,
+      "unit_eur": "1647986.55"
+    }
+  },
+  "pleno_prediction": "1-1",
+  "matches": [
+    {
+      "position": 1,
+      "competition_code": "es.1",
+      "home_team": "Málaga CF",
+      "away_team": "Racing Santander",
+      "probabilities_1x2": [
+        0.4039330731,
+        0.2294089862,
+        0.3666579408
+      ],
+      "favorite": "1",
+      "official_sign": "2",
+      "sporting_score": "1-2",
+      "sporting_metrics": {
+        "log_loss": 1.0033259069651392,
+        "brier": 0.6169125744450179,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 2,
+      "competition_code": "es.1",
+      "home_team": "CA Osasuna",
+      "away_team": "Athletic Club",
+      "probabilities_1x2": [
+        0.3325879187,
+        0.2919274182,
+        0.3754846631
+      ],
+      "favorite": "2",
+      "official_sign": "X",
+      "sporting_score": "1-1",
+      "sporting_metrics": {
+        "log_loss": 1.2312500754201723,
+        "brier": 0.752970236985436,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 3,
+      "competition_code": "es.1",
+      "home_team": "Valencia CF",
+      "away_team": "Real Madrid CF",
+      "probabilities_1x2": [
+        0.1493855017,
+        0.2188396941,
+        0.6317748042
+      ],
+      "favorite": "2",
+      "official_sign": "2",
+      "sporting_score": "0-3",
+      "sporting_metrics": {
+        "log_loss": 0.4592222708015691,
+        "brier": 0.20579663465389064,
+        "accuracy": 1.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 4,
+      "competition_code": "es.1",
+      "home_team": "Elche CF",
+      "away_team": "Real Betis Balompié",
+      "probabilities_1x2": [
+        0.2757165744,
+        0.2408158701,
+        0.4834675555
+      ],
+      "favorite": "2",
+      "official_sign": "2",
+      "sporting_score": "0-2",
+      "sporting_metrics": {
+        "log_loss": 0.7267710697529391,
+        "brier": 0.40081767891203646,
+        "accuracy": 1.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 5,
+      "competition_code": "es.1",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Rayo Vallecano de Madrid",
+      "probabilities_1x2": [
+        0.4814042812,
+        0.267897729,
+        0.2506979898
+      ],
+      "favorite": "1",
+      "official_sign": "1",
+      "sporting_score": "1-0",
+      "sporting_metrics": {
+        "log_loss": 0.7310478604446252,
+        "brier": 0.4035601948508071,
+        "accuracy": 1.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 6,
+      "competition_code": "es.1",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Levante UD",
+      "probabilities_1x2": [
+        0.5313270186,
+        0.2401852887,
+        0.2284876928
+      ],
+      "favorite": "1",
+      "official_sign": "X",
+      "sporting_score": "0-0",
+      "sporting_metrics": {
+        "log_loss": 1.426344617256832,
+        "brier": 0.9118334219633342,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 7,
+      "competition_code": "es.1",
+      "home_team": "Villarreal CF",
+      "away_team": "Getafe CF",
+      "probabilities_1x2": [
+        0.645542376,
+        0.2058213105,
+        0.1486363135
+      ],
+      "favorite": "1",
+      "official_sign": "1",
+      "sporting_score": "2-0",
+      "sporting_metrics": {
+        "log_loss": 0.4376644225155732,
+        "brier": 0.19009537275853305,
+        "accuracy": 1.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 8,
+      "competition_code": "es.2",
+      "home_team": "Cádiz CF",
+      "away_team": "Real Oviedo",
+      "probabilities_1x2": [
+        0.3139849405,
+        0.2686257182,
+        0.4173893413
+      ],
+      "favorite": "2",
+      "official_sign": "2",
+      "sporting_score": "1-2",
+      "sporting_metrics": {
+        "log_loss": 0.8737358206018356,
+        "brier": 0.5101814989701021,
+        "accuracy": 1.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 9,
+      "competition_code": "es.2",
+      "home_team": "Girona FC",
+      "away_team": "UD Almería",
+      "probabilities_1x2": [
+        0.5314066095,
+        0.2095776684,
+        0.2590157221
+      ],
+      "favorite": "1",
+      "official_sign": "2",
+      "sporting_score": "0-1",
+      "sporting_metrics": {
+        "log_loss": 1.3508665160361542,
+        "brier": 0.8753734838072502,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 10,
+      "competition_code": "es.2",
+      "home_team": "Sporting Gijón",
+      "away_team": "Real Valladolid CF",
+      "probabilities_1x2": [
+        0.5101769301,
+        0.242492676,
+        0.2473303939
+      ],
+      "favorite": "1",
+      "official_sign": "2",
+      "sporting_score": "1-2",
+      "sporting_metrics": {
+        "log_loss": 1.3970302090548352,
+        "brier": 0.8855947338666303,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 11,
+      "competition_code": "es.w.1",
+      "home_team": "Athletic Club [F]",
+      "away_team": "Real Madrid CF [F]",
+      "probabilities_1x2": [
+        0.1790583358,
+        0.2006646605,
+        0.6202770037
+      ],
+      "favorite": "2",
+      "official_sign": "X",
+      "sporting_score": "1-1",
+      "sporting_metrics": {
+        "log_loss": 1.6061201198997068,
+        "brier": 1.0557424339120958,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 12,
+      "competition_code": "es.w.1",
+      "home_team": "Logroño United [F]",
+      "away_team": "Sevilla FC [F]",
+      "probabilities_1x2": [
+        0.3912642396,
+        0.2719653873,
+        0.336770373
+      ],
+      "favorite": "1",
+      "official_sign": "X",
+      "sporting_score": "2-2",
+      "sporting_metrics": {
+        "log_loss": 1.3020804733569646,
+        "brier": 0.7965363866095642,
+        "accuracy": 0.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 13,
+      "competition_code": "es.w.1",
+      "home_team": "SD Eibar [F]",
+      "away_team": "Real Sociedad [F]",
+      "probabilities_1x2": [
+        0.1927299239,
+        0.255270581,
+        0.5519994951
+      ],
+      "favorite": "2",
+      "official_sign": "2",
+      "sporting_score": "1-2",
+      "sporting_metrics": {
+        "log_loss": 0.5942081473793731,
+        "brier": 0.30301234548123224,
+        "accuracy": 1.0
+      },
+      "settlement_basis": "sporting_result"
+    },
+    {
+      "position": 14,
+      "competition_code": "es.w.1",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Deportivo Alavés [F]",
+      "probabilities_1x2": [
+        0.6361536941,
+        0.2324038468,
+        0.1314424591
+      ],
+      "favorite": "1",
+      "official_sign": "1",
+      "sporting_score": null,
+      "sporting_metrics": null,
+      "settlement_basis": "official_draw"
+    }
+  ],
+  "sporting_evaluation": {
+    "all": {
+      "matches": 13,
+      "favorite_hits": 6,
+      "log_loss": 1.0107436545758246,
+      "brier": 0.6083405382473792
+    },
+    "es.1": {
+      "matches": 7,
+      "favorite_hits": 4,
+      "log_loss": 0.8593751747366929,
+      "brier": 0.4974265877955793
+    },
+    "es.2": {
+      "matches": 3,
+      "favorite_hits": 1,
+      "log_loss": 1.207210848564275,
+      "brier": 0.7570499055479942
+    },
+    "es.w.1": {
+      "matches": 3,
+      "favorite_hits": 1,
+      "log_loss": 1.167469580212015,
+      "brier": 0.7184303886676308
+    }
+  },
+  "settlements": {
+    "full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        7,
+        8,
+        7,
+        8,
+        9,
+        8
+      ],
+      "max_hits": 9,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "individual_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        7,
+        8,
+        7,
+        7,
+        8,
+        8
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        6,
+        7,
+        7,
+        8,
+        6,
+        7
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "robust_columns": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        7,
+        7,
+        7,
+        8,
+        6,
+        8
+      ],
+      "max_hits": 8,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    },
+    "at_least_10_full_system": {
+      "cost_eur": 4.5,
+      "gross_return_eur": 0.0,
+      "net_eur": -4.5,
+      "roi": -1.0,
+      "column_hits": [
+        7,
+        8,
+        7,
+        8,
+        9,
+        8
+      ],
+      "max_hits": 9,
+      "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+    }
+  },
+  "primary_settlement": {
+    "cost_eur": 4.5,
+    "gross_return_eur": 0.0,
+    "net_eur": -4.5,
+    "roi": -1.0,
+    "column_hits": [
+      7,
+      8,
+      7,
+      7,
+      8,
+      8
+    ],
+    "max_hits": 8,
+    "accounting": "Published gross unit prizes; excludes tax and counterfactual prize-pool dilution"
+  },
+  "expected_roi": null
+}

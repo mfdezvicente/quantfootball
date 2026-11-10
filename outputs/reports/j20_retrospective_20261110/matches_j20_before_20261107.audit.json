@@ -1,0 +1,294 @@
+{
+  "created_at": "2026-11-10T20:08:20.967827+00:00",
+  "rows": 11082,
+  "as_of_exclusive": "2026-11-07",
+  "dataset_sha256": "6843979ee442e517a90328cebb0886d97318cc04ef18afb0c4c9b4966833847b",
+  "base_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261028.parquet",
+  "base_sha256": "11f62376842c6eaead614bf8b9f136ca783440c58a843530a7da1491bf14fcff",
+  "snapshot_sha256": {
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.1-08.json": "adeb172610a64774f33db6814ff3307a7195c011d98fa92b1b5b687912af3592",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.1-11.json": "0c245f928731b9e271e63c55691e9631a6cb2a2c44f9ec599f86940ddc553fa7",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.1-12.json": "7c976ac633ce9938fd816734f279e29dd273e40cd5d9cdf5be295888153e4d87",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.2-12.json": "05eaed4245a592f6aa152f5ec7876910da7acd4144a339fabaf4d6c695708dec",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.2-13.json": "610c715ddc8be9e2745e49b51624d6f5eba847348f2d3546ad1a0009cd1fb3cb",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.w.1-09.json": "7fde95acf9277d03535c039f3ce58c5d5771df1cf35924535cd6dedccb6e14e9",
+    "C:\\Users\\Usuario\\GitHub\\quantfootball\\outputs\\reports\\j18_evaluation_20261110\\public_results\\2026-es.w.1-10.json": "71ad93b43052ccd01acae1b19216fb2453ba45546ef038c3370c06e3ebf6b5f7"
+  },
+  "observed_source_rows": 68,
+  "added_rows": 30,
+  "added_by_competition": {
+    "es.1": 11,
+    "es.2": 11,
+    "es.w.1": 8
+  },
+  "last_dates": {
+    "es.1": "2026-11-06",
+    "es.2": "2026-11-02",
+    "es.w.1": "2026-11-02"
+  },
+  "skipped_source_rows": [
+    {
+      "competition_code": "es.1",
+      "match_id": 102326,
+      "home_team": "Rayo Vallecano",
+      "away_team": "Athletic Club",
+      "date": "2026-10-10",
+      "status": "Abandoned",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102363,
+      "home_team": "Málaga CF",
+      "away_team": "R. Racing Club",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102362,
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "RC Deportivo",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102364,
+      "home_team": "CA Osasuna",
+      "away_team": "Athletic Club",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102367,
+      "home_team": "Valencia CF",
+      "away_team": "Real Madrid",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102361,
+      "home_team": "Elche CF",
+      "away_team": "Real Betis",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102365,
+      "home_team": "Real Sociedad",
+      "away_team": "Rayo Vallecano",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102360,
+      "home_team": "Celta",
+      "away_team": "Levante UD",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102368,
+      "home_team": "Villarreal CF",
+      "away_team": "Getafe CF",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102359,
+      "home_team": "Atlético de Madrid",
+      "away_team": "FC Barcelona",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102764,
+      "home_team": "CD Castellón",
+      "away_team": "SD Eibar",
+      "date": "2026-11-06",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102762,
+      "home_team": "Burgos CF",
+      "away_team": "Celta Fortuna",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102763,
+      "home_team": "Cádiz CF",
+      "away_team": "Real Oviedo",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102765,
+      "home_team": "Córdoba CF",
+      "away_team": "AD Ceuta FC",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102768,
+      "home_team": "CD Leganés",
+      "away_team": "Albacete BP",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102767,
+      "home_team": "Granada CF",
+      "away_team": "CD Tenerife",
+      "date": "2026-11-07",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102761,
+      "home_team": "FC Andorra",
+      "away_team": "RCD Mallorca",
+      "date": "2026-11-08",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102766,
+      "home_team": "Girona FC",
+      "away_team": "UD Almería",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102771,
+      "home_team": "Real Sporting",
+      "away_team": "Real Valladolid CF",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102769,
+      "home_team": "UD Las Palmas",
+      "away_team": "CD Eldense",
+      "date": "2026-11-09",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102770,
+      "home_team": "CE Sabadell",
+      "away_team": "R. Sociedad B",
+      "date": "2026-11-09",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103175,
+      "home_team": "Granada CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103169,
+      "home_team": "Athletic Club",
+      "away_team": "Real Madrid CF",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103174,
+      "home_team": "SD Eibar",
+      "away_team": "Real Sociedad",
+      "date": "2026-11-07",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103172,
+      "home_team": "Logroño United",
+      "away_team": "Sevilla FC",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103176,
+      "home_team": "Costa Adeje Tenerife",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-11-08",
+      "status": "Canceled",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103171,
+      "home_team": "FC Barcelona",
+      "away_team": "Madrid CFF",
+      "date": "2026-11-08",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103170,
+      "home_team": "Atlético de Madrid",
+      "away_team": "FC Badalona Women",
+      "date": "2026-11-09",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103173,
+      "home_team": "Deportivo Abanca",
+      "away_team": "VCF Femenino",
+      "date": "2026-11-09",
+      "status": "FullTime",
+      "reason": "at_or_after_cutoff"
+    }
+  ],
+  "source_conflicts": 0,
+  "policy": "Only FullTime results strictly before cutoff; original rows preserved; live scores excluded"
+}
