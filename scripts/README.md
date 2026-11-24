@@ -20,6 +20,8 @@ no sobrescribir pronósticos o protocolos registrados.
 | Registrar / evaluar decisiones y pronósticos | `forecast_registry.py`, `probability_registry.py`, `economic_registry.py` |
 | Evaluar variables controladas | `evaluate_ablation_research.py` |
 | Evaluar familias de goles y calibración | `evaluate_goal_flex_research.py` |
+| Reconstruir, guardar y evaluar el candidato contextual | `context_challenger.py` |
+| Comparar seis columnas al mismo coste | `compare_diversified_columns.py` |
 | Evaluar redes / dinámica / transferencia | `evaluate_neural.py`, `evaluate_dynamic.py`, `evaluate_transfer.py` |
 | Auditar premios / fuentes | `audit_prize_economics.py`, `audit_official_archive.py` |
 | Investigar carteras y riesgo | `optimize_economic_research.py`, `analyze_portfolio_risk.py`, `analyze_allocations.py` |

@@ -6,6 +6,10 @@ deben interpretarse según su protocolo; no se suman en un único ROI.
 
 ## Investigación reciente
 
+- [Calibración contextual y carteras diversificadas](reports/model_followup_20261124/dashboard.html)
+
+- [Experimento retrospectivo J20](reports/j20_retrospective_20261110/dashboard.html)
+
 - [J18 liquidada y evaluada](reports/j18_evaluation_20261110/dashboard.html)
 
 - [J18: registro confirmado, columnas y evidencia](reports/j18_registration_20261028/dashboard.html)

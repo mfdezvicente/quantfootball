@@ -1,0 +1,5433 @@
+{
+  "schema_version": 1,
+  "mode": "historical_replay",
+  "end_exclusive": "2026-11-24",
+  "protocol_sha256": "061f546b04982f023fe9f6655791d9716ed9d2bf46c164dde83df14ee5a936c6",
+  "dataset_sha256": "a7e651d3998afd5560a4e7ab06205995d52c6f006c57f93b3db9e84b5ec315e7",
+  "leagues": {
+    "es.1": {
+      "completed": 126,
+      "pending": 0,
+      "excluded_cold_start": 3,
+      "base": {
+        "matches": 126,
+        "log_loss": 0.9273760536578156,
+        "brier": 0.5445798047785617,
+        "accuracy": 0.5634920634920635,
+        "mean_draw_probability": 0.2397663330248785,
+        "observed_draw_rate": 0.24603174603174602,
+        "draw_binary_brier": 0.17687671373960331,
+        "classes": {
+          "H": {
+            "probability": 0.45717177942251613,
+            "frequency": 0.4444444444444444,
+            "brier": 0.20039140361535082,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 9,
+                "probability": 0.15245333004276682,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 15,
+                "probability": 0.2551325968223128,
+                "frequency": 0.26666666666666666
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 17,
+                "probability": 0.3574423393025093,
+                "frequency": 0.29411764705882354
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 44,
+                "probability": 0.4495535258554151,
+                "frequency": 0.4318181818181818
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 26,
+                "probability": 0.5724209880590253,
+                "frequency": 0.5769230769230769
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 15,
+                "probability": 0.7776503126134576,
+                "frequency": 0.8666666666666667
+              }
+            ]
+          },
+          "D": {
+            "probability": 0.2397663330248785,
+            "frequency": 0.24603174603174602,
+            "brier": 0.17687671373960331,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 25,
+                "probability": 0.15532217531047998,
+                "frequency": 0.04
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 95,
+                "probability": 0.2579815569953217,
+                "frequency": 0.29473684210526313
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 6,
+                "probability": 0.303209277302854,
+                "frequency": 0.3333333333333333
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              }
+            ]
+          },
+          "A": {
+            "probability": 0.3030618875526054,
+            "frequency": 0.30952380952380953,
+            "brier": 0.16731168742360744,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 11,
+                "probability": 0.07297053728482616,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 16,
+                "probability": 0.1489446082805111,
+                "frequency": 0.125
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 49,
+                "probability": 0.2611153285913568,
+                "frequency": 0.2653061224489796
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 24,
+                "probability": 0.34160428093448275,
+                "frequency": 0.20833333333333334
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 13,
+                "probability": 0.46222019719846297,
+                "frequency": 0.46153846153846156
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 12,
+                "probability": 0.6078367376892772,
+                "frequency": 1.0
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 1,
+                "probability": 0.7039509297516044,
+                "frequency": 1.0
+              }
+            ]
+          }
+        }
+      },
+      "context": {
+        "matches": 126,
+        "log_loss": 0.9263673322521487,
+        "brier": 0.544377858599897,
+        "accuracy": 0.5714285714285714,
+        "mean_draw_probability": 0.24462865859701283,
+        "observed_draw_rate": 0.24603174603174602,
+        "draw_binary_brier": 0.17657155576610475,
+        "classes": {
+          "H": {
+            "probability": 0.46708711854170665,
+            "frequency": 0.4444444444444444,
+            "brier": 0.20055885123555506,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 9,
+                "probability": 0.15455739345266764,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 15,
+                "probability": 0.26045207503998674,
+                "frequency": 0.26666666666666666
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 15,
+                "probability": 0.3604554539883415,
+                "frequency": 0.3333333333333333
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 45,
+                "probability": 0.4567942525042384,
+                "frequency": 0.4
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 25,
+                "probability": 0.5727058841786331,
+                "frequency": 0.56
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 17,
+                "probability": 0.7808799407411491,
+                "frequency": 0.8823529411764706
+              }
+            ]
+          },
+          "D": {
+            "probability": 0.24462865859701283,
+            "frequency": 0.24603174603174602,
+            "brier": 0.17657155576610475,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 1,
+                "probability": 0.09871496367423056,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 22,
+                "probability": 0.15174162260732055,
+                "frequency": 0.045454545454545456
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 93,
+                "probability": 0.26128639078761634,
+                "frequency": 0.2903225806451613
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 10,
+                "probability": 0.30865459789400146,
+                "frequency": 0.3
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              }
+            ]
+          },
+          "A": {
+            "probability": 0.28828422286128064,
+            "frequency": 0.30952380952380953,
+            "brier": 0.16724745159823717,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 13,
+                "probability": 0.06890837260998296,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 17,
+                "probability": 0.15067710874681933,
+                "frequency": 0.23529411764705882
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 55,
+                "probability": 0.25474370601302565,
+                "frequency": 0.2
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 15,
+                "probability": 0.3452333771352873,
+                "frequency": 0.3333333333333333
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 13,
+                "probability": 0.4468496885263281,
+                "frequency": 0.46153846153846156
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 13,
+                "probability": 0.6052339961005894,
+                "frequency": 1.0
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        }
+      },
+      "context_minus_base": {
+        "mean_log_loss_difference": -0.0010087214056668779,
+        "weeks": 13,
+        "ci95": [
+          -0.005243839948777101,
+          0.0022467763905046224
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      }
+    },
+    "es.w.1": {
+      "completed": 95,
+      "pending": 0,
+      "excluded_cold_start": 0,
+      "base": {
+        "matches": 95,
+        "log_loss": 0.9508686712371603,
+        "brier": 0.5590944589019655,
+        "accuracy": 0.5473684210526316,
+        "mean_draw_probability": 0.21305001049720307,
+        "observed_draw_rate": 0.21052631578947367,
+        "draw_binary_brier": 0.1668633042403439,
+        "classes": {
+          "H": {
+            "probability": 0.43011789997174815,
+            "frequency": 0.4421052631578947,
+            "brier": 0.20086146742421107,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 7,
+                "probability": 0.027686341855575346,
+                "frequency": 0.14285714285714285
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 12,
+                "probability": 0.17582504507244623,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 8,
+                "probability": 0.25612337961929155,
+                "frequency": 0.375
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 19,
+                "probability": 0.35557647371689055,
+                "frequency": 0.42105263157894735
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 19,
+                "probability": 0.4581631344820907,
+                "frequency": 0.5263157894736842
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 16,
+                "probability": 0.5851607998152464,
+                "frequency": 0.5
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 14,
+                "probability": 0.8346345124056261,
+                "frequency": 0.8571428571428571
+              }
+            ]
+          },
+          "D": {
+            "probability": 0.21305001049720307,
+            "frequency": 0.21052631578947367,
+            "brier": 0.1668633042403439,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 12,
+                "probability": 0.052827764996268706,
+                "frequency": 0.08333333333333333
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 15,
+                "probability": 0.1571498934122117,
+                "frequency": 0.13333333333333333
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 63,
+                "probability": 0.24785824674147058,
+                "frequency": 0.2698412698412698
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 5,
+                "probability": 0.32669997427664854,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              }
+            ]
+          },
+          "A": {
+            "probability": 0.35683208953104883,
+            "frequency": 0.3473684210526316,
+            "brier": 0.19136968723741046,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 12,
+                "probability": 0.04911552880946828,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 11,
+                "probability": 0.1615166973600576,
+                "frequency": 0.2727272727272727
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 20,
+                "probability": 0.24648245179410572,
+                "frequency": 0.2
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 19,
+                "probability": 0.3393788881837098,
+                "frequency": 0.42105263157894735
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 12,
+                "probability": 0.45036278854910267,
+                "frequency": 0.3333333333333333
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 14,
+                "probability": 0.5997885631797744,
+                "frequency": 0.6428571428571429
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 7,
+                "probability": 0.907676747185245,
+                "frequency": 0.7142857142857143
+              }
+            ]
+          }
+        }
+      },
+      "context": {
+        "matches": 95,
+        "log_loss": 0.9513410753110924,
+        "brier": 0.559496991038722,
+        "accuracy": 0.5473684210526316,
+        "mean_draw_probability": 0.21472618753909345,
+        "observed_draw_rate": 0.21052631578947367,
+        "draw_binary_brier": 0.16689963746749822,
+        "classes": {
+          "H": {
+            "probability": 0.42160826240582616,
+            "frequency": 0.4421052631578947,
+            "brier": 0.20118637763867028,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 7,
+                "probability": 0.02679721772754757,
+                "frequency": 0.14285714285714285
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 12,
+                "probability": 0.16989236124222953,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 8,
+                "probability": 0.24815478528242982,
+                "frequency": 0.375
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 20,
+                "probability": 0.34836348219289714,
+                "frequency": 0.45
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 20,
+                "probability": 0.45422923921246444,
+                "frequency": 0.5
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 15,
+                "probability": 0.592565791819594,
+                "frequency": 0.5333333333333333
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 13,
+                "probability": 0.8385320370687167,
+                "frequency": 0.8461538461538461
+              }
+            ]
+          },
+          "D": {
+            "probability": 0.21472618753909345,
+            "frequency": 0.21052631578947367,
+            "brier": 0.16689963746749822,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 11,
+                "probability": 0.04952674473471388,
+                "frequency": 0.09090909090909091
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 17,
+                "probability": 0.15894404920333674,
+                "frequency": 0.11764705882352941
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 62,
+                "probability": 0.25031584623601455,
+                "frequency": 0.27419354838709675
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 5,
+                "probability": 0.32651246420847957,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 0,
+                "probability": null,
+                "frequency": null
+              }
+            ]
+          },
+          "A": {
+            "probability": 0.3636655500550803,
+            "frequency": 0.3473684210526316,
+            "brier": 0.19141097593255346,
+            "bins": [
+              {
+                "lower": 0,
+                "upper": 0.1,
+                "matches": 11,
+                "probability": 0.047222453661967395,
+                "frequency": 0.0
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "matches": 12,
+                "probability": 0.16299607853655626,
+                "frequency": 0.25
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "matches": 20,
+                "probability": 0.2547032926449419,
+                "frequency": 0.2
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "matches": 19,
+                "probability": 0.34822094070425486,
+                "frequency": 0.42105263157894735
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "matches": 10,
+                "probability": 0.44972515756875353,
+                "frequency": 0.3
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.7,
+                "matches": 16,
+                "probability": 0.5939492509578009,
+                "frequency": 0.625
+              },
+              {
+                "lower": 0.7,
+                "upper": 1,
+                "matches": 7,
+                "probability": 0.9088748578886126,
+                "frequency": 0.7142857142857143
+              }
+            ]
+          }
+        }
+      },
+      "context_minus_base": {
+        "mean_log_loss_difference": 0.00047240407393235655,
+        "weeks": 13,
+        "ci95": [
+          -0.004125611214439489,
+          0.004580709439165013
+        ],
+        "interpretation": "Exploratory paired resampling of calendar weeks; no selection correction or deployment proof."
+      }
+    }
+  },
+  "limitations": [
+    "Archived final calendar, reconstructed Madrid Monday cutoffs and local result dates.",
+    "Exploratory 2026/27 sample includes previously inspected matches."
+  ],
+  "pairs": [
+    {
+      "match_id": "614c995438f6ca6a466e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Getafe CF",
+      "date": "2026-08-15",
+      "cutoff": "2026-08-10",
+      "expected_total_goals": 1.8979556856165831,
+      "base": {
+        "p_home": 0.4245118189413981,
+        "p_draw": 0.3040181648625111,
+        "p_away": 0.27147001619609085
+      },
+      "context": {
+        "p_home": 0.43316331539461955,
+        "p_draw": 0.31238827834193106,
+        "p_away": 0.2544484062634495
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "b2a92013b993b725de1b",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "Rayo Vallecano de Madrid",
+      "date": "2026-08-15",
+      "cutoff": "2026-08-10",
+      "expected_total_goals": 2.266070640879225,
+      "base": {
+        "p_home": 0.38182847270527576,
+        "p_draw": 0.28499468158454927,
+        "p_away": 0.33317684571017503
+      },
+      "context": {
+        "p_home": 0.3904498005327242,
+        "p_draw": 0.29363310352214955,
+        "p_away": 0.3159170959451263
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "9fe931f12c51f4933a67",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Levante UD",
+      "date": "2026-08-16",
+      "cutoff": "2026-08-10",
+      "expected_total_goals": 2.669067804642339,
+      "base": {
+        "p_home": 0.4426522891394265,
+        "p_draw": 0.26649990381201827,
+        "p_away": 0.2908478070485552
+      },
+      "context": {
+        "p_home": 0.45333214553222206,
+        "p_draw": 0.27283102025495787,
+        "p_away": 0.27383683421282
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "b9cf04c702452d7e1ea6",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Villarreal CF",
+      "date": "2026-08-16",
+      "cutoff": "2026-08-10",
+      "exclusion": "cold_start",
+      "result": "D"
+    },
+    {
+      "match_id": "a4553385aa5cf2958511",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "Elche CF",
+      "date": "2026-08-17",
+      "cutoff": "2026-08-17",
+      "exclusion": "cold_start",
+      "result": "D"
+    },
+    {
+      "match_id": "0257dc655127d85fe32f",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "Málaga CF",
+      "date": "2026-08-19",
+      "cutoff": "2026-08-17",
+      "exclusion": "cold_start",
+      "result": "H"
+    },
+    {
+      "match_id": "d7b055a2aa38fe11946b",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-08-20",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 2.1711041008898206,
+      "base": {
+        "p_home": 0.46226713602992314,
+        "p_draw": 0.28082940427487246,
+        "p_away": 0.25690345969520445
+      },
+      "context": {
+        "p_home": 0.47250993299925564,
+        "p_draw": 0.2872978922946809,
+        "p_away": 0.24019217470606344
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "cf99874feca4a4862f0e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-08-21",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 2.871448427529283,
+      "base": {
+        "p_home": 0.5377200814481673,
+        "p_draw": 0.2513738283801295,
+        "p_away": 0.21090609017170328
+      },
+      "context": {
+        "p_home": 0.5501069809965483,
+        "p_draw": 0.25460748184743387,
+        "p_away": 0.1952855371560178
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "07c74c6811d6e891a9cf",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "RC Celta de Vigo",
+      "date": "2026-08-22",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 2.6265074101273376,
+      "base": {
+        "p_home": 0.4204340442896499,
+        "p_draw": 0.2792928697726545,
+        "p_away": 0.30027308593769564
+      },
+      "context": {
+        "p_home": 0.43021042805636306,
+        "p_draw": 0.28660609249138064,
+        "p_away": 0.28318347945225636
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "21fe9458c200c1693e71",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "Sevilla FC",
+      "date": "2026-08-22",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 2.5830566509648234,
+      "base": {
+        "p_home": 0.5095295477478794,
+        "p_draw": 0.26944086411654833,
+        "p_away": 0.22102958813557227
+      },
+      "context": {
+        "p_home": 0.5208625589466789,
+        "p_draw": 0.2740125230606495,
+        "p_away": 0.20512491799267166
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "e46eabcaaf46502c5a44",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Real Madrid CF",
+      "date": "2026-08-22",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 2.7537772343717624,
+      "base": {
+        "p_home": 0.16823526785675075,
+        "p_draw": 0.2137897693306813,
+        "p_away": 0.6179749628125679
+      },
+      "context": {
+        "p_home": 0.17086957635321204,
+        "p_draw": 0.22125460378479345,
+        "p_away": 0.6078758198619946
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "36f89b94411b15bb4957",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "Villarreal CF",
+      "date": "2026-08-23",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 3.1935684327616127,
+      "base": {
+        "p_home": 0.44396782290096065,
+        "p_draw": 0.2568368957568102,
+        "p_away": 0.2991952813422292
+      },
+      "context": {
+        "p_home": 0.4551683165910301,
+        "p_draw": 0.2626164224357166,
+        "p_away": 0.2822152609732533
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "5a9be33f56cb63a3630c",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "Racing Santander",
+      "date": "2026-08-23",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 2.0938810570405018,
+      "base": {
+        "p_home": 0.42068388323482875,
+        "p_draw": 0.2643312574905758,
+        "p_away": 0.3149848592745955
+      },
+      "context": {
+        "p_home": 0.430830682031335,
+        "p_draw": 0.2714343537703206,
+        "p_away": 0.2977349641983444
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "c986e0865a238bc1fcd7",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "FC Barcelona",
+      "date": "2026-08-23",
+      "cutoff": "2026-08-17",
+      "expected_total_goals": 3.3057250721447486,
+      "base": {
+        "p_home": 0.14881061904528517,
+        "p_draw": 0.19723197202495255,
+        "p_away": 0.6539574089297623
+      },
+      "context": {
+        "p_home": 0.15086138571554913,
+        "p_draw": 0.20356367955551735,
+        "p_away": 0.6455749347289336
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "65b27babd6a9eb499a22",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "Levante UD",
+      "date": "2026-08-24",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.681967838127622,
+      "base": {
+        "p_home": 0.4656235372849733,
+        "p_draw": 0.28410686518084816,
+        "p_away": 0.25026959753417855
+      },
+      "context": {
+        "p_home": 0.47595422767765955,
+        "p_draw": 0.29028570007304627,
+        "p_away": 0.2337600722492942
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "bea08943d38eff07bdd5",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-08-24",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.3718108368217115,
+      "base": {
+        "p_home": 0.4424118065653143,
+        "p_draw": 0.2491694369403545,
+        "p_away": 0.3084187564943312
+      },
+      "context": {
+        "p_home": 0.4536409355139235,
+        "p_draw": 0.2551017721276243,
+        "p_away": 0.29125729235845227
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "eb3851bb59e3e161c7c7",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-08-25",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.5285216691820525,
+      "base": {
+        "p_home": 0.34064081225618764,
+        "p_draw": 0.2678922984421394,
+        "p_away": 0.39146688930167295
+      },
+      "context": {
+        "p_home": 0.3487197887518129,
+        "p_draw": 0.276569416679181,
+        "p_away": 0.374710794569006
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "d2189c6c68ddc899e81d",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-08-26",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 3.1685957555492683,
+      "base": {
+        "p_home": 0.7785711737271065,
+        "p_draw": 0.13980406070429247,
+        "p_away": 0.08162476556860114
+      },
+      "context": {
+        "p_home": 0.7920508665695736,
+        "p_draw": 0.135734904502961,
+        "p_away": 0.07221422892746543
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "90615e8774d0b1c21efd",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Athletic Club",
+      "date": "2026-08-27",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 3.4035199863417205,
+      "base": {
+        "p_home": 0.802974483197243,
+        "p_draw": 0.12870959667967244,
+        "p_away": 0.06831592012308461
+      },
+      "context": {
+        "p_home": 0.8158281275807555,
+        "p_draw": 0.12419007214987478,
+        "p_away": 0.05998180026936961
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "e01f3c794c70dc36ff00",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "CA Osasuna",
+      "date": "2026-08-27",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.6104313250834923,
+      "base": {
+        "p_home": 0.5056907778790961,
+        "p_draw": 0.27186343399038193,
+        "p_away": 0.22244578813052213
+      },
+      "context": {
+        "p_home": 0.5168995234543113,
+        "p_draw": 0.27658961747824345,
+        "p_away": 0.2065108590674452
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "1f3bd1e517f4520c5dc8",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Villarreal CF",
+      "date": "2026-08-28",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.916117206217611,
+      "base": {
+        "p_home": 0.2654025338731718,
+        "p_draw": 0.2613616652980619,
+        "p_away": 0.4732358008287664
+      },
+      "context": {
+        "p_home": 0.2711637782220434,
+        "p_draw": 0.2706944844968866,
+        "p_away": 0.4581417372810698
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "58b831d8d60e9a977e91",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Elche CF",
+      "date": "2026-08-28",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.718513949933696,
+      "base": {
+        "p_home": 0.5303808884309925,
+        "p_draw": 0.23382709830209975,
+        "p_away": 0.23579201326690774
+      },
+      "context": {
+        "p_home": 0.5435019999475919,
+        "p_draw": 0.23697538107004834,
+        "p_away": 0.21952261898235984
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "aae8f8602750f334adcd",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.7501625614927727,
+      "base": {
+        "p_home": 0.23966107803392026,
+        "p_draw": 0.2625928168145246,
+        "p_away": 0.4977461051515551
+      },
+      "context": {
+        "p_home": 0.24442398443804983,
+        "p_draw": 0.2723450695325517,
+        "p_away": 0.4832309460293983
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "e672a2e7f9d5abd88636",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Levante UD",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.795289481508801,
+      "base": {
+        "p_home": 0.28602167061256545,
+        "p_draw": 0.24489541673052073,
+        "p_away": 0.46908291265691393
+      },
+      "context": {
+        "p_home": 0.2928499696289051,
+        "p_draw": 0.25321665681449257,
+        "p_away": 0.45393337355660224
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103100",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.56846390352752,
+      "base": {
+        "p_home": 0.387458769524916,
+        "p_draw": 0.26269792688400156,
+        "p_away": 0.3498433035910824
+      },
+      "context": {
+        "p_home": 0.37686868078619945,
+        "p_draw": 0.2644796650997729,
+        "p_away": 0.35865165411402766
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103101",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "RCD Espanyol de Barcelona [F]",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 1.727391813971534,
+      "base": {
+        "p_home": 0.3093624893680204,
+        "p_draw": 0.33207964101823667,
+        "p_away": 0.3585578696137429
+      },
+      "context": {
+        "p_home": 0.3011463272961203,
+        "p_draw": 0.3314641372690006,
+        "p_away": 0.3673895354348791
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103102",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Granada CF [F]",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 3.2225964603757733,
+      "base": {
+        "p_home": 0.36508711200224214,
+        "p_draw": 0.2284607329802064,
+        "p_away": 0.40645215501755144
+      },
+      "context": {
+        "p_home": 0.35429046340318515,
+        "p_draw": 0.23044674939279,
+        "p_away": 0.4152627872040248
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103104",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "Logroño United [F]",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 3.0211174737952713,
+      "base": {
+        "p_home": 0.6979792899136078,
+        "p_draw": 0.17851267893029082,
+        "p_away": 0.12350803115610146
+      },
+      "context": {
+        "p_home": 0.6876734713054782,
+        "p_draw": 0.18295568932833425,
+        "p_away": 0.12937083936618746
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "f1a925e5070060172a91",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-08-29",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.650644132802279,
+      "base": {
+        "p_home": 0.5046619639490968,
+        "p_draw": 0.26980172949416453,
+        "p_away": 0.22553630655673862
+      },
+      "context": {
+        "p_home": 0.5159719979189015,
+        "p_draw": 0.2744972469022119,
+        "p_away": 0.20953075517888664
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "21b8884c9d8e6f2b052e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "Málaga CF",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 3.0386216889571807,
+      "base": {
+        "p_home": 0.8034981744402502,
+        "p_draw": 0.12239797663451617,
+        "p_away": 0.0741038489252337
+      },
+      "context": {
+        "p_home": 0.8166883936301691,
+        "p_draw": 0.11806268030265238,
+        "p_away": 0.0652489260671785
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "be3e448b665e60e5bdec",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Athletic Club",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.594933880207522,
+      "base": {
+        "p_home": 0.4454519699493689,
+        "p_draw": 0.2882290698102408,
+        "p_away": 0.2663189602403903
+      },
+      "context": {
+        "p_home": 0.45531425951473725,
+        "p_draw": 0.2951437297052027,
+        "p_away": 0.2495420107800602
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103097",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Alavés [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.8502356973442096,
+      "base": {
+        "p_home": 0.39196924094123003,
+        "p_draw": 0.24952665782113964,
+        "p_away": 0.35850410123763016
+      },
+      "context": {
+        "p_home": 0.3810635956454529,
+        "p_draw": 0.2516164250478228,
+        "p_away": 0.3673199793067242
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103098",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Athletic Club [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.2840047172740294,
+      "base": {
+        "p_home": 0.538165713408596,
+        "p_draw": 0.2551635737849632,
+        "p_away": 0.20667071280644078
+      },
+      "context": {
+        "p_home": 0.5271708852261144,
+        "p_draw": 0.25847839160384506,
+        "p_away": 0.21435072317004047
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103099",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Costa Adeje Tenerife [F]",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 3.5577604078211893,
+      "base": {
+        "p_home": 0.8616475308363056,
+        "p_draw": 0.09846737895798119,
+        "p_away": 0.03988509020571328
+      },
+      "context": {
+        "p_home": 0.8555672772282894,
+        "p_draw": 0.10202589138273455,
+        "p_away": 0.04240683138897616
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103103",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Madrid CF [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.8827920761923753,
+      "base": {
+        "p_home": 0.6033770593551977,
+        "p_draw": 0.21556093875068777,
+        "p_away": 0.18106200189411453
+      },
+      "context": {
+        "p_home": 0.5919399698435945,
+        "p_draw": 0.2197398295684115,
+        "p_away": 0.18832020058799384
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "faaaf3ae4e8b7fa08b20",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "Valencia CF",
+      "date": "2026-08-30",
+      "cutoff": "2026-08-24",
+      "expected_total_goals": 2.3809122230238984,
+      "base": {
+        "p_home": 0.35862235461429764,
+        "p_draw": 0.28935620154885244,
+        "p_away": 0.35202144383684986
+      },
+      "context": {
+        "p_home": 0.3665568961074248,
+        "p_draw": 0.29861488740838293,
+        "p_away": 0.3348282164841923
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "199605d4839c08893924",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "Getafe CF",
+      "date": "2026-08-31",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 1.924250917101249,
+      "base": {
+        "p_home": 0.4689538033503254,
+        "p_draw": 0.28337975051154146,
+        "p_away": 0.24766644613813318
+      },
+      "context": {
+        "p_home": 0.4790627037900121,
+        "p_draw": 0.2898743451739815,
+        "p_away": 0.23106295103600644
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "2a978364c287c40c4629",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Rayo Vallecano de Madrid",
+      "date": "2026-08-31",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 3.138671527937602,
+      "base": {
+        "p_home": 0.8065133737128038,
+        "p_draw": 0.1225936959968218,
+        "p_away": 0.07089293029037444
+      },
+      "context": {
+        "p_home": 0.8195201633582228,
+        "p_draw": 0.11816656139717778,
+        "p_away": 0.0623132752445995
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "a22c00ff4ae1c0e37830",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "RC Celta de Vigo",
+      "date": "2026-09-03",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.7821127377030823,
+      "base": {
+        "p_home": 0.4412846382508937,
+        "p_draw": 0.27796182665835273,
+        "p_away": 0.2807535350907536
+      },
+      "context": {
+        "p_home": 0.4515388439600841,
+        "p_draw": 0.284615373133486,
+        "p_away": 0.26384578290642996
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "0c196c6c8ecb0e89c01d",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Real Madrid CF",
+      "date": "2026-09-04",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.9183926394890776,
+      "base": {
+        "p_home": 0.23187106246995118,
+        "p_draw": 0.29059362538942823,
+        "p_away": 0.4775353121406206
+      },
+      "context": {
+        "p_home": 0.23589047103615293,
+        "p_draw": 0.30177176040964576,
+        "p_away": 0.4623377685542014
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "0094fd42a8d6b423b98d",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Villarreal CF",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-09-05",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 3.169669977636641,
+      "base": {
+        "p_home": 0.7014280887476814,
+        "p_draw": 0.16777368721290215,
+        "p_away": 0.13079822403941654
+      },
+      "context": {
+        "p_home": 0.716343253618813,
+        "p_draw": 0.16544629251659948,
+        "p_away": 0.1182104538645874
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "93e374414491b9747418",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-09-05",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.553977007776317,
+      "base": {
+        "p_home": 0.2802914641466177,
+        "p_draw": 0.2899684907608761,
+        "p_away": 0.42974004509250624
+      },
+      "context": {
+        "p_home": 0.28590706208193656,
+        "p_draw": 0.30063474428313314,
+        "p_away": 0.4134581936349303
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103107",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "RCD Espanyol de Barcelona [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-09-05",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.110719181725037,
+      "base": {
+        "p_home": 0.4165154588995584,
+        "p_draw": 0.28302497521122266,
+        "p_away": 0.30045956588921907
+      },
+      "context": {
+        "p_home": 0.40614981308726983,
+        "p_draw": 0.28468205112132566,
+        "p_away": 0.3091681357914047
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103110",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Sevilla FC [F]",
+      "away_team": "FC Barcelona [F]",
+      "date": "2026-09-05",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 4.400922422318103,
+      "base": {
+        "p_home": 0.014003871848912157,
+        "p_draw": 0.04506761831699565,
+        "p_away": 0.9409285098340922
+      },
+      "context": {
+        "p_home": 0.013602857184996571,
+        "p_draw": 0.04491353458565589,
+        "p_away": 0.9414836082293475
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103112",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "VCF Femenino [F]",
+      "away_team": "Madrid CFF [F]",
+      "date": "2026-09-05",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 3.08366982572365,
+      "base": {
+        "p_home": 0.32666641409156744,
+        "p_draw": 0.2308655095429109,
+        "p_away": 0.4424680763655216
+      },
+      "context": {
+        "p_home": 0.3166500913896212,
+        "p_draw": 0.23226897536396296,
+        "p_away": 0.4510809332464159
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "fed78d594197c9d83fac",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Racing Santander",
+      "date": "2026-09-05",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.4428665837305537,
+      "base": {
+        "p_home": 0.47351888468588166,
+        "p_draw": 0.2467710581581848,
+        "p_away": 0.2797100571559336
+      },
+      "context": {
+        "p_home": 0.48540200743008516,
+        "p_draw": 0.2518464671178162,
+        "p_away": 0.26275152545209873
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "4de09620efa7c18d0a0d",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Sevilla FC",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.6326883125785665,
+      "base": {
+        "p_home": 0.42660241512468494,
+        "p_draw": 0.28589712127174766,
+        "p_away": 0.2875004636035673
+      },
+      "context": {
+        "p_home": 0.43625504481681626,
+        "p_draw": 0.2932486789075288,
+        "p_away": 0.2704962762756548
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "87e45be88365953e3e4a",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "Levante UD",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.6709384234860245,
+      "base": {
+        "p_home": 0.335181107599212,
+        "p_draw": 0.27728553101121994,
+        "p_away": 0.3875333613895681
+      },
+      "context": {
+        "p_home": 0.3428743753472219,
+        "p_draw": 0.2863890002898799,
+        "p_away": 0.3707366243628981
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "9f9387688bc60b2ae608",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "FC Barcelona",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 3.0244663435585033,
+      "base": {
+        "p_home": 0.14293381939401661,
+        "p_draw": 0.1888797082516962,
+        "p_away": 0.6681864723542873
+      },
+      "context": {
+        "p_home": 0.1447995136723393,
+        "p_draw": 0.1948181849864287,
+        "p_away": 0.6603823013412321
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "d785a4a50c12f293c612",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "CA Osasuna",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.317577861679185,
+      "base": {
+        "p_home": 0.4388038727638453,
+        "p_draw": 0.27677423798586215,
+        "p_away": 0.2844218892502926
+      },
+      "context": {
+        "p_home": 0.4489135922060969,
+        "p_draw": 0.2836942353256461,
+        "p_away": 0.2673921724682571
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103105",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Atlético de Madrid [F]",
+      "away_team": "Deportivo Alavés [F]",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 3.362202355277158,
+      "base": {
+        "p_home": 0.6452980383166161,
+        "p_draw": 0.17836361030123035,
+        "p_away": 0.17633835138215365
+      },
+      "context": {
+        "p_home": 0.6336953872310708,
+        "p_draw": 0.1826236962840547,
+        "p_away": 0.18368091648487456
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103106",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "Athletic Club [F]",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.402639774564186,
+      "base": {
+        "p_home": 0.32927652868010715,
+        "p_draw": 0.26177563518222563,
+        "p_away": 0.4089478361376672
+      },
+      "context": {
+        "p_home": 0.31968989907747214,
+        "p_draw": 0.26254330081114874,
+        "p_away": 0.4177668001113792
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103109",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Madrid CF [F]",
+      "away_team": "SD Eibar [F]",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.881918903822738,
+      "base": {
+        "p_home": 0.8254481404831088,
+        "p_draw": 0.12955645912594999,
+        "p_away": 0.04499540039094128
+      },
+      "context": {
+        "p_home": 0.818722822649458,
+        "p_draw": 0.13353105382048733,
+        "p_away": 0.04774612353005485
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103111",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Deportivo Abanca [F]",
+      "date": "2026-09-06",
+      "cutoff": "2026-08-31",
+      "expected_total_goals": 2.4999461670316547,
+      "base": {
+        "p_home": 0.62290104692511,
+        "p_draw": 0.22175691678548373,
+        "p_away": 0.15534203628940635
+      },
+      "context": {
+        "p_home": 0.612150086355754,
+        "p_draw": 0.22584198413795947,
+        "p_away": 0.16200792950628654
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "9a9321cc109b328d7266",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "RC Celta de Vigo",
+      "date": "2026-09-07",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 1.9769111165538966,
+      "base": {
+        "p_home": 0.4147611638762286,
+        "p_draw": 0.2879311100220061,
+        "p_away": 0.29730772610176537
+      },
+      "context": {
+        "p_home": 0.4238883503512263,
+        "p_draw": 0.2960354826990831,
+        "p_away": 0.28007616694969056
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "eaaacb054c2c8deb498e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-09-07",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.809132838339174,
+      "base": {
+        "p_home": 0.3584761294698962,
+        "p_draw": 0.3030433075132575,
+        "p_away": 0.33848056301684637
+      },
+      "context": {
+        "p_home": 0.36610666759259014,
+        "p_draw": 0.31258665282003956,
+        "p_away": 0.32130667958737025
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103108",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Granada CF [F]",
+      "away_team": "Real Sociedad [F]",
+      "date": "2026-09-07",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.801083461587001,
+      "base": {
+        "p_home": 0.27614334214001957,
+        "p_draw": 0.2386591861908133,
+        "p_away": 0.48519747166916705
+      },
+      "context": {
+        "p_home": 0.2673962791302291,
+        "p_draw": 0.23916263245622052,
+        "p_away": 0.4934410884135503
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "70afe5582c2619f90f44",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "Valencia CF",
+      "date": "2026-09-11",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.5785614182925922,
+      "base": {
+        "p_home": 0.4581489047723514,
+        "p_draw": 0.26205757409819413,
+        "p_away": 0.2797935211294544
+      },
+      "context": {
+        "p_home": 0.4692339526245389,
+        "p_draw": 0.26790210580463536,
+        "p_away": 0.2628639415708259
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103117",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "Real Madrid CF [F]",
+      "date": "2026-09-11",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 3.0800590376441015,
+      "base": {
+        "p_home": 0.09040118038346164,
+        "p_draw": 0.1657300863812664,
+        "p_away": 0.743868733235272
+      },
+      "context": {
+        "p_home": 0.0872797815446086,
+        "p_draw": 0.16461379461320597,
+        "p_away": 0.7481064238421854
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "32b16f2a3ffbe1436043",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "Elche CF",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.7257990646931014,
+      "base": {
+        "p_home": 0.5880813282433588,
+        "p_draw": 0.22554514216947005,
+        "p_away": 0.18637352958717118
+      },
+      "context": {
+        "p_home": 0.6016176839985381,
+        "p_draw": 0.22692537299760973,
+        "p_away": 0.17145694300385222
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "4226df4fda4f20eedeac",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.480839316665282,
+      "base": {
+        "p_home": 0.4776035831259926,
+        "p_draw": 0.2457403930483063,
+        "p_away": 0.27665602382570115
+      },
+      "context": {
+        "p_home": 0.489599818672894,
+        "p_draw": 0.25066577899526876,
+        "p_away": 0.2597344023318372
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "6b90b753a3595d75821d",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.9368233495432303,
+      "base": {
+        "p_home": 0.4640121627360555,
+        "p_draw": 0.24037547679161217,
+        "p_away": 0.29561236047233236
+      },
+      "context": {
+        "p_home": 0.47612707402764143,
+        "p_draw": 0.24527204840647665,
+        "p_away": 0.27860087756588187
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "87690d0144d8a39435af",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "Rayo Vallecano de Madrid",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.8859384286536485,
+      "base": {
+        "p_home": 0.7557937875960798,
+        "p_draw": 0.14522610055820467,
+        "p_away": 0.09898011184571547
+      },
+      "context": {
+        "p_home": 0.76999228964875,
+        "p_draw": 0.14171972141880684,
+        "p_away": 0.08828798893244325
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103114",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Athletic Club [F]",
+      "away_team": "RCD Espanyol de Barcelona [F]",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.1806320244529456,
+      "base": {
+        "p_home": 0.5525165359292017,
+        "p_draw": 0.2583237323149487,
+        "p_away": 0.18915973175584955
+      },
+      "context": {
+        "p_home": 0.541777828735514,
+        "p_draw": 0.26171395645917345,
+        "p_away": 0.19650821480531264
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103115",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 3.9511596030203906,
+      "base": {
+        "p_home": 0.9026118281203301,
+        "p_draw": 0.06780611626447443,
+        "p_away": 0.029582055615195415
+      },
+      "context": {
+        "p_home": 0.8978625083972884,
+        "p_draw": 0.070570302233539,
+        "p_away": 0.03156718936917251
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103119",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-09-12",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 3.2368392951069196,
+      "base": {
+        "p_home": 0.4695658766261605,
+        "p_draw": 0.22228502160536656,
+        "p_away": 0.3081491017684729
+      },
+      "context": {
+        "p_home": 0.45754830576324546,
+        "p_draw": 0.22544125571538415,
+        "p_away": 0.31701043852137045
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "3cf8b8bf183faf553caa",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.10395111032794,
+      "base": {
+        "p_home": 0.47889285726573194,
+        "p_draw": 0.24363674739901953,
+        "p_away": 0.2774703953352485
+      },
+      "context": {
+        "p_home": 0.4908647537513246,
+        "p_draw": 0.24866446257926322,
+        "p_away": 0.2604707836694123
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "7adbe2e8d94b8700e88f",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.7634876668534343,
+      "base": {
+        "p_home": 0.293588445376136,
+        "p_draw": 0.3069166717355843,
+        "p_away": 0.3994948828882798
+      },
+      "context": {
+        "p_home": 0.29927750327120944,
+        "p_draw": 0.31799603631721646,
+        "p_away": 0.38272646041157415
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "82c8ab71ba86ab8fdbc2",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Levante UD",
+      "away_team": "FC Barcelona",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 3.4250559226027075,
+      "base": {
+        "p_home": 0.12896035263171232,
+        "p_draw": 0.1670887176166832,
+        "p_away": 0.7039509297516044
+      },
+      "context": {
+        "p_home": 0.13043933147469608,
+        "p_draw": 0.1716527194668535,
+        "p_away": 0.6979079490584503
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "a2f1fed9026292a2867a",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Málaga CF",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.4072179969023177,
+      "base": {
+        "p_home": 0.6243667358935381,
+        "p_draw": 0.21432774354262857,
+        "p_away": 0.16130552056383335
+      },
+      "context": {
+        "p_home": 0.6380397858154359,
+        "p_draw": 0.21464114921241156,
+        "p_away": 0.14731906497215255
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103113",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Alavés [F]",
+      "away_team": "Granada CF [F]",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.4514321753946433,
+      "base": {
+        "p_home": 0.38559767351755186,
+        "p_draw": 0.27351769715864493,
+        "p_away": 0.34088462932380326
+      },
+      "context": {
+        "p_home": 0.3751896736157147,
+        "p_draw": 0.27518133375640763,
+        "p_away": 0.34962899262787756
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103116",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.410485842861632,
+      "base": {
+        "p_home": 0.5077817834199299,
+        "p_draw": 0.24746211375547808,
+        "p_away": 0.24475610282459204
+      },
+      "context": {
+        "p_home": 0.4964632895838056,
+        "p_draw": 0.2504735363294826,
+        "p_away": 0.2530631740867117
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103118",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 1.7335498297198833,
+      "base": {
+        "p_home": 0.35170753922273357,
+        "p_draw": 0.32590460944174027,
+        "p_away": 0.3223878513355263
+      },
+      "context": {
+        "p_home": 0.34281139743218403,
+        "p_draw": 0.3260177467023476,
+        "p_away": 0.33117085586546824
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103120",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "Costa Adeje Tenerife [F]",
+      "date": "2026-09-13",
+      "cutoff": "2026-09-07",
+      "expected_total_goals": 2.450742052646488,
+      "base": {
+        "p_home": 0.41466704984323793,
+        "p_draw": 0.26824989110394004,
+        "p_away": 0.3170830590528221
+      },
+      "context": {
+        "p_home": 0.4039017089537034,
+        "p_draw": 0.2702855814352995,
+        "p_away": 0.3258127096109971
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "8c4eb102df8cdf6cf1cf",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Villarreal CF",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-09-14",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.2055069727761643,
+      "base": {
+        "p_home": 0.5072951084350231,
+        "p_draw": 0.22035661679913382,
+        "p_away": 0.272348274765843
+      },
+      "context": {
+        "p_home": 0.5209031761139937,
+        "p_draw": 0.22356939751337246,
+        "p_away": 0.25552742637263376
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "11077361cba44c7aa89a",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-09-15",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.3292519184664053,
+      "base": {
+        "p_home": 0.4840567806597056,
+        "p_draw": 0.29096528632072916,
+        "p_away": 0.2249779330195652
+      },
+      "context": {
+        "p_home": 0.4941444207305528,
+        "p_draw": 0.29691698687806295,
+        "p_away": 0.2089385923913843
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "38ba1d33fb09df6094d5",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "Real Madrid CF",
+      "date": "2026-09-15",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.1104526092824436,
+      "base": {
+        "p_home": 0.15162176579904846,
+        "p_draw": 0.21270830650842532,
+        "p_away": 0.6356699276925262
+      },
+      "context": {
+        "p_home": 0.15364536816338853,
+        "p_draw": 0.21999498887257382,
+        "p_away": 0.6263596429640376
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "c50b53efae671e21fcfa",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Valencia CF",
+      "date": "2026-09-15",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.423601677158244,
+      "base": {
+        "p_home": 0.46894815804373785,
+        "p_draw": 0.2815741552207624,
+        "p_away": 0.24947768673549978
+      },
+      "context": {
+        "p_home": 0.47933604325626844,
+        "p_draw": 0.28772412985459794,
+        "p_away": 0.23293982688913362
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "4bed5a468170e97bc63f",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "Sevilla FC",
+      "date": "2026-09-16",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.9039027512862376,
+      "base": {
+        "p_home": 0.44470078367389043,
+        "p_draw": 0.25706693810702097,
+        "p_away": 0.2982322782190886
+      },
+      "context": {
+        "p_home": 0.45583469644595354,
+        "p_draw": 0.26295236803383404,
+        "p_away": 0.2812129355202124
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "6009e0059d75914d209c",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "CA Osasuna",
+      "date": "2026-09-16",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.837674983948921,
+      "base": {
+        "p_home": 0.6884554001244289,
+        "p_draw": 0.19343667781381282,
+        "p_away": 0.11810792206175832
+      },
+      "context": {
+        "p_home": 0.7021100730666204,
+        "p_draw": 0.19156667314711756,
+        "p_away": 0.10632325378626194
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "c5defa82ab0b8473f32e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Racing Santander",
+      "date": "2026-09-16",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 4.366248322101805,
+      "base": {
+        "p_home": 0.8318299907317621,
+        "p_draw": 0.10607604083327055,
+        "p_away": 0.062093968434967284
+      },
+      "context": {
+        "p_home": 0.844449738273866,
+        "p_draw": 0.1012914979787639,
+        "p_away": 0.054258763747370126
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "3b8cff2eab59b637e769",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Getafe CF",
+      "date": "2026-09-17",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.1157714759267083,
+      "base": {
+        "p_home": 0.5737578574705459,
+        "p_draw": 0.24333051186670135,
+        "p_away": 0.1829116306627529
+      },
+      "context": {
+        "p_home": 0.5862212783800386,
+        "p_draw": 0.24568961837911205,
+        "p_away": 0.1680891032408494
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "3df585a65ce4e3eccd47",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "Villarreal CF",
+      "date": "2026-09-17",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.678262138429486,
+      "base": {
+        "p_home": 0.21177435984216947,
+        "p_draw": 0.2704868443889481,
+        "p_away": 0.5177387957688824
+      },
+      "context": {
+        "p_home": 0.21536796903262923,
+        "p_draw": 0.2809426333231608,
+        "p_away": 0.5036893976442101
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "2c342476932fcc082899",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Elche CF",
+      "date": "2026-09-18",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.7258950086031994,
+      "base": {
+        "p_home": 0.48342972321369054,
+        "p_draw": 0.25112910922000736,
+        "p_away": 0.2654411675663021
+      },
+      "context": {
+        "p_home": 0.49536150820003466,
+        "p_draw": 0.2559420918403841,
+        "p_away": 0.24869639995958143
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103121",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Alavés [F]",
+      "away_team": "FC Barcelona [F]",
+      "date": "2026-09-18",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.9316759903559664,
+      "base": {
+        "p_home": 0.03322756576750574,
+        "p_draw": 0.08743086373004219,
+        "p_away": 0.8793415705024521
+      },
+      "context": {
+        "p_home": 0.03215509277362885,
+        "p_draw": 0.08692498470582878,
+        "p_away": 0.8809199225205424
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "160752c9666d5f95ee32",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "Rayo Vallecano de Madrid",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.3282376169650143,
+      "base": {
+        "p_home": 0.4248274065675756,
+        "p_draw": 0.2715574015130149,
+        "p_away": 0.30361519191940944
+      },
+      "context": {
+        "p_home": 0.4348780332853632,
+        "p_draw": 0.2786674045895664,
+        "p_away": 0.2864545621250705
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "1d4173b2981792bb23e4",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.427487432591451,
+      "base": {
+        "p_home": 0.47109785606958476,
+        "p_draw": 0.27310138418662544,
+        "p_away": 0.2558007597437898
+      },
+      "context": {
+        "p_home": 0.48186877743472284,
+        "p_draw": 0.27897307824482837,
+        "p_away": 0.23915814432044882
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "9c727b835da28aa3c5ed",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Racing Santander",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.0601960536476014,
+      "base": {
+        "p_home": 0.5195114915984753,
+        "p_draw": 0.23813337912431462,
+        "p_away": 0.24235512927721006
+      },
+      "context": {
+        "p_home": 0.5324630552825187,
+        "p_draw": 0.24153273586174703,
+        "p_away": 0.2260042088557343
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "ba062d9ab6153fd96012",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "FC Barcelona",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.3648317269660453,
+      "base": {
+        "p_home": 0.13518591817906225,
+        "p_draw": 0.19754933073966277,
+        "p_away": 0.667264751081275
+      },
+      "context": {
+        "p_home": 0.1367140669754024,
+        "p_draw": 0.20386910454878038,
+        "p_away": 0.6594168284758173
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103122",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Atlético de Madrid [F]",
+      "away_team": "Logroño United [F]",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.031520303779187,
+      "base": {
+        "p_home": 0.7010422101117738,
+        "p_draw": 0.17153605062632618,
+        "p_away": 0.1274217392619
+      },
+      "context": {
+        "p_home": 0.690696437381298,
+        "p_draw": 0.17585126398666648,
+        "p_away": 0.13345229863203545
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103123",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Badalona Women [F]",
+      "away_team": "Real Sociedad [F]",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.7746470051446472,
+      "base": {
+        "p_home": 0.24251589810663868,
+        "p_draw": 0.22281992770984999,
+        "p_away": 0.5346641741835113
+      },
+      "context": {
+        "p_home": 0.23459293288617672,
+        "p_draw": 0.2228726504973551,
+        "p_away": 0.5425344166164682
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103125",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "RCD Espanyol de Barcelona [F]",
+      "away_team": "Madrid CFF [F]",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.863958922193853,
+      "base": {
+        "p_home": 0.3206211959090263,
+        "p_draw": 0.2377254222065824,
+        "p_away": 0.4416533818843913
+      },
+      "context": {
+        "p_home": 0.3108477196051936,
+        "p_draw": 0.23885896537654222,
+        "p_away": 0.45029331501826414
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103127",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Madrid CF [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-09-19",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.5650389225340318,
+      "base": {
+        "p_home": 0.8764816618211797,
+        "p_draw": 0.08804020515523785,
+        "p_away": 0.03547813302358246
+      },
+      "context": {
+        "p_home": 0.8709145269300864,
+        "p_draw": 0.09131049254067976,
+        "p_away": 0.0377749805292339
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "2cd2fea2217d2daf4346",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Villarreal CF",
+      "away_team": "Levante UD",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 3.4833063460063256,
+      "base": {
+        "p_home": 0.6551700235916604,
+        "p_draw": 0.19467573076633543,
+        "p_away": 0.1501542456420042
+      },
+      "context": {
+        "p_home": 0.6697430992628844,
+        "p_draw": 0.19357253776923689,
+        "p_away": 0.13668436296787867
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "37b4ee99d4584570e4e2",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.8646590620554218,
+      "base": {
+        "p_home": 0.3349252324914235,
+        "p_draw": 0.23765775589396876,
+        "p_away": 0.4274170116146078
+      },
+      "context": {
+        "p_home": 0.34367118035092353,
+        "p_draw": 0.2449464451644235,
+        "p_away": 0.41138237448465304
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "45476c41e50067affcec",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "Real Madrid CF",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.8820054764323,
+      "base": {
+        "p_home": 0.3144350406017375,
+        "p_draw": 0.25314130747327485,
+        "p_away": 0.43242365192498766
+      },
+      "context": {
+        "p_home": 0.32211145196184043,
+        "p_draw": 0.2614353073837491,
+        "p_away": 0.41645324065441053
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "627bf1d482f4057938e0",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "Málaga CF",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 1.7520315172684504,
+      "base": {
+        "p_home": 0.55634816882953,
+        "p_draw": 0.2553021260542576,
+        "p_away": 0.1883497051162124
+      },
+      "context": {
+        "p_home": 0.5680822112725378,
+        "p_draw": 0.25862322094474166,
+        "p_away": 0.17329456778272054
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "9fd37e74d6be1a30f5cc",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.5461491742501003,
+      "base": {
+        "p_home": 0.40637322645765933,
+        "p_draw": 0.270453226919935,
+        "p_away": 0.32317354662240566
+      },
+      "context": {
+        "p_home": 0.4161379775775858,
+        "p_draw": 0.27785611666970017,
+        "p_away": 0.306005905752714
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103124",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "Athletic Club [F]",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 1.8972168200101254,
+      "base": {
+        "p_home": 0.21615884626100154,
+        "p_draw": 0.2877191170725147,
+        "p_away": 0.4961220366664837
+      },
+      "context": {
+        "p_home": 0.20955419091734712,
+        "p_draw": 0.2860280635897398,
+        "p_away": 0.5044177454929131
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103126",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Granada CF [F]",
+      "away_team": "Deportivo Abanca [F]",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.510427512310224,
+      "base": {
+        "p_home": 0.5013752394179947,
+        "p_draw": 0.2468924859529845,
+        "p_away": 0.25173227462902087
+      },
+      "context": {
+        "p_home": 0.4899616866402929,
+        "p_draw": 0.24994497076874778,
+        "p_away": 0.26009334259095934
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103128",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-09-20",
+      "cutoff": "2026-09-14",
+      "expected_total_goals": 2.2876084850508196,
+      "base": {
+        "p_home": 0.5524412581438106,
+        "p_draw": 0.2597796070408459,
+        "p_away": 0.18777913481534353
+      },
+      "context": {
+        "p_home": 0.5416098795899296,
+        "p_draw": 0.2633425727886937,
+        "p_away": 0.19504754762137666
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103130",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Badalona Women [F]",
+      "away_team": "Granada CF [F]",
+      "date": "2026-09-26",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 2.43851524348542,
+      "base": {
+        "p_home": 0.39181203830482286,
+        "p_draw": 0.25119781792040236,
+        "p_away": 0.3569901437747747
+      },
+      "context": {
+        "p_home": 0.3811695433958132,
+        "p_draw": 0.25280571244020833,
+        "p_away": 0.36602474416397845
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103131",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "FC Barcelona [F]",
+      "date": "2026-09-26",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 4.636786299519582,
+      "base": {
+        "p_home": 0.010953747427922572,
+        "p_draw": 0.03418773128433575,
+        "p_away": 0.9548585212877416
+      },
+      "context": {
+        "p_home": 0.010652584169026211,
+        "p_draw": 0.034126813698078746,
+        "p_away": 0.955220602132895
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103133",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Deportivo Alavés [F]",
+      "date": "2026-09-26",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 3.1013533619587808,
+      "base": {
+        "p_home": 0.48140786714546996,
+        "p_draw": 0.22834198985941787,
+        "p_away": 0.2902501429951121
+      },
+      "context": {
+        "p_home": 0.469453902222083,
+        "p_draw": 0.23158111976037407,
+        "p_away": 0.29896497801754296
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103134",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "Real Madrid CF [F]",
+      "date": "2026-09-26",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 2.92200524333348,
+      "base": {
+        "p_home": 0.18908138605709662,
+        "p_draw": 0.21752337982761427,
+        "p_away": 0.593395234115289
+      },
+      "context": {
+        "p_home": 0.18267315796677464,
+        "p_draw": 0.21708621013461882,
+        "p_away": 0.6002406318986065
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103129",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Athletic Club [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-09-27",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 2.6006285551841706,
+      "base": {
+        "p_home": 0.2536048343326151,
+        "p_draw": 0.23728939587718678,
+        "p_away": 0.5091057697901981
+      },
+      "context": {
+        "p_home": 0.24549454895999287,
+        "p_draw": 0.2372794028801091,
+        "p_away": 0.5172260481598981
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103132",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "RCD Espanyol de Barcelona [F]",
+      "date": "2026-09-27",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 2.293310236305249,
+      "base": {
+        "p_home": 0.399382204007225,
+        "p_draw": 0.27168291039356207,
+        "p_away": 0.32893488559921297
+      },
+      "context": {
+        "p_home": 0.38891736102971636,
+        "p_draw": 0.2733089949425697,
+        "p_away": 0.337773644027714
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103135",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Sevilla FC [F]",
+      "away_team": "SD Eibar [F]",
+      "date": "2026-09-27",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 1.935903515996171,
+      "base": {
+        "p_home": 0.48086997296392786,
+        "p_draw": 0.29714662413305326,
+        "p_away": 0.22198340290301888
+      },
+      "context": {
+        "p_home": 0.4706339361909528,
+        "p_draw": 0.2995600769670248,
+        "p_away": 0.2298059868420224
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103136",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "VCF Femenino [F]",
+      "away_team": "Costa Adeje Tenerife [F]",
+      "date": "2026-09-27",
+      "cutoff": "2026-09-21",
+      "expected_total_goals": 2.418658090386796,
+      "base": {
+        "p_home": 0.18102720940773745,
+        "p_draw": 0.2297366353430773,
+        "p_away": 0.5892361552491853
+      },
+      "context": {
+        "p_home": 0.17502428537924744,
+        "p_draw": 0.22860697728459076,
+        "p_away": 0.5963687373361618
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103138",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-10-03",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 2.8040600854118365,
+      "base": {
+        "p_home": 0.19873602237951615,
+        "p_draw": 0.2127973231351568,
+        "p_away": 0.5884666544853271
+      },
+      "context": {
+        "p_home": 0.19204624996320063,
+        "p_draw": 0.2123727302055379,
+        "p_away": 0.5955810198312614
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103139",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "RCD Espanyol de Barcelona [F]",
+      "away_team": "Deportivo Alavés [F]",
+      "date": "2026-10-03",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 2.048786735686365,
+      "base": {
+        "p_home": 0.4582259800737093,
+        "p_draw": 0.2860567266451211,
+        "p_away": 0.2557172932811696
+      },
+      "context": {
+        "p_home": 0.4477348099459512,
+        "p_draw": 0.2882383643276921,
+        "p_away": 0.2640268257263566
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103141",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Athletic Club [F]",
+      "date": "2026-10-03",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 3.1281439824348647,
+      "base": {
+        "p_home": 0.3328751514388359,
+        "p_draw": 0.21833741678608398,
+        "p_away": 0.4487874317750801
+      },
+      "context": {
+        "p_home": 0.32266796236856815,
+        "p_draw": 0.21979812336585547,
+        "p_away": 0.4575339142655765
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103142",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Sevilla FC [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-10-03",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 2.298468919081648,
+      "base": {
+        "p_home": 0.438392983628678,
+        "p_draw": 0.2705260425324604,
+        "p_away": 0.2910809738388615
+      },
+      "context": {
+        "p_home": 0.4275849597920335,
+        "p_draw": 0.27269359804570187,
+        "p_away": 0.2997214421622646
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103137",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Real Madrid CF [F]",
+      "date": "2026-10-04",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 3.413637178294153,
+      "base": {
+        "p_home": 0.7958920199757159,
+        "p_draw": 0.12495308812482447,
+        "p_away": 0.07915489189945969
+      },
+      "context": {
+        "p_home": 0.7875284789885618,
+        "p_draw": 0.12894526615464622,
+        "p_away": 0.08352625485679212
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103140",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Granada CF [F]",
+      "away_team": "SD Eibar [F]",
+      "date": "2026-10-04",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 1.965002538176187,
+      "base": {
+        "p_home": 0.46496605986321254,
+        "p_draw": 0.28789253473772375,
+        "p_away": 0.24714140539906368
+      },
+      "context": {
+        "p_home": 0.4545748253326036,
+        "p_draw": 0.2900439107508821,
+        "p_away": 0.2553812639165141
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103143",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Logroño United [F]",
+      "date": "2026-10-04",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 2.229426735767997,
+      "base": {
+        "p_home": 0.5244582776464249,
+        "p_draw": 0.2624916913216916,
+        "p_away": 0.2130500310318834
+      },
+      "context": {
+        "p_home": 0.5135442827821756,
+        "p_draw": 0.26564035345360215,
+        "p_away": 0.22081536376422223
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103144",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "VCF Femenino [F]",
+      "away_team": "Real Sociedad [F]",
+      "date": "2026-10-04",
+      "cutoff": "2026-09-28",
+      "expected_total_goals": 2.9976255773694183,
+      "base": {
+        "p_home": 0.1774969134124853,
+        "p_draw": 0.19029340321911145,
+        "p_away": 0.6322096833684032
+      },
+      "context": {
+        "p_home": 0.17139080125820794,
+        "p_draw": 0.1898742808427984,
+        "p_away": 0.6387349178989937
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "1c78e394bcb7694ceee2",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-10-09",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 2.231828161436961,
+      "base": {
+        "p_home": 0.3610637111112164,
+        "p_draw": 0.27208271184063926,
+        "p_away": 0.3668535770481444
+      },
+      "context": {
+        "p_home": 0.36953921483309404,
+        "p_draw": 0.2806995506263171,
+        "p_away": 0.34976123454058883
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "2c616401175f6d3282ba",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Getafe CF",
+      "date": "2026-10-10",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 2.927939626009668,
+      "base": {
+        "p_home": 0.822322698171644,
+        "p_draw": 0.11717285337668129,
+        "p_away": 0.060504448451674665
+      },
+      "context": {
+        "p_home": 0.8346098757904133,
+        "p_draw": 0.11255533024964103,
+        "p_away": 0.05283479395994568
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "e495c081c2e21616d0b9",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "Villarreal CF",
+      "date": "2026-10-10",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 3.539330859095259,
+      "base": {
+        "p_home": 0.6911509850942111,
+        "p_draw": 0.16482701233111224,
+        "p_away": 0.14402200257467673
+      },
+      "context": {
+        "p_home": 0.7065996996228657,
+        "p_draw": 0.16266121756352422,
+        "p_away": 0.13073908281361005
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "faf0305eab9006cfef54",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-10-10",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 2.556102092901328,
+      "base": {
+        "p_home": 0.23754189340632503,
+        "p_draw": 0.26989877369538096,
+        "p_away": 0.49255933289829407
+      },
+      "context": {
+        "p_home": 0.24206862688152575,
+        "p_draw": 0.28014203271894256,
+        "p_away": 0.47778934039953164
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "34bba0be7a0e23689224",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Valencia CF",
+      "date": "2026-10-11",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 3.267895003219806,
+      "base": {
+        "p_home": 0.46718347165349094,
+        "p_draw": 0.20622767071592024,
+        "p_away": 0.32658885763058887
+      },
+      "context": {
+        "p_home": 0.48066131201516693,
+        "p_draw": 0.20985349526014158,
+        "p_away": 0.3094851927246915
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "6391161876c2daabcc77",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "RC Celta de Vigo",
+      "date": "2026-10-11",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 2.8668811627880846,
+      "base": {
+        "p_home": 0.35214406101246476,
+        "p_draw": 0.265766537220619,
+        "p_away": 0.3820894017669164
+      },
+      "context": {
+        "p_home": 0.3607053582954953,
+        "p_draw": 0.273983289961667,
+        "p_away": 0.36531135174283763
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "78b00c4d24a1f0cd51c2",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "CA Osasuna",
+      "date": "2026-10-11",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 2.676270766782203,
+      "base": {
+        "p_home": 0.6371668980977779,
+        "p_draw": 0.2175444596842022,
+        "p_away": 0.14528864221801985
+      },
+      "context": {
+        "p_home": 0.6505450200039502,
+        "p_draw": 0.21738136702901067,
+        "p_away": 0.13207361296703926
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "d0cc6c9c784dbbdc7fa9",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-10-11",
+      "cutoff": "2026-10-05",
+      "expected_total_goals": 2.7250013418441634,
+      "base": {
+        "p_home": 0.5209649979539926,
+        "p_draw": 0.2531559461882594,
+        "p_away": 0.22587905585774798
+      },
+      "context": {
+        "p_home": 0.5331573231452547,
+        "p_draw": 0.2569822407940508,
+        "p_away": 0.20986043606069457
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "4a4aa219aa971fd99e04",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Levante UD",
+      "away_team": "Sevilla FC",
+      "date": "2026-10-12",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.8148059607473046,
+      "base": {
+        "p_home": 0.41750907582166463,
+        "p_draw": 0.27952749089180706,
+        "p_away": 0.30296343328652836
+      },
+      "context": {
+        "p_home": 0.4272723184834155,
+        "p_draw": 0.28683270520626836,
+        "p_away": 0.28589497631031613
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "f52ae158a65094a460a1",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "Levante UD",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.9977203548786537,
+      "base": {
+        "p_home": 0.44787607077440306,
+        "p_draw": 0.26163967443078473,
+        "p_away": 0.29048425479481227
+      },
+      "context": {
+        "p_home": 0.45892241995216,
+        "p_draw": 0.26754716750629726,
+        "p_away": 0.2735304125415428
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "7617d2e149f7c5744aee",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "FC Barcelona",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 3.377923749203317,
+      "base": {
+        "p_home": 0.21208144919798777,
+        "p_draw": 0.22067428219377916,
+        "p_away": 0.5672442686082331
+      },
+      "context": {
+        "p_home": 0.21647007683299727,
+        "p_draw": 0.2281488912597402,
+        "p_away": 0.5553810319072625
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "7c129c6f366740ca168f",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "Athletic Club",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.2998638601705137,
+      "base": {
+        "p_home": 0.3828606383113564,
+        "p_draw": 0.3003955816174576,
+        "p_away": 0.316743780071186
+      },
+      "context": {
+        "p_home": 0.39100618147607435,
+        "p_draw": 0.3095247027935395,
+        "p_away": 0.29946911573038615
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "928a1eabbdf08fb3c466",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Villarreal CF",
+      "away_team": "Elche CF",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 3.4655997044205873,
+      "base": {
+        "p_home": 0.7050652296431118,
+        "p_draw": 0.16171106442803243,
+        "p_away": 0.13322370592885577
+      },
+      "context": {
+        "p_home": 0.7202909831209655,
+        "p_draw": 0.1592193649472478,
+        "p_away": 0.12048965193178655
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "9bf6331fd96c4b7cd972",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.6715715827630993,
+      "base": {
+        "p_home": 0.2469240334881631,
+        "p_draw": 0.22130522978266998,
+        "p_away": 0.531770736729167
+      },
+      "context": {
+        "p_home": 0.2526466359530549,
+        "p_draw": 0.22884962144174115,
+        "p_away": 0.5185037426052039
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103146",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Athletic Club [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.562750134856708,
+      "base": {
+        "p_home": 0.6369210556368506,
+        "p_draw": 0.2041322877885529,
+        "p_away": 0.1589466565745965
+      },
+      "context": {
+        "p_home": 0.6260773761196707,
+        "p_draw": 0.20811646808160428,
+        "p_away": 0.165806155798725
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103148",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Badalona Women [F]",
+      "away_team": "Costa Adeje Tenerife [F]",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.2962146348453434,
+      "base": {
+        "p_home": 0.2521100985273079,
+        "p_draw": 0.25078644003923833,
+        "p_away": 0.4971034614334537
+      },
+      "context": {
+        "p_home": 0.24421516050020947,
+        "p_draw": 0.2503575492405124,
+        "p_away": 0.5054272902592781
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103149",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "Granada CF [F]",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.297138280624808,
+      "base": {
+        "p_home": 0.3883094500446752,
+        "p_draw": 0.2704402670819226,
+        "p_away": 0.3412502828734023
+      },
+      "context": {
+        "p_home": 0.37795596597881476,
+        "p_draw": 0.271910640860066,
+        "p_away": 0.3501333931611192
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103151",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Madrid CF [F]",
+      "away_team": "RCD Espanyol de Barcelona [F]",
+      "date": "2026-10-17",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 3.2260052880643113,
+      "base": {
+        "p_home": 0.7566079668461443,
+        "p_draw": 0.14453206699289944,
+        "p_away": 0.09885996616095631
+      },
+      "context": {
+        "p_home": 0.7472997036930532,
+        "p_draw": 0.14872103737105155,
+        "p_away": 0.1039792589358951
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "4c89b41001a02ca37a61",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "Sevilla FC",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 3.229418147520968,
+      "base": {
+        "p_home": 0.7998287224871239,
+        "p_draw": 0.12649300191267862,
+        "p_away": 0.07367827560019745
+      },
+      "context": {
+        "p_home": 0.8130010756401694,
+        "p_draw": 0.12212365858093265,
+        "p_away": 0.06487526577889784
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "5d1da2ff21be3abaf0b8",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "Racing Santander",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 3.5872106783759925,
+      "base": {
+        "p_home": 0.47817206124505796,
+        "p_draw": 0.21116571635873768,
+        "p_away": 0.31066222239620433
+      },
+      "context": {
+        "p_home": 0.4917546667665403,
+        "p_draw": 0.21463135405545045,
+        "p_away": 0.29361397917800913
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "a3c8438fed7470cef66f",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.4258000695556214,
+      "base": {
+        "p_home": 0.2655448726754176,
+        "p_draw": 0.2771391065240465,
+        "p_away": 0.45731602080053585
+      },
+      "context": {
+        "p_home": 0.2709086540431332,
+        "p_draw": 0.28748006463020154,
+        "p_away": 0.44161128132666533
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "c52d2859a354cc4c7761",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.4638333441327207,
+      "base": {
+        "p_home": 0.510133084016107,
+        "p_draw": 0.24237909743821426,
+        "p_away": 0.24748781854567864
+      },
+      "context": {
+        "p_home": 0.5226445550286578,
+        "p_draw": 0.24638217651442992,
+        "p_away": 0.23097326845691235
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103145",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Alavés [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 2.0638782898523163,
+      "base": {
+        "p_home": 0.2885023109043079,
+        "p_draw": 0.2945852203711189,
+        "p_away": 0.41691246872457327
+      },
+      "context": {
+        "p_home": 0.2801258090188848,
+        "p_draw": 0.2942792390669773,
+        "p_away": 0.42559495191413793
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103147",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Atlético de Madrid [F]",
+      "away_team": "Madrid CFF [F]",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 3.819251559623594,
+      "base": {
+        "p_home": 0.7129101908197591,
+        "p_draw": 0.14792746650796548,
+        "p_away": 0.13916234267227529
+      },
+      "context": {
+        "p_home": 0.7020952569060044,
+        "p_draw": 0.15227250637604758,
+        "p_away": 0.14563223671794817
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103150",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "Deportivo Abanca [F]",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 1.759901511136559,
+      "base": {
+        "p_home": 0.3098309005293754,
+        "p_draw": 0.32697354162374,
+        "p_away": 0.36319555784688456
+      },
+      "context": {
+        "p_home": 0.3015322994942431,
+        "p_draw": 0.3264350650377701,
+        "p_away": 0.37203263546798687
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103152",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "FC Barcelona [F]",
+      "date": "2026-10-18",
+      "cutoff": "2026-10-12",
+      "expected_total_goals": 4.2206554879301255,
+      "base": {
+        "p_home": 0.022283398881600806,
+        "p_draw": 0.05218087960102074,
+        "p_away": 0.9255357215173784
+      },
+      "context": {
+        "p_home": 0.021598100517989594,
+        "p_draw": 0.05197076999772112,
+        "p_away": 0.9264311294842893
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "3dc33e25a98a9bb6a238",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "Rayo Vallecano de Madrid",
+      "date": "2026-10-19",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 1.7791431863970446,
+      "base": {
+        "p_home": 0.3964752085437167,
+        "p_draw": 0.3041622200692929,
+        "p_away": 0.2993625713869905
+      },
+      "context": {
+        "p_home": 0.4045726728240253,
+        "p_draw": 0.3134086787246863,
+        "p_away": 0.2820186484512883
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "d5fa38ddf05eaeb1a248",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Levante UD",
+      "away_team": "Athletic Club",
+      "date": "2026-10-21",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.5833311420282943,
+      "base": {
+        "p_home": 0.38674736501400286,
+        "p_draw": 0.2753960298199635,
+        "p_away": 0.3378566051660337
+      },
+      "context": {
+        "p_home": 0.39589402930318185,
+        "p_draw": 0.2834048232093617,
+        "p_away": 0.32070114748745643
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "c9314efa24c63c5015db",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Málaga CF",
+      "date": "2026-10-23",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.545682670782942,
+      "base": {
+        "p_home": 0.5887982430666185,
+        "p_draw": 0.240248324362796,
+        "p_away": 0.17095343257058548
+      },
+      "context": {
+        "p_home": 0.601492626859529,
+        "p_draw": 0.24187627125893496,
+        "p_away": 0.1566311018815361
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103154",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Atlético de Madrid [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-10-23",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 3.117685553053559,
+      "base": {
+        "p_home": 0.7926075557704274,
+        "p_draw": 0.13279562630092565,
+        "p_away": 0.07459681792864693
+      },
+      "context": {
+        "p_home": 0.7844255114637788,
+        "p_draw": 0.13682015634196723,
+        "p_away": 0.0787543321942539
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "24d60b0a9549524ccd43",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "Villarreal CF",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.78936295722761,
+      "base": {
+        "p_home": 0.28795715257799176,
+        "p_draw": 0.28244493688690897,
+        "p_away": 0.42959791053509944
+      },
+      "context": {
+        "p_home": 0.2940435068985739,
+        "p_draw": 0.2925306514979254,
+        "p_away": 0.4134258416035007
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "64dc9c7e70aad84d5ca5",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 3.2376069946032295,
+      "base": {
+        "p_home": 0.4693673968884613,
+        "p_draw": 0.2244968002059599,
+        "p_away": 0.30613580290557885
+      },
+      "context": {
+        "p_home": 0.4822361281216645,
+        "p_draw": 0.22867171896953464,
+        "p_away": 0.28909215290880075
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "751bed15eb93d42e864c",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.9746706398634357,
+      "base": {
+        "p_home": 0.7204835254186629,
+        "p_draw": 0.1700841530455352,
+        "p_away": 0.10943232153580193
+      },
+      "context": {
+        "p_home": 0.7345740654575442,
+        "p_draw": 0.16730168430791678,
+        "p_away": 0.09812425023453887
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "aa8a3f4a1db0486c10c6",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Elche CF",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.507364493268239,
+      "base": {
+        "p_home": 0.5154592354262817,
+        "p_draw": 0.2811887404355802,
+        "p_away": 0.20335202413813808
+      },
+      "context": {
+        "p_home": 0.5262359184485791,
+        "p_draw": 0.28583195107662207,
+        "p_away": 0.1879321304747988
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103153",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Athletic Club [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.4531150140286986,
+      "base": {
+        "p_home": 0.4926931211098127,
+        "p_draw": 0.24739366483740238,
+        "p_away": 0.259913214052785
+      },
+      "context": {
+        "p_home": 0.4813332714696417,
+        "p_draw": 0.25027164823670434,
+        "p_away": 0.2683950802936539
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103155",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Granada CF [F]",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 5.010089270912146,
+      "base": {
+        "p_home": 0.9714792745333635,
+        "p_draw": 0.021786871023749557,
+        "p_away": 0.006733854442886913
+      },
+      "context": {
+        "p_home": 0.9697973816866827,
+        "p_draw": 0.022931511205457628,
+        "p_away": 0.007271107107859698
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103156",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.34534795611383,
+      "base": {
+        "p_home": 0.4573966454309956,
+        "p_draw": 0.25391884837246864,
+        "p_away": 0.28868450619653574
+      },
+      "context": {
+        "p_home": 0.44628494003141644,
+        "p_draw": 0.2562711472411478,
+        "p_away": 0.2974439127274358
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103159",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Madrid CF [F]",
+      "away_team": "Costa Adeje Tenerife [F]",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.814431521900402,
+      "base": {
+        "p_home": 0.5899581275604293,
+        "p_draw": 0.2075138875590548,
+        "p_away": 0.2025279848805159
+      },
+      "context": {
+        "p_home": 0.5783216844476569,
+        "p_draw": 0.21134739609325126,
+        "p_away": 0.21033091945909188
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103160",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "RCD Espanyol de Barcelona [F]",
+      "date": "2026-10-24",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.6873482646874916,
+      "base": {
+        "p_home": 0.6005618291696329,
+        "p_draw": 0.2153272732573254,
+        "p_away": 0.1841108975730419
+      },
+      "context": {
+        "p_home": 0.5892386795529867,
+        "p_draw": 0.21927209958635988,
+        "p_away": 0.19148922086065334
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "4fde6b288d5994dcf8aa",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "Getafe CF",
+      "date": "2026-10-25",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 1.8231468168175602,
+      "base": {
+        "p_home": 0.49405605836196675,
+        "p_draw": 0.2650452489822923,
+        "p_away": 0.2408986926557409
+      },
+      "context": {
+        "p_home": 0.5051705755097937,
+        "p_draw": 0.2704167220358635,
+        "p_away": 0.22441270245434278
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "8130ab77b7c038e27265",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Real Madrid CF",
+      "date": "2026-10-25",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 3.576542093622954,
+      "base": {
+        "p_home": 0.6021299016392505,
+        "p_draw": 0.1851924792159963,
+        "p_away": 0.2126776191447532
+      },
+      "context": {
+        "p_home": 0.6177974758547704,
+        "p_draw": 0.18532753791636317,
+        "p_away": 0.19687498622886646
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "84a320ce1b2c961aa4e8",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Levante UD",
+      "date": "2026-10-25",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 3.1804819835986757,
+      "base": {
+        "p_home": 0.53440961696888,
+        "p_draw": 0.23629709624607284,
+        "p_away": 0.22929328678504718
+      },
+      "context": {
+        "p_home": 0.5475709238826979,
+        "p_draw": 0.23920929332783314,
+        "p_away": 0.21321978278946896
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "8d19dd39945d6f4c2b40",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-10-25",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.742774304747641,
+      "base": {
+        "p_home": 0.3531362787034377,
+        "p_draw": 0.27432584724856335,
+        "p_away": 0.37253787404799893
+      },
+      "context": {
+        "p_home": 0.3614570302116881,
+        "p_draw": 0.28292725070712604,
+        "p_away": 0.3556157190811858
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103157",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "Deportivo Alavés [F]",
+      "date": "2026-10-25",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.0542746996253607,
+      "base": {
+        "p_home": 0.4753706701456684,
+        "p_draw": 0.2839447150614796,
+        "p_away": 0.24068461479285186
+      },
+      "context": {
+        "p_home": 0.46482113063740393,
+        "p_draw": 0.2863656008743316,
+        "p_away": 0.24881326848826435
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103158",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "Madrid CFF [F]",
+      "date": "2026-10-25",
+      "cutoff": "2026-10-19",
+      "expected_total_goals": 2.430651445448497,
+      "base": {
+        "p_home": 0.33539724278341615,
+        "p_draw": 0.2568826618455043,
+        "p_away": 0.40772009537107956
+      },
+      "context": {
+        "p_home": 0.3256541301136701,
+        "p_draw": 0.2577580139799505,
+        "p_away": 0.4165878559063793
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "e1e74ac4eb37435e7d49",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "CA Osasuna",
+      "date": "2026-10-26",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.695144851777708,
+      "base": {
+        "p_home": 0.4261433417159601,
+        "p_draw": 0.2919231473250568,
+        "p_away": 0.2819335109589832
+      },
+      "context": {
+        "p_home": 0.43558127893269255,
+        "p_draw": 0.2994327344211553,
+        "p_away": 0.26498598664615225
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "c258d5a764a68c287b5a",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Villarreal CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-10-30",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 3.041428493160866,
+      "base": {
+        "p_home": 0.6839788573375886,
+        "p_draw": 0.18754356040740994,
+        "p_away": 0.1284775822550015
+      },
+      "context": {
+        "p_home": 0.6981827997604662,
+        "p_draw": 0.18573499020759304,
+        "p_away": 0.1160822100319408
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "42b98b2cef2a668fc782",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 3.6939399509317656,
+      "base": {
+        "p_home": 0.844154079947584,
+        "p_draw": 0.10358032539467239,
+        "p_away": 0.05226559465774363
+      },
+      "context": {
+        "p_home": 0.8559270501909604,
+        "p_draw": 0.09871496367423056,
+        "p_away": 0.04535798613480898
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "68ea551f1ef720cef42a",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Málaga CF",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.940176668066752,
+      "base": {
+        "p_home": 0.7248742037292089,
+        "p_draw": 0.17369105072376084,
+        "p_away": 0.10143474554703039
+      },
+      "context": {
+        "p_home": 0.7385540121160884,
+        "p_draw": 0.17077922903507572,
+        "p_away": 0.09066675884883584
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "a36f204f3be1d02a2cc5",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Levante UD",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.9571347664870142,
+      "base": {
+        "p_home": 0.224632648493036,
+        "p_draw": 0.2144783820515451,
+        "p_away": 0.560888969455419
+      },
+      "context": {
+        "p_home": 0.22957912955499077,
+        "p_draw": 0.22169144314322495,
+        "p_away": 0.5487294273017843
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "daadae78bbd32de11c8c",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "RC Celta de Vigo",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.311098736814712,
+      "base": {
+        "p_home": 0.4193491407066246,
+        "p_draw": 0.28668708534430204,
+        "p_away": 0.29396377394907336
+      },
+      "context": {
+        "p_home": 0.428733614832178,
+        "p_draw": 0.2944263766808223,
+        "p_away": 0.2768400084869997
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103163",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "RCD Espanyol de Barcelona [F]",
+      "away_team": "Logroño United [F]",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.1956615270280513,
+      "base": {
+        "p_home": 0.4084019091131871,
+        "p_draw": 0.27804694441651395,
+        "p_away": 0.313551146470299
+      },
+      "context": {
+        "p_home": 0.3979830262294926,
+        "p_draw": 0.2796914476324323,
+        "p_away": 0.32232552613807497
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103164",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Granada CF [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.8309962739146535,
+      "base": {
+        "p_home": 0.19948515819240498,
+        "p_draw": 0.21088168602261212,
+        "p_away": 0.589633155784983
+      },
+      "context": {
+        "p_home": 0.19276161634307887,
+        "p_draw": 0.21049757601364918,
+        "p_away": 0.5967408076432719
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103165",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Deportivo Abanca [F]",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 3.2809514155240596,
+      "base": {
+        "p_home": 0.4131832643997433,
+        "p_draw": 0.2154857944331387,
+        "p_away": 0.371330941167118
+      },
+      "context": {
+        "p_home": 0.4016047714590054,
+        "p_draw": 0.21797570135052088,
+        "p_away": 0.38041952719047384
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103168",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "VCF Femenino [F]",
+      "away_team": "SD Eibar [F]",
+      "date": "2026-10-31",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 1.8316145942178084,
+      "base": {
+        "p_home": 0.31795307905488013,
+        "p_draw": 0.3110818064682485,
+        "p_away": 0.37096511447687136
+      },
+      "context": {
+        "p_home": 0.3093211393487006,
+        "p_draw": 0.3108202949522586,
+        "p_away": 0.3798585656990408
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "0236101225ea2c980b3f",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.701292069601612,
+      "base": {
+        "p_home": 0.43091086895695047,
+        "p_draw": 0.26757056202118396,
+        "p_away": 0.30151856902186563
+      },
+      "context": {
+        "p_home": 0.4413402397158977,
+        "p_draw": 0.2742140116237724,
+        "p_away": 0.2844457486603299
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "30aa1212da248549c9b4",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "Sevilla FC",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.0463525731714522,
+      "base": {
+        "p_home": 0.4114131622214155,
+        "p_draw": 0.2932138468443949,
+        "p_away": 0.29537299093418956
+      },
+      "context": {
+        "p_home": 0.42030969702960735,
+        "p_draw": 0.3015273493834026,
+        "p_away": 0.27816295358699006
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "5b7f71129068274cc0af",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "Valencia CF",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.601868110939551,
+      "base": {
+        "p_home": 0.44260311427256516,
+        "p_draw": 0.2707483927987606,
+        "p_away": 0.28664849292867434
+      },
+      "context": {
+        "p_home": 0.45310121745753956,
+        "p_draw": 0.2772409873977613,
+        "p_away": 0.2696577951446992
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "98eed2df9080a3be3032",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Real Madrid CF",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 3.9143935516597317,
+      "base": {
+        "p_home": 0.15107222072391538,
+        "p_draw": 0.14894878998039243,
+        "p_away": 0.6999789892956922
+      },
+      "context": {
+        "p_home": 0.15356662169326357,
+        "p_draw": 0.15245496961436694,
+        "p_away": 0.6939784086923695
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103161",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Alavés [F]",
+      "away_team": "Real Sociedad [F]",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 2.399774269490579,
+      "base": {
+        "p_home": 0.18035145087443832,
+        "p_draw": 0.2436123889393618,
+        "p_away": 0.5760361601861999
+      },
+      "context": {
+        "p_home": 0.17441219113541498,
+        "p_draw": 0.24238220187491144,
+        "p_away": 0.5832056069896736
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103162",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Badalona Women [F]",
+      "away_team": "FC Barcelona [F]",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 4.742294003829782,
+      "base": {
+        "p_home": 0.007312649140772982,
+        "p_draw": 0.02494493544562168,
+        "p_away": 0.9677424154136054
+      },
+      "context": {
+        "p_home": 0.007126154158243771,
+        "p_draw": 0.024935343191015116,
+        "p_away": 0.9679385026507412
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103166",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Sevilla FC [F]",
+      "away_team": "Real Madrid CF [F]",
+      "date": "2026-11-01",
+      "cutoff": "2026-10-26",
+      "expected_total_goals": 3.1610090002828173,
+      "base": {
+        "p_home": 0.13772386930733746,
+        "p_draw": 0.1732440868453865,
+        "p_away": 0.6890320438472761
+      },
+      "context": {
+        "p_home": 0.13290860370069482,
+        "p_draw": 0.17260966322512591,
+        "p_away": 0.6944817330741794
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "a5662d68fb4dcb4a9b3e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo La Coruña",
+      "away_team": "CA Osasuna",
+      "date": "2026-11-02",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.553766256404008,
+      "base": {
+        "p_home": 0.4030292989276633,
+        "p_draw": 0.30071971801902053,
+        "p_away": 0.29625098305331615
+      },
+      "context": {
+        "p_home": 0.41166957778240293,
+        "p_draw": 0.3091924641436188,
+        "p_away": 0.27913795807397834
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103167",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Athletic Club [F]",
+      "date": "2026-11-02",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.296902291293817,
+      "base": {
+        "p_home": 0.49580467885365986,
+        "p_draw": 0.25931121284665615,
+        "p_away": 0.24488410829968393
+      },
+      "context": {
+        "p_home": 0.4847125290222907,
+        "p_draw": 0.26214602991604313,
+        "p_away": 0.2531414410616662
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "941fbee8fd3b9ee9a6c9",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.6405505804231293,
+      "base": {
+        "p_home": 0.45299324423037446,
+        "p_draw": 0.26265651948464763,
+        "p_away": 0.2843502362849779
+      },
+      "context": {
+        "p_home": 0.4639899161889139,
+        "p_draw": 0.2686219547520712,
+        "p_away": 0.2673881290590149
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "32f56b3f964174860ccb",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.408550374654502,
+      "base": {
+        "p_home": 0.4600226545942376,
+        "p_draw": 0.2764434534957304,
+        "p_away": 0.26353389191003207
+      },
+      "context": {
+        "p_home": 0.4705048383863122,
+        "p_draw": 0.28272577986522335,
+        "p_away": 0.24676938174846455
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "519dca0b969d1e6678c8",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Valencia CF",
+      "away_team": "Real Madrid CF",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.685381461190125,
+      "base": {
+        "p_home": 0.1506870622705419,
+        "p_draw": 0.2133174243167641,
+        "p_away": 0.635995513412694
+      },
+      "context": {
+        "p_home": 0.15263840954806498,
+        "p_draw": 0.22079949761375786,
+        "p_away": 0.6265620928381771
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "6f65871bc27ecf2e30d1",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "Athletic Club",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.3886226488772815,
+      "base": {
+        "p_home": 0.3400577302076163,
+        "p_draw": 0.2975441801821786,
+        "p_away": 0.3623980896102052
+      },
+      "context": {
+        "p_home": 0.34725375088122706,
+        "p_draw": 0.30751531172280083,
+        "p_away": 0.34523093739597216
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103169",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Athletic Club [F]",
+      "away_team": "Real Madrid CF [F]",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.919985936242583,
+      "base": {
+        "p_home": 0.19047562387947892,
+        "p_draw": 0.20403941881109125,
+        "p_away": 0.6054849573094299
+      },
+      "context": {
+        "p_home": 0.18399647155994142,
+        "p_draw": 0.2036542789695618,
+        "p_away": 0.6123492494704968
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103174",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "Real Sociedad [F]",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.2254887481262458,
+      "base": {
+        "p_home": 0.19274278873116535,
+        "p_draw": 0.25576585006087565,
+        "p_away": 0.5514913612079589
+      },
+      "context": {
+        "p_home": 0.18652357807111472,
+        "p_draw": 0.2544101667829609,
+        "p_away": 0.5590662551459243
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103175",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Granada CF [F]",
+      "away_team": "RCD Espanyol de Barcelona [F]",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.3374711580964727,
+      "base": {
+        "p_home": 0.4285681525532202,
+        "p_draw": 0.2678147109114966,
+        "p_away": 0.3036171365352831
+      },
+      "context": {
+        "p_home": 0.41776951192160783,
+        "p_draw": 0.2698826854088362,
+        "p_away": 0.31234780266955603
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "f0c24e650046cf6e7b54",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Málaga CF",
+      "away_team": "Racing Santander",
+      "date": "2026-11-07",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 3.2234966221235237,
+      "base": {
+        "p_home": 0.39747751942371495,
+        "p_draw": 0.22528584023975193,
+        "p_away": 0.3772366403365331
+      },
+      "context": {
+        "p_home": 0.4085995337149069,
+        "p_draw": 0.23090050803003145,
+        "p_away": 0.36049995825506165
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "2ec277c6c1b394cb60eb",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Rayo Vallecano de Madrid",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.6928377386330054,
+      "base": {
+        "p_home": 0.48421407031465674,
+        "p_draw": 0.26541011350998783,
+        "p_away": 0.2503758161753554
+      },
+      "context": {
+        "p_home": 0.4955498716516277,
+        "p_draw": 0.27058511340125735,
+        "p_away": 0.23386501494711498
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "95370fdb32fb42e64cea",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "FC Barcelona",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 3.3128369784864677,
+      "base": {
+        "p_home": 0.3166601684967809,
+        "p_draw": 0.22124503793517827,
+        "p_away": 0.46209479356804084
+      },
+      "context": {
+        "p_home": 0.3252036693901796,
+        "p_draw": 0.2278510706251556,
+        "p_away": 0.44694525998466483
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "caa2629adcc2405d03ba",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Villarreal CF",
+      "away_team": "Getafe CF",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.434181910710105,
+      "base": {
+        "p_home": 0.6433128057806762,
+        "p_draw": 0.20640867536782834,
+        "p_away": 0.1502785188514955
+      },
+      "context": {
+        "p_home": 0.6571410519945639,
+        "p_draw": 0.20608252142398512,
+        "p_away": 0.136776426581451
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103171",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Madrid CFF [F]",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 6.547540511639302,
+      "base": {
+        "p_home": 0.9877590484293269,
+        "p_draw": 0.00937749499948071,
+        "p_away": 0.0028634565711921577
+      },
+      "context": {
+        "p_home": 0.9869298410498071,
+        "p_draw": 0.009961092554187336,
+        "p_away": 0.0031090663960054257
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103172",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.349375132220918,
+      "base": {
+        "p_home": 0.38870370386505587,
+        "p_draw": 0.27224513361768043,
+        "p_away": 0.33905116251726364
+      },
+      "context": {
+        "p_home": 0.3783213616362974,
+        "p_draw": 0.2738046325593671,
+        "p_away": 0.34787400580433553
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "f35fcbbf1216ede9fbd6",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Levante UD",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.839276927342801,
+      "base": {
+        "p_home": 0.5291877487481981,
+        "p_draw": 0.238596166439584,
+        "p_away": 0.23221608481221784
+      },
+      "context": {
+        "p_home": 0.5421229504761975,
+        "p_draw": 0.24183119568336447,
+        "p_away": 0.216045853840438
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "fa83f5223065796b249a",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Elche CF",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-11-08",
+      "cutoff": "2026-11-02",
+      "expected_total_goals": 2.8057959463191176,
+      "base": {
+        "p_home": 0.28147994057683123,
+        "p_draw": 0.2330870858996947,
+        "p_away": 0.485432973523474
+      },
+      "context": {
+        "p_home": 0.28837524805173603,
+        "p_draw": 0.24086768331780972,
+        "p_away": 0.4707570686304542
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103170",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Atlético de Madrid [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-11-09",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 3.0103566796021117,
+      "base": {
+        "p_home": 0.75482610531308,
+        "p_draw": 0.1516544735549496,
+        "p_away": 0.0935194211319704
+      },
+      "context": {
+        "p_home": 0.7457169333224183,
+        "p_draw": 0.15586968198458412,
+        "p_away": 0.09841338469299749
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103173",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-11-09",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 2.515232086522515,
+      "base": {
+        "p_home": 0.5543687715929448,
+        "p_draw": 0.23531865918434228,
+        "p_away": 0.21031256922271283
+      },
+      "context": {
+        "p_home": 0.5430057842737273,
+        "p_draw": 0.2388670593886195,
+        "p_away": 0.21812715633765323
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103177",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Alavés [F]",
+      "away_team": "SD Eibar [F]",
+      "date": "2026-11-14",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 1.634936386663217,
+      "base": {
+        "p_home": 0.3773788701552786,
+        "p_draw": 0.33746027283127716,
+        "p_away": 0.28516085701344424
+      },
+      "context": {
+        "p_home": 0.3684513626782466,
+        "p_draw": 0.33782507708102094,
+        "p_away": 0.29372356024073243
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103179",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "RCD Espanyol de Barcelona [F]",
+      "away_team": "Costa Adeje Tenerife [F]",
+      "date": "2026-11-14",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 2.2428837945434994,
+      "base": {
+        "p_home": 0.25606542365112195,
+        "p_draw": 0.26524177595335247,
+        "p_away": 0.4786928003955256
+      },
+      "context": {
+        "p_home": 0.24816120750213702,
+        "p_draw": 0.26476745454234957,
+        "p_away": 0.48707133795551333
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103181",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Madrid CF [F]",
+      "away_team": "FC Badalona Women [F]",
+      "date": "2026-11-14",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 3.52529895362117,
+      "base": {
+        "p_home": 0.8300895337256851,
+        "p_draw": 0.10898627781736492,
+        "p_away": 0.060924188456950086
+      },
+      "context": {
+        "p_home": 0.822770245473379,
+        "p_draw": 0.11272692273149908,
+        "p_away": 0.06450283179512196
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103178",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Deportivo Abanca [F]",
+      "away_team": "FC Barcelona [F]",
+      "date": "2026-11-15",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 4.592061567975788,
+      "base": {
+        "p_home": 0.015621979538851543,
+        "p_draw": 0.042916261954975096,
+        "p_away": 0.9414617585061734
+      },
+      "context": {
+        "p_home": 0.015165953744339404,
+        "p_draw": 0.042810229895373475,
+        "p_away": 0.9420238163602871
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103180",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Madrid CFF [F]",
+      "away_team": "Logroño United [F]",
+      "date": "2026-11-15",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 3.183373527919204,
+      "base": {
+        "p_home": 0.46175566473974067,
+        "p_draw": 0.22032873665784528,
+        "p_away": 0.31791559860241403
+      },
+      "context": {
+        "p_home": 0.4498000890461634,
+        "p_draw": 0.22332582195012238,
+        "p_away": 0.3268740890037143
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103182",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "Athletic Club [F]",
+      "date": "2026-11-15",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 2.566385846205109,
+      "base": {
+        "p_home": 0.4994986197802154,
+        "p_draw": 0.2487228922214327,
+        "p_away": 0.2517784879983518
+      },
+      "context": {
+        "p_home": 0.48805903620161717,
+        "p_draw": 0.2518419576926142,
+        "p_away": 0.2600990061057686
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103183",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Sevilla FC [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-11-15",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 2.8409866884160273,
+      "base": {
+        "p_home": 0.18813313236795282,
+        "p_draw": 0.20901875209781223,
+        "p_away": 0.602848115534235
+      },
+      "context": {
+        "p_home": 0.18175493952116178,
+        "p_draw": 0.20851715376510363,
+        "p_away": 0.6097279067137347
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103184",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "VCF Femenino [F]",
+      "away_team": "Granada CF [F]",
+      "date": "2026-11-15",
+      "cutoff": "2026-11-09",
+      "expected_total_goals": 2.4053145461470393,
+      "base": {
+        "p_home": 0.26388628303131956,
+        "p_draw": 0.26181746981994214,
+        "p_away": 0.47429624714873825
+      },
+      "context": {
+        "p_home": 0.25569815334446155,
+        "p_draw": 0.2616832550032446,
+        "p_away": 0.48261859165229376
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "1764108ef68f2ef2f366",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Athletic Club",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-11-20",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.3445907466044713,
+      "base": {
+        "p_home": 0.541383251633337,
+        "p_draw": 0.23884587596785303,
+        "p_away": 0.21977087239881
+      },
+      "context": {
+        "p_home": 0.5541987394690967,
+        "p_draw": 0.24196901544537883,
+        "p_away": 0.20383224508552453
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "2c446dffa62243feaeee",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Real Madrid CF",
+      "away_team": "RC Celta de Vigo",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.9920146718657463,
+      "base": {
+        "p_home": 0.7892039283552751,
+        "p_draw": 0.13635278629024633,
+        "p_away": 0.07444328535447865
+      },
+      "context": {
+        "p_home": 0.8022793911292052,
+        "p_draw": 0.13211830697713023,
+        "p_away": 0.06560230189366456
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "7c9a3a4f56498739e56d",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Deportivo Alavés",
+      "away_team": "Deportivo La Coruña",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.31925476298143,
+      "base": {
+        "p_home": 0.47595613433614775,
+        "p_draw": 0.27358007533858775,
+        "p_away": 0.25046379032526456
+      },
+      "context": {
+        "p_home": 0.4867250510873864,
+        "p_draw": 0.279382945980409,
+        "p_away": 0.2338920029322047
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "b3b3406da33005b198b2",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Valencia CF",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.2610982702566718,
+      "base": {
+        "p_home": 0.4673118151589707,
+        "p_draw": 0.285115807652186,
+        "p_away": 0.24757237718884323
+      },
+      "context": {
+        "p_home": 0.4774699730800304,
+        "p_draw": 0.291492009773819,
+        "p_away": 0.23103801714615066
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "df3fcb066178bd567d9e",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Sevilla FC",
+      "away_team": "Real Betis Balompié",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.7982997412591795,
+      "base": {
+        "p_home": 0.2622163475644085,
+        "p_draw": 0.2631029595909741,
+        "p_away": 0.4746806928446175
+      },
+      "context": {
+        "p_home": 0.26780850967286246,
+        "p_draw": 0.27261196562495355,
+        "p_away": 0.45957952470218394
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103185",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Badalona Women [F]",
+      "away_team": "Deportivo Abanca [F]",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.3640300339999367,
+      "base": {
+        "p_home": 0.34656339717996093,
+        "p_draw": 0.26790917900537625,
+        "p_away": 0.3855274238146628
+      },
+      "context": {
+        "p_home": 0.3367376433332363,
+        "p_draw": 0.26888071788466456,
+        "p_away": 0.39438163878209903
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103187",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Logroño United [F]",
+      "away_team": "Deportivo Alavés [F]",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.2176318869210316,
+      "base": {
+        "p_home": 0.4501236918504209,
+        "p_draw": 0.2772134897133166,
+        "p_away": 0.27266281843626256
+      },
+      "context": {
+        "p_home": 0.4393938820593603,
+        "p_draw": 0.27947732491728783,
+        "p_away": 0.28112879302335186
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103188",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "SD Eibar [F]",
+      "away_team": "Atlético de Madrid [F]",
+      "date": "2026-11-21",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.4487185570168957,
+      "base": {
+        "p_home": 0.1190949773732847,
+        "p_draw": 0.20132933906498757,
+        "p_away": 0.6795756835617278
+      },
+      "context": {
+        "p_home": 0.11506416357781714,
+        "p_draw": 0.19967163155135736,
+        "p_away": 0.6852642048708255
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "0e4e6124ff8edb6cd6a9",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "CA Osasuna",
+      "away_team": "Málaga CF",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.591460291973169,
+      "base": {
+        "p_home": 0.5839006901299437,
+        "p_draw": 0.23409730653649483,
+        "p_away": 0.18200200333356156
+      },
+      "context": {
+        "p_home": 0.5969737926422923,
+        "p_draw": 0.2357778483471284,
+        "p_away": 0.16724835901057916
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "899bef7a3fcc2d6c462c",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "FC Barcelona",
+      "away_team": "Villarreal CF",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 4.112787552978419,
+      "base": {
+        "p_home": 0.7782132292963244,
+        "p_draw": 0.13601400982265863,
+        "p_away": 0.08577276088101687
+      },
+      "context": {
+        "p_home": 0.7921399337845518,
+        "p_draw": 0.1318175623247877,
+        "p_away": 0.07604250389066049
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "b2b58a5abf31d3b00a7b",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Racing Santander",
+      "away_team": "Real Sociedad de Fútbol",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 3.5933772007903846,
+      "base": {
+        "p_home": 0.36578793758032074,
+        "p_draw": 0.2519335996717058,
+        "p_away": 0.38227846274797334
+      },
+      "context": {
+        "p_home": 0.37528241478964397,
+        "p_draw": 0.2590542465217221,
+        "p_away": 0.365663338688634
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "cde7102a84b4a3f85c10",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Getafe CF",
+      "away_team": "Club Atlético de Madrid",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.071057239237648,
+      "base": {
+        "p_home": 0.19457294448456847,
+        "p_draw": 0.2680569993846128,
+        "p_away": 0.5373700561308187
+      },
+      "context": {
+        "p_home": 0.19748226747809275,
+        "p_draw": 0.27883736063371795,
+        "p_away": 0.5236803718881893
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103186",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "FC Barcelona [F]",
+      "away_team": "Athletic Club [F]",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 4.116109526760498,
+      "base": {
+        "p_home": 0.9154801068925659,
+        "p_draw": 0.06172682322130966,
+        "p_away": 0.02279306988612438
+      },
+      "context": {
+        "p_home": 0.9112859941045109,
+        "p_draw": 0.06433911747431585,
+        "p_away": 0.0243748884211733
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103190",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Granada CF [F]",
+      "away_team": "Real Madrid CF [F]",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 3.102638748040517,
+      "base": {
+        "p_home": 0.15555200888645696,
+        "p_draw": 0.18858725522042707,
+        "p_away": 0.655860735893116
+      },
+      "context": {
+        "p_home": 0.15015227643010037,
+        "p_draw": 0.18802627964677246,
+        "p_away": 0.6618214439231273
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "es.w.1:laliga:103191",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Real Sociedad [F]",
+      "away_team": "Sevilla FC [F]",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 2.856624537379287,
+      "base": {
+        "p_home": 0.5588972894277017,
+        "p_draw": 0.22326312648092267,
+        "p_away": 0.2178395840913757
+      },
+      "context": {
+        "p_home": 0.5471532683857167,
+        "p_draw": 0.22706430549377335,
+        "p_away": 0.22578242612050994
+      },
+      "result": "H"
+    },
+    {
+      "match_id": "es.w.1:laliga:103192",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "Costa Adeje Tenerife [F]",
+      "away_team": "Madrid CFF [F]",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-16",
+      "expected_total_goals": 3.357804313167648,
+      "base": {
+        "p_home": 0.6755714811798926,
+        "p_draw": 0.17057577123425666,
+        "p_away": 0.15385274758585082
+      },
+      "context": {
+        "p_home": 0.6644318560632219,
+        "p_draw": 0.17491002081539195,
+        "p_away": 0.16065812312138625
+      },
+      "result": "A"
+    },
+    {
+      "match_id": "05c95efd6b1053c50c02",
+      "competition_code": "es.1",
+      "gender": "men",
+      "home_team": "Levante UD",
+      "away_team": "Elche CF",
+      "date": "2026-11-23",
+      "cutoff": "2026-11-23",
+      "expected_total_goals": 2.8780158478597535,
+      "base": {
+        "p_home": 0.4382236284839702,
+        "p_draw": 0.28525397051676704,
+        "p_away": 0.2765224009992628
+      },
+      "context": {
+        "p_home": 0.44817519279591894,
+        "p_draw": 0.2921541698031453,
+        "p_away": 0.25967063740093577
+      },
+      "result": "D"
+    },
+    {
+      "match_id": "es.w.1:laliga:103189",
+      "competition_code": "es.w.1",
+      "gender": "women",
+      "home_team": "RCD Espanyol de Barcelona [F]",
+      "away_team": "VCF Femenino [F]",
+      "date": "2026-11-23",
+      "cutoff": "2026-11-23",
+      "expected_total_goals": 2.2197385342838567,
+      "base": {
+        "p_home": 0.49769188813910514,
+        "p_draw": 0.26949016067246334,
+        "p_away": 0.23281795118843143
+      },
+      "context": {
+        "p_home": 0.48679838488884364,
+        "p_draw": 0.27234442634708095,
+        "p_away": 0.2408571887640754
+      },
+      "result": "H"
+    }
+  ]
+}

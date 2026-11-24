@@ -4,7 +4,9 @@ import importlib.util
 import json
 from datetime import timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
+import pandas as pd
 import pytest
 from test_economic_development import observation_case
 
@@ -22,6 +24,11 @@ def cycle():
 @pytest.mark.parametrize('failure', [None, 'missing_quotes', 'example', 'stale', 'training_failure'])
 def test_cycle_uses_generated_probabilities_and_records_failures(cycle, tmp_path, monkeypatch, failure):
     now, forecast, obs = observation_case()
+    dataset = tmp_path / 'matches.parquet'
+    history = pd.read_parquet(ROOT / 'data/processed/matches_quiniela_20261019.parquet')
+    history = history.sort_values('date').groupby('competition_code').tail(1).copy()
+    history['date'] = pd.Timestamp(now.astimezone(ZoneInfo('Europe/Madrid')).date()) - pd.Timedelta(days=1)
+    history.to_parquet(dataset, index=False)
     for row, prediction in zip(obs['fixtures'], [*forecast['coupons'][0]['fixtures'], forecast['coupons'][0]['pleno']]):
         row['date'] = prediction['date']
         # Real observations contain no probability predictions.
@@ -43,7 +50,7 @@ def test_cycle_uses_generated_probabilities_and_records_failures(cycle, tmp_path
         (tmp_path / f'{name}.json').write_text(json.dumps(value))
     out = tmp_path / 'run'
     monkeypatch.setattr('sys.argv', ['cycle', '--observation', str(tmp_path / 'observation.json'),
-        '--snapshot', str(tmp_path / 'snapshot.json'), '--output-dir', str(out),
+        '--snapshot', str(tmp_path / 'snapshot.json'), '--dataset', str(dataset), '--output-dir', str(out),
         '--decision-root', str(tmp_path / 'decisions'), '--pair-root', str(tmp_path / 'pairs')])
     # Keep actual observation, market and data validation. Only training and external
     # registration are mocked; no probability cohort is polluted by simulated data.

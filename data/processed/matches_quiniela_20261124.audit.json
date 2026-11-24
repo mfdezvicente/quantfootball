@@ -1,0 +1,305 @@
+{
+  "created_at": "2026-11-24T20:56:25.263830+00:00",
+  "rows": 11154,
+  "as_of_exclusive": "2026-11-24",
+  "dataset_sha256": "a7e651d3998afd5560a4e7ab06205995d52c6f006c57f93b3db9e84b5ec315e7",
+  "base_path": "C:\\Users\\Usuario\\GitHub\\quantfootball\\data\\processed\\matches_quiniela_20261110.parquet",
+  "base_sha256": "ec08a22e20e106083fb267dd71b0f61cf1a33c975307f00f8e93a30a91fe0413",
+  "snapshot_sha256": {
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.1-13.json": "936ab880fb2035b91f75ea68e04ee9e4bafcbf93ea8a5d59bb9729bac4272876",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.1-14.json": "f1d64bcc85e931547d0d6480d2cc53bbbdb62b8d02e62e7ec76e4210234d1dce",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.2-14.json": "204bb8a19ef1f889ffadc19c333b0142860bdbcd69a06a7fecb772ce05744c75",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.2-15.json": "ba3eab2e198a60ba35e76f0b92bf197ecd75d3b569a75cf6f487f3cc663955fb",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.2-16.json": "3813fd5a7f6c2b70c4451d36258c65316909df2425b8d3758fba473fa790a98e",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.w.1-10.json": "73d59e5d967f13d9b60b6b480d70cf7432308dcfb9afe0a0b6db0697d7048cc7",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.w.1-11.json": "ed253c527a83ee823d29e5c401bb739b821f5bf631a14057624e6eed65ec690a",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.w.1-12.json": "f9a2487ef976e2996f827cd26dea16c527f9331296c565e942ccf47a506d5189",
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ChatGPT\\QF@Hesp\\qf_followup_20261124\\public_schedule\\2026-es.w.1-13.json": "9d3dd6a8959284b13c09912c2bef6ac2a8f77ecb76cadef1c6f2fb39fe54db75"
+  },
+  "observed_source_rows": 85,
+  "added_rows": 48,
+  "added_by_competition": {
+    "es.2": 22,
+    "es.w.1": 16,
+    "es.1": 10
+  },
+  "last_dates": {
+    "es.1": "2026-11-23",
+    "es.2": "2026-11-23",
+    "es.w.1": "2026-11-23"
+  },
+  "skipped_source_rows": [
+    {
+      "competition_code": "es.1",
+      "match_id": 102384,
+      "home_team": "Levante UD",
+      "away_team": "R. Racing Club",
+      "date": "2026-11-27",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102379,
+      "home_team": "Real Betis",
+      "away_team": "Rayo Vallecano",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102385,
+      "home_team": "Málaga CF",
+      "away_team": "Athletic Club",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102382,
+      "home_team": "Elche CF",
+      "away_team": "Atlético de Madrid",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102386,
+      "home_team": "Real Madrid",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102388,
+      "home_team": "Valencia CF",
+      "away_team": "CA Osasuna",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102381,
+      "home_team": "RC Deportivo",
+      "away_team": "FC Barcelona",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102380,
+      "home_team": "Celta",
+      "away_team": "Villarreal CF",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102387,
+      "home_team": "Real Sociedad",
+      "away_team": "Sevilla FC",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.1",
+      "match_id": 102383,
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Getafe CF",
+      "date": "2026-11-30",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102800,
+      "home_team": "CD Leganés",
+      "away_team": "CE Sabadell",
+      "date": "2026-11-27",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102801,
+      "home_team": "UD Las Palmas",
+      "away_team": "FC Andorra",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102794,
+      "home_team": "Albacete BP",
+      "away_team": "CD Tenerife",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102798,
+      "home_team": "CD Eldense",
+      "away_team": "Girona FC",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102797,
+      "home_team": "SD Eibar",
+      "away_team": "Burgos CF",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102804,
+      "home_team": "Real Valladolid CF",
+      "away_team": "R. Sociedad B",
+      "date": "2026-11-28",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102799,
+      "home_team": "Granada CF",
+      "away_team": "AD Ceuta FC",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102802,
+      "home_team": "RCD Mallorca",
+      "away_team": "CD Castellón",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102796,
+      "home_team": "Cádiz CF",
+      "away_team": "Córdoba CF",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102795,
+      "home_team": "UD Almería",
+      "away_team": "Real Sporting",
+      "date": "2026-11-29",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.2",
+      "match_id": 102803,
+      "home_team": "Real Oviedo",
+      "away_team": "Celta Fortuna",
+      "date": "2026-11-30",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103176,
+      "home_team": "Costa Adeje Tenerife",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-12-16",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103193,
+      "home_team": "Athletic Club",
+      "away_team": "Deportivo Alavés",
+      "date": "2026-12-08",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103195,
+      "home_team": "FC Badalona Women",
+      "away_team": "VCF Femenino",
+      "date": "2026-12-08",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103194,
+      "home_team": "Atlético de Madrid",
+      "away_team": "Costa Adeje Tenerife",
+      "date": "2026-12-08",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103196,
+      "home_team": "FC Barcelona",
+      "away_team": "RCD Espanyol de Barcelona",
+      "date": "2026-12-08",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103199,
+      "home_team": "Real Madrid CF",
+      "away_team": "Madrid CFF",
+      "date": "2026-12-08",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103197,
+      "home_team": "Deportivo Abanca",
+      "away_team": "Real Sociedad",
+      "date": "2026-12-09",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103198,
+      "home_team": "SD Eibar",
+      "away_team": "Logroño United",
+      "date": "2026-12-09",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    },
+    {
+      "competition_code": "es.w.1",
+      "match_id": 103200,
+      "home_team": "Sevilla FC",
+      "away_team": "Granada CF",
+      "date": "2026-12-09",
+      "status": "PreMatch",
+      "reason": "not_full_time"
+    }
+  ],
+  "source_conflicts": 0,
+  "policy": "Only FullTime results strictly before cutoff; original rows preserved; live scores excluded"
+}

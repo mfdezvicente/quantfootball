@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "comparator_config": "configs/quiniela_dynamic_candidate.json",
+  "comparator_config_sha256": "1c6d04d0aa36fabd81796691c2a19a081afab0bbd006002da24b37fb16fcdcda",
+  "prospective_start_inclusive": "2026-11-24",
+  "prospective_end_exclusive": "2027-07-01",
+  "historical_replay_start_inclusive": "2026-07-01",
+  "historical_cutoff": "Madrid midnight on the Monday of each fixture week",
+  "forecast_max_lead_days": 16,
+  "primary_metric": "Paired mean log loss, challenger minus base, by competition",
+  "secondary_metrics": [
+    "multiclass Brier",
+    "classwise Brier and calibration for 1, X and 2",
+    "accuracy",
+    "paired bootstrap by calendar week"
+  ],
+  "inclusion": "First sealed pre-kickoff pair per unique domestic league fixture. Only completed sporting results are scored. Cold starts rejected by the incumbent are excluded with an explanation.",
+  "decision_rule": "Report all eligible observations by league at the fixed end date. Treat historical replays and interim results as diagnostic. Evaluate paired log loss and Brier before considering a configuration change.",
+  "candidate_definition": "Replace the final base calibrator by the archived contextual calibrator on the same uncalibrated point probabilities. Refit the Poisson goals feature at each shared forecast cutoff. No adaptive choice of weights or calibrators.",
+  "competitions": {
+    "es.1": {
+      "archive": "outputs/reports/goal_flex_20261019/es.1.evaluation.json",
+      "archive_sha256": "15c1ff352f8133433f170e040b81fadec8392680fadc55ac937d3d26f5ba6cef"
+    },
+    "es.w.1": {
+      "archive": "outputs/reports/goal_flex_20261019/es.w.1.evaluation.json",
+      "archive_sha256": "1979c632136f1055e3b3ce3e02ab7631a989236d0fbb3c4ee3adc017e00d0628"
+    }
+  }
+}
